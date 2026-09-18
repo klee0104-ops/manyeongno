@@ -2,8 +2,10 @@ import { readFileSync, existsSync } from 'node:fs';
 import assert from 'node:assert/strict';
 const story=JSON.parse(readFileSync(new URL('../src/data/storyScenes.json',import.meta.url),'utf8'));
 const manifest=JSON.parse(readFileSync(new URL('../public/audio/story/manifest.json',import.meta.url),'utf8').replace(/^\uFEFF/,''));
+const extra=JSON.parse(readFileSync(new URL('../src/data/journeyScenes.json',import.meta.url),'utf8'));
+const shots=[...story.flatMap(c=>[...c.intro,...c.outro]),...extra.prologue,...extra.chapters.flatMap(c=>[...c.mid5,...c.mid10,...c.mid15])];
 let count=0,seconds=0;
-for(const chapter of story)for(const part of ['intro','outro'])for(const shot of chapter[part]){
+for(const shot of shots){
  const clip=manifest.clips[shot.id];assert.equal(clip.text,shot.caption);
  const wav=readFileSync(new URL('../public'+clip.file,import.meta.url));
  assert.equal(wav.toString('ascii',0,4),'RIFF');assert.equal(wav.toString('ascii',8,12),'WAVE');
@@ -18,5 +20,5 @@ for(const chapter of story)for(const part of ['intro','outro'])for(const shot of
  const duration=data.length/2/rate;assert.ok(duration>1&&duration<30,`Unexpected duration: ${shot.id}`);seconds+=duration;count++;
 }
 function wavValue(data,i){return data.readInt16LE(i);}
-assert.equal(count,120);for(const art of ['library','story-worlds','story-relics'])assert.ok(existsSync(new URL(`../public/art/${art}-v05.png`,import.meta.url)));
+assert.equal(count,184);for(const art of ['library','story-worlds','story-relics'])assert.ok(existsSync(new URL(`../public/art/${art}-v05.png`,import.meta.url)));
 console.log(`Story assets verified: ${count} Korean clips, ${Math.round(seconds)} seconds, 3 illustrated plates.`);

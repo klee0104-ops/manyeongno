@@ -4,5 +4,6 @@ import './ui/expansion.css';
 import './ui/collectionShop.css';
 import './ui/storyLibrary.css';
 import './ui/livingWorld.css';
+import './ui/journeyPolish.css';
 import { startGame } from './ui/game';
 startGame();

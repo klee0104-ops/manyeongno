@@ -20,7 +20,7 @@ export interface Fighter {
   turns:number; slot:number; boss:boolean; enraged:boolean; damage:number;
   cooldown1:number;cooldown2:number;ultimateCooldown:number;
 }
-export interface Hit {id:string;amount:number;kind:'damage'|'heal'|'shield';crit:boolean}
+export interface Hit {id:string;amount:number;kind:'damage'|'heal'|'shield';crit:boolean;absorbed?:number}
 export interface BattleEvent {actor:string;label:string;hits:Hit[];ultimate:boolean;message:string;wave?:boolean;slot?:SkillSlot;phaseChange?:boolean}
 export interface LiveBattle {
   stage:number;party:Fighter[];enemies:Fighter[];wave:number;waves:number;round:number;
@@ -96,7 +96,7 @@ export function advanceBattle(b:LiveBattle,autoUltimate=true,rng=Math.random):Ba
       const hard=b.difficulty==='어려움'||b.difficulty==='지옥';
       const damage=Math.round(calculateDamage({attackerAtk:actor.atk,skillCoefficientPct:coefficient*(targets.length>1?0.6:1),defenderDef:t.def,elementMultiplier:effectiveElementMultiplier(actor.element,t.element,slot,actor.breakthrough),isCrit:crit,critDamagePct:150,buffPct:0, debuffPct:0,randomRoll:0.95+rng()*0.1}).finalDamage*(hard?(actor.side==='enemy'?1.15:.9):1));
       const absorbed=Math.min(t.shield,damage);t.shield-=absorbed;t.hp=Math.max(0,t.hp-(damage-absorbed));t.gauge=Math.min(100,t.gauge+5);actor.damage+=damage;
-      hits.push({id:t.id,amount:damage,kind:'damage',crit});
+      hits.push({id:t.id,amount:damage,kind:'damage',crit,absorbed});
       if(t.boss&&!t.enraged&&t.hp>0&&t.hp<=t.maxHp/2){t.enraged=true;t.atk=Math.round(t.atk*1.3);t.gauge=100;if(b.difficulty==='지옥')t.shield=Math.round(t.maxHp*.2);}
     }
     if(actor.role==='수호'&&skill){const targets=isUlt?allies:allies.filter(u=>u.slot<2);for(const t of targets){const amount=Math.round(actor.def*(isUlt?2.5:1.3));t.shield=Math.min(t.maxHp*0.5,t.shield+amount);hits.push({id:t.id,amount,kind:'shield',crit:false});}}

@@ -27,3 +27,6 @@ try {
   }
   @{ voice=$koreanVoice.VoiceInfo.Name; language='ko-KR'; sampleRate=22050; clips=$clips } | ConvertTo-Json -Depth 6 | Set-Content -LiteralPath (Join-Path $audioRoot 'manifest.json') -Encoding UTF8
 } finally { $narrator.Dispose() }
+
+# Include the prologue and all mid-chapter scenes in a complete audio rebuild.
+& (Join-Path $PSScriptRoot 'generate-journey-audio.ps1')

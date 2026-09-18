@@ -32,6 +32,6 @@ export function pixelSprite(id:string,cls='',awakening=0):string {
 }
 export function fullIllustration(id:string,awakening=0):string {
   const d=spiritById(id);
-  if(id==='gumiho'&&awakening<5)return `<img class="full-illustration original-fox" src="${assetPath('art/gumiho.png')}" alt="구미호 전신 일러스트">`;
+  if(id==='gumiho'&&awakening<5)return `<img class="full-illustration original-fox" src="${assetPath('art/gumiho-transparent-v07.png')}" alt="구미호 전신 일러스트">`;
   return `<div class="full-illustration atlas-illustration ${awakening>=5?'awakened-art':''}" role="img" aria-label="${d.name}${awakening>=5?' 진명 각성':''} 전신 일러스트" style="${illustrationStyle(id,awakening)}"></div>`;
 }

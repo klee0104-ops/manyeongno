@@ -1,0 +1,634 @@
+{
+  "prologue": [
+    {
+      "id": "prologue-1",
+      "caption": "오래전, 인간과 요괴는 하나의 길 위에서 서로의 이름을 불렀다.",
+      "visual": "jades",
+      "actor": "",
+      "theme": 0
+    },
+    {
+      "id": "prologue-2",
+      "caption": "여섯 경계가 세워진 뒤, 이어지던 길은 기억 속으로 사라졌다.",
+      "visual": "fracture",
+      "actor": "",
+      "theme": 0
+    },
+    {
+      "id": "prologue-3",
+      "caption": "어느 달 밝은 밤, 할머니가 남긴 부적함에서 작은 방울 소리가 울렸다.",
+      "visual": "heirloom",
+      "actor": "",
+      "theme": 0
+    },
+    {
+      "id": "prologue-4",
+      "caption": "당신이 펼친 지도 위로 빛이 번졌다. 잊힌 인연을 잇는 길, 만령로가 다시 열렸다.",
+      "visual": "dawn",
+      "actor": "gumiho",
+      "theme": 0
+    }
+  ],
+  "chapters": [
+    {
+      "chapter": 1,
+      "mid5": [
+        {
+          "id": "ch01-mid5-1",
+          "caption": "버려진 집의 문틈에서 검은 실이 흘러나왔다. 부적함의 작은 방울이 처음으로 울렸다.",
+          "visual": "forest",
+          "actor": "",
+          "theme": 0
+        }
+      ],
+      "mid10": [
+        {
+          "id": "ch01-mid10-1",
+          "caption": "천년목에 감긴 그림자를 걷어 내자 산신당으로 이어지는 발자국이 드러났다.",
+          "visual": "forest",
+          "actor": "boar-shadow",
+          "theme": 0
+        }
+      ],
+      "mid15": [
+        {
+          "id": "ch01-mid15-1",
+          "caption": "숲의 짐승들은 누군가에게 쫓기고 있었다. 검은 기운의 근원은 산신당 안에 있었다.",
+          "visual": "forest",
+          "actor": "",
+          "theme": 0
+        }
+      ]
+    },
+    {
+      "chapter": 2,
+      "mid5": [
+        {
+          "id": "ch02-mid5-1",
+          "caption": "비어 있는 집마다 같은 종이 조각이 남아 있었다. 저승의 글자가 희미하게 떠올랐다.",
+          "visual": "gate",
+          "actor": "",
+          "theme": 0
+        }
+      ],
+      "mid10": [
+        {
+          "id": "ch02-mid10-1",
+          "caption": "구미호의 여우불이 강 위에 길을 만들었다. 물에 비친 문은 이승의 것이 아니었다.",
+          "visual": "gate",
+          "actor": "gumiho",
+          "theme": 0
+        }
+      ],
+      "mid15": [
+        {
+          "id": "ch02-mid15-1",
+          "caption": "문지기의 쇠사슬 끝에서 사람들의 이름이 들렸다. 흑차사가 명부의 빈자리를 지키고 있었다.",
+          "visual": "gate",
+          "actor": "",
+          "theme": 0
+        }
+      ]
+    },
+    {
+      "chapter": 3,
+      "mid5": [
+        {
+          "id": "ch03-mid5-1",
+          "caption": "산신당의 기도문이 거꾸로 읽히기 시작했다. 명부 조각이 산의 기억을 바꾸고 있었다.",
+          "visual": "shrine",
+          "actor": "",
+          "theme": 0
+        }
+      ],
+      "mid10": [
+        {
+          "id": "ch03-mid10-1",
+          "caption": "뿌리 아래에서 산신령의 마지막 축복을 찾았다. 남은 빛이 지하 제단을 가리켰다.",
+          "visual": "shrine",
+          "actor": "samsindongja",
+          "theme": 0
+        }
+      ],
+      "mid15": [
+        {
+          "id": "ch03-mid15-1",
+          "caption": "태초석을 감싼 봉인이 흔들렸다. 산신령을 구하려면 그를 뒤덮은 그림자를 먼저 걷어야 했다.",
+          "visual": "shrine",
+          "actor": "",
+          "theme": 0
+        }
+      ]
+    },
+    {
+      "chapter": 4,
+      "mid5": [
+        {
+          "id": "ch04-mid5-1",
+          "caption": "운봉파 문루에는 낯선 발톱 자국이 남아 있었다. 수련생들은 밤마다 들리는 울음을 숨겼다.",
+          "visual": "cliff",
+          "actor": "",
+          "theme": 1
+        }
+      ],
+      "mid10": [
+        {
+          "id": "ch04-mid10-1",
+          "caption": "끊어진 구름다리 아래에서 오래된 용의 비늘을 찾았다. 검문을 닫은 이유가 드러나기 시작했다.",
+          "visual": "cliff",
+          "actor": "waterfall-drake",
+          "theme": 1
+        }
+      ],
+      "mid15": [
+        {
+          "id": "ch04-mid15-1",
+          "caption": "이무기 새끼가 문루를 감아 올랐다. 공포에 질린 몸을 진정시킬 길을 열어야 했다.",
+          "visual": "cliff",
+          "actor": "",
+          "theme": 1
+        }
+      ]
+    },
+    {
+      "chapter": 5,
+      "mid5": [
+        {
+          "id": "ch05-mid5-1",
+          "caption": "수련장에 남은 향은 문파의 것이 아니었다. 사룡교가 제자들의 꿈속으로 스며들었다.",
+          "visual": "fire",
+          "actor": "",
+          "theme": 1
+        }
+      ],
+      "mid10": [
+        {
+          "id": "ch05-mid10-1",
+          "caption": "불길 속에서 오래된 검 하나가 길을 막았다. 검선은 같은 적을 쫓고 있음을 알아보았다.",
+          "visual": "fire",
+          "actor": "story-swordsman",
+          "theme": 1
+        }
+      ],
+      "mid15": [
+        {
+          "id": "ch05-mid15-1",
+          "caption": "의식의 불꽃이 지붕을 삼켰다. 사룡교 간부가 봉인으로 향하는 마지막 통로를 막았다.",
+          "visual": "fire",
+          "actor": "",
+          "theme": 1
+        }
+      ]
+    },
+    {
+      "chapter": 6,
+      "mid5": [
+        {
+          "id": "ch06-mid5-1",
+          "caption": "봉인지의 돌마다 같은 균열이 생겨났다. 서로 다른 문파의 검들이 한 방향으로 떨렸다.",
+          "visual": "sword",
+          "actor": "",
+          "theme": 1
+        }
+      ],
+      "mid10": [
+        {
+          "id": "ch06-mid10-1",
+          "caption": "협곡 아래 잠든 용의 꿈이 안개가 되었다. 버려진 검들의 잔향이 그 안에서 길을 냈다.",
+          "visual": "sword",
+          "actor": "mangeomhon",
+          "theme": 1
+        }
+      ],
+      "mid15": [
+        {
+          "id": "ch06-mid15-1",
+          "caption": "용의 파편이 봉인의 틈을 밀어냈다. 완전히 깨어나기 전에 흐트러진 검진을 이어야 했다.",
+          "visual": "sword",
+          "actor": "",
+          "theme": 1
+        }
+      ]
+    },
+    {
+      "chapter": 7,
+      "mid5": [
+        {
+          "id": "ch07-mid5-1",
+          "caption": "무너진 다리 위로 문파의 깃발들이 모였다. 의심을 거둔 검들이 하나의 길을 만들었다.",
+          "visual": "dragon",
+          "actor": "",
+          "theme": 1
+        }
+      ],
+      "mid10": [
+        {
+          "id": "ch07-mid10-1",
+          "caption": "사룡의 울음에 절벽이 갈라졌다. 동료들이 검진을 받치는 동안 봉인의 중심으로 향했다.",
+          "visual": "dragon",
+          "actor": "cursed-dragon",
+          "theme": 1
+        }
+      ],
+      "mid15": [
+        {
+          "id": "ch07-mid15-1",
+          "caption": "잠룡옥의 빛이 사룡의 가슴에서 맥박쳤다. 마지막 검진을 완성할 순간이 다가왔다.",
+          "visual": "dragon",
+          "actor": "",
+          "theme": 1
+        }
+      ]
+    },
+    {
+      "chapter": 8,
+      "mid5": [
+        {
+          "id": "ch08-mid5-1",
+          "caption": "축제 가면 뒤로 검은 실이 번졌다. 웃고 있던 요괴 하나가 갑자기 자신의 이름을 잊었다.",
+          "visual": "festival",
+          "actor": "",
+          "theme": 2
+        }
+      ],
+      "mid10": [
+        {
+          "id": "ch08-mid10-1",
+          "caption": "등불 골목의 북소리가 어긋났다. 시장의 그림자들이 사람보다 먼저 움직이기 시작했다.",
+          "visual": "festival",
+          "actor": "dokkaebi",
+          "theme": 2
+        }
+      ],
+      "mid15": [
+        {
+          "id": "ch08-mid15-1",
+          "caption": "광장 한가운데에서 등불이 붉게 물들었다. 잡요괴 두목의 흥분이 축제 전체로 번졌다.",
+          "visual": "festival",
+          "actor": "",
+          "theme": 2
+        }
+      ]
+    },
+    {
+      "chapter": 9,
+      "mid5": [
+        {
+          "id": "ch09-mid5-1",
+          "caption": "여우무녀의 부적이 폭동을 막아 냈다. 불길 속에서도 몇몇 요괴는 도움을 청하고 있었다.",
+          "visual": "fire",
+          "actor": "",
+          "theme": 2
+        }
+      ],
+      "mid10": [
+        {
+          "id": "ch09-mid10-1",
+          "caption": "시장의 우물 아래로 붉은 불꽃이 사라졌다. 왕좌를 버린 자가 이 소동의 원인을 살폈다.",
+          "visual": "fire",
+          "actor": "story-priestess",
+          "theme": 2
+        }
+      ],
+      "mid15": [
+        {
+          "id": "ch09-mid15-1",
+          "caption": "폭주한 요괴들이 마지막 피난길을 막았다. 무녀의 결계를 지키며 그림자의 매듭을 풀어야 했다.",
+          "visual": "fire",
+          "actor": "",
+          "theme": 2
+        }
+      ]
+    },
+    {
+      "chapter": 10,
+      "mid5": [
+        {
+          "id": "ch10-mid5-1",
+          "caption": "신사의 등이 하나씩 꺼졌다. 어둠 속 발자국은 기도하는 이들 사이를 망설임 없이 지나갔다.",
+          "visual": "lantern",
+          "actor": "",
+          "theme": 2
+        }
+      ],
+      "mid10": [
+        {
+          "id": "ch10-mid10-1",
+          "caption": "귀장의 목소리가 천등 사이에 번졌다. 갈라진 세계를 잇겠다는 약속에 오래된 슬픔이 섞였다.",
+          "visual": "lantern",
+          "actor": "red-oni",
+          "theme": 2
+        }
+      ],
+      "mid15": [
+        {
+          "id": "ch10-mid15-1",
+          "caption": "오니 대장이 신사의 계단을 막아섰다. 그의 분노 속에서 등불옥의 빛이 새어 나왔다.",
+          "visual": "lantern",
+          "actor": "",
+          "theme": 2
+        }
+      ]
+    },
+    {
+      "chapter": 11,
+      "mid5": [
+        {
+          "id": "ch11-mid5-1",
+          "caption": "사원무희가 물에 잠긴 길의 문양을 읽었다. 잠사왕과 뇌익조의 이름이 함께 지워져 있었다.",
+          "visual": "temple",
+          "actor": "",
+          "theme": 3
+        }
+      ],
+      "mid10": [
+        {
+          "id": "ch11-mid10-1",
+          "caption": "두 수호자의 흔적은 같은 제단으로 이어졌다. 누군가 물의 흐름을 거꾸로 돌리고 있었다.",
+          "visual": "temple",
+          "actor": "story-dancer",
+          "theme": 3
+        }
+      ],
+      "mid15": [
+        {
+          "id": "ch11-mid15-1",
+          "caption": "석상들의 눈이 일제히 빛났다. 파수꾼을 지나야 수호자들을 뒤흔든 의식에 닿을 수 있었다.",
+          "visual": "temple",
+          "actor": "",
+          "theme": 3
+        }
+      ]
+    },
+    {
+      "chapter": 12,
+      "mid5": [
+        {
+          "id": "ch12-mid5-1",
+          "caption": "폭포에 떨어진 깃털에서 낯선 주술을 찾았다. 두 수호자의 분노에는 같은 매듭이 걸려 있었다.",
+          "visual": "storm",
+          "actor": "",
+          "theme": 3
+        }
+      ],
+      "mid10": [
+        {
+          "id": "ch12-mid10-1",
+          "caption": "물결과 번개가 서로의 이름을 부르며 부딪쳤다. 심연의 고요한 빛이 끊어진 결을 보여 주었다.",
+          "visual": "storm",
+          "actor": "simyeon",
+          "theme": 3
+        }
+      ],
+      "mid15": [
+        {
+          "id": "ch12-mid15-1",
+          "caption": "뇌익조가 제단 위로 내려앉았다. 분노를 묶은 주술부터 풀어야 사원을 지킬 수 있었다.",
+          "visual": "storm",
+          "actor": "",
+          "theme": 3
+        }
+      ]
+    },
+    {
+      "chapter": 13,
+      "mid5": [
+        {
+          "id": "ch13-mid5-1",
+          "caption": "깊은 석실의 물이 맑아지자 봉인된 벽화가 드러났다. 최초의 영매가 경계옥을 들고 있었다.",
+          "visual": "mural",
+          "actor": "",
+          "theme": 3
+        }
+      ],
+      "mid10": [
+        {
+          "id": "ch13-mid10-1",
+          "caption": "잠사왕의 숨결 아래에서 심연옥이 응답했다. 벽화 속 얼굴과 귀장의 모습이 겹쳐졌다.",
+          "visual": "mural",
+          "actor": "simyeon",
+          "theme": 3
+        }
+      ],
+      "mid15": [
+        {
+          "id": "ch13-mid15-1",
+          "caption": "마지막 주술이 잠사왕의 몸을 조였다. 심연옥을 되찾을 길은 수호자를 해치는 길과 달라야 했다.",
+          "visual": "mural",
+          "actor": "",
+          "theme": 3
+        }
+      ]
+    },
+    {
+      "chapter": 14,
+      "mid5": [
+        {
+          "id": "ch14-mid5-1",
+          "caption": "예언자는 빈 별자리를 가리켰다. 오래전 사라진 이름이 초원의 바람에 실려 돌아왔다.",
+          "visual": "stars",
+          "actor": "",
+          "theme": 4
+        }
+      ],
+      "mid10": [
+        {
+          "id": "ch14-mid10-1",
+          "caption": "오보에 남은 발자국은 북쪽으로 이어졌다. 늑대들은 보이지 않는 별을 향해 울고 있었다.",
+          "visual": "stars",
+          "actor": "story-prophet",
+          "theme": 4
+        }
+      ],
+      "mid15": [
+        {
+          "id": "ch14-mid15-1",
+          "caption": "별빛을 잃은 늑대가 언덕을 떠나지 않았다. 선조의 기억에 닿으려면 그 슬픔을 거두어야 했다.",
+          "visual": "stars",
+          "actor": "",
+          "theme": 4
+        }
+      ]
+    },
+    {
+      "chapter": 15,
+      "mid5": [
+        {
+          "id": "ch15-mid5-1",
+          "caption": "제단 주변의 땅이 천천히 내려앉았다. 늑대들의 분노는 땅속 울림에 맞추어 거세졌다.",
+          "visual": "wolf",
+          "actor": "",
+          "theme": 4
+        }
+      ],
+      "mid10": [
+        {
+          "id": "ch15-mid10-1",
+          "caption": "무너진 돌 사이로 거대한 등껍질 무늬가 드러났다. 지부신구가 갈라지는 대지를 버티고 있었다.",
+          "visual": "wolf",
+          "actor": "jibu",
+          "theme": 4
+        }
+      ],
+      "mid15": [
+        {
+          "id": "ch15-mid15-1",
+          "caption": "우두머리의 울음이 오보를 흔들었다. 지부신구에게 닿기 전에 무리의 폭주를 멈춰야 했다.",
+          "visual": "wolf",
+          "actor": "",
+          "theme": 4
+        }
+      ]
+    },
+    {
+      "chapter": 16,
+      "mid5": [
+        {
+          "id": "ch16-mid5-1",
+          "caption": "선조의 기억 속에서 낯익은 부적함을 보았다. 여정의 시작은 오래전 약속과 이어져 있었다.",
+          "visual": "ancestor",
+          "actor": "",
+          "theme": 4
+        }
+      ],
+      "mid10": [
+        {
+          "id": "ch16-mid10-1",
+          "caption": "성혼의 제단에 자신의 이름이 떠올랐다. 최초의 영매가 남긴 인연이 지금의 동료들에게 닿았다.",
+          "visual": "ancestor",
+          "actor": "silver-wolf",
+          "theme": 4
+        }
+      ],
+      "mid15": [
+        {
+          "id": "ch16-mid15-1",
+          "caption": "하늘늑대가 별빛을 삼켰다. 성혼옥이 돌아올 자리를 지키기 위한 마지막 시험이 시작되었다.",
+          "visual": "ancestor",
+          "actor": "",
+          "theme": 4
+        }
+      ]
+    },
+    {
+      "chapter": 17,
+      "mid5": [
+        {
+          "id": "ch17-mid5-1",
+          "caption": "숲과 협곡, 축제와 사원의 동료들이 경계에 도착했다. 각자의 빛이 무너진 길을 이었다.",
+          "visual": "jades",
+          "actor": "",
+          "theme": 5
+        }
+      ],
+      "mid10": [
+        {
+          "id": "ch17-mid10-1",
+          "caption": "다섯 경계옥이 빈자리를 향해 떠올랐다. 깨어나지 않은 종극옥이 문 너머에서 응답했다.",
+          "visual": "jades",
+          "actor": "gumiho",
+          "theme": 5
+        }
+      ],
+      "mid15": [
+        {
+          "id": "ch17-mid15-1",
+          "caption": "균열의 파수자가 여섯 길을 가로막았다. 함께 걸어온 인연들이 마지막 문을 떠받쳤다.",
+          "visual": "jades",
+          "actor": "",
+          "theme": 5
+        }
+      ]
+    },
+    {
+      "chapter": 18,
+      "mid5": [
+        {
+          "id": "ch18-mid5-1",
+          "caption": "기억의 회랑에는 헤어진 존재들의 이름이 새겨져 있었다. 귀장은 그 이름들을 잊지 못했다.",
+          "visual": "memories",
+          "actor": "",
+          "theme": 5
+        }
+      ],
+      "mid10": [
+        {
+          "id": "ch18-mid10-1",
+          "caption": "오래된 영매의 손이 뜻과 다르게 움직였다. 고독의 기억 사이에 낯선 의지가 숨어 있었다.",
+          "visual": "memories",
+          "actor": "gwijang",
+          "theme": 5
+        }
+      ],
+      "mid15": [
+        {
+          "id": "ch18-mid15-1",
+          "caption": "귀장의 그림자가 두 갈래로 찢어졌다. 그의 진심을 듣기 위해 뒤틀린 기억을 걷어 내야 했다.",
+          "visual": "memories",
+          "actor": "",
+          "theme": 5
+        }
+      ]
+    },
+    {
+      "chapter": 19,
+      "mid5": [
+        {
+          "id": "ch19-mid5-1",
+          "caption": "재봉인의 문양이 거꾸로 돌기 시작했다. 경계옥마다 하나의 목소리가 울려 나왔다.",
+          "visual": "fracture",
+          "actor": "",
+          "theme": 5
+        }
+      ],
+      "mid10": [
+        {
+          "id": "ch19-mid10-1",
+          "caption": "봉인은 혼원의 몸을 나눈 흔적이었다. 귀장의 손을 빌린 의식이 그 조각들을 끌어당겼다.",
+          "visual": "fracture",
+          "actor": "gwijang",
+          "theme": 5
+        }
+      ],
+      "mid15": [
+        {
+          "id": "ch19-mid15-1",
+          "caption": "결계의 심장이 크게 뛰었다. 귀장의 몸을 그릇으로 삼은 혼원이 마지막 매듭을 끊으려 했다.",
+          "visual": "fracture",
+          "actor": "",
+          "theme": 5
+        }
+      ]
+    },
+    {
+      "chapter": 20,
+      "mid5": [
+        {
+          "id": "ch20-mid5-1",
+          "caption": "귀장이 무너지는 경계 앞에 홀로 섰다. 그의 희생이 동료들에게 마지막 길을 남겼다.",
+          "visual": "dawn",
+          "actor": "",
+          "theme": 5
+        }
+      ],
+      "mid10": [
+        {
+          "id": "ch20-mid10-1",
+          "caption": "흩어진 인연의 빛이 부적함으로 모였다. 서로 다른 세계의 이름들이 같은 박자로 울렸다.",
+          "visual": "dawn",
+          "actor": "honwon",
+          "theme": 5
+        }
+      ],
+      "mid15": [
+        {
+          "id": "ch20-mid15-1",
+          "caption": "혼원의 그림자가 하늘을 덮었다. 모두가 건넨 빛을 안고 새로운 세계의 문 앞에 섰다.",
+          "visual": "dawn",
+          "actor": "",
+          "theme": 5
+        }
+      ]
+    }
+  ]
+}

@@ -5,34 +5,31 @@ export function captureBook():BookSnapshot|null {
  const pages=document.querySelectorAll<HTMLElement>('.antique-book>.paper-page');
  return pages.length===2?{left:cleanCopy(pages[0]),right:cleanCopy(pages[1])}:null;
 }
-/** A continuous curved sheet assembled from strips, with printed front and back. */
+/** Two printed faces on one physical sheet. No scaleX(-1) on printed content. */
 export async function turnBook(previous:BookSnapshot,direction=1){
  const book=document.querySelector<HTMLElement>('.antique-book');if(!book||matchMedia('(prefers-reduced-motion: reduce)').matches)return;
+ const pages=Array.from(book.querySelectorAll<HTMLElement>(':scope>.paper-page'));if(pages.length!==2)return;
  const controls=Array.from(document.querySelectorAll<HTMLElement>('.book-searchbar,.book-selects'));controls.forEach(el=>el.inert=true);
- const pages=book.querySelectorAll<HTMLElement>(':scope>.paper-page'),mobile=innerWidth<=760;
- const target=mobile?mobileSheet(Array.from(pages)):pages[direction<0?1:0],source=mobile?mobileSheet([previous.left,previous.right]):previous[direction<0?'left':'right'];
- const width=pages[0].getBoundingClientRect().width,height=mobile?book.clientHeight:Math.max(pages[0].getBoundingClientRect().height,pages[1].getBoundingClientRect().height);
- const overlay=document.createElement('div');overlay.className=`curved-page-turn ${direction<0?'turn-backward':''} ${mobile?'turn-mobile':''}`;overlay.setAttribute('aria-hidden','true');overlay.inert=true;
- overlay.style.cssText=`--page-width:${width}px;--page-height:${height}px`;book.append(overlay);
- const stationary=cleanCopy(previous[direction<0?'right':'left']);stationary.classList.add('turn-stationary');stationary.style.width=`${width}px`;stationary.style.height=`${height}px`;
- if(!mobile)overlay.append(stationary);
- const count=9,slice=width/count,animations:Animation[]=[];
- for(let i=0;i<count;i++){
-  const strip=document.createElement('div');strip.className='paper-curl-strip';strip.style.width=`${slice+.6}px`;strip.style.height=`${height}px`;
-  for(const back of [false,true]){
-   const face=document.createElement('div');face.className=back?'curl-face curl-back':'curl-face curl-front';
-   const copy=cleanCopy(back?target:source);copy.classList.add('curl-content');copy.style.width=`${width}px`;copy.style.height=`${height}px`;
-   const crop=back?count-1-i:i;copy.style.left=`-${crop*slice}px`;if(direction<0)copy.classList.add('mirror-print');face.append(copy);strip.append(face);
+ const mobile=innerWidth<=760,backward=direction<0,width=mobile?book.clientWidth:pages[0].getBoundingClientRect().width;
+ const height=Math.max(book.clientHeight,mobile?previous.left.offsetHeight+previous.right.offsetHeight:0);
+ const overlay=document.createElement('div');overlay.className=`folio-turn ${backward?'folio-backward':''} ${mobile?'folio-mobile':''}`;overlay.setAttribute('aria-hidden','true');overlay.inert=true;
+ overlay.style.cssText=`--folio-width:${width}px;--folio-height:${height}px`;book.append(overlay);
+ const animations:Animation[]=[];
+ if(mobile){
+  const sheet=mobileSheet([previous.left,previous.right]);sheet.classList.add('folio-mobile-sheet');overlay.append(sheet);
+  animations.push(sheet.animate([{transform:'translateX(0) rotateY(0deg)',opacity:1},{transform:`translateX(${backward?'38':'-38'}%) rotateY(${backward?42:-42}deg)`,opacity:1,offset:.65},{transform:`translateX(${backward?'105':'-105'}%) rotateY(${backward?70:-70}deg)`,opacity:0}],{duration:800,easing:'cubic-bezier(.25,.05,.25,1)',fill:'forwards'}));
+ }else{
+  const stationary=cleanCopy(previous[backward?'right':'left']);stationary.classList.add('folio-stationary');overlay.append(stationary);
+  const leaf=document.createElement('div');leaf.className='folio-leaf';overlay.append(leaf);
+  for(const isBack of [false,true]){
+   const face=document.createElement('div');face.className=`folio-face ${isBack?'folio-verso':'folio-recto'}`;
+   const copy=cleanCopy(isBack?pages[backward?1:0]:previous[backward?'left':'right']);copy.classList.add('folio-print');face.append(copy);leaf.append(face);
   }
-  overlay.append(strip);const frames:Keyframe[]=[];
-  for(let f=0;f<=24;f++){
-   const t=f/24,theta=Math.PI*t,bend=Math.sin(Math.PI*t)*.54;let x=0,z=0;
-   for(let j=0;j<i;j++){const a=theta+bend*(j/count-.25);x+=slice*Math.cos(a);z+=slice*Math.sin(a);}
-   const angle=theta+bend*(i/count-.25);frames.push({transform:`translate3d(${x}px,0,${z}px) rotateY(${-angle}rad)`,filter:`brightness(${1-Math.sin(Math.PI*t)*(.08+i*.017)})`,offset:t});
-  }
-  animations.push(strip.animate(frames,{duration:1250,easing:'cubic-bezier(.24,.06,.19,1)',fill:'forwards'}));
+  const angle=backward?180:-180;
+  animations.push(leaf.animate([{transform:'rotateY(0deg)'},{transform:`rotateY(${angle*.42}deg)`,offset:.4},{transform:`rotateY(${angle*.75}deg)`,offset:.7},{transform:`rotateY(${angle}deg)`}],{duration:1050,easing:'cubic-bezier(.3,.04,.25,1)',fill:'forwards'}));
+  const light=document.createElement('i');light.className='folio-shading';leaf.append(light);
+  animations.push(light.animate([{opacity:0},{opacity:.32,offset:.5},{opacity:0}],{duration:1050,fill:'forwards'}));
  }
- const shadow=document.createElement('div');shadow.className='curl-cast-shadow';overlay.append(shadow);animations.push(shadow.animate([{opacity:0,transform:'translateX(40%)'},{opacity:.36,offset:.5},{opacity:0,transform:'translateX(-60%)'}],{duration:1250,easing:'ease-in-out'}));
  book.classList.add('turning-paper');
- try{await Promise.all(animations.map(a=>a.finished));}catch{/* A removed reader ends its transition. */}finally{animations.forEach(a=>a.cancel());overlay.remove();book.classList.remove('turning-paper');controls.forEach(el=>el.inert=false);}
+ try{await Promise.all(animations.map(a=>a.finished));}catch{/* Closing the reader cancels the turn. */}finally{animations.forEach(a=>a.cancel());overlay.remove();book.classList.remove('turning-paper');controls.forEach(el=>el.inert=false);}
 }

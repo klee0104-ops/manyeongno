@@ -6,6 +6,7 @@ import { SPIRITS, RELICS, spiritById, type EquipSlot, type Spirit } from '../dat
 import { computeBattleStats } from '../config/unitBaseStats';
 import { BASE_LEVEL_CAP } from '../config/skillCoefficients';
 import { GachaBanner, type GachaBannerState } from './gacha';
+import { validChallenges, type ChallengeSave } from './challenges';
 import type { Difficulty } from '../types/stage';
 import { campaign, campaignGate, campaignReward, recordEntry, rating, stageCost, staminaCap, codexBonus, validCampaign, hellRemaining, type CampaignSave } from './campaign';
 
@@ -18,6 +19,7 @@ export interface GameSave {
   sound:boolean; tutorial:boolean; profileName?:string; musicVolume?:number;
   profileAvatar?:string; profileTitle?:string; guideDismissed?:boolean; battleVoice?:boolean;
   campaign?:CampaignSave;
+  challenges?:ChallengeSave;
 }
 export const SAVE_KEY='manyeongno:adventure:v2';
 export const createGame=(now=Date.now()):GameSave=>({
@@ -33,6 +35,7 @@ export function validateSave(raw:unknown):raw is GameSave {
   const s=raw as GameSave;
   if(s.version!==2 || !['gold','gems','dust','totalPulls'].every(k=>finiteInt(s[k as keyof GameSave])) || !finiteInt(s.stamina,0,220))return false;
   if(s.campaign!==undefined&&!validCampaign(s.campaign))return false;
+  if(s.challenges!==undefined&&!validChallenges(s.challenges))return false;
   if(!finiteInt(s.staminaAt,0,9e15)||!finiteInt(s.offlineAt,0,9e15)||typeof s.sound!=='boolean'||typeof s.tutorial!=='boolean')return false;
   if(s.profileName!==undefined&&(typeof s.profileName!=='string'||!s.profileName.trim()||Array.from(s.profileName).length>16))return false;
   if(s.musicVolume!==undefined&&(typeof s.musicVolume!=='number'||!Number.isFinite(s.musicVolume)||s.musicVolume<0||s.musicVolume>1))return false;

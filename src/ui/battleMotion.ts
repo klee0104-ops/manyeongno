@@ -5,6 +5,8 @@ import { effectArt } from './combatEffects';
 import { contactOffset, projectileFrames, flightDuration, splitImpact, type Point } from './battleGeometry';
 import { BattleTimeline } from './battleTimeline';
 import { BattleRig } from './battleRig';
+import { combatPlaybackSpeed } from './battleSpeed';
+import { chargeSpectacle, contactSpectacle } from './battleSpectacle';
 import { prepareBattleTextures } from './battleTextures';
 
 type Callout=(id:string,slot:CombatSlot,signal:AbortSignal)=>Promise<void>;
@@ -13,7 +15,7 @@ export async function animateBattleEvent(b:LiveBattle,e:BattleEvent,speed:number
  const field=document.querySelector<HTMLElement>('.battlefield');if(!field||signal.aborted)return;
  await prepareBattleTextures(field,signal);if(signal.aborted)return;
  const reduced=matchMedia('(prefers-reduced-motion: reduce)').matches;
- const clock=new BattleTimeline(signal,Math.min(3,Math.max(1,speed)),isPaused),temporary:HTMLElement[]=[];
+ const clock=new BattleTimeline(signal,combatPlaybackSpeed(speed),isPaused),temporary:HTMLElement[]=[];
  let rig:BattleRig|undefined;
  const add=(parent:Element,tag:string,cls:string,html='')=>{const el=document.createElement(tag);el.className=cls;el.innerHTML=html;el.setAttribute('aria-hidden','true');parent.append(el);temporary.push(el);return el;};
  const fx=(parent:Element,cls:string,html='',color='')=>{const el=add(parent,'span',cls,html);el.style.animation='none';if(color)el.style.setProperty('--fx',color);return el;};
@@ -31,13 +33,15 @@ export async function animateBattleEvent(b:LiveBattle,e:BattleEvent,speed:number
   rig=new BattleRig(sprite,clock,reduced);phase('windup');rig.prepare(direction,melee);
   const announce=field.querySelector('#battle-announcement');if(announce)announce.textContent=`${unit.name} · ${e.label} · ${move.weapon}`;
   if(move.special){
+   chargeSpectacle(field,art,unit.element,color,move.ultimate,clock,fx,reduced);
    const caption=fx(field,`combat-callout ${move.ultimate?'ultimate':''}`,'',color);caption.removeAttribute('aria-hidden');
    const name=document.createElement('small'),label=document.createElement('strong');name.textContent=`${unit.name} · ${move.weapon}`;label.textContent=e.label;caption.append(name,label);
    clock.animate(caption,[{opacity:0,translate:'0 7px'},{opacity:1,translate:'0 0'}],150);
    const seal=fx(art,`technique-seal seal-${move.pattern}`,'',color);seal.textContent=move.seal;
    clock.animate(seal,[{opacity:0,scale:'.65'},{opacity:.5,scale:'1'}],220);
   }
-  await Promise.all([clock.wait((move.special?240:130)*move.tempo),move.special?speak?.(unit.spiritId,slot,signal):undefined]);if(signal.aborted)return;
+  const voice=move.special?speak?.(unit.spiritId,slot,signal):undefined;
+  await Promise.all([clock.wait((move.ultimate?420:move.special?240:130)*move.tempo),speed===1?voice:undefined]);if(signal.aborted)return;
   // A pause during voice playback must also hold the following phase.
   await clock.wait(1);if(signal.aborted)return;
   const dust=()=>{if(reduced)return;const puff=fx(art,'combat-dust');clock.animate(puff,[{opacity:.6,scale:'.5 1'},{opacity:0,scale:'1.8 .6',translate:`${-direction*10}px 0`}],260);};
@@ -69,6 +73,7 @@ export async function animateBattleEvent(b:LiveBattle,e:BattleEvent,speed:number
    const hitColor=hit.kind==='heal'?'#a3d9a0':hit.kind==='shield'?'#d9c38b':color;
    const burst=fx(host,`contact-effect contact-${hit.kind} pattern-${move.pattern} element-${unit.element} ${move.ultimate?'heavy':''}`,effectArt(hit.kind==='damage'?move.effect:hit.kind==='shield'?'shield':move.effect),hitColor);
    clock.animate(burst,[{opacity:.95,scale:'.55',rotate:`${-direction*18}deg`},{opacity:.9,scale:'1.03',rotate:'0deg',offset:.22},{opacity:0,scale:'1.25',rotate:`${direction*9}deg`}],reduced?180:360);
+   if(move.special&&final)contactSpectacle(field,host,unit.element,hit.kind==='shield'?'shield':move.effect,hitColor,move.ultimate,clock,fx,reduced);
    if(hit.kind==='damage'){
     contacts++;if(combo){combo.innerHTML=`${contacts}<small>HIT</small>`;}
     el.classList.add('motion-reacting');

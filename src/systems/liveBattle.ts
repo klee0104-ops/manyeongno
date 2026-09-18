@@ -24,6 +24,7 @@ export interface Fighter {
 export interface Hit {id:string;amount:number;kind:'damage'|'heal'|'shield';crit:boolean;absorbed?:number}
 export interface BattleEvent {actor:string;label:string;hits:Hit[];ultimate:boolean;message:string;wave?:boolean;slot?:SkillSlot;phaseChange?:boolean}
 export interface LiveBattle {
+  challengeTitle?:string;challengeRule?:string;spawnEnemies?:(wave:number)=>Fighter[];
   stage:number;party:Fighter[];enemies:Fighter[];wave:number;waves:number;round:number;
   queue:string[];winner:'party'|'enemy'|null;events:BattleEvent[];requested:string|null;
   chapter:number;difficulty:Difficulty;
@@ -62,7 +63,7 @@ export function advanceBattle(b:LiveBattle,autoUltimate=true,rng=Math.random):Ba
   if(!alive(b.party).length){b.winner='enemy';return null;}
   if(!alive(b.enemies).length){
     if(b.wave===b.waves){b.winner='party';return null;}
-    b.wave++;b.enemies=enemiesFor(b.stage,b.wave,b.waves,b.chapter,b.difficulty);b.queue=[];
+    b.wave++;b.enemies=b.spawnEnemies?.(b.wave)??enemiesFor(b.stage,b.wave,b.waves,b.chapter,b.difficulty);b.queue=[];
     const e={actor:'',label:`제 ${b.wave} 진영`,hits:[],ultimate:false,message:`새로운 적이 나타났습니다 · WAVE ${b.wave}`,wave:true};b.events.push(e);return e;
   }
   if(b.round>=120){b.winner='enemy';return null;}

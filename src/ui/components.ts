@@ -3,6 +3,7 @@ import type { Element } from '../types/unit';
 import { illustrationStyle } from './pixel';
 export function icon(name:string,size=22):string {
   const paths:Record<string,string>={
+    challenges:'<path d="M3 21V9l9-7 9 7v12H3ZM8 21v-8a4 4 0 0 1 8 0v8M3 9h18M5 6V3m14 3V3"/>',
     explore:'<path d="m3 20 6-15 4 8 3-5 5 12Z"/><path d="m7 10 3 3 2-2M3 20h18"/>',
     spirits:'<path d="M12 3c-2 4-8 5-8 11a8 8 0 0 0 16 0c0-5-6-8-8-11Z"/><path d="M9 13v2m6-2v2m-6 3c2 1 4 1 6 0"/>',
     equipment:'<path d="m15 3 6 6-12 12-6-6Z"/><path d="m11 7 6 6M3 3l5 5m-6 4 10-10"/>',

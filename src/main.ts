@@ -6,5 +6,6 @@ import './ui/storyLibrary.css';
 import './ui/livingWorld.css';
 import './ui/journeyPolish.css';
 import './ui/combatChoreography.css';
+import './ui/expeditions.css';
 import { startGame } from './ui/game';
 startGame();

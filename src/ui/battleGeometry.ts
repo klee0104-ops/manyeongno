@@ -1,5 +1,21 @@
 import type { Gesture, Delivery } from '../data/combatChoreography';
 export interface BattleRect {x:number;y:number;width:number;height:number}
+export interface Point {x:number;y:number}
+/** Discrete UV changes: interpolation between atlas cells samples empty gutters. */
+export function gaitFrames(frames:string[],row:string):Keyframe[]{
+ return [0,1,0,2,0].map((index,i)=>({backgroundPosition:`${frames[index]} ${row}`,offset:i/4,easing:'steps(1,end)'}));
+}
+/** Exact contact endpoints and a tangent for the projectile's leading edge. */
+export function projectileFrames(start:Point,end:Point,arc=0):Keyframe[]{
+ const dx=end.x-start.x,dy=end.y-start.y;
+ return Array.from({length:13},(_,i)=>{const t=i/12,x=dx*t,y=dy*t+4*arc*t*(1-t),angle=Math.atan2(dy+4*arc*(1-2*t),dx);
+  return {transform:`translate(${x}px,${y}px) rotate(${angle}rad)`,offset:t};});
+}
+export const flightDuration=(start:Point,end:Point)=>Math.max(320,Math.min(620,Math.hypot(end.x-start.x,end.y-start.y)/.85));
+/** Split presentation only; engine damage and shield absorption are conserved. */
+export function splitImpact(amount:number,count:number):number[]{
+ return Array.from({length:count},(_,i)=>Math.floor(amount*(i+1)/count)-Math.floor(amount*i/count));
+}
 /** Resolve contact against feet, with a gap so the attacker never covers the victim. */
 export function contactOffset(actor:BattleRect,target:BattleRect,direction:number,delivery:Delivery){
  if(delivery!=='melee')return {x:0,y:0};

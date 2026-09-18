@@ -16,10 +16,11 @@ export function illustrationStyle(id:string,awakening=0){
 /** Frame UVs are stored per atlas so ears and large weapons are not clipped. */
 export function pixelSprite(id:string,cls='',awakening=0):string {
   const d=spiritById(id);
+  const parts=(single:boolean)=>!cls.split(' ').includes('battle-sprite')?idleLayers:single?'<i class="rig-part rig-upper" aria-hidden="true"></i><i class="rig-part rig-leg rig-left" aria-hidden="true"></i><i class="rig-part rig-leg rig-right" aria-hidden="true"></i>':'';
   const awakened=awakening>=5;
   if(d.atlas!=='spirits'&&d.atlas!=='monsters'){
     const large=d.atlas==='roster-a'||d.atlas==='roster-b',cols=large?4:3,edges=ART_ROWS[d.atlas],row=Math.floor(d.art/cols),total=edges[edges.length-1],height=edges[row+1]-edges[row],x=d.art%cols/(cols-1)*100,y=edges[row]/(total-height)*100;
-    return `<span class="pixel-sprite living-sprite single-pose ${awakened?'awakened':''} ${cls}" data-idle="${idleProfile(id).kind}" role="img" aria-label="${d.name} 도트 캐릭터" style="${idleStyle(id)};--sprite:url('${assetPath(`art/${atlasFile(d.atlas)}`)}');--row:${y}%;--sheet-x:${cols*100}%;--sheet-y:${total/height*100}%;--frame-0:${x}%;--frame-1:${x}%;--frame-2:${x}%;--frame-3:${x}%">${idleLayers}</span>`;
+    return `<span class="pixel-sprite living-sprite single-pose ${awakened?'awakened':''} ${cls}" data-idle="${idleProfile(id).kind}" role="img" aria-label="${d.name} 도트 캐릭터" style="${idleStyle(id)};--sprite:url('${assetPath(`art/${atlasFile(d.atlas)}`)}');--row:${y}%;--sheet-x:${cols*100}%;--sheet-y:${total/height*100}%;--frame-0:${x}%;--frame-1:${x}%;--frame-2:${x}%;--frame-3:${x}%">${parts(true)}</span>`;
   }
   const file=d.atlas==='spirits'?(awakened?'pixel-awakened.png':'pixel-spirits-v2.png'):'pixel-monsters.png';
   // Generated sheets have uneven row gutters. Sample the actual character rows,
@@ -28,7 +29,7 @@ export function pixelSprite(id:string,cls='',awakening=0):string {
   const top=rows[d.art],height=rows[d.art+1]-top;
   const width=d.id==='mangeomhon'&&!awakened?280:256,padding=(width-256)/2;
   const frames=[0,1,2,3].map(n=>(n*256-padding)/(1024-width)*100);
-  return `<span class="pixel-sprite living-sprite ${awakened?'awakened':''} ${cls}" data-idle="${idleProfile(id).kind}" role="img" aria-label="${d.name}${awakened?' 진명 각성':''} 도트 캐릭터" style="${idleStyle(id)};--sprite:url('${assetPath(`art/${file}`)}');--row:${top/(1536-height)*100}%;--sheet-x:${1024/width*100}%;--sheet-y:${1536/height*100}%;${frames.map((x,i)=>`--frame-${i}:${x}%`).join(';')}">${idleLayers}</span>`;
+  return `<span class="pixel-sprite living-sprite ${awakened?'awakened':''} ${cls}" data-idle="${idleProfile(id).kind}" role="img" aria-label="${d.name}${awakened?' 진명 각성':''} 도트 캐릭터" style="${idleStyle(id)};--sprite:url('${assetPath(`art/${file}`)}');--row:${top/(1536-height)*100}%;--sheet-x:${1024/width*100}%;--sheet-y:${1536/height*100}%;${frames.map((x,i)=>`--frame-${i}:${x}%`).join(';')}">${parts(false)}</span>`;
 }
 export function fullIllustration(id:string,awakening=0):string {
   const d=spiritById(id);

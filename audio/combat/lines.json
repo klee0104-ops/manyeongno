@@ -1,0 +1,1493 @@
+[
+  {
+    "id": "gumiho",
+    "slot": "skill1",
+    "text": "여우불!",
+    "rate": 0,
+    "file": "gumiho-skill1.wav"
+  },
+  {
+    "id": "gumiho",
+    "slot": "skill2",
+    "text": "홍련 부적!",
+    "rate": 0,
+    "file": "gumiho-skill2.wav"
+  },
+  {
+    "id": "gumiho",
+    "slot": "ultimate",
+    "text": "구미화연!",
+    "rate": 0,
+    "file": "gumiho-ultimate.wav"
+  },
+  {
+    "id": "samsindongja",
+    "slot": "skill1",
+    "text": "산삼의 숨결!",
+    "rate": 0,
+    "file": "samsindongja-skill1.wav"
+  },
+  {
+    "id": "samsindongja",
+    "slot": "skill2",
+    "text": "삼신의 새싹!",
+    "rate": 0,
+    "file": "samsindongja-skill2.wav"
+  },
+  {
+    "id": "samsindongja",
+    "slot": "ultimate",
+    "text": "만령소생!",
+    "rate": 0,
+    "file": "samsindongja-ultimate.wav"
+  },
+  {
+    "id": "mangeomhon",
+    "slot": "skill1",
+    "text": "백검난무!",
+    "rate": 1,
+    "file": "mangeomhon-skill1.wav"
+  },
+  {
+    "id": "mangeomhon",
+    "slot": "skill2",
+    "text": "비검 연참!",
+    "rate": 1,
+    "file": "mangeomhon-skill2.wav"
+  },
+  {
+    "id": "mangeomhon",
+    "slot": "ultimate",
+    "text": "만검귀종!",
+    "rate": 1,
+    "file": "mangeomhon-ultimate.wav"
+  },
+  {
+    "id": "jeogyeom",
+    "slot": "skill1",
+    "text": "적염권!",
+    "rate": 1,
+    "file": "jeogyeom-skill1.wav"
+  },
+  {
+    "id": "jeogyeom",
+    "slot": "skill2",
+    "text": "홍련 연권!",
+    "rate": 1,
+    "file": "jeogyeom-skill2.wav"
+  },
+  {
+    "id": "jeogyeom",
+    "slot": "ultimate",
+    "text": "귀왕강림!",
+    "rate": 1,
+    "file": "jeogyeom-ultimate.wav"
+  },
+  {
+    "id": "simyeon",
+    "slot": "skill1",
+    "text": "청해의 파문!",
+    "rate": 0,
+    "file": "simyeon-skill1.wav"
+  },
+  {
+    "id": "simyeon",
+    "slot": "skill2",
+    "text": "쌍월 수무!",
+    "rate": 0,
+    "file": "simyeon-skill2.wav"
+  },
+  {
+    "id": "simyeon",
+    "slot": "ultimate",
+    "text": "심연해일!",
+    "rate": 0,
+    "file": "simyeon-ultimate.wav"
+  },
+  {
+    "id": "jibu",
+    "slot": "skill1",
+    "text": "현무의 결계!",
+    "rate": 0,
+    "file": "jibu-skill1.wav"
+  },
+  {
+    "id": "jibu",
+    "slot": "skill2",
+    "text": "현무 방벽!",
+    "rate": 0,
+    "file": "jibu-skill2.wav"
+  },
+  {
+    "id": "jibu",
+    "slot": "ultimate",
+    "text": "대지불멸!",
+    "rate": 0,
+    "file": "jibu-ultimate.wav"
+  },
+  {
+    "id": "sangun",
+    "slot": "skill1",
+    "text": "산군의 포효!",
+    "rate": 0,
+    "file": "sangun-skill1.wav"
+  },
+  {
+    "id": "sangun",
+    "slot": "skill2",
+    "text": "산림 수호격!",
+    "rate": 0,
+    "file": "sangun-skill2.wav"
+  },
+  {
+    "id": "sangun",
+    "slot": "ultimate",
+    "text": "백호진격!",
+    "rate": 0,
+    "file": "sangun-ultimate.wav"
+  },
+  {
+    "id": "jungnimbaem",
+    "slot": "skill1",
+    "text": "죽엽비수!",
+    "rate": 1,
+    "file": "jungnimbaem-skill1.wav"
+  },
+  {
+    "id": "jungnimbaem",
+    "slot": "skill2",
+    "text": "죽림 독무!",
+    "rate": 1,
+    "file": "jungnimbaem-skill2.wav"
+  },
+  {
+    "id": "jungnimbaem",
+    "slot": "ultimate",
+    "text": "녹림쇄도!",
+    "rate": 1,
+    "file": "jungnimbaem-ultimate.wav"
+  },
+  {
+    "id": "japchojeongryeong",
+    "slot": "skill1",
+    "text": "새싹 치유!",
+    "rate": 0,
+    "file": "japchojeongryeong-skill1.wav"
+  },
+  {
+    "id": "japchojeongryeong",
+    "slot": "skill2",
+    "text": "풀잎 이슬!",
+    "rate": 0,
+    "file": "japchojeongryeong-skill2.wav"
+  },
+  {
+    "id": "japchojeongryeong",
+    "slot": "ultimate",
+    "text": "초록빛 축복!",
+    "rate": 0,
+    "file": "japchojeongryeong-ultimate.wav"
+  },
+  {
+    "id": "heugmu-imugiwang",
+    "slot": "skill1",
+    "text": "흑무탄!",
+    "rate": 0,
+    "file": "heugmu-imugiwang-skill1.wav"
+  },
+  {
+    "id": "heugmu-imugiwang",
+    "slot": "skill2",
+    "text": "독룡의 숨!",
+    "rate": 0,
+    "file": "heugmu-imugiwang-skill2.wav"
+  },
+  {
+    "id": "heugmu-imugiwang",
+    "slot": "ultimate",
+    "text": "암룡승천!",
+    "rate": 0,
+    "file": "heugmu-imugiwang-ultimate.wav"
+  },
+  {
+    "id": "mansudogun",
+    "slot": "skill1",
+    "text": "녹음의 축복!",
+    "rate": 0,
+    "file": "mansudogun-skill1.wav"
+  },
+  {
+    "id": "mansudogun",
+    "slot": "skill2",
+    "text": "천년목의 숨!",
+    "rate": 0,
+    "file": "mansudogun-skill2.wav"
+  },
+  {
+    "id": "mansudogun",
+    "slot": "ultimate",
+    "text": "만수개화!",
+    "rate": 0,
+    "file": "mansudogun-ultimate.wav"
+  },
+  {
+    "id": "dokkaebi",
+    "slot": "skill1",
+    "text": "도깨비 강타!",
+    "rate": 0,
+    "file": "dokkaebi-skill1.wav"
+  },
+  {
+    "id": "dokkaebi",
+    "slot": "skill2",
+    "text": "방망이 지진!",
+    "rate": 0,
+    "file": "dokkaebi-skill2.wav"
+  },
+  {
+    "id": "dokkaebi",
+    "slot": "ultimate",
+    "text": "백귀야행!",
+    "rate": 0,
+    "file": "dokkaebi-ultimate.wav"
+  },
+  {
+    "id": "fox-god",
+    "slot": "skill1",
+    "text": "천년의 불씨!",
+    "rate": 0,
+    "file": "fox-god-skill1.wav"
+  },
+  {
+    "id": "fox-god",
+    "slot": "skill2",
+    "text": "구화 성진!",
+    "rate": 0,
+    "file": "fox-god-skill2.wav"
+  },
+  {
+    "id": "fox-god",
+    "slot": "ultimate",
+    "text": "천호천화!",
+    "rate": 0,
+    "file": "fox-god-ultimate.wav"
+  },
+  {
+    "id": "wolf-star",
+    "slot": "skill1",
+    "text": "성랑의 발톱!",
+    "rate": 0,
+    "file": "wolf-star-skill1.wav"
+  },
+  {
+    "id": "wolf-star",
+    "slot": "skill2",
+    "text": "별무리 방벽!",
+    "rate": 0,
+    "file": "wolf-star-skill2.wav"
+  },
+  {
+    "id": "wolf-star",
+    "slot": "ultimate",
+    "text": "천랑성진!",
+    "rate": 0,
+    "file": "wolf-star-ultimate.wav"
+  },
+  {
+    "id": "sword-founder",
+    "slot": "skill1",
+    "text": "태허 일섬!",
+    "rate": 1,
+    "file": "sword-founder-skill1.wav"
+  },
+  {
+    "id": "sword-founder",
+    "slot": "skill2",
+    "text": "천검 낙성!",
+    "rate": 1,
+    "file": "sword-founder-skill2.wav"
+  },
+  {
+    "id": "sword-founder",
+    "slot": "ultimate",
+    "text": "검선무극!",
+    "rate": 1,
+    "file": "sword-founder-ultimate.wav"
+  },
+  {
+    "id": "ancient-dragon",
+    "slot": "skill1",
+    "text": "용왕의 수류!",
+    "rate": 0,
+    "file": "ancient-dragon-skill1.wav"
+  },
+  {
+    "id": "ancient-dragon",
+    "slot": "skill2",
+    "text": "창해 용식!",
+    "rate": 0,
+    "file": "ancient-dragon-skill2.wav"
+  },
+  {
+    "id": "ancient-dragon",
+    "slot": "ultimate",
+    "text": "태고창해!",
+    "rate": 0,
+    "file": "ancient-dragon-ultimate.wav"
+  },
+  {
+    "id": "judge",
+    "slot": "skill1",
+    "text": "명부의 낙인!",
+    "rate": 0,
+    "file": "judge-skill1.wav"
+  },
+  {
+    "id": "judge",
+    "slot": "skill2",
+    "text": "인과의 사슬!",
+    "rate": 0,
+    "file": "judge-skill2.wav"
+  },
+  {
+    "id": "judge",
+    "slot": "ultimate",
+    "text": "생사판결!",
+    "rate": 0,
+    "file": "judge-ultimate.wav"
+  },
+  {
+    "id": "fire-fox",
+    "slot": "skill1",
+    "text": "화미 선회!",
+    "rate": 1,
+    "file": "fire-fox-skill1.wav"
+  },
+  {
+    "id": "fire-fox",
+    "slot": "skill2",
+    "text": "천년 잔화!",
+    "rate": 1,
+    "file": "fire-fox-skill2.wav"
+  },
+  {
+    "id": "fire-fox",
+    "slot": "ultimate",
+    "text": "불여우 윤무!",
+    "rate": 1,
+    "file": "fire-fox-ultimate.wav"
+  },
+  {
+    "id": "soul-flame",
+    "slot": "skill1",
+    "text": "혼등 점화!",
+    "rate": 0,
+    "file": "soul-flame-skill1.wav"
+  },
+  {
+    "id": "soul-flame",
+    "slot": "skill2",
+    "text": "혼백 유성!",
+    "rate": 0,
+    "file": "soul-flame-skill2.wav"
+  },
+  {
+    "id": "soul-flame",
+    "slot": "ultimate",
+    "text": "백혼등제!",
+    "rate": 0,
+    "file": "soul-flame-ultimate.wav"
+  },
+  {
+    "id": "red-oni",
+    "slot": "skill1",
+    "text": "적안 철퇴!",
+    "rate": 0,
+    "file": "red-oni-skill1.wav"
+  },
+  {
+    "id": "red-oni",
+    "slot": "skill2",
+    "text": "오니 성벽!",
+    "rate": 0,
+    "file": "red-oni-skill2.wav"
+  },
+  {
+    "id": "red-oni",
+    "slot": "ultimate",
+    "text": "귀문진압!",
+    "rate": 0,
+    "file": "red-oni-ultimate.wav"
+  },
+  {
+    "id": "thunder-bird",
+    "slot": "skill1",
+    "text": "뇌익 강습!",
+    "rate": 1,
+    "file": "thunder-bird-skill1.wav"
+  },
+  {
+    "id": "thunder-bird",
+    "slot": "skill2",
+    "text": "금뢰 연쇄!",
+    "rate": 1,
+    "file": "thunder-bird-skill2.wav"
+  },
+  {
+    "id": "thunder-bird",
+    "slot": "ultimate",
+    "text": "황금천뢰!",
+    "rate": 1,
+    "file": "thunder-bird-ultimate.wav"
+  },
+  {
+    "id": "silver-guard",
+    "slot": "skill1",
+    "text": "은검 반격!",
+    "rate": 0,
+    "file": "silver-guard-skill1.wav"
+  },
+  {
+    "id": "silver-guard",
+    "slot": "skill2",
+    "text": "은빛 호법진!",
+    "rate": 0,
+    "file": "silver-guard-skill2.wav"
+  },
+  {
+    "id": "silver-guard",
+    "slot": "ultimate",
+    "text": "불괴은성!",
+    "rate": 0,
+    "file": "silver-guard-ultimate.wav"
+  },
+  {
+    "id": "silver-wolf",
+    "slot": "skill1",
+    "text": "빙랑 추격!",
+    "rate": 1,
+    "file": "silver-wolf-skill1.wav"
+  },
+  {
+    "id": "silver-wolf",
+    "slot": "skill2",
+    "text": "서리 발톱!",
+    "rate": 1,
+    "file": "silver-wolf-skill2.wav"
+  },
+  {
+    "id": "silver-wolf",
+    "slot": "ultimate",
+    "text": "월하빙아!",
+    "rate": 1,
+    "file": "silver-wolf-ultimate.wav"
+  },
+  {
+    "id": "ferryman",
+    "slot": "skill1",
+    "text": "명하 노격!",
+    "rate": 0,
+    "file": "ferryman-skill1.wav"
+  },
+  {
+    "id": "ferryman",
+    "slot": "skill2",
+    "text": "나룻배 결계!",
+    "rate": 0,
+    "file": "ferryman-skill2.wav"
+  },
+  {
+    "id": "ferryman",
+    "slot": "ultimate",
+    "text": "망자도하!",
+    "rate": 0,
+    "file": "ferryman-ultimate.wav"
+  },
+  {
+    "id": "bamboo-spirit",
+    "slot": "skill1",
+    "text": "죽순의 숨!",
+    "rate": 0,
+    "file": "bamboo-spirit-skill1.wav"
+  },
+  {
+    "id": "bamboo-spirit",
+    "slot": "skill2",
+    "text": "대숲의 위로!",
+    "rate": 0,
+    "file": "bamboo-spirit-skill2.wav"
+  },
+  {
+    "id": "bamboo-spirit",
+    "slot": "ultimate",
+    "text": "청죽만생!",
+    "rate": 0,
+    "file": "bamboo-spirit-ultimate.wav"
+  },
+  {
+    "id": "fire-bandit",
+    "slot": "skill1",
+    "text": "화적 도끼!",
+    "rate": 1,
+    "file": "fire-bandit-skill1.wav"
+  },
+  {
+    "id": "fire-bandit",
+    "slot": "skill2",
+    "text": "불길 가르기!",
+    "rate": 1,
+    "file": "fire-bandit-skill2.wav"
+  },
+  {
+    "id": "fire-bandit",
+    "slot": "ultimate",
+    "text": "홍염약탈!",
+    "rate": 1,
+    "file": "fire-bandit-ultimate.wav"
+  },
+  {
+    "id": "canyon-hawk",
+    "slot": "skill1",
+    "text": "협곡 급강하!",
+    "rate": 1,
+    "file": "canyon-hawk-skill1.wav"
+  },
+  {
+    "id": "canyon-hawk",
+    "slot": "skill2",
+    "text": "열풍 깃날!",
+    "rate": 1,
+    "file": "canyon-hawk-skill2.wav"
+  },
+  {
+    "id": "canyon-hawk",
+    "slot": "ultimate",
+    "text": "홍풍천격!",
+    "rate": 1,
+    "file": "canyon-hawk-ultimate.wav"
+  },
+  {
+    "id": "stone-general",
+    "slot": "skill1",
+    "text": "석창 찌르기!",
+    "rate": 0,
+    "file": "stone-general-skill1.wav"
+  },
+  {
+    "id": "stone-general",
+    "slot": "skill2",
+    "text": "장군의 석갑!",
+    "rate": 0,
+    "file": "stone-general-skill2.wav"
+  },
+  {
+    "id": "stone-general",
+    "slot": "ultimate",
+    "text": "천암진군!",
+    "rate": 0,
+    "file": "stone-general-ultimate.wav"
+  },
+  {
+    "id": "ovoo-stone",
+    "slot": "skill1",
+    "text": "성석 울림!",
+    "rate": 0,
+    "file": "ovoo-stone-skill1.wav"
+  },
+  {
+    "id": "ovoo-stone",
+    "slot": "skill2",
+    "text": "초원의 돌벽!",
+    "rate": 0,
+    "file": "ovoo-stone-skill2.wav"
+  },
+  {
+    "id": "ovoo-stone",
+    "slot": "ultimate",
+    "text": "대초원 결계!",
+    "rate": 0,
+    "file": "ovoo-stone-ultimate.wav"
+  },
+  {
+    "id": "bronze-bell",
+    "slot": "skill1",
+    "text": "황동 종울림!",
+    "rate": 0,
+    "file": "bronze-bell-skill1.wav"
+  },
+  {
+    "id": "bronze-bell",
+    "slot": "skill2",
+    "text": "파사의 공명!",
+    "rate": 0,
+    "file": "bronze-bell-skill2.wav"
+  },
+  {
+    "id": "bronze-bell",
+    "slot": "ultimate",
+    "text": "금종진혼!",
+    "rate": 0,
+    "file": "bronze-bell-ultimate.wav"
+  },
+  {
+    "id": "immortal-crane",
+    "slot": "skill1",
+    "text": "백학의 깃!",
+    "rate": 0,
+    "file": "immortal-crane-skill1.wav"
+  },
+  {
+    "id": "immortal-crane",
+    "slot": "skill2",
+    "text": "선풍 치유!",
+    "rate": 0,
+    "file": "immortal-crane-skill2.wav"
+  },
+  {
+    "id": "immortal-crane",
+    "slot": "ultimate",
+    "text": "천학귀환!",
+    "rate": 0,
+    "file": "immortal-crane-ultimate.wav"
+  },
+  {
+    "id": "river-messenger",
+    "slot": "skill1",
+    "text": "하신의 물살!",
+    "rate": 0,
+    "file": "river-messenger-skill1.wav"
+  },
+  {
+    "id": "river-messenger",
+    "slot": "skill2",
+    "text": "물결 사슬!",
+    "rate": 0,
+    "file": "river-messenger-skill2.wav"
+  },
+  {
+    "id": "river-messenger",
+    "slot": "ultimate",
+    "text": "강여신의 부름!",
+    "rate": 0,
+    "file": "river-messenger-ultimate.wav"
+  },
+  {
+    "id": "ice-river",
+    "slot": "skill1",
+    "text": "빙하 돌출!",
+    "rate": 0,
+    "file": "ice-river-skill1.wav"
+  },
+  {
+    "id": "ice-river",
+    "slot": "skill2",
+    "text": "얼음강 장벽!",
+    "rate": 0,
+    "file": "ice-river-skill2.wav"
+  },
+  {
+    "id": "ice-river",
+    "slot": "ultimate",
+    "text": "만년빙하!",
+    "rate": 0,
+    "file": "ice-river-ultimate.wav"
+  },
+  {
+    "id": "jungle-frog",
+    "slot": "skill1",
+    "text": "맹독 혓바닥!",
+    "rate": 1,
+    "file": "jungle-frog-skill1.wav"
+  },
+  {
+    "id": "jungle-frog",
+    "slot": "skill2",
+    "text": "독비늘 비!",
+    "rate": 1,
+    "file": "jungle-frog-skill2.wav"
+  },
+  {
+    "id": "jungle-frog",
+    "slot": "ultimate",
+    "text": "독연못 도약!",
+    "rate": 1,
+    "file": "jungle-frog-ultimate.wav"
+  },
+  {
+    "id": "jungle-monkey",
+    "slot": "skill1",
+    "text": "덩굴 봉술!",
+    "rate": 1,
+    "file": "jungle-monkey-skill1.wav"
+  },
+  {
+    "id": "jungle-monkey",
+    "slot": "skill2",
+    "text": "원숭이 연타!",
+    "rate": 1,
+    "file": "jungle-monkey-skill2.wav"
+  },
+  {
+    "id": "jungle-monkey",
+    "slot": "ultimate",
+    "text": "정글난무!",
+    "rate": 1,
+    "file": "jungle-monkey-ultimate.wav"
+  },
+  {
+    "id": "wildfire-fox",
+    "slot": "skill1",
+    "text": "들불 덮치기!",
+    "rate": 1,
+    "file": "wildfire-fox-skill1.wav"
+  },
+  {
+    "id": "wildfire-fox",
+    "slot": "skill2",
+    "text": "산불 꼬리!",
+    "rate": 1,
+    "file": "wildfire-fox-skill2.wav"
+  },
+  {
+    "id": "wildfire-fox",
+    "slot": "ultimate",
+    "text": "야화질주!",
+    "rate": 1,
+    "file": "wildfire-fox-ultimate.wav"
+  },
+  {
+    "id": "temple-snake",
+    "slot": "skill1",
+    "text": "사원 방울불!",
+    "rate": 0,
+    "file": "temple-snake-skill1.wav"
+  },
+  {
+    "id": "temple-snake",
+    "slot": "skill2",
+    "text": "염사 주문!",
+    "rate": 0,
+    "file": "temple-snake-skill2.wav"
+  },
+  {
+    "id": "temple-snake",
+    "slot": "ultimate",
+    "text": "화륜사무!",
+    "rate": 0,
+    "file": "temple-snake-ultimate.wav"
+  },
+  {
+    "id": "fire-prankster",
+    "slot": "skill1",
+    "text": "불씨 던지기!",
+    "rate": 1,
+    "file": "fire-prankster-skill1.wav"
+  },
+  {
+    "id": "fire-prankster",
+    "slot": "skill2",
+    "text": "도깨비 폭죽!",
+    "rate": 1,
+    "file": "fire-prankster-skill2.wav"
+  },
+  {
+    "id": "fire-prankster",
+    "slot": "ultimate",
+    "text": "장난불 축제!",
+    "rate": 1,
+    "file": "fire-prankster-ultimate.wav"
+  },
+  {
+    "id": "alley-ghost",
+    "slot": "skill1",
+    "text": "그림자 손짓!",
+    "rate": 1,
+    "file": "alley-ghost-skill1.wav"
+  },
+  {
+    "id": "alley-ghost",
+    "slot": "skill2",
+    "text": "골목 뒤치기!",
+    "rate": 1,
+    "file": "alley-ghost-skill2.wav"
+  },
+  {
+    "id": "alley-ghost",
+    "slot": "ultimate",
+    "text": "밤거리 장난!",
+    "rate": 1,
+    "file": "alley-ghost-ultimate.wav"
+  },
+  {
+    "id": "dry-bones",
+    "slot": "skill1",
+    "text": "뼈다귀 강타!",
+    "rate": 0,
+    "file": "dry-bones-skill1.wav"
+  },
+  {
+    "id": "dry-bones",
+    "slot": "skill2",
+    "text": "백골 조각비!",
+    "rate": 0,
+    "file": "dry-bones-skill2.wav"
+  },
+  {
+    "id": "dry-bones",
+    "slot": "ultimate",
+    "text": "마른강 진동!",
+    "rate": 0,
+    "file": "dry-bones-ultimate.wav"
+  },
+  {
+    "id": "shrine-bellkeeper",
+    "slot": "skill1",
+    "text": "종추 받기!",
+    "rate": 0,
+    "file": "shrine-bellkeeper-skill1.wav"
+  },
+  {
+    "id": "shrine-bellkeeper",
+    "slot": "skill2",
+    "text": "산신당 수호종!",
+    "rate": 0,
+    "file": "shrine-bellkeeper-skill2.wav"
+  },
+  {
+    "id": "shrine-bellkeeper",
+    "slot": "ultimate",
+    "text": "산울림 결계!",
+    "rate": 0,
+    "file": "shrine-bellkeeper-ultimate.wav"
+  },
+  {
+    "id": "festival-mask",
+    "slot": "skill1",
+    "text": "탈춤 바람!",
+    "rate": 1,
+    "file": "festival-mask-skill1.wav"
+  },
+  {
+    "id": "festival-mask",
+    "slot": "skill2",
+    "text": "금빛 탈놀이!",
+    "rate": 1,
+    "file": "festival-mask-skill2.wav"
+  },
+  {
+    "id": "festival-mask",
+    "slot": "ultimate",
+    "text": "백면축제!",
+    "rate": 1,
+    "file": "festival-mask-ultimate.wav"
+  },
+  {
+    "id": "steppe-falcon",
+    "slot": "skill1",
+    "text": "초원 쪼기!",
+    "rate": 1,
+    "file": "steppe-falcon-skill1.wav"
+  },
+  {
+    "id": "steppe-falcon",
+    "slot": "skill2",
+    "text": "은익 급습!",
+    "rate": 1,
+    "file": "steppe-falcon-skill2.wav"
+  },
+  {
+    "id": "steppe-falcon",
+    "slot": "ultimate",
+    "text": "창공비상!",
+    "rate": 1,
+    "file": "steppe-falcon-ultimate.wav"
+  },
+  {
+    "id": "rusted-sword",
+    "slot": "skill1",
+    "text": "녹슨 베기!",
+    "rate": 0,
+    "file": "rusted-sword-skill1.wav"
+  },
+  {
+    "id": "rusted-sword",
+    "slot": "skill2",
+    "text": "잔검 떨림!",
+    "rate": 0,
+    "file": "rusted-sword-skill2.wav"
+  },
+  {
+    "id": "rusted-sword",
+    "slot": "ultimate",
+    "text": "유검의 원한!",
+    "rate": 0,
+    "file": "rusted-sword-ultimate.wav"
+  },
+  {
+    "id": "hot-spring-ghost",
+    "slot": "skill1",
+    "text": "온천의 온기!",
+    "rate": 0,
+    "file": "hot-spring-ghost-skill1.wav"
+  },
+  {
+    "id": "hot-spring-ghost",
+    "slot": "skill2",
+    "text": "치유의 수증기!",
+    "rate": 0,
+    "file": "hot-spring-ghost-skill2.wav"
+  },
+  {
+    "id": "hot-spring-ghost",
+    "slot": "ultimate",
+    "text": "만물온탕!",
+    "rate": 0,
+    "file": "hot-spring-ghost-ultimate.wav"
+  },
+  {
+    "id": "brook-child",
+    "slot": "skill1",
+    "text": "시냇물 손길!",
+    "rate": 0,
+    "file": "brook-child-skill1.wav"
+  },
+  {
+    "id": "brook-child",
+    "slot": "skill2",
+    "text": "물수제비!",
+    "rate": 0,
+    "file": "brook-child-skill2.wav"
+  },
+  {
+    "id": "brook-child",
+    "slot": "ultimate",
+    "text": "냇가의 노래!",
+    "rate": 0,
+    "file": "brook-child-ultimate.wav"
+  },
+  {
+    "id": "waterfall-drake",
+    "slot": "skill1",
+    "text": "폭포 물줄기!",
+    "rate": 0,
+    "file": "waterfall-drake-skill1.wav"
+  },
+  {
+    "id": "waterfall-drake",
+    "slot": "skill2",
+    "text": "이무기 수포!",
+    "rate": 0,
+    "file": "waterfall-drake-skill2.wav"
+  },
+  {
+    "id": "waterfall-drake",
+    "slot": "ultimate",
+    "text": "천폭승천!",
+    "rate": 0,
+    "file": "waterfall-drake-ultimate.wav"
+  },
+  {
+    "id": "bamboo-fairy",
+    "slot": "skill1",
+    "text": "죽엽 치유!",
+    "rate": 1,
+    "file": "bamboo-fairy-skill1.wav"
+  },
+  {
+    "id": "bamboo-fairy",
+    "slot": "skill2",
+    "text": "잎새 춤!",
+    "rate": 1,
+    "file": "bamboo-fairy-skill2.wav"
+  },
+  {
+    "id": "bamboo-fairy",
+    "slot": "ultimate",
+    "text": "푸른잎 축복!",
+    "rate": 1,
+    "file": "bamboo-fairy-ultimate.wav"
+  },
+  {
+    "id": "floating-moss",
+    "slot": "skill1",
+    "text": "이끼 감싸기!",
+    "rate": 0,
+    "file": "floating-moss-skill1.wav"
+  },
+  {
+    "id": "floating-moss",
+    "slot": "skill2",
+    "text": "뿌리 버팀!",
+    "rate": 0,
+    "file": "floating-moss-skill2.wav"
+  },
+  {
+    "id": "floating-moss",
+    "slot": "ultimate",
+    "text": "녹음의 요새!",
+    "rate": 0,
+    "file": "floating-moss-ultimate.wav"
+  },
+  {
+    "id": "firefly",
+    "slot": "skill1",
+    "text": "반딧불 위로!",
+    "rate": 1,
+    "file": "firefly-skill1.wav"
+  },
+  {
+    "id": "firefly",
+    "slot": "skill2",
+    "text": "작은 등불!",
+    "rate": 1,
+    "file": "firefly-skill2.wav"
+  },
+  {
+    "id": "firefly",
+    "slot": "ultimate",
+    "text": "별빛 반딧불!",
+    "rate": 1,
+    "file": "firefly-ultimate.wav"
+  },
+  {
+    "id": "mosquito",
+    "slot": "skill1",
+    "text": "불침 찌르기!",
+    "rate": 1,
+    "file": "mosquito-skill1.wav"
+  },
+  {
+    "id": "mosquito",
+    "slot": "skill2",
+    "text": "혈염 돌격!",
+    "rate": 1,
+    "file": "mosquito-skill2.wav"
+  },
+  {
+    "id": "mosquito",
+    "slot": "ultimate",
+    "text": "홍침질주!",
+    "rate": 1,
+    "file": "mosquito-ultimate.wav"
+  },
+  {
+    "id": "campfire",
+    "slot": "skill1",
+    "text": "모닥불 튀기!",
+    "rate": 0,
+    "file": "campfire-skill1.wav"
+  },
+  {
+    "id": "campfire",
+    "slot": "skill2",
+    "text": "장작 불기둥!",
+    "rate": 0,
+    "file": "campfire-skill2.wav"
+  },
+  {
+    "id": "campfire",
+    "slot": "ultimate",
+    "text": "밤불의 춤!",
+    "rate": 0,
+    "file": "campfire-ultimate.wav"
+  },
+  {
+    "id": "eyeball-goblin",
+    "slot": "skill1",
+    "text": "눈빛 응시!",
+    "rate": 0,
+    "file": "eyeball-goblin-skill1.wav"
+  },
+  {
+    "id": "eyeball-goblin",
+    "slot": "skill2",
+    "text": "석안 결계!",
+    "rate": 0,
+    "file": "eyeball-goblin-skill2.wav"
+  },
+  {
+    "id": "eyeball-goblin",
+    "slot": "ultimate",
+    "text": "천리안 수호!",
+    "rate": 0,
+    "file": "eyeball-goblin-ultimate.wav"
+  },
+  {
+    "id": "pebble-goblin",
+    "slot": "skill1",
+    "text": "돌주먹 콩!",
+    "rate": 0,
+    "file": "pebble-goblin-skill1.wav"
+  },
+  {
+    "id": "pebble-goblin",
+    "slot": "skill2",
+    "text": "돌멩이 막기!",
+    "rate": 0,
+    "file": "pebble-goblin-skill2.wav"
+  },
+  {
+    "id": "pebble-goblin",
+    "slot": "ultimate",
+    "text": "바위두드림!",
+    "rate": 0,
+    "file": "pebble-goblin-ultimate.wav"
+  },
+  {
+    "id": "mud-child",
+    "slot": "skill1",
+    "text": "진흙 뭉치!",
+    "rate": 0,
+    "file": "mud-child-skill1.wav"
+  },
+  {
+    "id": "mud-child",
+    "slot": "skill2",
+    "text": "흙벽 쌓기!",
+    "rate": 0,
+    "file": "mud-child-skill2.wav"
+  },
+  {
+    "id": "mud-child",
+    "slot": "ultimate",
+    "text": "대지의 품!",
+    "rate": 0,
+    "file": "mud-child-ultimate.wav"
+  },
+  {
+    "id": "rat",
+    "slot": "skill1",
+    "text": "앞니 콕!",
+    "rate": 1,
+    "file": "rat-skill1.wav"
+  },
+  {
+    "id": "rat",
+    "slot": "skill2",
+    "text": "잔발 재습!",
+    "rate": 1,
+    "file": "rat-skill2.wav"
+  },
+  {
+    "id": "rat",
+    "slot": "ultimate",
+    "text": "군서질주!",
+    "rate": 1,
+    "file": "rat-ultimate.wav"
+  },
+  {
+    "id": "pebble-spirit",
+    "slot": "skill1",
+    "text": "조약돌 박치기!",
+    "rate": 0,
+    "file": "pebble-spirit-skill1.wav"
+  },
+  {
+    "id": "pebble-spirit",
+    "slot": "skill2",
+    "text": "작은 돌울림!",
+    "rate": 0,
+    "file": "pebble-spirit-skill2.wav"
+  },
+  {
+    "id": "pebble-spirit",
+    "slot": "ultimate",
+    "text": "금석의 약속!",
+    "rate": 0,
+    "file": "pebble-spirit-ultimate.wav"
+  },
+  {
+    "id": "coin-ghost",
+    "slot": "skill1",
+    "text": "엽전 던지기!",
+    "rate": 1,
+    "file": "coin-ghost-skill1.wav"
+  },
+  {
+    "id": "coin-ghost",
+    "slot": "skill2",
+    "text": "금전 연환!",
+    "rate": 1,
+    "file": "coin-ghost-skill2.wav"
+  },
+  {
+    "id": "coin-ghost",
+    "slot": "ultimate",
+    "text": "천금낙우!",
+    "rate": 1,
+    "file": "coin-ghost-ultimate.wav"
+  },
+  {
+    "id": "waterdrop",
+    "slot": "skill1",
+    "text": "방울의 위로!",
+    "rate": 0,
+    "file": "waterdrop-skill1.wav"
+  },
+  {
+    "id": "waterdrop",
+    "slot": "skill2",
+    "text": "맑은 물방울!",
+    "rate": 0,
+    "file": "waterdrop-skill2.wav"
+  },
+  {
+    "id": "waterdrop",
+    "slot": "ultimate",
+    "text": "생명의 샘!",
+    "rate": 0,
+    "file": "waterdrop-ultimate.wav"
+  },
+  {
+    "id": "mudwater",
+    "slot": "skill1",
+    "text": "흙탕 물결!",
+    "rate": 0,
+    "file": "mudwater-skill1.wav"
+  },
+  {
+    "id": "mudwater",
+    "slot": "skill2",
+    "text": "탁류 소용돌이!",
+    "rate": 0,
+    "file": "mudwater-skill2.wav"
+  },
+  {
+    "id": "mudwater",
+    "slot": "ultimate",
+    "text": "진창범람!",
+    "rate": 0,
+    "file": "mudwater-ultimate.wav"
+  },
+  {
+    "id": "dew-spirit",
+    "slot": "skill1",
+    "text": "새벽 이슬!",
+    "rate": 0,
+    "file": "dew-spirit-skill1.wav"
+  },
+  {
+    "id": "dew-spirit",
+    "slot": "skill2",
+    "text": "이슬의 반짝임!",
+    "rate": 0,
+    "file": "dew-spirit-skill2.wav"
+  },
+  {
+    "id": "dew-spirit",
+    "slot": "ultimate",
+    "text": "여명정화!",
+    "rate": 0,
+    "file": "dew-spirit-ultimate.wav"
+  },
+  {
+    "id": "story-swordsman",
+    "slot": "skill1",
+    "text": "경계 일섬!",
+    "rate": 1,
+    "file": "story-swordsman-skill1.wav"
+  },
+  {
+    "id": "story-swordsman",
+    "slot": "skill2",
+    "text": "청명 검로!",
+    "rate": 1,
+    "file": "story-swordsman-skill2.wav"
+  },
+  {
+    "id": "story-swordsman",
+    "slot": "ultimate",
+    "text": "무상검결!",
+    "rate": 1,
+    "file": "story-swordsman-ultimate.wav"
+  },
+  {
+    "id": "story-priestess",
+    "slot": "skill1",
+    "text": "여우 신탁!",
+    "rate": 0,
+    "file": "story-priestess-skill1.wav"
+  },
+  {
+    "id": "story-priestess",
+    "slot": "skill2",
+    "text": "홍부 제령!",
+    "rate": 0,
+    "file": "story-priestess-skill2.wav"
+  },
+  {
+    "id": "story-priestess",
+    "slot": "ultimate",
+    "text": "천호무제!",
+    "rate": 0,
+    "file": "story-priestess-ultimate.wav"
+  },
+  {
+    "id": "story-dancer",
+    "slot": "skill1",
+    "text": "비단의 기도!",
+    "rate": 0,
+    "file": "story-dancer-skill1.wav"
+  },
+  {
+    "id": "story-dancer",
+    "slot": "skill2",
+    "text": "연화 치유무!",
+    "rate": 0,
+    "file": "story-dancer-skill2.wav"
+  },
+  {
+    "id": "story-dancer",
+    "slot": "ultimate",
+    "text": "만화소생!",
+    "rate": 0,
+    "file": "story-dancer-ultimate.wav"
+  },
+  {
+    "id": "story-prophet",
+    "slot": "skill1",
+    "text": "수경 예언!",
+    "rate": 0,
+    "file": "story-prophet-skill1.wav"
+  },
+  {
+    "id": "story-prophet",
+    "slot": "skill2",
+    "text": "별물의 궤적!",
+    "rate": 0,
+    "file": "story-prophet-skill2.wav"
+  },
+  {
+    "id": "story-prophet",
+    "slot": "ultimate",
+    "text": "미래의 해류!",
+    "rate": 0,
+    "file": "story-prophet-ultimate.wav"
+  },
+  {
+    "id": "boar-shadow",
+    "slot": "skill1",
+    "text": "그림자 돌진!",
+    "rate": 0,
+    "file": "boar-shadow-skill1.wav"
+  },
+  {
+    "id": "boar-shadow",
+    "slot": "skill2",
+    "text": "침식 엄니!",
+    "rate": 0,
+    "file": "boar-shadow-skill2.wav"
+  },
+  {
+    "id": "boar-shadow",
+    "slot": "ultimate",
+    "text": "침식의 포효!",
+    "rate": 0,
+    "file": "boar-shadow-ultimate.wav"
+  },
+  {
+    "id": "underworld-reaper",
+    "slot": "skill1",
+    "text": "명부의 사슬!",
+    "rate": 0,
+    "file": "underworld-reaper-skill1.wav"
+  },
+  {
+    "id": "underworld-reaper",
+    "slot": "skill2",
+    "text": "흑차사 수확!",
+    "rate": 0,
+    "file": "underworld-reaper-skill2.wav"
+  },
+  {
+    "id": "underworld-reaper",
+    "slot": "ultimate",
+    "text": "망자의 행렬!",
+    "rate": 0,
+    "file": "underworld-reaper-ultimate.wav"
+  },
+  {
+    "id": "shrine-shadow",
+    "slot": "skill1",
+    "text": "검은 뿌리!",
+    "rate": 0,
+    "file": "shrine-shadow-skill1.wav"
+  },
+  {
+    "id": "shrine-shadow",
+    "slot": "skill2",
+    "text": "그늘의 속박!",
+    "rate": 0,
+    "file": "shrine-shadow-skill2.wav"
+  },
+  {
+    "id": "shrine-shadow",
+    "slot": "ultimate",
+    "text": "뒤틀린 산신당!",
+    "rate": 0,
+    "file": "shrine-shadow-ultimate.wav"
+  },
+  {
+    "id": "cursed-dragon",
+    "slot": "skill1",
+    "text": "사룡의 숨결!",
+    "rate": 0,
+    "file": "cursed-dragon-skill1.wav"
+  },
+  {
+    "id": "cursed-dragon",
+    "slot": "skill2",
+    "text": "저주의 용주!",
+    "rate": 0,
+    "file": "cursed-dragon-skill2.wav"
+  },
+  {
+    "id": "cursed-dragon",
+    "slot": "ultimate",
+    "text": "암룡승천!",
+    "rate": 0,
+    "file": "cursed-dragon-ultimate.wav"
+  },
+  {
+    "id": "gwijang",
+    "slot": "skill1",
+    "text": "경계 절단!",
+    "rate": 0,
+    "file": "gwijang-skill1.wav"
+  },
+  {
+    "id": "gwijang",
+    "slot": "skill2",
+    "text": "육계의 칼날!",
+    "rate": 0,
+    "file": "gwijang-skill2.wav"
+  },
+  {
+    "id": "gwijang",
+    "slot": "ultimate",
+    "text": "육계 봉인!",
+    "rate": 0,
+    "file": "gwijang-ultimate.wav"
+  },
+  {
+    "id": "honwon",
+    "slot": "skill1",
+    "text": "태초의 균열!",
+    "rate": 0,
+    "file": "honwon-skill1.wav"
+  },
+  {
+    "id": "honwon",
+    "slot": "skill2",
+    "text": "무극 파동!",
+    "rate": 0,
+    "file": "honwon-skill2.wav"
+  },
+  {
+    "id": "honwon",
+    "slot": "ultimate",
+    "text": "혼원 귀환!",
+    "rate": 0,
+    "file": "honwon-ultimate.wav"
+  }
+]

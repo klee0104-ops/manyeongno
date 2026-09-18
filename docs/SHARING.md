@@ -4,6 +4,10 @@
 - 플레이: https://klee0104-ops.github.io/manyeongno/
 - 버그·의견: https://github.com/klee0104-ops/manyeongno/issues/new/choose
 
+## 공유 방식
+
+사국영웅전과 같은 GitHub Pages 방식으로, 지인에게 플레이 링크만 전달합니다. 게임 이용에는 GitHub 가입이 필요하지 않습니다. 저장소와 웹파일은 공개 상태이지만 별도의 홍보·소개 게시물은 만들지 않습니다. 검색 노출을 줄이기 위해 게임 HTML에 `noindex, nofollow, noarchive`를 설정했습니다. 이는 비밀번호나 초대 기반 접근 제한이 아니며, 링크를 받은 사람은 접속할 수 있습니다.
+
 ## 구조
 
 소스 브랜치와 완성 빌드를 담은 `codex/pages` 브랜치를 분리합니다. GitHub Pages는 `codex/pages` 브랜치의 루트 폴더를 공개합니다. 별도 유료 호스팅이나 서버 계정은 필요하지 않습니다. 소스를 푸시한 뒤에는 아래 사이트 배포 명령도 실행해야 공개 화면이 갱신됩니다.

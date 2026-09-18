@@ -98,13 +98,15 @@ export class JourneyMusic {
     const c=this.context;if(!this.running||!c||document.hidden)return;
     if(kind==='heal'||kind==='charge'){[523.25,659.25,783.99].forEach((hz,i)=>window.setTimeout(()=>this.effect(hz,.32,.035),i*65));return;}
     if(kind==='shield'){this.effect(330,.22,.055);this.effect(990,.13,.025);return;}
+    const element=kind.split(':')[0];
+    const timbre=element==='금'?{pitch:740,end:280,noise:4200,type:'sine' as OscillatorType}:element==='수'?{pitch:420,end:105,noise:650,type:'sine' as OscillatorType}:element==='목'?{pitch:270,end:120,noise:2100,type:'triangle' as OscillatorType}:element==='토'?{pitch:140,end:38,noise:440,type:'triangle' as OscillatorType}:{pitch:230,end:65,noise:1300,type:'triangle' as OscillatorType};
     const now=c.currentTime,duration=heavy?.32:.15,osc=c.createOscillator(),env=c.createGain();
-    osc.type='triangle';osc.frequency.setValueAtTime(heavy?145:230,now);osc.frequency.exponentialRampToValueAtTime(heavy?42:85,now+duration);
+    osc.type=timbre.type;osc.frequency.setValueAtTime(timbre.pitch*(heavy?.8:1),now);osc.frequency.exponentialRampToValueAtTime(timbre.end,now+duration);
     env.gain.setValueAtTime(heavy?.17:.09,now);env.gain.exponentialRampToValueAtTime(.0001,now+duration);
     osc.connect(env);env.connect(this.master!);osc.start();osc.stop(now+duration);
     const noise=c.createBuffer(1,Math.floor(c.sampleRate*.11),c.sampleRate),samples=noise.getChannelData(0);
     for(let i=0;i<samples.length;i++)samples[i]=(Math.random()*2-1)*(1-i/samples.length);
-    const source=c.createBufferSource(),filter=c.createBiquadFilter(),gain=c.createGain();source.buffer=noise;filter.type='highpass';filter.frequency.value=heavy?900:1600;gain.gain.value=heavy?.11:.065;
+    const source=c.createBufferSource(),filter=c.createBiquadFilter(),gain=c.createGain();source.buffer=noise;filter.type=element==='수'||element==='토'?'lowpass':'highpass';filter.frequency.value=timbre.noise;gain.gain.value=heavy?.11:.065;
     source.connect(filter);filter.connect(gain);gain.connect(this.master!);source.start();
     source.onended=()=>{source.disconnect();filter.disconnect();gain.disconnect();};osc.onended=()=>{osc.disconnect();env.disconnect();};
   }

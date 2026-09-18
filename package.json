@@ -1,6 +1,6 @@
 {
   "name": "manyeongno",
-  "version": "0.7.0",
+  "version": "0.8.0",
   "private": true,
   "description": "만령로 — 여섯 경계의 인연. 20챕터 도트 요괴 수집 RPG",
   "type": "module",
@@ -12,7 +12,7 @@
     "publish:pages": "npm run build:pages && node scripts/publish-pages.mjs",
     "preview": "vite preview",
     "test": "vitest run",
-    "test:assets": "node scripts/verify-story-assets.mjs && node scripts/verify-shop-assets.mjs",
+    "test:assets": "node scripts/verify-story-assets.mjs && node scripts/verify-shop-assets.mjs && node scripts/verify-combat-assets.mjs",
     "test:watch": "vitest",
     "typecheck": "tsc --noEmit",
     "lint": "eslint src --ext .ts",

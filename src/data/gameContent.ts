@@ -5,6 +5,7 @@
  */
 import type { Element, UnitDefinition } from '../types/unit';
 import { EXPANDED } from './expandedRoster';
+import { CHOREOGRAPHIES } from './combatChoreography';
 export type Role = '공격' | '수호' | '치유' | '술사';
 export interface Spirit extends UnitDefinition {
   role: Role; title: string; atlas: 'spirits' | 'monsters' | 'roster-a' | 'roster-b' | 'roster-c' | 'bosses'; art: number; storyOnly?:boolean;
@@ -31,6 +32,7 @@ const BOSS_IDS=['boar-shadow','underworld-reaper','shrine-shadow','cursed-dragon
 const BOSS_NAMES=['그림자 멧돼지','흑차사','산신령의 그림자','폭주 사룡','귀장','혼원'];
 export const BOSS_ART:Spirit[]=BOSS_IDS.map((id,i)=>({...SPIRITS[0],id,name:BOSS_NAMES[i],atlas:'bosses',art:i,role:'공격',element:(['토','목','목','수','금','화'] as Element[])[i],skill:['그림자 돌진','명부의 사슬','검은 뿌리','사룡의 숨결','경계 절단','태초의 균열'][i],ultimate:['침식의 포효','망자의 행렬','뒤틀린 산신당','암룡승천','육계 봉인','혼원 귀환'][i]}));
 export const spiritById = (id: string): Spirit => SPIRITS.find(s=>s.id===id) ?? BOSS_ART.find(s=>s.id===id) ?? SPIRITS[0];
+for(const spirit of [...SPIRITS,...BOSS_ART]){const identity=CHOREOGRAPHIES[spirit.id];if(identity){spirit.skill=identity.skill;spirit.ultimate=identity.ultimate;}}
 export const ELEMENT_COLOR: Record<Element,string> = { 목:'#92c98b', 화:'#ec907c', 토:'#cfb680', 금:'#d3dce7', 수:'#78c6df' };
 export const ELEMENT_HAN: Record<Element,string> = { 목:'木', 화:'火', 토:'土', 금:'金', 수:'水' };
 export const RARITY_NAMES = ['','잡귀','영물','신수','신장','신격'];

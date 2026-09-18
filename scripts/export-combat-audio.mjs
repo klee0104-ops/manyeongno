@@ -1,0 +1,11 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import { build } from 'esbuild';
+import { pathToFileURL } from 'node:url';
+fs.mkdirSync('tmp',{recursive:true});
+const output=path.resolve('tmp/combat-audio-data.mjs');
+await build({entryPoints:['src/data/combatChoreography.ts'],outfile:output,bundle:true,format:'esm',platform:'node'});
+const {CHOREOGRAPHIES}=await import(pathToFileURL(output));
+const lines=Object.values(CHOREOGRAPHIES).flatMap(p=>['skill1','skill2','ultimate'].map(slot=>({id:p.id,slot,text:p[slot==='skill1'?'skill':slot]+'!',rate:p.tempo<1?1:0,file:`${p.id}-${slot}.wav`})));
+fs.mkdirSync('public/audio/combat',{recursive:true});fs.writeFileSync('public/audio/combat/lines.json',JSON.stringify(lines,null,2)+'\n');
+console.log(`${lines.length} unique skill callouts exported.`);

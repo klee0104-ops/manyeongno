@@ -16,7 +16,7 @@ export interface GameSave {
   owned:Owned[]; party:string[]; cleared:number[]; equipment:Equipment[];
   banner:GachaBannerState; totalPulls:number; claimed:string[]; offlineAt:number;
   sound:boolean; tutorial:boolean; profileName?:string; musicVolume?:number;
-  profileAvatar?:string; profileTitle?:string; guideDismissed?:boolean;
+  profileAvatar?:string; profileTitle?:string; guideDismissed?:boolean; battleVoice?:boolean;
   campaign?:CampaignSave;
 }
 export const SAVE_KEY='manyeongno:adventure:v2';
@@ -42,6 +42,7 @@ export function validateSave(raw:unknown):raw is GameSave {
   if(s.profileAvatar!==undefined&&!s.owned.some(u=>u.id===s.profileAvatar))return false;
   if(s.profileTitle!==undefined&&!['wanderer','forest','traveler','legend'].includes(s.profileTitle))return false;
   if(s.guideDismissed!==undefined&&typeof s.guideDismissed!=='boolean')return false;
+  if(s.battleVoice!==undefined&&typeof s.battleVoice!=='boolean')return false;
   if(!Array.isArray(s.party)||!s.party.length||s.party.length>5||new Set(s.party).size!==s.party.length||!s.party.every(id=>s.owned.some(u=>u.id===id)))return false;
   if(!Array.isArray(s.cleared)||s.cleared.some(n=>!finiteInt(n,1,20))||new Set(s.cleared).size!==s.cleared.length)return false;
   if(s.cleared.some(n=>n>1&&!s.cleared.includes(n-1)))return false;

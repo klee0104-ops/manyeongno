@@ -3,6 +3,7 @@
  */
 import { SPIRITS, spiritById, type Role } from '../data/gameContent';
 import type { Element } from '../types/unit';
+import { combatTechnique } from '../data/combatChoreography';
 import { ownedStats, type GameSave } from './adventure';
 import { calculateDamage } from './damage';
 import { effectiveElementMultiplier } from './battle';
@@ -82,8 +83,7 @@ export function advanceBattle(b:LiveBattle,autoUltimate=true,rng=Math.random):Ba
   const coeffs=effectiveSkillCoefficients(DEFAULT_SKILL_COEFFICIENTS[actor.rarity],{awakening:actor.awakening,breakthrough:actor.breakthrough});
   const coefficient=slot==='skill2'?(coeffs.skill2??coeffs.skill1):coeffs[slot];
   actor.gauge=isUlt?0:Math.min(100,actor.gauge+(slot==='basicAttack'?10:slot==='skill1'?8:5));
-  const d=spiritById(actor.spiritId);
-  const label=isUlt?d.ultimate:skill?d.skill:'기본 공격';
+  const label=combatTechnique(actor.spiritId,slot).label;
   const hits:Hit[]=[];
   if(actor.role==='치유'&&skill&&actor.side==='party'){
     const targets=isUlt?allies:[...allies].sort((a,c)=>a.hp/a.maxHp-c.hp/c.maxHp).slice(0,2);

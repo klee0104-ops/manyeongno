@@ -9,7 +9,7 @@ export const SHOP_GOODS=[
 export function shopStock(s:GameSave,id:string){const c=campaign(s);return id==='herbal-tea'?s.stamina:id==='sweep-bundle'?c.sweepTickets:id==='forge-stones'?c.enhanceStones:s.dust;}
 export function purchaseProblem(s:GameSave,id:string,quantity:number):string|null {
  const good=SHOP_GOODS.find(g=>g.id===id);if(!good||!Number.isInteger(quantity)||quantity<1||quantity>5)return '상품과 수량을 확인해주세요.';
- if(s[good.currency]<good.price*quantity)return `${good.currency==='gold'?'금화':'경계석'}가 부족합니다.`;
+ if(s[good.currency]<good.price*quantity)return `${good.currency==='gold'?'금화가':'경계석이'} 부족합니다.`;
  if(id==='herbal-tea'&&s.stamina>=staminaCap(s))return '행동력이 가득 차 있습니다.';
  if(id==='herbal-tea'&&quantity!==1)return '약차는 한 잔씩 마실 수 있습니다.';
  if(id!=='herbal-tea'&&shopStock(s,id)+good.amount*quantity>1e9)return '재료 보관 한도에 도달했습니다.';

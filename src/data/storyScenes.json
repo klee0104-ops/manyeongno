@@ -1,0 +1,1022 @@
+[
+  {
+    "chapter": 1,
+    "title": "적요림의 그림자",
+    "theme": 0,
+    "intro": [
+      {
+        "id": "ch01-intro-1",
+        "caption": "할머니가 남긴 지도와 낡은 부적함.",
+        "visual": "heirloom",
+        "actor": "",
+        "theme": 0
+      },
+      {
+        "id": "ch01-intro-2",
+        "caption": "마지막 영매의 여정이 시작된다.",
+        "visual": "forest",
+        "actor": "boar-shadow",
+        "theme": 0
+      },
+      {
+        "id": "ch01-intro-3",
+        "caption": "산신당에서 번져 나온 그림자가, 고요하던 마을의 밤을 바꾸고 있었다.",
+        "visual": "shadow",
+        "actor": "",
+        "theme": 0
+      }
+    ],
+    "outro": [
+      {
+        "id": "ch01-outro-1",
+        "caption": "마을을 덮친 검은 그림자.",
+        "visual": "shadow",
+        "actor": "",
+        "theme": 0
+      },
+      {
+        "id": "ch01-outro-2",
+        "caption": "작은 도깨비가 숲 너머로 손짓한다.",
+        "visual": "forest",
+        "actor": "dokkaebi",
+        "theme": 0
+      },
+      {
+        "id": "ch01-outro-3",
+        "caption": "그림자를 따라가면, 사라진 사람들의 흔적을 찾을 수 있을 것이다.",
+        "visual": "gate",
+        "actor": "",
+        "theme": 0
+      }
+    ]
+  },
+  {
+    "chapter": 2,
+    "title": "저승의 문 틈",
+    "theme": 0,
+    "intro": [
+      {
+        "id": "ch02-intro-1",
+        "caption": "사라진 사람들의 흔적은 저승문의 틈으로 이어진다.",
+        "visual": "gate",
+        "actor": "",
+        "theme": 0
+      },
+      {
+        "id": "ch02-intro-2",
+        "caption": "산 자와 죽은 자의 경계가, 누군가의 손에 의해 무너지고 있었다.",
+        "visual": "ledger",
+        "actor": "underworld-reaper",
+        "theme": 0
+      },
+      {
+        "id": "ch02-intro-3",
+        "caption": "산 자와 죽은 자의 경계가, 누군가의 손에 의해 무너지고 있었다.",
+        "visual": "shadow",
+        "actor": "",
+        "theme": 0
+      }
+    ],
+    "outro": [
+      {
+        "id": "ch02-outro-1",
+        "caption": "구미호와 맞잡은 손.",
+        "visual": "ward",
+        "actor": "",
+        "theme": 0
+      },
+      {
+        "id": "ch02-outro-2",
+        "caption": "도둑맞은 명부와 사라진 경계옥의 소문이 겹친다.",
+        "visual": "ledger",
+        "actor": "gumiho",
+        "theme": 0
+      },
+      {
+        "id": "ch02-outro-3",
+        "caption": "흩어진 경계옥과 사라진 명부. 이제 찾아야 할 것들이 분명해졌다.",
+        "visual": "jades",
+        "actor": "",
+        "theme": 0
+      }
+    ]
+  },
+  {
+    "chapter": 3,
+    "title": "산신령의 유언",
+    "theme": 0,
+    "intro": [
+      {
+        "id": "ch03-intro-1",
+        "caption": "명부 조각이 산신령의 마음을 잠식한다.",
+        "visual": "shrine",
+        "actor": "",
+        "theme": 0
+      },
+      {
+        "id": "ch03-intro-2",
+        "caption": "마지막 축복이 숲에 스민다.",
+        "visual": "ledger",
+        "actor": "shrine-shadow",
+        "theme": 0
+      },
+      {
+        "id": "ch03-intro-3",
+        "caption": "산신령의 마지막 마음을 지켜야, 숲도 다시 숨을 쉴 수 있다.",
+        "visual": "shadow",
+        "actor": "",
+        "theme": 0
+      }
+    ],
+    "outro": [
+      {
+        "id": "ch03-outro-1",
+        "caption": "지하 제단에서 태초석이 깨어난다.",
+        "visual": "blessing",
+        "actor": "",
+        "theme": 0
+      },
+      {
+        "id": "ch03-outro-2",
+        "caption": "새싹 같은 빛 속에 삼신동자가 잠시 모습을 드러낸다.",
+        "visual": "jades",
+        "actor": "samsindongja",
+        "theme": 0
+      },
+      {
+        "id": "ch03-outro-3",
+        "caption": "태초석의 온기가 손끝으로 전해졌다. 숲 너머의 길이 열리고 있었다.",
+        "visual": "blessing",
+        "actor": "",
+        "theme": 0
+      }
+    ]
+  },
+  {
+    "chapter": 4,
+    "title": "검문의 초대",
+    "theme": 1,
+    "intro": [
+      {
+        "id": "ch04-intro-1",
+        "caption": "운봉협의 검문이 열린다.",
+        "visual": "cliff",
+        "actor": "",
+        "theme": 1
+      },
+      {
+        "id": "ch04-intro-2",
+        "caption": "구름 위 문파에는 이름 모를 불안이 흐른다.",
+        "visual": "sword",
+        "actor": "waterfall-drake",
+        "theme": 1
+      },
+      {
+        "id": "ch04-intro-3",
+        "caption": "폭포 아래 깊은 곳에서, 오래된 봉인이 낮게 울리고 있었다.",
+        "visual": "water",
+        "actor": "",
+        "theme": 1
+      }
+    ],
+    "outro": [
+      {
+        "id": "ch04-outro-1",
+        "caption": "바위 아래의 울음.",
+        "visual": "water",
+        "actor": "",
+        "theme": 1
+      },
+      {
+        "id": "ch04-outro-2",
+        "caption": "잠든 용의 기운이 수련장을 흔든다.",
+        "visual": "dragon",
+        "actor": "mangeomhon",
+        "theme": 1
+      },
+      {
+        "id": "ch04-outro-3",
+        "caption": "구름에 가려졌던 협곡의 상처가 조금씩 모습을 드러냈다.",
+        "visual": "cliff",
+        "actor": "",
+        "theme": 1
+      }
+    ]
+  },
+  {
+    "chapter": 5,
+    "title": "이단의 그림자",
+    "theme": 1,
+    "intro": [
+      {
+        "id": "ch05-intro-1",
+        "caption": "금지된 용을 섬기는 이단이 협곡으로 스며든다.",
+        "visual": "cliff",
+        "actor": "",
+        "theme": 1
+      },
+      {
+        "id": "ch05-intro-2",
+        "caption": "문파를 갈라놓은 불신 뒤에, 사룡을 깨우려는 손길이 숨어 있었다.",
+        "visual": "fire",
+        "actor": "red-oni",
+        "theme": 1
+      },
+      {
+        "id": "ch05-intro-3",
+        "caption": "문파를 갈라놓은 불신 뒤에, 사룡을 깨우려는 손길이 숨어 있었다.",
+        "visual": "ward",
+        "actor": "",
+        "theme": 1
+      }
+    ],
+    "outro": [
+      {
+        "id": "ch05-outro-1",
+        "caption": "오래된 검을 든 검선이 길을 막아선다.",
+        "visual": "sword",
+        "actor": "",
+        "theme": 1
+      },
+      {
+        "id": "ch05-outro-2",
+        "caption": "그의 검끝은 마침내 같은 적을 향한다.",
+        "visual": "ward",
+        "actor": "story-swordsman",
+        "theme": 1
+      },
+      {
+        "id": "ch05-outro-3",
+        "caption": "새 동료와 나란히 검을 들었다. 봉인의 근원으로 향할 때였다.",
+        "visual": "cliff",
+        "actor": "",
+        "theme": 1
+      }
+    ]
+  },
+  {
+    "chapter": 6,
+    "title": "용의 잠",
+    "theme": 1,
+    "intro": [
+      {
+        "id": "ch06-intro-1",
+        "caption": "봉인의 틈에서 용의 숨결이 새어 나온다.",
+        "visual": "dragon",
+        "actor": "",
+        "theme": 1
+      },
+      {
+        "id": "ch06-intro-2",
+        "caption": "문파들의 의심은 칼날이 된다.",
+        "visual": "fracture",
+        "actor": "cursed-dragon",
+        "theme": 1
+      },
+      {
+        "id": "ch06-intro-3",
+        "caption": "용의 잠이 끝나기 전에, 갈라진 문파의 마음을 다시 이어야 한다.",
+        "visual": "sword",
+        "actor": "",
+        "theme": 1
+      }
+    ],
+    "outro": [
+      {
+        "id": "ch06-outro-1",
+        "caption": "버려진 검들이 스스로 떠오른다.",
+        "visual": "sword",
+        "actor": "",
+        "theme": 1
+      },
+      {
+        "id": "ch06-outro-2",
+        "caption": "만검혼의 잔향이 깊은 협곡을 가른다.",
+        "visual": "blessing",
+        "actor": "mangeomhon",
+        "theme": 1
+      },
+      {
+        "id": "ch06-outro-3",
+        "caption": "만검혼의 잔향이 사라져도, 버려진 검들이 남긴 뜻은 협곡에 머물렀다.",
+        "visual": "dragon",
+        "actor": "",
+        "theme": 1
+      }
+    ]
+  },
+  {
+    "chapter": 7,
+    "title": "무너지는 협곡",
+    "theme": 1,
+    "intro": [
+      {
+        "id": "ch07-intro-1",
+        "caption": "갈라진 문파들이 한자리에 선다.",
+        "visual": "fracture",
+        "actor": "",
+        "theme": 1
+      },
+      {
+        "id": "ch07-intro-2",
+        "caption": "무너지는 길 위에 검들이 이어진다.",
+        "visual": "cliff",
+        "actor": "cursed-dragon",
+        "theme": 1
+      },
+      {
+        "id": "ch07-intro-3",
+        "caption": "무너지는 다리 위에서도, 동료들은 서로의 손을 놓지 않았다.",
+        "visual": "dragon",
+        "actor": "",
+        "theme": 1
+      }
+    ],
+    "outro": [
+      {
+        "id": "ch07-outro-1",
+        "caption": "사룡이 잠들자 잠룡옥이 모습을 드러낸다.",
+        "visual": "dragon",
+        "actor": "",
+        "theme": 1
+      },
+      {
+        "id": "ch07-outro-2",
+        "caption": "귀장이라는 이름이 처음으로 전해진다.",
+        "visual": "jades",
+        "actor": "story-swordsman",
+        "theme": 1
+      },
+      {
+        "id": "ch07-outro-3",
+        "caption": "잠룡옥이 새로운 빛을 냈다. 다음 인연은 등불이 가득한 밤에 기다리고 있었다.",
+        "visual": "cliff",
+        "actor": "",
+        "theme": 1
+      }
+    ]
+  },
+  {
+    "chapter": 8,
+    "title": "축제의 시작",
+    "theme": 2,
+    "intro": [
+      {
+        "id": "ch08-intro-1",
+        "caption": "백귀정의 등불이 켜진다.",
+        "visual": "festival",
+        "actor": "",
+        "theme": 2
+      },
+      {
+        "id": "ch08-intro-2",
+        "caption": "웃음과 북소리 아래 낯선 불협화음이 번진다.",
+        "visual": "lantern",
+        "actor": "alley-ghost",
+        "theme": 2
+      },
+      {
+        "id": "ch08-intro-3",
+        "caption": "축제의 환한 얼굴 뒤에서, 검은 기운이 조용히 거리를 물들이고 있었다.",
+        "visual": "shadow",
+        "actor": "",
+        "theme": 2
+      }
+    ],
+    "outro": [
+      {
+        "id": "ch08-outro-1",
+        "caption": "밤이 깊어질수록 요괴들의 그림자가 길어진다.",
+        "visual": "lantern",
+        "actor": "",
+        "theme": 2
+      },
+      {
+        "id": "ch08-outro-2",
+        "caption": "축제는 아직 끝나지 않았다.",
+        "visual": "shadow",
+        "actor": "story-priestess",
+        "theme": 2
+      },
+      {
+        "id": "ch08-outro-3",
+        "caption": "꺼지지 않는 등불을 따라, 뒤틀린 밤의 중심으로 들어섰다.",
+        "visual": "festival",
+        "actor": "",
+        "theme": 2
+      }
+    ]
+  },
+  {
+    "chapter": 9,
+    "title": "밤의 폭동",
+    "theme": 2,
+    "intro": [
+      {
+        "id": "ch09-intro-1",
+        "caption": "뒤틀린 요괴들이 거리를 덮친다.",
+        "visual": "shadow",
+        "actor": "",
+        "theme": 2
+      },
+      {
+        "id": "ch09-intro-2",
+        "caption": "여우무녀의 부적이 밤하늘에 펼쳐진다.",
+        "visual": "ward",
+        "actor": "fire-bandit",
+        "theme": 2
+      },
+      {
+        "id": "ch09-intro-3",
+        "caption": "여우무녀는 달아나지 않았다. 펼쳐진 부적들이 사람들의 피난길을 밝혔다.",
+        "visual": "fire",
+        "actor": "",
+        "theme": 2
+      }
+    ],
+    "outro": [
+      {
+        "id": "ch09-outro-1",
+        "caption": "사라지는 붉은 불꽃 속, 왕좌를 버린 적염귀왕이 이 소동을 지켜본다.",
+        "visual": "ward",
+        "actor": "",
+        "theme": 2
+      },
+      {
+        "id": "ch09-outro-2",
+        "caption": "붉은 불꽃이 잦아들자, 천 개의 등불이 한곳을 가리켰다.",
+        "visual": "fire",
+        "actor": "jeogyeom",
+        "theme": 2
+      },
+      {
+        "id": "ch09-outro-3",
+        "caption": "붉은 불꽃이 잦아들자, 천 개의 등불이 한곳을 가리켰다.",
+        "visual": "blessing",
+        "actor": "",
+        "theme": 2
+      }
+    ]
+  },
+  {
+    "chapter": 10,
+    "title": "귀장과의 조우",
+    "theme": 2,
+    "intro": [
+      {
+        "id": "ch10-intro-1",
+        "caption": "천 개의 등이 한순간 꺼진다.",
+        "visual": "lantern",
+        "actor": "",
+        "theme": 2
+      },
+      {
+        "id": "ch10-intro-2",
+        "caption": "귀장은 흩어진 세계를 다시 하나로 만들겠다고 말한다.",
+        "visual": "memories",
+        "actor": "red-oni",
+        "theme": 2
+      },
+      {
+        "id": "ch10-intro-3",
+        "caption": "귀장이 말하는 하나의 세계에는, 아직 알 수 없는 슬픔이 깃들어 있었다.",
+        "visual": "shadow",
+        "actor": "",
+        "theme": 2
+      }
+    ],
+    "outro": [
+      {
+        "id": "ch10-outro-1",
+        "caption": "오니의 분노를 거두자 등불옥이 남는다.",
+        "visual": "ward",
+        "actor": "",
+        "theme": 2
+      },
+      {
+        "id": "ch10-outro-2",
+        "caption": "그가 말한 구원은 무엇을 뜻하는가.",
+        "visual": "jades",
+        "actor": "gwijang",
+        "theme": 2
+      },
+      {
+        "id": "ch10-outro-3",
+        "caption": "등불옥을 품고 남쪽으로 향했다. 물의 사원이 다음 진실을 지키고 있었다.",
+        "visual": "festival",
+        "actor": "",
+        "theme": 2
+      }
+    ]
+  },
+  {
+    "chapter": 11,
+    "title": "정글의 속삭임",
+    "theme": 3,
+    "intro": [
+      {
+        "id": "ch11-intro-1",
+        "caption": "밀림의 길을 여는 사원무희.",
+        "visual": "temple",
+        "actor": "",
+        "theme": 3
+      },
+      {
+        "id": "ch11-intro-2",
+        "caption": "잠사왕과 뇌익조의 다툼으로 사원이 흔들린다.",
+        "visual": "water",
+        "actor": "stone-general",
+        "theme": 3
+      },
+      {
+        "id": "ch11-intro-3",
+        "caption": "사원의 길잡이가 물결에 손을 얹었다. 수호자들의 분노는 자연스러운 것이 아니었다.",
+        "visual": "storm",
+        "actor": "",
+        "theme": 3
+      }
+    ],
+    "outro": [
+      {
+        "id": "ch11-outro-1",
+        "caption": "수면 아래 오랜 문양이 빛난다.",
+        "visual": "water",
+        "actor": "",
+        "theme": 3
+      },
+      {
+        "id": "ch11-outro-2",
+        "caption": "누군가가 경계옥의 흐름을 바꾸고 있다.",
+        "visual": "ledger",
+        "actor": "story-dancer",
+        "theme": 3
+      },
+      {
+        "id": "ch11-outro-3",
+        "caption": "물 아래 흔적은 더 깊은 제단으로 이어졌다. 다툼을 멈출 실마리를 찾아야 했다.",
+        "visual": "temple",
+        "actor": "",
+        "theme": 3
+      }
+    ]
+  },
+  {
+    "chapter": 12,
+    "title": "두 수호자의 다툼",
+    "theme": 3,
+    "intro": [
+      {
+        "id": "ch12-intro-1",
+        "caption": "두 수호자의 싸움은 본래의 뜻이 아니었다.",
+        "visual": "storm",
+        "actor": "",
+        "theme": 3
+      },
+      {
+        "id": "ch12-intro-2",
+        "caption": "어긋난 결을 되돌려야 한다.",
+        "visual": "dragon",
+        "actor": "thunder-bird",
+        "theme": 3
+      },
+      {
+        "id": "ch12-intro-3",
+        "caption": "하늘의 번개와 깊은 물의 힘이 부딪쳤다. 어긋난 흐름을 되돌려야 한다.",
+        "visual": "ward",
+        "actor": "",
+        "theme": 3
+      }
+    ],
+    "outro": [
+      {
+        "id": "ch12-outro-1",
+        "caption": "연못의 물이 하늘로 솟는다.",
+        "visual": "water",
+        "actor": "",
+        "theme": 3
+      },
+      {
+        "id": "ch12-outro-2",
+        "caption": "심연마갈의 고요한 시선이 지나간다.",
+        "visual": "blessing",
+        "actor": "simyeon",
+        "theme": 3
+      },
+      {
+        "id": "ch12-outro-3",
+        "caption": "고요한 시선이 사라진 자리에서, 물의 사원은 잠시 평온을 되찾았다.",
+        "visual": "temple",
+        "actor": "",
+        "theme": 3
+      }
+    ]
+  },
+  {
+    "chapter": 13,
+    "title": "사원의 진실",
+    "theme": 3,
+    "intro": [
+      {
+        "id": "ch13-intro-1",
+        "caption": "잠사왕의 분노가 가라앉고 심연옥이 수면 위로 떠오른다.",
+        "visual": "dragon",
+        "actor": "",
+        "theme": 3
+      },
+      {
+        "id": "ch13-intro-2",
+        "caption": "벽화는 오래전 세계가 갈라지던 순간을 기억하고 있었다.",
+        "visual": "water",
+        "actor": "cursed-dragon",
+        "theme": 3
+      },
+      {
+        "id": "ch13-intro-3",
+        "caption": "벽화는 오래전 세계가 갈라지던 순간을 기억하고 있었다.",
+        "visual": "mural",
+        "actor": "",
+        "theme": 3
+      }
+    ],
+    "outro": [
+      {
+        "id": "ch13-outro-1",
+        "caption": "벽화 속 최초의 영매.",
+        "visual": "jades",
+        "actor": "",
+        "theme": 3
+      },
+      {
+        "id": "ch13-outro-2",
+        "caption": "그 얼굴은 우리가 만난 귀장과 닮아 있다.",
+        "visual": "mural",
+        "actor": "gwijang",
+        "theme": 3
+      },
+      {
+        "id": "ch13-outro-3",
+        "caption": "귀장은 누구였을까. 오래된 영매의 기억을 따라, 별의 초원으로 향했다.",
+        "visual": "memories",
+        "actor": "",
+        "theme": 3
+      }
+    ]
+  },
+  {
+    "chapter": 14,
+    "title": "별을 읽는 자들",
+    "theme": 4,
+    "intro": [
+      {
+        "id": "ch14-intro-1",
+        "caption": "끝없는 초원에서 예언자를 만난다.",
+        "visual": "stars",
+        "actor": "",
+        "theme": 4
+      },
+      {
+        "id": "ch14-intro-2",
+        "caption": "하늘의 별은 오래된 기억을 잇는다.",
+        "visual": "ancestor",
+        "actor": "silver-wolf",
+        "theme": 4
+      },
+      {
+        "id": "ch14-intro-3",
+        "caption": "예언자는 별을 짚으며 말했다. 사라진 빛은 오래된 이름을 가리킨다고.",
+        "visual": "wolf",
+        "actor": "",
+        "theme": 4
+      }
+    ],
+    "outro": [
+      {
+        "id": "ch14-outro-1",
+        "caption": "늑대들이 사라진 별을 향해 운다.",
+        "visual": "stars",
+        "actor": "",
+        "theme": 4
+      },
+      {
+        "id": "ch14-outro-2",
+        "caption": "선조의 발자취를 따라 북쪽으로 향한다.",
+        "visual": "wolf",
+        "actor": "story-prophet",
+        "theme": 4
+      },
+      {
+        "id": "ch14-outro-3",
+        "caption": "초원의 바람은 선조의 흔적을 실어 날랐다. 북쪽 제단에 답이 기다리고 있었다.",
+        "visual": "ancestor",
+        "actor": "",
+        "theme": 4
+      }
+    ]
+  },
+  {
+    "chapter": 15,
+    "title": "늑대의 분노",
+    "theme": 4,
+    "intro": [
+      {
+        "id": "ch15-intro-1",
+        "caption": "폭주한 늑대들이 제단을 둘러싼다.",
+        "visual": "wolf",
+        "actor": "",
+        "theme": 4
+      },
+      {
+        "id": "ch15-intro-2",
+        "caption": "땅속 깊은 곳에서 둔탁한 울림이 들려온다.",
+        "visual": "fracture",
+        "actor": "silver-wolf",
+        "theme": 4
+      },
+      {
+        "id": "ch15-intro-3",
+        "caption": "땅속의 울림이 점점 가까워졌다. 무너지는 제단을 누군가가 떠받치고 있었다.",
+        "visual": "stars",
+        "actor": "",
+        "theme": 4
+      }
+    ],
+    "outro": [
+      {
+        "id": "ch15-outro-1",
+        "caption": "무너진 오보 아래 거대한 등껍질 문양.",
+        "visual": "blessing",
+        "actor": "",
+        "theme": 4
+      },
+      {
+        "id": "ch15-outro-2",
+        "caption": "지부신구가 오래된 땅을 받치고 있다.",
+        "visual": "ancestor",
+        "actor": "jibu",
+        "theme": 4
+      },
+      {
+        "id": "ch15-outro-3",
+        "caption": "지부신구가 버틴 땅 위에서, 잊힌 기억으로 이어지는 길이 다시 열렸다.",
+        "visual": "stars",
+        "actor": "",
+        "theme": 4
+      }
+    ]
+  },
+  {
+    "chapter": 16,
+    "title": "초대 영매의 그림자",
+    "theme": 4,
+    "intro": [
+      {
+        "id": "ch16-intro-1",
+        "caption": "선조의 기억 속에서 자신의 이름을 듣는다.",
+        "visual": "ancestor",
+        "actor": "",
+        "theme": 4
+      },
+      {
+        "id": "ch16-intro-2",
+        "caption": "최초의 영매와 이어진 인연이었다.",
+        "visual": "memories",
+        "actor": "silver-wolf",
+        "theme": 4
+      },
+      {
+        "id": "ch16-intro-3",
+        "caption": "먼 과거의 목소리가 현재의 당신을 불렀다. 모든 길은 하나의 인연으로 이어져 있었다.",
+        "visual": "stars",
+        "actor": "",
+        "theme": 4
+      }
+    ],
+    "outro": [
+      {
+        "id": "ch16-outro-1",
+        "caption": "성혼옥이 돌아온다.",
+        "visual": "jades",
+        "actor": "",
+        "theme": 4
+      },
+      {
+        "id": "ch16-outro-2",
+        "caption": "다섯 조각이 같은 곳을 가리키기 시작한다.",
+        "visual": "ancestor",
+        "actor": "story-prophet",
+        "theme": 4
+      },
+      {
+        "id": "ch16-outro-3",
+        "caption": "성혼옥과 다른 경계옥들이 같은 빛을 냈다. 마지막 경계로 떠날 시간이었다.",
+        "visual": "jades",
+        "actor": "",
+        "theme": 4
+      }
+    ]
+  },
+  {
+    "chapter": 17,
+    "title": "모여드는 자들",
+    "theme": 5,
+    "intro": [
+      {
+        "id": "ch17-intro-1",
+        "caption": "지나온 길의 동료들이 경계에 모인다.",
+        "visual": "jades",
+        "actor": "",
+        "theme": 5
+      },
+      {
+        "id": "ch17-intro-2",
+        "caption": "마지막 종극옥은 아직 깨어지지 않았다.",
+        "visual": "ward",
+        "actor": "stone-general",
+        "theme": 5
+      },
+      {
+        "id": "ch17-intro-3",
+        "caption": "다른 세계에서 만난 동료들이, 마지막 문 앞에서 한뜻으로 모였다.",
+        "visual": "fracture",
+        "actor": "",
+        "theme": 5
+      }
+    ],
+    "outro": [
+      {
+        "id": "ch17-outro-1",
+        "caption": "여섯 경계옥이 모두 모인다.",
+        "visual": "jades",
+        "actor": "",
+        "theme": 5
+      },
+      {
+        "id": "ch17-outro-2",
+        "caption": "오래된 의식의 문이 다시 열린다.",
+        "visual": "gate",
+        "actor": "gwijang",
+        "theme": 5
+      },
+      {
+        "id": "ch17-outro-3",
+        "caption": "여섯 빛이 하나의 원을 이루었다. 의식의 중심에는 아직 밝혀지지 않은 진실이 있었다.",
+        "visual": "jades",
+        "actor": "",
+        "theme": 5
+      }
+    ]
+  },
+  {
+    "chapter": 18,
+    "title": "귀장의 진실",
+    "theme": 5,
+    "intro": [
+      {
+        "id": "ch18-intro-1",
+        "caption": "귀장은 경계를 세운 뒤 홀로 남은 존재들을 기억한다.",
+        "visual": "memories",
+        "actor": "",
+        "theme": 5
+      },
+      {
+        "id": "ch18-intro-2",
+        "caption": "끝나지 않은 고독의 세월.",
+        "visual": "ledger",
+        "actor": "gwijang",
+        "theme": 5
+      },
+      {
+        "id": "ch18-intro-3",
+        "caption": "경계가 지켜 준 것과, 경계가 가두어 버린 것. 귀장은 그 둘을 모두 기억했다.",
+        "visual": "ancestor",
+        "actor": "",
+        "theme": 5
+      }
+    ],
+    "outro": [
+      {
+        "id": "ch18-outro-1",
+        "caption": "이따금 그의 손은 뜻과 다르게 움직였다.",
+        "visual": "memories",
+        "actor": "",
+        "theme": 5
+      },
+      {
+        "id": "ch18-outro-2",
+        "caption": "그 몸속에 또 다른 의지가 숨어 있다.",
+        "visual": "shadow",
+        "actor": "gwijang",
+        "theme": 5
+      },
+      {
+        "id": "ch18-outro-3",
+        "caption": "귀장의 그림자 속에서 다른 이름이 꿈틀거렸다. 마지막 의식이 시작되고 있었다.",
+        "visual": "fracture",
+        "actor": "",
+        "theme": 5
+      }
+    ]
+  },
+  {
+    "chapter": 19,
+    "title": "결계의 심장",
+    "theme": 5,
+    "intro": [
+      {
+        "id": "ch19-intro-1",
+        "caption": "재봉인의 의식에서 혼원이 모습을 드러낸다.",
+        "visual": "jades",
+        "actor": "",
+        "theme": 5
+      },
+      {
+        "id": "ch19-intro-2",
+        "caption": "경계옥은 봉인이자 찢겨진 그의 몸이었다.",
+        "visual": "fracture",
+        "actor": "gwijang",
+        "theme": 5
+      },
+      {
+        "id": "ch19-intro-3",
+        "caption": "여섯 경계옥이 흔들렸다. 재봉인의 의식은 혼원이 기다리던 순간이었다.",
+        "visual": "shadow",
+        "actor": "",
+        "theme": 5
+      }
+    ],
+    "outro": [
+      {
+        "id": "ch19-outro-1",
+        "caption": "혼원이 경계옥을 빼앗는다.",
+        "visual": "fracture",
+        "actor": "",
+        "theme": 5
+      },
+      {
+        "id": "ch19-outro-2",
+        "caption": "귀장은 처음으로 자신의 의지로 당신 곁에 선다.",
+        "visual": "ward",
+        "actor": "honwon",
+        "theme": 5
+      },
+      {
+        "id": "ch19-outro-3",
+        "caption": "귀장은 당신을 향해 손을 뻗었다. 남아 있는 시간은 길지 않았다.",
+        "visual": "sacrifice",
+        "actor": "",
+        "theme": 5
+      }
+    ]
+  },
+  {
+    "chapter": 20,
+    "title": "만령로의 끝",
+    "theme": 5,
+    "intro": [
+      {
+        "id": "ch20-intro-1",
+        "caption": "귀장이 몸을 던져 혼원의 부활을 늦춘다.",
+        "visual": "sacrifice",
+        "actor": "",
+        "theme": 5
+      },
+      {
+        "id": "ch20-intro-2",
+        "caption": "모든 인연의 빛이 마지막 일격에 모인다.",
+        "visual": "ward",
+        "actor": "honwon",
+        "theme": 5
+      },
+      {
+        "id": "ch20-intro-3",
+        "caption": "서로 다른 세계에서 만난 모든 인연이, 하나의 빛으로 이어졌다.",
+        "visual": "jades",
+        "actor": "",
+        "theme": 5
+      }
+    ],
+    "outro": [
+      {
+        "id": "ch20-outro-1",
+        "caption": "흩어질 것인가, 함께 살아갈 것인가.",
+        "visual": "fracture",
+        "actor": "",
+        "theme": 5
+      },
+      {
+        "id": "ch20-outro-2",
+        "caption": "새로운 세계의 길을 선택할 시간이 왔다.",
+        "visual": "dawn",
+        "actor": "gwijang",
+        "theme": 5
+      },
+      {
+        "id": "ch20-outro-3",
+        "caption": "새로운 아침이 다가왔다. 이제, 함께 살아갈 세계의 모습을 선택해야 한다.",
+        "visual": "dawn",
+        "actor": "",
+        "theme": 5
+      }
+    ]
+  }
+]

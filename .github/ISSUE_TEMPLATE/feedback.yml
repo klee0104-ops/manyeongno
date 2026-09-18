@@ -1,0 +1,19 @@
+name: 플레이 의견
+description: 조작감·연출·난이도에 대한 의견을 알려주세요.
+title: "[의견] "
+body:
+  - type: input
+    id: device
+    attributes:
+      label: 사용 기기와 플레이 시간
+      placeholder: 예) PC Chrome, 약 10분
+  - type: textarea
+    id: good
+    attributes:
+      label: 마음에 든 점
+  - type: textarea
+    id: improvement
+    attributes:
+      label: 불편했던 점 또는 바라는 점
+    validations:
+      required: true

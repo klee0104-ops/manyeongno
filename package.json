@@ -1,0 +1,32 @@
+{
+  "name": "manyeongno",
+  "version": "0.6.0",
+  "private": true,
+  "description": "만령로 — 여섯 경계의 인연. 20챕터 도트 요괴 수집 RPG",
+  "type": "module",
+  "scripts": {
+    "start": "node scripts/serve.mjs",
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "build:pages": "tsc --noEmit && vite build --base=/manyeongno/ --outDir dist-pages",
+    "publish:pages": "npm run build:pages && node scripts/publish-pages.mjs",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:assets": "node scripts/verify-story-assets.mjs && node scripts/verify-shop-assets.mjs",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint src --ext .ts",
+    "verify": "npm run typecheck && npm run lint && npm run test && npm run test:assets && npm run build"
+  },
+  "dependencies": {
+    "phaser": "^3.80.1"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^7.18.0",
+    "@typescript-eslint/parser": "^7.18.0",
+    "eslint": "^8.57.0",
+    "typescript": "^5.5.4",
+    "vite": "^5.4.2",
+    "vitest": "^2.0.5"
+  }
+}

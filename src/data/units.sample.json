@@ -1,0 +1,60 @@
+[
+  {
+    "id": "samsindongja",
+    "name": "삼신동자",
+    "rarity": 5,
+    "element": "목",
+    "region": "적요림",
+    "flavorText": "천년 묵은 산삼이 화한 동자신, 순수한 자에게 단 한 번의 치유를 베푼다는 전설.",
+    "cameoChapter": 3
+  },
+  {
+    "id": "mangeomhon",
+    "name": "만검혼",
+    "rarity": 5,
+    "element": "금",
+    "region": "운봉협",
+    "flavorText": "부러지고 버려진 모든 검의 원념이 뭉쳐 태어난 검령.",
+    "cameoChapter": 6
+  },
+  {
+    "id": "mansudogun",
+    "name": "만수도군",
+    "rarity": 5,
+    "element": "목",
+    "region": "적요림",
+    "flavorText": "오경수호신 — 적요림 숲 하나만을 돌본다는 지역 산신. 20챕터 안에서는 목격담으로만 존재한다."
+  },
+  {
+    "id": "heugmu-imugiwang",
+    "name": "흑무 이무기왕",
+    "rarity": 4,
+    "element": "목",
+    "region": "운봉협",
+    "flavorText": "협곡 아래 봉인되어 있던 사룡의 곁에서 살아남아 자라난 새끼."
+  },
+  {
+    "id": "sangun",
+    "name": "산군(山君)",
+    "rarity": 3,
+    "element": "목",
+    "region": "적요림",
+    "flavorText": "적요림 산신당의 옛 수호자. 산신령을 대신해 자원한 호랑이 정령."
+  },
+  {
+    "id": "jungnimbaem",
+    "name": "죽림뱀",
+    "rarity": 2,
+    "element": "목",
+    "region": "운봉협",
+    "flavorText": "죽림 수련장 대나무 틈에 서식하며 문파 제자들의 수련을 지켜보다 눌러앉았다."
+  },
+  {
+    "id": "japchojeongryeong",
+    "name": "잡초정령",
+    "rarity": 1,
+    "element": "목",
+    "region": "운봉협",
+    "flavorText": "협곡 바위틈 어디에나 뿌리내리는 끈질긴 잡초에서 태어난 가장 흔한 정령."
+  }
+]

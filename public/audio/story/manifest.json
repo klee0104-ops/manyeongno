@@ -1,0 +1,487 @@
+{
+  "clips": {
+    "ch11-outro-2": {
+      "file": "/audio/story/ch11-outro-2.wav",
+      "text": "누군가가 경계옥의 흐름을 바꾸고 있다."
+    },
+    "ch16-outro-2": {
+      "file": "/audio/story/ch16-outro-2.wav",
+      "text": "다섯 조각이 같은 곳을 가리키기 시작한다."
+    },
+    "ch17-outro-3": {
+      "file": "/audio/story/ch17-outro-3.wav",
+      "text": "여섯 빛이 하나의 원을 이루었다. 의식의 중심에는 아직 밝혀지지 않은 진실이 있었다."
+    },
+    "ch11-intro-1": {
+      "file": "/audio/story/ch11-intro-1.wav",
+      "text": "밀림의 길을 여는 사원무희."
+    },
+    "ch13-intro-3": {
+      "file": "/audio/story/ch13-intro-3.wav",
+      "text": "벽화는 오래전 세계가 갈라지던 순간을 기억하고 있었다."
+    },
+    "ch02-intro-3": {
+      "file": "/audio/story/ch02-intro-3.wav",
+      "text": "산 자와 죽은 자의 경계가, 누군가의 손에 의해 무너지고 있었다."
+    },
+    "ch04-outro-3": {
+      "file": "/audio/story/ch04-outro-3.wav",
+      "text": "구름에 가려졌던 협곡의 상처가 조금씩 모습을 드러냈다."
+    },
+    "ch16-outro-3": {
+      "file": "/audio/story/ch16-outro-3.wav",
+      "text": "성혼옥과 다른 경계옥들이 같은 빛을 냈다. 마지막 경계로 떠날 시간이었다."
+    },
+    "ch20-outro-2": {
+      "file": "/audio/story/ch20-outro-2.wav",
+      "text": "새로운 세계의 길을 선택할 시간이 왔다."
+    },
+    "ch18-intro-1": {
+      "file": "/audio/story/ch18-intro-1.wav",
+      "text": "귀장은 경계를 세운 뒤 홀로 남은 존재들을 기억한다."
+    },
+    "ch03-intro-3": {
+      "file": "/audio/story/ch03-intro-3.wav",
+      "text": "산신령의 마지막 마음을 지켜야, 숲도 다시 숨을 쉴 수 있다."
+    },
+    "ch14-intro-1": {
+      "file": "/audio/story/ch14-intro-1.wav",
+      "text": "끝없는 초원에서 예언자를 만난다."
+    },
+    "ch06-intro-2": {
+      "file": "/audio/story/ch06-intro-2.wav",
+      "text": "문파들의 의심은 칼날이 된다."
+    },
+    "ch17-outro-2": {
+      "file": "/audio/story/ch17-outro-2.wav",
+      "text": "오래된 의식의 문이 다시 열린다."
+    },
+    "ch13-outro-1": {
+      "file": "/audio/story/ch13-outro-1.wav",
+      "text": "벽화 속 최초의 영매."
+    },
+    "ch15-outro-2": {
+      "file": "/audio/story/ch15-outro-2.wav",
+      "text": "지부신구가 오래된 땅을 받치고 있다."
+    },
+    "ch10-outro-1": {
+      "file": "/audio/story/ch10-outro-1.wav",
+      "text": "오니의 분노를 거두자 등불옥이 남는다."
+    },
+    "ch09-intro-2": {
+      "file": "/audio/story/ch09-intro-2.wav",
+      "text": "여우무녀의 부적이 밤하늘에 펼쳐진다."
+    },
+    "ch01-intro-1": {
+      "file": "/audio/story/ch01-intro-1.wav",
+      "text": "할머니가 남긴 지도와 낡은 부적함."
+    },
+    "ch15-intro-1": {
+      "file": "/audio/story/ch15-intro-1.wav",
+      "text": "폭주한 늑대들이 제단을 둘러싼다."
+    },
+    "ch09-outro-1": {
+      "file": "/audio/story/ch09-outro-1.wav",
+      "text": "사라지는 붉은 불꽃 속, 왕좌를 버린 적염귀왕이 이 소동을 지켜본다."
+    },
+    "ch06-outro-2": {
+      "file": "/audio/story/ch06-outro-2.wav",
+      "text": "만검혼의 잔향이 깊은 협곡을 가른다."
+    },
+    "ch04-intro-1": {
+      "file": "/audio/story/ch04-intro-1.wav",
+      "text": "운봉협의 검문이 열린다."
+    },
+    "ch10-outro-3": {
+      "file": "/audio/story/ch10-outro-3.wav",
+      "text": "등불옥을 품고 남쪽으로 향했다. 물의 사원이 다음 진실을 지키고 있었다."
+    },
+    "ch07-intro-3": {
+      "file": "/audio/story/ch07-intro-3.wav",
+      "text": "무너지는 다리 위에서도, 동료들은 서로의 손을 놓지 않았다."
+    },
+    "ch11-intro-2": {
+      "file": "/audio/story/ch11-intro-2.wav",
+      "text": "잠사왕과 뇌익조의 다툼으로 사원이 흔들린다."
+    },
+    "ch14-outro-2": {
+      "file": "/audio/story/ch14-outro-2.wav",
+      "text": "선조의 발자취를 따라 북쪽으로 향한다."
+    },
+    "ch05-outro-1": {
+      "file": "/audio/story/ch05-outro-1.wav",
+      "text": "오래된 검을 든 검선이 길을 막아선다."
+    },
+    "ch19-outro-2": {
+      "file": "/audio/story/ch19-outro-2.wav",
+      "text": "귀장은 처음으로 자신의 의지로 당신 곁에 선다."
+    },
+    "ch15-intro-2": {
+      "file": "/audio/story/ch15-intro-2.wav",
+      "text": "땅속 깊은 곳에서 둔탁한 울림이 들려온다."
+    },
+    "ch18-outro-1": {
+      "file": "/audio/story/ch18-outro-1.wav",
+      "text": "이따금 그의 손은 뜻과 다르게 움직였다."
+    },
+    "ch03-intro-1": {
+      "file": "/audio/story/ch03-intro-1.wav",
+      "text": "명부 조각이 산신령의 마음을 잠식한다."
+    },
+    "ch01-intro-2": {
+      "file": "/audio/story/ch01-intro-2.wav",
+      "text": "마지막 영매의 여정이 시작된다."
+    },
+    "ch03-intro-2": {
+      "file": "/audio/story/ch03-intro-2.wav",
+      "text": "마지막 축복이 숲에 스민다."
+    },
+    "ch05-outro-2": {
+      "file": "/audio/story/ch05-outro-2.wav",
+      "text": "그의 검끝은 마침내 같은 적을 향한다."
+    },
+    "ch02-outro-2": {
+      "file": "/audio/story/ch02-outro-2.wav",
+      "text": "도둑맞은 명부와 사라진 경계옥의 소문이 겹친다."
+    },
+    "ch08-outro-1": {
+      "file": "/audio/story/ch08-outro-1.wav",
+      "text": "밤이 깊어질수록 요괴들의 그림자가 길어진다."
+    },
+    "ch06-outro-1": {
+      "file": "/audio/story/ch06-outro-1.wav",
+      "text": "버려진 검들이 스스로 떠오른다."
+    },
+    "ch10-outro-2": {
+      "file": "/audio/story/ch10-outro-2.wav",
+      "text": "그가 말한 구원은 무엇을 뜻하는가."
+    },
+    "ch12-outro-2": {
+      "file": "/audio/story/ch12-outro-2.wav",
+      "text": "심연마갈의 고요한 시선이 지나간다."
+    },
+    "ch02-intro-2": {
+      "file": "/audio/story/ch02-intro-2.wav",
+      "text": "산 자와 죽은 자의 경계가, 누군가의 손에 의해 무너지고 있었다."
+    },
+    "ch18-outro-3": {
+      "file": "/audio/story/ch18-outro-3.wav",
+      "text": "귀장의 그림자 속에서 다른 이름이 꿈틀거렸다. 마지막 의식이 시작되고 있었다."
+    },
+    "ch13-outro-3": {
+      "file": "/audio/story/ch13-outro-3.wav",
+      "text": "귀장은 누구였을까. 오래된 영매의 기억을 따라, 별의 초원으로 향했다."
+    },
+    "ch05-intro-3": {
+      "file": "/audio/story/ch05-intro-3.wav",
+      "text": "문파를 갈라놓은 불신 뒤에, 사룡을 깨우려는 손길이 숨어 있었다."
+    },
+    "ch12-intro-2": {
+      "file": "/audio/story/ch12-intro-2.wav",
+      "text": "어긋난 결을 되돌려야 한다."
+    },
+    "ch15-outro-1": {
+      "file": "/audio/story/ch15-outro-1.wav",
+      "text": "무너진 오보 아래 거대한 등껍질 문양."
+    },
+    "ch20-intro-1": {
+      "file": "/audio/story/ch20-intro-1.wav",
+      "text": "귀장이 몸을 던져 혼원의 부활을 늦춘다."
+    },
+    "ch16-intro-2": {
+      "file": "/audio/story/ch16-intro-2.wav",
+      "text": "최초의 영매와 이어진 인연이었다."
+    },
+    "ch09-intro-1": {
+      "file": "/audio/story/ch09-intro-1.wav",
+      "text": "뒤틀린 요괴들이 거리를 덮친다."
+    },
+    "ch08-intro-2": {
+      "file": "/audio/story/ch08-intro-2.wav",
+      "text": "웃음과 북소리 아래 낯선 불협화음이 번진다."
+    },
+    "ch16-intro-1": {
+      "file": "/audio/story/ch16-intro-1.wav",
+      "text": "선조의 기억 속에서 자신의 이름을 듣는다."
+    },
+    "ch15-outro-3": {
+      "file": "/audio/story/ch15-outro-3.wav",
+      "text": "지부신구가 버틴 땅 위에서, 잊힌 기억으로 이어지는 길이 다시 열렸다."
+    },
+    "ch17-intro-2": {
+      "file": "/audio/story/ch17-intro-2.wav",
+      "text": "마지막 종극옥은 아직 깨어지지 않았다."
+    },
+    "ch02-outro-3": {
+      "file": "/audio/story/ch02-outro-3.wav",
+      "text": "흩어진 경계옥과 사라진 명부. 이제 찾아야 할 것들이 분명해졌다."
+    },
+    "ch12-outro-1": {
+      "file": "/audio/story/ch12-outro-1.wav",
+      "text": "연못의 물이 하늘로 솟는다."
+    },
+    "ch18-outro-2": {
+      "file": "/audio/story/ch18-outro-2.wav",
+      "text": "그 몸속에 또 다른 의지가 숨어 있다."
+    },
+    "ch12-intro-3": {
+      "file": "/audio/story/ch12-intro-3.wav",
+      "text": "하늘의 번개와 깊은 물의 힘이 부딪쳤다. 어긋난 흐름을 되돌려야 한다."
+    },
+    "ch01-intro-3": {
+      "file": "/audio/story/ch01-intro-3.wav",
+      "text": "산신당에서 번져 나온 그림자가, 고요하던 마을의 밤을 바꾸고 있었다."
+    },
+    "ch14-outro-1": {
+      "file": "/audio/story/ch14-outro-1.wav",
+      "text": "늑대들이 사라진 별을 향해 운다."
+    },
+    "ch04-outro-1": {
+      "file": "/audio/story/ch04-outro-1.wav",
+      "text": "바위 아래의 울음."
+    },
+    "ch04-intro-2": {
+      "file": "/audio/story/ch04-intro-2.wav",
+      "text": "구름 위 문파에는 이름 모를 불안이 흐른다."
+    },
+    "ch05-intro-2": {
+      "file": "/audio/story/ch05-intro-2.wav",
+      "text": "문파를 갈라놓은 불신 뒤에, 사룡을 깨우려는 손길이 숨어 있었다."
+    },
+    "ch08-intro-3": {
+      "file": "/audio/story/ch08-intro-3.wav",
+      "text": "축제의 환한 얼굴 뒤에서, 검은 기운이 조용히 거리를 물들이고 있었다."
+    },
+    "ch11-outro-1": {
+      "file": "/audio/story/ch11-outro-1.wav",
+      "text": "수면 아래 오랜 문양이 빛난다."
+    },
+    "ch13-intro-2": {
+      "file": "/audio/story/ch13-intro-2.wav",
+      "text": "벽화는 오래전 세계가 갈라지던 순간을 기억하고 있었다."
+    },
+    "ch17-intro-3": {
+      "file": "/audio/story/ch17-intro-3.wav",
+      "text": "다른 세계에서 만난 동료들이, 마지막 문 앞에서 한뜻으로 모였다."
+    },
+    "ch04-outro-2": {
+      "file": "/audio/story/ch04-outro-2.wav",
+      "text": "잠든 용의 기운이 수련장을 흔든다."
+    },
+    "ch03-outro-3": {
+      "file": "/audio/story/ch03-outro-3.wav",
+      "text": "태초석의 온기가 손끝으로 전해졌다. 숲 너머의 길이 열리고 있었다."
+    },
+    "ch02-outro-1": {
+      "file": "/audio/story/ch02-outro-1.wav",
+      "text": "구미호와 맞잡은 손."
+    },
+    "ch12-outro-3": {
+      "file": "/audio/story/ch12-outro-3.wav",
+      "text": "고요한 시선이 사라진 자리에서, 물의 사원은 잠시 평온을 되찾았다."
+    },
+    "ch07-outro-2": {
+      "file": "/audio/story/ch07-outro-2.wav",
+      "text": "귀장이라는 이름이 처음으로 전해진다."
+    },
+    "ch14-outro-3": {
+      "file": "/audio/story/ch14-outro-3.wav",
+      "text": "초원의 바람은 선조의 흔적을 실어 날랐다. 북쪽 제단에 답이 기다리고 있었다."
+    },
+    "ch18-intro-3": {
+      "file": "/audio/story/ch18-intro-3.wav",
+      "text": "경계가 지켜 준 것과, 경계가 가두어 버린 것. 귀장은 그 둘을 모두 기억했다."
+    },
+    "ch04-intro-3": {
+      "file": "/audio/story/ch04-intro-3.wav",
+      "text": "폭포 아래 깊은 곳에서, 오래된 봉인이 낮게 울리고 있었다."
+    },
+    "ch17-outro-1": {
+      "file": "/audio/story/ch17-outro-1.wav",
+      "text": "여섯 경계옥이 모두 모인다."
+    },
+    "ch14-intro-3": {
+      "file": "/audio/story/ch14-intro-3.wav",
+      "text": "예언자는 별을 짚으며 말했다. 사라진 빛은 오래된 이름을 가리킨다고."
+    },
+    "ch05-intro-1": {
+      "file": "/audio/story/ch05-intro-1.wav",
+      "text": "금지된 용을 섬기는 이단이 협곡으로 스며든다."
+    },
+    "ch06-intro-1": {
+      "file": "/audio/story/ch06-intro-1.wav",
+      "text": "봉인의 틈에서 용의 숨결이 새어 나온다."
+    },
+    "ch10-intro-3": {
+      "file": "/audio/story/ch10-intro-3.wav",
+      "text": "귀장이 말하는 하나의 세계에는, 아직 알 수 없는 슬픔이 깃들어 있었다."
+    },
+    "ch03-outro-1": {
+      "file": "/audio/story/ch03-outro-1.wav",
+      "text": "지하 제단에서 태초석이 깨어난다."
+    },
+    "ch20-intro-2": {
+      "file": "/audio/story/ch20-intro-2.wav",
+      "text": "모든 인연의 빛이 마지막 일격에 모인다."
+    },
+    "ch13-outro-2": {
+      "file": "/audio/story/ch13-outro-2.wav",
+      "text": "그 얼굴은 우리가 만난 귀장과 닮아 있다."
+    },
+    "ch10-intro-2": {
+      "file": "/audio/story/ch10-intro-2.wav",
+      "text": "귀장은 흩어진 세계를 다시 하나로 만들겠다고 말한다."
+    },
+    "ch07-intro-2": {
+      "file": "/audio/story/ch07-intro-2.wav",
+      "text": "무너지는 길 위에 검들이 이어진다."
+    },
+    "ch19-outro-3": {
+      "file": "/audio/story/ch19-outro-3.wav",
+      "text": "귀장은 당신을 향해 손을 뻗었다. 남아 있는 시간은 길지 않았다."
+    },
+    "ch06-outro-3": {
+      "file": "/audio/story/ch06-outro-3.wav",
+      "text": "만검혼의 잔향이 사라져도, 버려진 검들이 남긴 뜻은 협곡에 머물렀다."
+    },
+    "ch01-outro-1": {
+      "file": "/audio/story/ch01-outro-1.wav",
+      "text": "마을을 덮친 검은 그림자."
+    },
+    "ch08-outro-3": {
+      "file": "/audio/story/ch08-outro-3.wav",
+      "text": "꺼지지 않는 등불을 따라, 뒤틀린 밤의 중심으로 들어섰다."
+    },
+    "ch06-intro-3": {
+      "file": "/audio/story/ch06-intro-3.wav",
+      "text": "용의 잠이 끝나기 전에, 갈라진 문파의 마음을 다시 이어야 한다."
+    },
+    "ch19-intro-3": {
+      "file": "/audio/story/ch19-intro-3.wav",
+      "text": "여섯 경계옥이 흔들렸다. 재봉인의 의식은 혼원이 기다리던 순간이었다."
+    },
+    "ch19-intro-2": {
+      "file": "/audio/story/ch19-intro-2.wav",
+      "text": "경계옥은 봉인이자 찢겨진 그의 몸이었다."
+    },
+    "ch14-intro-2": {
+      "file": "/audio/story/ch14-intro-2.wav",
+      "text": "하늘의 별은 오래된 기억을 잇는다."
+    },
+    "ch09-outro-3": {
+      "file": "/audio/story/ch09-outro-3.wav",
+      "text": "붉은 불꽃이 잦아들자, 천 개의 등불이 한곳을 가리켰다."
+    },
+    "ch15-intro-3": {
+      "file": "/audio/story/ch15-intro-3.wav",
+      "text": "땅속의 울림이 점점 가까워졌다. 무너지는 제단을 누군가가 떠받치고 있었다."
+    },
+    "ch05-outro-3": {
+      "file": "/audio/story/ch05-outro-3.wav",
+      "text": "새 동료와 나란히 검을 들었다. 봉인의 근원으로 향할 때였다."
+    },
+    "ch01-outro-3": {
+      "file": "/audio/story/ch01-outro-3.wav",
+      "text": "그림자를 따라가면, 사라진 사람들의 흔적을 찾을 수 있을 것이다."
+    },
+    "ch09-intro-3": {
+      "file": "/audio/story/ch09-intro-3.wav",
+      "text": "여우무녀는 달아나지 않았다. 펼쳐진 부적들이 사람들의 피난길을 밝혔다."
+    },
+    "ch20-outro-1": {
+      "file": "/audio/story/ch20-outro-1.wav",
+      "text": "흩어질 것인가, 함께 살아갈 것인가."
+    },
+    "ch11-intro-3": {
+      "file": "/audio/story/ch11-intro-3.wav",
+      "text": "사원의 길잡이가 물결에 손을 얹었다. 수호자들의 분노는 자연스러운 것이 아니었다."
+    },
+    "ch20-intro-3": {
+      "file": "/audio/story/ch20-intro-3.wav",
+      "text": "서로 다른 세계에서 만난 모든 인연이, 하나의 빛으로 이어졌다."
+    },
+    "ch07-intro-1": {
+      "file": "/audio/story/ch07-intro-1.wav",
+      "text": "갈라진 문파들이 한자리에 선다."
+    },
+    "ch08-intro-1": {
+      "file": "/audio/story/ch08-intro-1.wav",
+      "text": "백귀정의 등불이 켜진다."
+    },
+    "ch19-outro-1": {
+      "file": "/audio/story/ch19-outro-1.wav",
+      "text": "혼원이 경계옥을 빼앗는다."
+    },
+    "ch16-intro-3": {
+      "file": "/audio/story/ch16-intro-3.wav",
+      "text": "먼 과거의 목소리가 현재의 당신을 불렀다. 모든 길은 하나의 인연으로 이어져 있었다."
+    },
+    "ch10-intro-1": {
+      "file": "/audio/story/ch10-intro-1.wav",
+      "text": "천 개의 등이 한순간 꺼진다."
+    },
+    "ch07-outro-3": {
+      "file": "/audio/story/ch07-outro-3.wav",
+      "text": "잠룡옥이 새로운 빛을 냈다. 다음 인연은 등불이 가득한 밤에 기다리고 있었다."
+    },
+    "ch17-intro-1": {
+      "file": "/audio/story/ch17-intro-1.wav",
+      "text": "지나온 길의 동료들이 경계에 모인다."
+    },
+    "ch19-intro-1": {
+      "file": "/audio/story/ch19-intro-1.wav",
+      "text": "재봉인의 의식에서 혼원이 모습을 드러낸다."
+    },
+    "ch16-outro-1": {
+      "file": "/audio/story/ch16-outro-1.wav",
+      "text": "성혼옥이 돌아온다."
+    },
+    "ch12-intro-1": {
+      "file": "/audio/story/ch12-intro-1.wav",
+      "text": "두 수호자의 싸움은 본래의 뜻이 아니었다."
+    },
+    "ch09-outro-2": {
+      "file": "/audio/story/ch09-outro-2.wav",
+      "text": "붉은 불꽃이 잦아들자, 천 개의 등불이 한곳을 가리켰다."
+    },
+    "ch02-intro-1": {
+      "file": "/audio/story/ch02-intro-1.wav",
+      "text": "사라진 사람들의 흔적은 저승문의 틈으로 이어진다."
+    },
+    "ch13-intro-1": {
+      "file": "/audio/story/ch13-intro-1.wav",
+      "text": "잠사왕의 분노가 가라앉고 심연옥이 수면 위로 떠오른다."
+    },
+    "ch07-outro-1": {
+      "file": "/audio/story/ch07-outro-1.wav",
+      "text": "사룡이 잠들자 잠룡옥이 모습을 드러낸다."
+    },
+    "ch01-outro-2": {
+      "file": "/audio/story/ch01-outro-2.wav",
+      "text": "작은 도깨비가 숲 너머로 손짓한다."
+    },
+    "ch08-outro-2": {
+      "file": "/audio/story/ch08-outro-2.wav",
+      "text": "축제는 아직 끝나지 않았다."
+    },
+    "ch11-outro-3": {
+      "file": "/audio/story/ch11-outro-3.wav",
+      "text": "물 아래 흔적은 더 깊은 제단으로 이어졌다. 다툼을 멈출 실마리를 찾아야 했다."
+    },
+    "ch18-intro-2": {
+      "file": "/audio/story/ch18-intro-2.wav",
+      "text": "끝나지 않은 고독의 세월."
+    },
+    "ch03-outro-2": {
+      "file": "/audio/story/ch03-outro-2.wav",
+      "text": "새싹 같은 빛 속에 삼신동자가 잠시 모습을 드러낸다."
+    },
+    "ch20-outro-3": {
+      "file": "/audio/story/ch20-outro-3.wav",
+      "text": "새로운 아침이 다가왔다. 이제, 함께 살아갈 세계의 모습을 선택해야 한다."
+    }
+  },
+  "language": "ko-KR",
+  "sampleRate": 22050,
+  "voice": "Microsoft Heami Desktop"
+}

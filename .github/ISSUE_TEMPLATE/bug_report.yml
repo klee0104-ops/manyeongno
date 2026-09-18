@@ -1,0 +1,51 @@
+name: 버그 제보
+description: 실행 중 발견한 문제를 알려주세요.
+title: "[버그] "
+body:
+  - type: input
+    id: version
+    attributes:
+      label: 게임 버전
+      value: v0.6.0
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: 기기와 브라우저
+      placeholder: 예) Windows 11 / Chrome, iPhone / Safari
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: 문제가 생긴 곳
+      options:
+        - 시작·로딩·저장
+        - 스토리·음성
+        - 탐험·전투
+        - 도감·각성비록
+        - 소환·일반 상점
+        - 요괴 성장·장비
+        - 기타
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 재현 순서
+      description: 어떤 메뉴에서 어떤 버튼을 눌렀는지 순서대로 적어주세요.
+      placeholder: "1. 도감으로 이동\n2. 구미호 기록 선택\n3. 다음 기록 누르기"
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: 기대한 결과와 실제 결과
+    validations:
+      required: true
+  - type: textarea
+    id: media
+    attributes:
+      label: 화면 캡처 또는 추가 내용
+      description: 가능하면 문제가 보이는 화면을 첨부해주세요.

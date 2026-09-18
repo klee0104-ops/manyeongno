@@ -1,0 +1,18 @@
+node_modules
+dist
+.DS_Store
+*.log
+.vite
+coverage
+outputs/
+dist-pages/
+tmp/
+.env
+.env.*
+!.env.example
+*.tsbuildinfo
+# Local planning originals and one-time migration scripts are not needed to play.
+*.pdf
+docs/PLANNING_PDF_EXTRACT.txt
+scripts/upgrade-ui.py
+scripts/finish-ui.py

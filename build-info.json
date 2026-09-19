@@ -1,0 +1,43 @@
+{
+  "version": "0.12.0",
+  "narrativeRevision": "ashes-v1",
+  "builtAt": "2026-09-19T05:48:36.805Z",
+  "basedOnCommit": "628af87c7aa85268040c9621756387370facdfbb",
+  "includesWorkingTreeChanges": true,
+  "checks": [
+    {
+      "id": "typecheck",
+      "status": "pass"
+    },
+    {
+      "id": "lint",
+      "status": "pass"
+    },
+    {
+      "id": "all-tests",
+      "status": "pass"
+    },
+    {
+      "id": "story-assets",
+      "status": "pass"
+    },
+    {
+      "id": "shop-assets",
+      "status": "pass"
+    },
+    {
+      "id": "combat-assets",
+      "status": "pass"
+    },
+    {
+      "id": "production-build",
+      "status": "pass"
+    }
+  ],
+  "manualReview": "pending",
+  "assets": [
+    "index-BFZ4m0lo.css",
+    "index-ekPCoDP3.js",
+    "placeholder"
+  ]
+}

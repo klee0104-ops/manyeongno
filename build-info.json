@@ -1,43 +1,52 @@
 {
-  "version": "0.12.0",
+  "version": "0.13.0",
   "narrativeRevision": "ashes-v1",
-  "builtAt": "2026-09-19T05:48:36.805Z",
+  "builtAt": "2026-09-19T07:11:46.771Z",
   "basedOnCommit": "628af87c7aa85268040c9621756387370facdfbb",
   "includesWorkingTreeChanges": true,
-  "checks": [
-    {
-      "id": "typecheck",
-      "status": "pass"
-    },
-    {
-      "id": "lint",
-      "status": "pass"
-    },
-    {
-      "id": "all-tests",
-      "status": "pass"
-    },
-    {
-      "id": "story-assets",
-      "status": "pass"
-    },
-    {
-      "id": "shop-assets",
-      "status": "pass"
-    },
-    {
-      "id": "combat-assets",
-      "status": "pass"
-    },
-    {
-      "id": "production-build",
-      "status": "pass"
-    }
-  ],
-  "manualReview": "pending",
-  "assets": [
-    "index-BFZ4m0lo.css",
-    "index-ekPCoDP3.js",
-    "placeholder"
-  ]
+  "harness": {
+    "task": "v013-summon-awakening-admin",
+    "status": "pass",
+    "runId": "2026-09-19T07-10-07-229Z-1356",
+    "checks": [
+      {
+        "id": "typecheck",
+        "status": "pass"
+      },
+      {
+        "id": "lint",
+        "status": "pass"
+      },
+      {
+        "id": "all-tests",
+        "status": "pass"
+      },
+      {
+        "id": "story-assets",
+        "status": "pass"
+      },
+      {
+        "id": "shop-assets",
+        "status": "pass"
+      },
+      {
+        "id": "combat-assets",
+        "status": "pass"
+      },
+      {
+        "id": "awakening-assets",
+        "status": "pass"
+      },
+      {
+        "id": "production-build",
+        "status": "pass"
+      }
+    ]
+  },
+  "features": {
+    "localAdminProfile": true,
+    "manualSummonStories": 65,
+    "awakeningIllustrations": 325,
+    "awakeningAtlases": 25
+  }
 }

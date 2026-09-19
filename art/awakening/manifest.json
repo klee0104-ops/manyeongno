@@ -1,0 +1,396 @@
+{
+  "schemaVersion": 1,
+  "artDirection": "동양 판타지 요괴의 정체성과 무기를 유지하는 단계별 새 일러스트",
+  "assets": [
+    {
+      "atlas": "spirits",
+      "stage": 1,
+      "file": "art/awakening/spirits-stage-1.png",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rowEdges": [
+        0,
+        512,
+        1024
+      ],
+      "sha256": "99e24cef2b60d5b8400fca9590dd525b96218e93692826ac9f9eefc3e92a9a79"
+    },
+    {
+      "atlas": "spirits",
+      "stage": 2,
+      "file": "art/awakening/spirits-stage-2.png",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rowEdges": [
+        0,
+        512,
+        1024
+      ],
+      "sha256": "c5ad73811639143d87c5ddd56108516abe5c04086e43df034f96d417a4d4efb6"
+    },
+    {
+      "atlas": "spirits",
+      "stage": 3,
+      "file": "art/awakening/spirits-stage-3.png",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rowEdges": [
+        0,
+        512,
+        1024
+      ],
+      "sha256": "27aabdfa2ada4cd5882d303e80f3266878a87be797494eedd3e901befc0d02ca"
+    },
+    {
+      "atlas": "spirits",
+      "stage": 4,
+      "file": "art/awakening/spirits-stage-4.png",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rowEdges": [
+        0,
+        512,
+        1024
+      ],
+      "sha256": "858ade3aa31ec560e872c66deccccbdc2937ad7760071079d47435a4e531d867"
+    },
+    {
+      "atlas": "spirits",
+      "stage": 5,
+      "file": "art/awakening/spirits-stage-5.png",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rowEdges": [
+        0,
+        512,
+        1024
+      ],
+      "sha256": "772996b8422f41b2b879b78a3e4fd6662831e7ff1955163954051eac55977d50"
+    },
+    {
+      "atlas": "monsters",
+      "stage": 1,
+      "file": "art/awakening/monsters-stage-1.png",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rowEdges": [
+        0,
+        500,
+        1024
+      ],
+      "sha256": "ad2f302fe78a7d6069795765093573fc6f52442f9f2bd433f8f5783a6159eb04"
+    },
+    {
+      "atlas": "monsters",
+      "stage": 2,
+      "file": "art/awakening/monsters-stage-2.png",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rowEdges": [
+        0,
+        512,
+        1024
+      ],
+      "sha256": "a70ad1e0a2db360ad0028b7896889190ba582a64b78ab5551c803cd1d4b922b2"
+    },
+    {
+      "atlas": "monsters",
+      "stage": 3,
+      "file": "art/awakening/monsters-stage-3.png",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rowEdges": [
+        0,
+        512,
+        1024
+      ],
+      "sha256": "c4bdfa2b545fc193b9379a9f2f04dff1fe0879485d7c9dbe4de291a095149047"
+    },
+    {
+      "atlas": "monsters",
+      "stage": 4,
+      "file": "art/awakening/monsters-stage-4.png",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rowEdges": [
+        0,
+        512,
+        1024
+      ],
+      "sha256": "cbc1ec3691a72de4f372ce87b2ef03a42860eeb67087562b9aa921c7093d8c3d"
+    },
+    {
+      "atlas": "monsters",
+      "stage": 5,
+      "file": "art/awakening/monsters-stage-5.png",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rowEdges": [
+        0,
+        512,
+        1024
+      ],
+      "sha256": "5e99a43ffe8ba5cb17677fbbbdcaa53fc4fb868b789c885ada4a94d2f9f29b0f"
+    },
+    {
+      "atlas": "roster-a",
+      "stage": 1,
+      "file": "art/awakening/roster-a-stage-1.png",
+      "width": 1024,
+      "height": 1536,
+      "columns": 4,
+      "rowEdges": [
+        0,
+        271,
+        521,
+        774,
+        1027,
+        1266,
+        1536
+      ],
+      "sha256": "f61a1a5ccde69b8a5955ce98f5ebbbe0bf4ceb84c5423f648fde3567b3bf6963"
+    },
+    {
+      "atlas": "roster-a",
+      "stage": 2,
+      "file": "art/awakening/roster-a-stage-2.png",
+      "width": 1024,
+      "height": 1536,
+      "columns": 4,
+      "rowEdges": [
+        0,
+        270,
+        526,
+        781,
+        1036,
+        1272,
+        1536
+      ],
+      "sha256": "7114d566eb6e5c2045a2a0b92b62a8f1eb949684dcc9aabfda6a25532d722274"
+    },
+    {
+      "atlas": "roster-a",
+      "stage": 3,
+      "file": "art/awakening/roster-a-stage-3.png",
+      "width": 1024,
+      "height": 1536,
+      "columns": 4,
+      "rowEdges": [
+        0,
+        258,
+        513,
+        769,
+        1024,
+        1280,
+        1536
+      ],
+      "sha256": "cef7aa510047de72fdf27d0d02f377d21b997f325f4b66939d5d9cb3f4e8626e"
+    },
+    {
+      "atlas": "roster-a",
+      "stage": 4,
+      "file": "art/awakening/roster-a-stage-4.png",
+      "width": 1024,
+      "height": 1536,
+      "columns": 4,
+      "rowEdges": [
+        0,
+        262,
+        514,
+        769,
+        1024,
+        1274,
+        1536
+      ],
+      "sha256": "5bdaa1c1cf57170b21bae2977492ed35f000cb26f909f0ea85568dede7ce7213"
+    },
+    {
+      "atlas": "roster-a",
+      "stage": 5,
+      "file": "art/awakening/roster-a-stage-5.png",
+      "width": 1024,
+      "height": 1536,
+      "columns": 4,
+      "rowEdges": [
+        0,
+        277,
+        530,
+        779,
+        1033,
+        1277,
+        1536
+      ],
+      "sha256": "d33e766ca9c282971e370a7f28a41cd936d1f0833ef6331fe8610a47bee5f0c6"
+    },
+    {
+      "atlas": "roster-b",
+      "stage": 1,
+      "file": "art/awakening/roster-b-stage-1.png",
+      "width": 1024,
+      "height": 1536,
+      "columns": 4,
+      "rowEdges": [
+        0,
+        256,
+        515,
+        770,
+        1023,
+        1264,
+        1536
+      ],
+      "sha256": "4dd0c864d3a0725379f967ff3840e62c2eddfc940ce82cbd9956aaa3a5483739"
+    },
+    {
+      "atlas": "roster-b",
+      "stage": 2,
+      "file": "art/awakening/roster-b-stage-2.png",
+      "width": 1024,
+      "height": 1536,
+      "columns": 4,
+      "rowEdges": [
+        0,
+        257,
+        514,
+        768,
+        1015,
+        1269,
+        1536
+      ],
+      "sha256": "d7ed241709a5b677703cb20cd926b319c3876e10c854952eca3ab7bda4b5be36"
+    },
+    {
+      "atlas": "roster-b",
+      "stage": 3,
+      "file": "art/awakening/roster-b-stage-3.png",
+      "width": 1024,
+      "height": 1536,
+      "columns": 4,
+      "rowEdges": [
+        0,
+        255,
+        511,
+        768,
+        1019,
+        1257,
+        1536
+      ],
+      "sha256": "f98681a331c134beae2eee06273b98190b0a5757f3a95b417eb647a440d82dcf"
+    },
+    {
+      "atlas": "roster-b",
+      "stage": 4,
+      "file": "art/awakening/roster-b-stage-4.png",
+      "width": 1024,
+      "height": 1536,
+      "columns": 4,
+      "rowEdges": [
+        0,
+        249,
+        517,
+        770,
+        1009,
+        1255,
+        1536
+      ],
+      "sha256": "734646f0c9e0a3b079d7ef149b02fa75fc2ff3da640c56cad617d7fb12c92075"
+    },
+    {
+      "atlas": "roster-b",
+      "stage": 5,
+      "file": "art/awakening/roster-b-stage-5.png",
+      "width": 1024,
+      "height": 1536,
+      "columns": 4,
+      "rowEdges": [
+        0,
+        256,
+        517,
+        772,
+        1006,
+        1261,
+        1536
+      ],
+      "sha256": "8ca9b05ec3e0f64f41303517e0a198a6a509865941aa4470ce8f82ab9bfee55f"
+    },
+    {
+      "atlas": "roster-c",
+      "stage": 1,
+      "file": "art/awakening/roster-c-stage-1.png",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rowEdges": [
+        0,
+        509,
+        1024
+      ],
+      "sha256": "0389c18a15b919a8aeee90a68d14e4e3b3da6240f461c6db7dd30b322de68d72"
+    },
+    {
+      "atlas": "roster-c",
+      "stage": 2,
+      "file": "art/awakening/roster-c-stage-2.png",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rowEdges": [
+        0,
+        512,
+        1024
+      ],
+      "sha256": "bff0217f10119972d8091a6b778dc637ef7a3118b7808d1b14e5514640c244fd"
+    },
+    {
+      "atlas": "roster-c",
+      "stage": 3,
+      "file": "art/awakening/roster-c-stage-3.png",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rowEdges": [
+        0,
+        512,
+        1024
+      ],
+      "sha256": "d0d8266a27664b331c2c4242716d8acc1523e511bba3be5afedd21026a1928d7"
+    },
+    {
+      "atlas": "roster-c",
+      "stage": 4,
+      "file": "art/awakening/roster-c-stage-4.png",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rowEdges": [
+        0,
+        512,
+        1024
+      ],
+      "sha256": "02af83bfa6dbe04a60129895a68647363e4178155d73b7430236e289f7761521"
+    },
+    {
+      "atlas": "roster-c",
+      "stage": 5,
+      "file": "art/awakening/roster-c-stage-5.png",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rowEdges": [
+        0,
+        512,
+        1024
+      ],
+      "sha256": "7eab721ebacd0cdc8b090b78dcfb8b1e64f044f35b5ce47a1f05467f7a1da488"
+    }
+  ]
+}

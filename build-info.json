@@ -1,13 +1,13 @@
 {
-  "version": "0.22.0",
+  "version": "0.23.0",
   "narrativeRevision": "ashes-v1",
-  "builtAt": "2026-09-21T08:30:56.707Z",
+  "builtAt": "2026-09-21T08:53:30.051Z",
   "basedOnCommit": "628af87c7aa85268040c9621756387370facdfbb",
   "includesWorkingTreeChanges": true,
   "harness": {
-    "task": "v022-story-guide",
+    "task": "v023-loadout-growth",
     "status": "pass",
-    "runId": "2026-09-21T08-29-08-557Z-13388",
+    "runId": "2026-09-21T08-50-54-273Z-17168",
     "checks": [
       {
         "id": "typecheck",
@@ -105,29 +105,35 @@
     "storyCastIndependentOfParty": true,
     "automaticContextualGuide": true,
     "questBulkClaim": true,
-    "journeyResume": true
+    "journeyResume": true,
+    "partyOrderedArmory": true,
+    "partyBulkEquipAndUnequip": true,
+    "allOwnedArmoryAccess": 71,
+    "labelledResourceWallet": true,
+    "affordableBulkLevelUp": true,
+    "unchangedGrowthCostsAndCaps": true
   },
   "browserQA": {
-    "version": "0.22.0",
+    "version": "0.23.0",
     "checks": [
-      "automatic guide, actual growth, first-stage entry and controlled victory, bulk claim, next-stage return",
-      "dismissal survives reload; resume reflects already completed tasks",
-      "chapter5 earned join after outro, one reward, optional formation, 1440px",
-      "chapter9 earned join after outro, one reward, optional formation, 390px",
-      "chapter11 earned join after outro, one reward, optional formation, 1440px",
-      "chapter14 earned join after outro, one reward, optional formation, 390px",
-      "mobile energy row no longer overlaps guide",
-      "prologue mother and mentor appear in authored rescue cut",
-      "all20 chapters render authored essential cast independently of party",
-      "three-character story at1440/390, named NPC entrance, reduced motion, no horizontal overflow"
+      "all71 characters accessible; nonstarter party first in formation order; first member selected",
+      "party batch equip20 slots, repeated click stable, party unequip, reserve gear and currency preserved",
+      "item owner selector follows party; bulk costs and resulting level exact; wallet updated; gear and growth survive reload",
+      "390px: labelled currencies up to1b fit, no header overlap or horizontal overflow",
+      "360px: labelled currencies up to1b fit, no header overlap or horizontal overflow",
+      "768px: labelled currencies up to1b fit, no header overlap or horizontal overflow",
+      "1024px: labelled currencies up to1b fit, no header overlap or horizontal overflow",
+      "actual formation edit refreshes armory immediately; reserve selectable and growable"
     ],
     "viewports": [
       1440,
-      390
+      1024,
+      768,
+      390,
+      360
     ],
     "isolatedStorage": true,
-    "controlledWinningStates": true,
-    "newCombatBalanceEvaluation": false,
+    "expandedRosterFixture": true,
     "errors": []
   }
 }

@@ -1,13 +1,13 @@
 {
-  "version": "0.16.0",
+  "version": "0.17.0",
   "narrativeRevision": "ashes-v1",
-  "builtAt": "2026-09-21T02:56:11.397Z",
+  "builtAt": "2026-09-21T04:02:47.914Z",
   "basedOnCommit": "628af87c7aa85268040c9621756387370facdfbb",
   "includesWorkingTreeChanges": true,
   "harness": {
-    "task": "v016-caster-ultimate",
+    "task": "v017-battle-spectacle",
     "status": "pass",
-    "runId": "2026-09-21T02-54-48-082Z-31920",
+    "runId": "2026-09-21T04-01-04-748Z-16796",
     "checks": [
       {
         "id": "typecheck",
@@ -61,14 +61,24 @@
     "groundedCharacterIdle": true,
     "casterCenteredUltimates": true,
     "ultimateSignatures": 6,
-    "largeUltimateDialog": false
+    "largeUltimateDialog": false,
+    "stageFinishers": true,
+    "directionalUltimateMissiles": true,
+    "travellingElementalStreams": true,
+    "completeFinisherFade": true,
+    "boundedDamageNumbers": true,
+    "shieldBashFeedback": true
   },
   "browserQA": {
-    "ultimateSequences": 20,
+    "ultimateSequences": 26,
+    "areaPauseAbortSequences": 12,
+    "combatRegressionSequences": 16,
+    "elementalBeams": 5,
     "liveGameWidths": [
       1440,
       390
     ],
+    "nextAction": true,
     "pause": true,
     "abort": true,
     "reducedMotion": true

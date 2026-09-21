@@ -1,0 +1,542 @@
+{
+  "version": 1,
+  "revision": "v020",
+  "generator": "built-in image_gen",
+  "posesPerBoss": 1,
+  "assets": [
+    {
+      "atlas": "boss-v020-a",
+      "file": "art/boss-v020-a-atlas.png",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "rowEdges": [
+        0,
+        512,
+        1024
+      ],
+      "entries": 5,
+      "cell": 512,
+      "padding": 64,
+      "sha256": "f06de55a2a67ddd8e1d01598a76864dbb716d35f5a2fecf095b937e7cbb35b2a",
+      "sourceFile": "public/art/boss-v020/sources/group-a.png",
+      "sourceHash": "a7164f06ee403bfa6b6d1fcf3f0569eaa063dc1c78406a98e6fca538b72c80db",
+      "packingFile": "public/art/boss-v020/sources/group-a-packing.json",
+      "packingHash": "f895e6a47c2ae9f117a906ab176c82eb3f2f7143e03be9ae5c8503078d784a7e",
+      "cells": [
+        {
+          "chapter": 1,
+          "name": "징수대장",
+          "index": 0,
+          "visible": 88457,
+          "edge": 0,
+          "bounds": {
+            "minX": 81,
+            "minY": 64,
+            "maxX": 430,
+            "maxY": 447
+          },
+          "sha256": "9341fea7576c3bc5cac95d101949b734a2018d3cdaad0a208f227b0231c0a937"
+        },
+        {
+          "chapter": 2,
+          "name": "군수수송관",
+          "index": 1,
+          "visible": 78248,
+          "edge": 0,
+          "bounds": {
+            "minX": 64,
+            "minY": 65,
+            "maxX": 447,
+            "maxY": 447
+          },
+          "sha256": "835a27d8efc01041dfa246eff362e7d70388c32f1f40cec09bfd5a882f7fd1eb"
+        },
+        {
+          "chapter": 3,
+          "name": "산신당 결계관리자",
+          "index": 2,
+          "visible": 87011,
+          "edge": 0,
+          "bounds": {
+            "minX": 75,
+            "minY": 64,
+            "maxX": 436,
+            "maxY": 447
+          },
+          "sha256": "2ea704f3e1e6bfabd14f79d3ec974eaab8058ab94269e89f0bd2e6326e9ccb11"
+        },
+        {
+          "chapter": 4,
+          "name": "군수호송장",
+          "index": 3,
+          "visible": 94625,
+          "edge": 0,
+          "bounds": {
+            "minX": 69,
+            "minY": 64,
+            "maxX": 442,
+            "maxY": 447
+          },
+          "sha256": "afd7c3faaec261a1405973dfdd49e2d008e80b32e9fbfbfcab56b76b73e82e4d"
+        },
+        {
+          "chapter": 5,
+          "name": "밀명추적장",
+          "index": 4,
+          "visible": 72936,
+          "edge": 0,
+          "bounds": {
+            "minX": 64,
+            "minY": 76,
+            "maxX": 447,
+            "maxY": 435
+          },
+          "sha256": "7da577e2e73205f6eb932155cbf92c1c5946beaec36ae979102f20e1e1924c45"
+        }
+      ]
+    },
+    {
+      "atlas": "boss-v020-b",
+      "file": "art/boss-v020-b-atlas.png",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "rowEdges": [
+        0,
+        512,
+        1024
+      ],
+      "entries": 5,
+      "cell": 512,
+      "padding": 64,
+      "sha256": "e88687466b179c7dd065ded1f69eaaee456af1adc032a43b9bdae77d36d38e31",
+      "sourceFile": "public/art/boss-v020/sources/group-b.png",
+      "sourceHash": "23e16a2dcf1d332f42c6f0287043cc992cf275f8dbb28df440ff7b782bf0d5b5",
+      "packingFile": "public/art/boss-v020/sources/group-b-packing.json",
+      "packingHash": "30f2d1228a5aa690ce842a7a18a0311ff2b491d9c2fc19e16d15587d6ec99e40",
+      "cells": [
+        {
+          "chapter": 6,
+          "name": "폐병기 용광로감독",
+          "index": 0,
+          "visible": 76996,
+          "edge": 0,
+          "bounds": {
+            "minX": 64,
+            "minY": 79,
+            "maxX": 447,
+            "maxY": 432
+          },
+          "sha256": "0a91b80866d7ea0b75abec6d14bcff5c9e2a7996081c1d5b5e6b577ead2f5372"
+        },
+        {
+          "chapter": 7,
+          "name": "국상부 은폐대장",
+          "index": 1,
+          "visible": 70292,
+          "edge": 0,
+          "bounds": {
+            "minX": 64,
+            "minY": 74,
+            "maxX": 447,
+            "maxY": 438
+          },
+          "sha256": "7e3e4900bd209117b4325f3a1fefa51c2ba8e8e279800a3065b6db47b17b8788"
+        },
+        {
+          "chapter": 8,
+          "name": "등록소 징발관",
+          "index": 2,
+          "visible": 86602,
+          "edge": 0,
+          "bounds": {
+            "minX": 64,
+            "minY": 64,
+            "maxX": 447,
+            "maxY": 447
+          },
+          "sha256": "c865fc04549def90579d90f75d057e2194c4bbf7f8640f0a87723d9d0dc090ce"
+        },
+        {
+          "chapter": 9,
+          "name": "축제 폭주 축전병기",
+          "index": 3,
+          "visible": 79297,
+          "edge": 0,
+          "bounds": {
+            "minX": 68,
+            "minY": 64,
+            "maxX": 443,
+            "maxY": 447
+          },
+          "sha256": "81de4cb813036abb940f45fcce31a7995b8c2fd0e19efe18c88572e761cc5dcf"
+        },
+        {
+          "chapter": 10,
+          "name": "별궁 친위장",
+          "index": 4,
+          "visible": 81724,
+          "edge": 0,
+          "bounds": {
+            "minX": 64,
+            "minY": 64,
+            "maxX": 447,
+            "maxY": 447
+          },
+          "sha256": "1bccad1624b2320cec3e768aa9015231b7ed11204560872bc8a5879b318080dd"
+        }
+      ]
+    },
+    {
+      "atlas": "boss-v020-c",
+      "file": "art/boss-v020-c-atlas.png",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "rowEdges": [
+        0,
+        512,
+        1024
+      ],
+      "entries": 5,
+      "cell": 512,
+      "padding": 64,
+      "sha256": "e589f8f31bb1d669197c92dc7101a53f016bc3b4f5c601560d2eda7e8a351aae",
+      "sourceFile": "public/art/boss-v020/sources/group-c.png",
+      "sourceHash": "ee6d52ce86867debdd085e650e9dffcc9368600e26a2075c639aa0231ff95c38",
+      "packingFile": "public/art/boss-v020/sources/group-c-packing.json",
+      "packingHash": "d0bf54713cd3bc9b38d9d75ddd68c796e5bd4c91df32bae35bd660b9424be200",
+      "cells": [
+        {
+          "chapter": 11,
+          "name": "수몰기록실 봉인병",
+          "index": 0,
+          "visible": 82761,
+          "edge": 0,
+          "bounds": {
+            "minX": 64,
+            "minY": 77,
+            "maxX": 447,
+            "maxY": 434
+          },
+          "sha256": "7efa948ddd59603e149f8d5c95f062ec8d3ff5f514deb13ada3731e3321bfa02"
+        },
+        {
+          "chapter": 12,
+          "name": "수용실 집영장치",
+          "index": 1,
+          "visible": 74599,
+          "edge": 0,
+          "bounds": {
+            "minX": 64,
+            "minY": 68,
+            "maxX": 447,
+            "maxY": 443
+          },
+          "sha256": "4e332cfdbe11aaa4d395a6863730aee5512a3fd3d240911d328794a84b2efad9"
+        },
+        {
+          "chapter": 13,
+          "name": "역주 수호진",
+          "index": 2,
+          "visible": 59659,
+          "edge": 0,
+          "bounds": {
+            "minX": 71,
+            "minY": 64,
+            "maxX": 440,
+            "maxY": 447
+          },
+          "sha256": "6938e51a63fc770be1c700eddf9a9f25b328c94eeb17f950d0615262e96a2038"
+        },
+        {
+          "chapter": 14,
+          "name": "증인 회수대장",
+          "index": 3,
+          "visible": 81837,
+          "edge": 0,
+          "bounds": {
+            "minX": 77,
+            "minY": 64,
+            "maxX": 435,
+            "maxY": 447
+          },
+          "sha256": "cb3b2f8d0f88f7e15ba53683a286cfbb3837eee34483c4a7ae1859c20669cad2"
+        },
+        {
+          "chapter": 15,
+          "name": "오보 공성대장",
+          "index": 4,
+          "visible": 82246,
+          "edge": 0,
+          "bounds": {
+            "minX": 66,
+            "minY": 77,
+            "maxX": 447,
+            "maxY": 434
+          },
+          "sha256": "8dadbe08348dea05a2f4c3602b7a929193422c456f8f72032443c89e04d9e50e"
+        }
+      ]
+    },
+    {
+      "atlas": "boss-v020-d",
+      "file": "art/boss-v020-d-atlas.png",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2,
+      "rowEdges": [
+        0,
+        512,
+        1024
+      ],
+      "entries": 5,
+      "cell": 512,
+      "padding": 64,
+      "sha256": "4a476d54b849f3602e0842f4f291c6bb240bf9e01c657832f3c9c52a68a79772",
+      "sourceFile": "public/art/boss-v020/sources/group-d.png",
+      "sourceHash": "eaf9da0a4ba0b195140c0dadd8dc8e1a28f2e604ebd1c2c7ba7b1f897a451ef7",
+      "packingFile": "public/art/boss-v020/sources/group-d-packing.json",
+      "packingHash": "6fdcd287d4cb1ce0b32b5549fafe21c1469d194d177a81c2bea9c59980a1eab7",
+      "cells": [
+        {
+          "chapter": 16,
+          "name": "기록 소각대장",
+          "index": 0,
+          "visible": 86551,
+          "edge": 0,
+          "bounds": {
+            "minX": 66,
+            "minY": 64,
+            "maxX": 445,
+            "maxY": 447
+          },
+          "sha256": "a269c435ec0be6bf113b558494c08d9f9b5476be7b52f7c177437dfae67c55c3"
+        },
+        {
+          "chapter": 17,
+          "name": "명등전 친위대장",
+          "index": 1,
+          "visible": 88572,
+          "edge": 0,
+          "bounds": {
+            "minX": 64,
+            "minY": 77,
+            "maxX": 447,
+            "maxY": 435
+          },
+          "sha256": "69ad0c14662a77e102afc10f400f4e68abd9a8e193963bcbeb4735f2a99c90a9"
+        },
+        {
+          "chapter": 18,
+          "name": "윤도겸 강제동력갑주",
+          "index": 2,
+          "visible": 91857,
+          "edge": 0,
+          "bounds": {
+            "minX": 65,
+            "minY": 64,
+            "maxX": 446,
+            "maxY": 447
+          },
+          "sha256": "8ea6c97d47da381ec14c65a0e080338512d5cc142fb60efffaaab7bf8919a2c2"
+        },
+        {
+          "chapter": 19,
+          "name": "윤도겸",
+          "index": 3,
+          "visible": 74749,
+          "edge": 0,
+          "bounds": {
+            "minX": 68,
+            "minY": 64,
+            "maxX": 442,
+            "maxY": 447
+          },
+          "sha256": "8887db9bdaf21ed1cee93005b1de26579abea821d86eaa3b78cd1ff1812e2c68"
+        },
+        {
+          "chapter": 20,
+          "name": "귀장",
+          "index": 4,
+          "visible": 99613,
+          "edge": 0,
+          "bounds": {
+            "minX": 68,
+            "minY": 64,
+            "maxX": 445,
+            "maxY": 447
+          },
+          "sha256": "a0b7ade6442c3932d26c2e81850e3c02dc0b89f89b9d91ccce61311eb9ea1efc"
+        }
+      ]
+    }
+  ],
+  "bosses": [
+    {
+      "chapter": 1,
+      "name": "징수대장",
+      "atlas": "boss-v020-a",
+      "index": 0,
+      "poseCount": 1,
+      "identity": "chapter-1"
+    },
+    {
+      "chapter": 2,
+      "name": "군수수송관",
+      "atlas": "boss-v020-a",
+      "index": 1,
+      "poseCount": 1,
+      "identity": "chapter-2"
+    },
+    {
+      "chapter": 3,
+      "name": "산신당 결계관리자",
+      "atlas": "boss-v020-a",
+      "index": 2,
+      "poseCount": 1,
+      "identity": "chapter-3"
+    },
+    {
+      "chapter": 4,
+      "name": "군수호송장",
+      "atlas": "boss-v020-a",
+      "index": 3,
+      "poseCount": 1,
+      "identity": "chapter-4"
+    },
+    {
+      "chapter": 5,
+      "name": "밀명추적장",
+      "atlas": "boss-v020-a",
+      "index": 4,
+      "poseCount": 1,
+      "identity": "chapter-5"
+    },
+    {
+      "chapter": 6,
+      "name": "폐병기 용광로감독",
+      "atlas": "boss-v020-b",
+      "index": 0,
+      "poseCount": 1,
+      "identity": "chapter-6"
+    },
+    {
+      "chapter": 7,
+      "name": "국상부 은폐대장",
+      "atlas": "boss-v020-b",
+      "index": 1,
+      "poseCount": 1,
+      "identity": "chapter-7"
+    },
+    {
+      "chapter": 8,
+      "name": "등록소 징발관",
+      "atlas": "boss-v020-b",
+      "index": 2,
+      "poseCount": 1,
+      "identity": "chapter-8"
+    },
+    {
+      "chapter": 9,
+      "name": "축제 폭주 축전병기",
+      "atlas": "boss-v020-b",
+      "index": 3,
+      "poseCount": 1,
+      "identity": "chapter-9"
+    },
+    {
+      "chapter": 10,
+      "name": "별궁 친위장",
+      "atlas": "boss-v020-b",
+      "index": 4,
+      "poseCount": 1,
+      "identity": "chapter-10"
+    },
+    {
+      "chapter": 11,
+      "name": "수몰기록실 봉인병",
+      "atlas": "boss-v020-c",
+      "index": 0,
+      "poseCount": 1,
+      "identity": "chapter-11"
+    },
+    {
+      "chapter": 12,
+      "name": "수용실 집영장치",
+      "atlas": "boss-v020-c",
+      "index": 1,
+      "poseCount": 1,
+      "identity": "chapter-12"
+    },
+    {
+      "chapter": 13,
+      "name": "역주 수호진",
+      "atlas": "boss-v020-c",
+      "index": 2,
+      "poseCount": 1,
+      "identity": "chapter-13"
+    },
+    {
+      "chapter": 14,
+      "name": "증인 회수대장",
+      "atlas": "boss-v020-c",
+      "index": 3,
+      "poseCount": 1,
+      "identity": "chapter-14"
+    },
+    {
+      "chapter": 15,
+      "name": "오보 공성대장",
+      "atlas": "boss-v020-c",
+      "index": 4,
+      "poseCount": 1,
+      "identity": "chapter-15"
+    },
+    {
+      "chapter": 16,
+      "name": "기록 소각대장",
+      "atlas": "boss-v020-d",
+      "index": 0,
+      "poseCount": 1,
+      "identity": "chapter-16"
+    },
+    {
+      "chapter": 17,
+      "name": "명등전 친위대장",
+      "atlas": "boss-v020-d",
+      "index": 1,
+      "poseCount": 1,
+      "identity": "chapter-17"
+    },
+    {
+      "chapter": 18,
+      "name": "윤도겸 강제동력갑주",
+      "atlas": "boss-v020-d",
+      "index": 2,
+      "poseCount": 1,
+      "identity": "yun-dogyeom"
+    },
+    {
+      "chapter": 19,
+      "name": "윤도겸",
+      "atlas": "boss-v020-d",
+      "index": 3,
+      "poseCount": 1,
+      "identity": "yun-dogyeom"
+    },
+    {
+      "chapter": 20,
+      "name": "귀장",
+      "atlas": "boss-v020-d",
+      "index": 4,
+      "poseCount": 1,
+      "identity": "gwijang"
+    }
+  ]
+}

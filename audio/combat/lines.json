@@ -1669,5 +1669,605 @@
         "voice":  "Microsoft Heami Desktop",
         "pitch":  "+9%",
         "source":  "Windows System.Speech local TTS"
+    },
+    {
+        "id":  "chapter-boss-01",
+        "slot":  "skill1",
+        "text":  "징발 강타!",
+        "rate":  0,
+        "file":  "chapter-boss-01-skill1.wav",
+        "voice":  "Microsoft Heami Desktop",
+        "pitch":  "-4%",
+        "source":  "Windows System.Speech local TTS"
+    },
+    {
+        "id":  "chapter-boss-01",
+        "slot":  "skill2",
+        "text":  "통행 봉쇄!",
+        "rate":  0,
+        "file":  "chapter-boss-01-skill2.wav",
+        "voice":  "Microsoft Heami Desktop",
+        "pitch":  "-4%",
+        "source":  "Windows System.Speech local TTS"
+    },
+    {
+        "id":  "chapter-boss-01",
+        "slot":  "ultimate",
+        "text":  "강제 징수령!",
+        "rate":  0,
+        "file":  "chapter-boss-01-ultimate.wav",
+        "voice":  "Microsoft Heami Desktop",
+        "pitch":  "-4%",
+        "source":  "Windows System.Speech local TTS"
+    },
+    {
+        "id":  "chapter-boss-02",
+        "slot":  "skill1",
+        "text":  "철쇄 견인!",
+        "rate":  1,
+        "file":  "chapter-boss-02-skill1.wav",
+        "voice":  "Microsoft Heami Desktop",
+        "pitch":  "-4%",
+        "source":  "Windows System.Speech local TTS"
+    },
+    {
+        "id":  "chapter-boss-02",
+        "slot":  "skill2",
+        "text":  "수송로 차단!",
+        "rate":  1,
+        "file":  "chapter-boss-02-skill2.wav",
+        "voice":  "Microsoft Heami Desktop",
+        "pitch":  "-4%",
+        "source":  "Windows System.Speech local TTS"
+    },
+    {
+        "id":  "chapter-boss-02",
+        "slot":  "ultimate",
+        "text":  "철창 포박진!",
+        "rate":  1,
+        "file":  "chapter-boss-02-ultimate.wav",
+        "voice":  "Microsoft Heami Desktop",
+        "pitch":  "-4%",
+        "source":  "Windows System.Speech local TTS"
+    },
+    {
+        "id":  "chapter-boss-03",
+        "slot":  "skill1",
+        "text":  "역문 봉인!",
+        "rate":  0,
+        "file":  "chapter-boss-03-skill1.wav",
+        "voice":  "Microsoft Heami Desktop",
+        "pitch":  "-4%",
+        "source":  "Windows System.Speech local TTS"
+    },
+    {
+        "id":  "chapter-boss-03",
+        "slot":  "skill2",
+        "text":  "축전선 속박!",
+        "rate":  0,
+        "file":  "chapter-boss-03-skill2.wav",
+        "voice":  "Microsoft Heami Desktop",
+        "pitch":  "-4%",
+        "source":  "Windows System.Speech local TTS"
+    },
+    {
+        "id":  "chapter-boss-03",
+        "slot":  "ultimate",
+        "text":  "산신당 폐쇄진!",
+        "rate":  0,
+        "file":  "chapter-boss-03-ultimate.wav",
+        "voice":  "Microsoft Heami Desktop",
+        "pitch":  "-4%",
+        "source":  "Windows System.Speech local TTS"
+    },
+    {
+        "id":  "chapter-boss-04",
+        "slot":  "skill1",
+        "text":  "호송 기창!",
+        "rate":  1,
+        "file":  "chapter-boss-04-skill1.wav",
+        "voice":  "Microsoft Heami Desktop",
+        "pitch":  "-4%",
+        "source":  "Windows System.Speech local TTS"
+    },
+    {
+        "id":  "chapter-boss-04",
+        "slot":  "skill2",
+        "text":  "행렬 압박!",
+        "rate":  1,
+        "file":  "chapter-boss-04-skill2.wav",
+        "voice":  "Microsoft Heami Desktop",
+        "pitch":  "-4%",
+        "source":  "Windows System.Speech local TTS"
+    },
+    {
+        "id":  "chapter-boss-04",
+        "slot":  "ultimate",
+        "text":  "군수 돌파진!",
+        "rate":  1,
+        "file":  "chapter-boss-04-ultimate.wav",
+        "voice":  "Microsoft Heami Desktop",
+        "pitch":  "-4%",
+        "source":  "Windows System.Speech local TTS"
+    },
+    {
+        "id":  "chapter-boss-05",
+        "slot":  "skill1",
+        "text":  "그늘 연참!",
+        "rate":  1,
+        "file":  "chapter-boss-05-skill1.wav",
+        "voice":  "Microsoft Heami Desktop",
+        "pitch":  "-4%",
+        "source":  "Windows System.Speech local TTS"
+    },
+    {
+        "id":  "chapter-boss-05",
+        "slot":  "skill2",
+        "text":  "밀명 잠행!",
+        "rate":  1,
+        "file":  "chapter-boss-05-skill2.wav",
+        "voice":  "Microsoft Heami Desktop",
+        "pitch":  "-4%",
+        "source":  "Windows System.Speech local TTS"
+    },
+    {
+        "id":  "chapter-boss-05",
+        "slot":  "ultimate",
+        "text":  "무흔 추격!",
+        "rate":  1,
+        "file":  "chapter-boss-05-ultimate.wav",
+        "voice":  "Microsoft Heami Desktop",
+        "pitch":  "-4%",
+        "source":  "Windows System.Speech local TTS"
+    },
+    {
+        "id":  "chapter-boss-06",
+        "slot":  "skill1",
+        "text":  "용광 강타!",
+        "rate":  0,
+        "file":  "chapter-boss-06-skill1.wav",
+        "voice":  "Microsoft Heami Desktop",
+        "pitch":  "-4%",
+        "source":  "Windows System.Speech local TTS"
+    },
+    {
+        "id":  "chapter-boss-06",
+        "slot":  "skill2",
+        "text":  "폐검 소각!",
+        "rate":  0,
+        "file":  "chapter-boss-06-skill2.wav",
+        "voice":  "Microsoft Heami Desktop",
+        "pitch":  "-4%",
+        "source":  "Windows System.Speech local TTS"
+    },
+    {
+        "id":  "chapter-boss-06",
+        "slot":  "ultimate",
+        "text":  "폐병기 화장진!",
+        "rate":  0,
+        "file":  "chapter-boss-06-ultimate.wav",
+        "voice":  "Microsoft Heami Desktop",
+        "pitch":  "-4%",
+        "source":  "Windows System.Speech local TTS"
+    },
+    {
+        "id":  "chapter-boss-07",
+        "slot":  "skill1",
+        "text":  "봉쇄 쇠뇌!",
+        "rate":  0,
+        "file":  "chapter-boss-07-skill1.wav",
+        "voice":  "Microsoft Heami Desktop",
+        "pitch":  "-4%",
+        "source":  "Windows System.Speech local TTS"
+    },
+    {
+        "id":  "chapter-boss-07",
+        "slot":  "skill2",
+        "text":  "협곡 제압사!",
+        "rate":  0,
+        "file":  "chapter-boss-07-skill2.wav",
+        "voice":  "Microsoft Heami Desktop",
+        "pitch":  "-4%",
+        "source":  "Windows System.Speech local TTS"
+    },
+    {
+        "id":  "chapter-boss-07",
+        "slot":  "ultimate",
+        "text":  "인멸 포위망!",
+        "rate":  0,
+        "file":  "chapter-boss-07-ultimate.wav",
+        "voice":  "Microsoft Heami Desktop",
+        "pitch":  "-4%",
+        "source":  "Windows System.Speech local TTS"
+    },
+    {
+        "id":  "chapter-boss-08",
+        "slot":  "skill1",
+        "text":  "통행 낙인!",
+        "rate":  0,
+        "file":  "chapter-boss-08-skill1.wav",
+        "voice":  "Microsoft Heami Desktop",
+        "pitch":  "-4%",
+        "source":  "Windows System.Speech local TTS"
+    },
+    {
+        "id":  "chapter-boss-08",
+        "slot":  "skill2",
+        "text":  "등록 속박!",
+        "rate":  0,
+        "file":  "chapter-boss-08-skill2.wav",
+        "voice":  "Microsoft Heami Desktop",
+        "pitch":  "-4%",
+        "source":  "Windows System.Speech local TTS"
+    },
+    {
+        "id":  "chapter-boss-08",
+        "slot":  "ultimate",
+        "text":  "일괄 징발령!",
+        "rate":  0,
+        "file":  "chapter-boss-08-ultimate.wav",
+        "voice":  "Microsoft Heami Desktop",
+        "pitch":  "-4%",
+        "source":  "Windows System.Speech local TTS"
+    },
+    {
+        "id":  "chapter-boss-09",
+        "slot":  "skill1",
+        "text":  "축전 화선!",
+        "rate":  -1,
+        "file":  "chapter-boss-09-skill1.wav",
+        "voice":  "Microsoft Heami Desktop",
+        "pitch":  "0%",
+        "source":  "Windows System.Speech local TTS"
+    },
+    {
+        "id":  "chapter-boss-09",
+        "slot":  "skill2",
+        "text":  "불꽃 과부하!",
+        "rate":  -1,
+        "file":  "chapter-boss-09-skill2.wav",
+        "voice":  "Microsoft Heami Desktop",
+        "pitch":  "0%",
+        "source":  "Windows System.Speech local TTS"
+    },
+    {
+        "id":  "chapter-boss-09",
+        "slot":  "ultimate",
+        "text":  "광장 방전!",
+        "rate":  -1,
+        "file":  "chapter-boss-09-ultimate.wav",
+        "voice":  "Microsoft Heami Desktop",
+        "pitch":  "0%",
+        "source":  "Windows System.Speech local TTS"
+    },
+    {
+        "id":  "chapter-boss-10",
+        "slot":  "skill1",
+        "text":  "친위 반격!",
+        "rate":  0,
+        "file":  "chapter-boss-10-skill1.wav",
+        "voice":  "Microsoft Heami Desktop",
+        "pitch":  "-4%",
+        "source":  "Windows System.Speech local TTS"
+    },
+    {
+        "id":  "chapter-boss-10",
+        "slot":  "skill2",
+        "text":  "별궁 방벽!",
+        "rate":  0,
+        "file":  "chapter-boss-10-skill2.wav",
+        "voice":  "Microsoft Heami Desktop",
+        "pitch":  "-4%",
+        "source":  "Windows System.Speech local TTS"
+    },
+    {
+        "id":  "chapter-boss-10",
+        "slot":  "ultimate",
+        "text":  "왕실 봉쇄선!",
+        "rate":  0,
+        "file":  "chapter-boss-10-ultimate.wav",
+        "voice":  "Microsoft Heami Desktop",
+        "pitch":  "-4%",
+        "source":  "Windows System.Speech local TTS"
+    },
+    {
+        "id":  "chapter-boss-11",
+        "slot":  "skill1",
+        "text":  "수압 봉인!",
+        "rate":  -1,
+        "file":  "chapter-boss-11-skill1.wav",
+        "voice":  "Microsoft Heami Desktop",
+        "pitch":  "0%",
+        "source":  "Windows System.Speech local TTS"
+    },
+    {
+        "id":  "chapter-boss-11",
+        "slot":  "skill2",
+        "text":  "기록실 석벽!",
+        "rate":  -1,
+        "file":  "chapter-boss-11-skill2.wav",
+        "voice":  "Microsoft Heami Desktop",
+        "pitch":  "0%",
+        "source":  "Windows System.Speech local TTS"
+    },
+    {
+        "id":  "chapter-boss-11",
+        "slot":  "ultimate",
+        "text":  "수몰 봉함진!",
+        "rate":  -1,
+        "file":  "chapter-boss-11-ultimate.wav",
+        "voice":  "Microsoft Heami Desktop",
+        "pitch":  "0%",
+        "source":  "Windows System.Speech local TTS"
+    },
+    {
+        "id":  "chapter-boss-12",
+        "slot":  "skill1",
+        "text":  "번호의 사슬!",
+        "rate":  -1,
+        "file":  "chapter-boss-12-skill1.wav",
+        "voice":  "Microsoft Heami Desktop",
+        "pitch":  "0%",
+        "source":  "Windows System.Speech local TTS"
+    },
+    {
+        "id":  "chapter-boss-12",
+        "slot":  "skill2",
+        "text":  "강제 집영!",
+        "rate":  -1,
+        "file":  "chapter-boss-12-skill2.wav",
+        "voice":  "Microsoft Heami Desktop",
+        "pitch":  "0%",
+        "source":  "Windows System.Speech local TTS"
+    },
+    {
+        "id":  "chapter-boss-12",
+        "slot":  "ultimate",
+        "text":  "비상 수거령!",
+        "rate":  -1,
+        "file":  "chapter-boss-12-ultimate.wav",
+        "voice":  "Microsoft Heami Desktop",
+        "pitch":  "0%",
+        "source":  "Windows System.Speech local TTS"
+    },
+    {
+        "id":  "chapter-boss-13",
+        "slot":  "skill1",
+        "text":  "역류 파동!",
+        "rate":  -1,
+        "file":  "chapter-boss-13-skill1.wav",
+        "voice":  "Microsoft Heami Desktop",
+        "pitch":  "0%",
+        "source":  "Windows System.Speech local TTS"
+    },
+    {
+        "id":  "chapter-boss-13",
+        "slot":  "skill2",
+        "text":  "고리 속박!",
+        "rate":  -1,
+        "file":  "chapter-boss-13-skill2.wav",
+        "voice":  "Microsoft Heami Desktop",
+        "pitch":  "0%",
+        "source":  "Windows System.Speech local TTS"
+    },
+    {
+        "id":  "chapter-boss-13",
+        "slot":  "ultimate",
+        "text":  "역방향 공명!",
+        "rate":  -1,
+        "file":  "chapter-boss-13-ultimate.wav",
+        "voice":  "Microsoft Heami Desktop",
+        "pitch":  "0%",
+        "source":  "Windows System.Speech local TTS"
+    },
+    {
+        "id":  "chapter-boss-14",
+        "slot":  "skill1",
+        "text":  "올가미 포획!",
+        "rate":  1,
+        "file":  "chapter-boss-14-skill1.wav",
+        "voice":  "Microsoft Heami Desktop",
+        "pitch":  "-4%",
+        "source":  "Windows System.Speech local TTS"
+    },
+    {
+        "id":  "chapter-boss-14",
+        "slot":  "skill2",
+        "text":  "증언 봉쇄!",
+        "rate":  1,
+        "file":  "chapter-boss-14-skill2.wav",
+        "voice":  "Microsoft Heami Desktop",
+        "pitch":  "-4%",
+        "source":  "Windows System.Speech local TTS"
+    },
+    {
+        "id":  "chapter-boss-14",
+        "slot":  "ultimate",
+        "text":  "회수대 추격!",
+        "rate":  1,
+        "file":  "chapter-boss-14-ultimate.wav",
+        "voice":  "Microsoft Heami Desktop",
+        "pitch":  "-4%",
+        "source":  "Windows System.Speech local TTS"
+    },
+    {
+        "id":  "chapter-boss-15",
+        "slot":  "skill1",
+        "text":  "공성 철퇴!",
+        "rate":  0,
+        "file":  "chapter-boss-15-skill1.wav",
+        "voice":  "Microsoft Heami Desktop",
+        "pitch":  "-4%",
+        "source":  "Windows System.Speech local TTS"
+    },
+    {
+        "id":  "chapter-boss-15",
+        "slot":  "skill2",
+        "text":  "포방패 엄호!",
+        "rate":  0,
+        "file":  "chapter-boss-15-skill2.wav",
+        "voice":  "Microsoft Heami Desktop",
+        "pitch":  "-4%",
+        "source":  "Windows System.Speech local TTS"
+    },
+    {
+        "id":  "chapter-boss-15",
+        "slot":  "ultimate",
+        "text":  "오보 포위망!",
+        "rate":  0,
+        "file":  "chapter-boss-15-ultimate.wav",
+        "voice":  "Microsoft Heami Desktop",
+        "pitch":  "-4%",
+        "source":  "Windows System.Speech local TTS"
+    },
+    {
+        "id":  "chapter-boss-16",
+        "slot":  "skill1",
+        "text":  "소각 화선!",
+        "rate":  0,
+        "file":  "chapter-boss-16-skill1.wav",
+        "voice":  "Microsoft Heami Desktop",
+        "pitch":  "-4%",
+        "source":  "Windows System.Speech local TTS"
+    },
+    {
+        "id":  "chapter-boss-16",
+        "slot":  "skill2",
+        "text":  "먹불 낙인!",
+        "rate":  0,
+        "file":  "chapter-boss-16-skill2.wav",
+        "voice":  "Microsoft Heami Desktop",
+        "pitch":  "-4%",
+        "source":  "Windows System.Speech local TTS"
+    },
+    {
+        "id":  "chapter-boss-16",
+        "slot":  "ultimate",
+        "text":  "증거 화형령!",
+        "rate":  0,
+        "file":  "chapter-boss-16-ultimate.wav",
+        "voice":  "Microsoft Heami Desktop",
+        "pitch":  "-4%",
+        "source":  "Windows System.Speech local TTS"
+    },
+    {
+        "id":  "chapter-boss-17",
+        "slot":  "skill1",
+        "text":  "문지기 반격!",
+        "rate":  0,
+        "file":  "chapter-boss-17-skill1.wav",
+        "voice":  "Microsoft Heami Desktop",
+        "pitch":  "-4%",
+        "source":  "Windows System.Speech local TTS"
+    },
+    {
+        "id":  "chapter-boss-17",
+        "slot":  "skill2",
+        "text":  "삼중 봉쇄!",
+        "rate":  0,
+        "file":  "chapter-boss-17-skill2.wav",
+        "voice":  "Microsoft Heami Desktop",
+        "pitch":  "-4%",
+        "source":  "Windows System.Speech local TTS"
+    },
+    {
+        "id":  "chapter-boss-17",
+        "slot":  "ultimate",
+        "text":  "명등전 철벽!",
+        "rate":  0,
+        "file":  "chapter-boss-17-ultimate.wav",
+        "voice":  "Microsoft Heami Desktop",
+        "pitch":  "-4%",
+        "source":  "Windows System.Speech local TTS"
+    },
+    {
+        "id":  "chapter-boss-18",
+        "slot":  "skill1",
+        "text":  "왕실 동력탄!",
+        "rate":  0,
+        "file":  "chapter-boss-18-skill1.wav",
+        "voice":  "Microsoft Heami Desktop",
+        "pitch":  "-10%",
+        "source":  "Windows System.Speech local TTS"
+    },
+    {
+        "id":  "chapter-boss-18",
+        "slot":  "skill2",
+        "text":  "축전 갑주!",
+        "rate":  0,
+        "file":  "chapter-boss-18-skill2.wav",
+        "voice":  "Microsoft Heami Desktop",
+        "pitch":  "-10%",
+        "source":  "Windows System.Speech local TTS"
+    },
+    {
+        "id":  "chapter-boss-18",
+        "slot":  "ultimate",
+        "text":  "강제 동원령!",
+        "rate":  0,
+        "file":  "chapter-boss-18-ultimate.wav",
+        "voice":  "Microsoft Heami Desktop",
+        "pitch":  "-10%",
+        "source":  "Windows System.Speech local TTS"
+    },
+    {
+        "id":  "chapter-boss-19",
+        "slot":  "skill1",
+        "text":  "국상검 일섬!",
+        "rate":  1,
+        "file":  "chapter-boss-19-skill1.wav",
+        "voice":  "Microsoft Heami Desktop",
+        "pitch":  "-10%",
+        "source":  "Windows System.Speech local TTS"
+    },
+    {
+        "id":  "chapter-boss-19",
+        "slot":  "skill2",
+        "text":  "최후의 저항!",
+        "rate":  1,
+        "file":  "chapter-boss-19-skill2.wav",
+        "voice":  "Microsoft Heami Desktop",
+        "pitch":  "-10%",
+        "source":  "Windows System.Speech local TTS"
+    },
+    {
+        "id":  "chapter-boss-19",
+        "slot":  "ultimate",
+        "text":  "끊어진 왕명!",
+        "rate":  1,
+        "file":  "chapter-boss-19-ultimate.wav",
+        "voice":  "Microsoft Heami Desktop",
+        "pitch":  "-10%",
+        "source":  "Windows System.Speech local TTS"
+    },
+    {
+        "id":  "chapter-boss-20",
+        "slot":  "skill1",
+        "text":  "경계 절단!",
+        "rate":  1,
+        "file":  "chapter-boss-20-skill1.wav",
+        "voice":  "Microsoft Heami Desktop",
+        "pitch":  "-8%",
+        "source":  "Windows System.Speech local TTS"
+    },
+    {
+        "id":  "chapter-boss-20",
+        "slot":  "skill2",
+        "text":  "통로 침입!",
+        "rate":  1,
+        "file":  "chapter-boss-20-skill2.wav",
+        "voice":  "Microsoft Heami Desktop",
+        "pitch":  "-8%",
+        "source":  "Windows System.Speech local TTS"
+    },
+    {
+        "id":  "chapter-boss-20",
+        "slot":  "ultimate",
+        "text":  "점유의 칼날!",
+        "rate":  1,
+        "file":  "chapter-boss-20-ultimate.wav",
+        "voice":  "Microsoft Heami Desktop",
+        "pitch":  "-8%",
+        "source":  "Windows System.Speech local TTS"
     }
 ]

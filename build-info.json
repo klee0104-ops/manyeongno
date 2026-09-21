@@ -1,13 +1,13 @@
 {
-  "version": "0.19.0",
+  "version": "0.20.0",
   "narrativeRevision": "ashes-v1",
-  "builtAt": "2026-09-21T06:36:48.396Z",
+  "builtAt": "2026-09-21T07:23:52.579Z",
   "basedOnCommit": "628af87c7aa85268040c9621756387370facdfbb",
   "includesWorkingTreeChanges": true,
   "harness": {
-    "task": "v019-folklore-expansion",
+    "task": "v020-chapter-bosses",
     "status": "pass",
-    "runId": "2026-09-21T06-35-45-116Z-13696",
+    "runId": "2026-09-21T07-22-40-251Z-27848",
     "checks": [
       {
         "id": "typecheck",
@@ -50,6 +50,10 @@
         "status": "pass"
       },
       {
+        "id": "chapter-boss-art",
+        "status": "pass"
+      },
+      {
         "id": "production-build",
         "status": "pass"
       }
@@ -60,47 +64,53 @@
     "adminRosterSync": true,
     "manualSummonStories": 71,
     "collectibleSpirits": 71,
-    "folkloreNewcomers": 6,
-    "characterPresentationContracts": 71,
+    "summonableSpirits": 67,
+    "storyCompanions": 4,
     "awakeningIllustrations": 355,
     "awakeningAtlases": 30,
     "combatFrameCharacters": 12,
     "combatFrameSheets": 24,
     "combatPoses": 288,
-    "riggedCharacters": 59,
-    "exclusiveMotionOwnership": true,
+    "riggedCollectibleCharacters": 59,
+    "chapterBossEncounters": 20,
+    "chapterBossIdentities": 19,
+    "chapterBossIllustrations": 20,
+    "chapterBossPosesEach": 1,
+    "chapterBossVoices": 60,
+    "combatVoiceLines": 291,
+    "storyCuts": 209,
+    "chapterBossPreview": true,
+    "chapter20EvacuationColumns": 3,
+    "chapter19And20StoryBeforeReward": true,
+    "codexRewardEligibleSpirits": 66,
+    "characterPresentationContracts": 71,
     "livingIllustrations": true,
-    "sharedTeamFormation": true,
     "groundedCharacterIdle": true,
     "casterCenteredUltimates": true,
-    "ultimateSignatures": 20,
-    "largeUltimateDialog": false,
-    "stageFinishers": true,
-    "directionalUltimateMissiles": true,
-    "travellingElementalStreams": true,
-    "completeFinisherFade": true,
-    "boundedDamageNumbers": true,
-    "shieldBashFeedback": true,
     "skillPreview": true,
     "previewUsesBattleEngine": true,
-    "previewConsumesResources": false,
-    "interactiveIllustrations": true,
-    "manualIllustrationPause": true,
-    "combatVoiceLines": 231
+    "previewConsumesResources": false
   },
   "browserQA": {
-    "gameSequences": 14,
-    "effectSequences": 42,
-    "liveGameWidths": [
+    "bossBriefs": 40,
+    "bossUltimatePreviews": 20,
+    "finaleFlows": [
+      18,
+      19,
+      20
+    ],
+    "mobileNonDeathOutcomes": [
+      3,
+      9,
+      20
+    ],
+    "viewports": [
       1440,
       390
     ],
-    "awakening": 5,
-    "saveUnchanged": true,
-    "adminSync": 71,
-    "pause": true,
-    "abort": true,
-    "reducedMotion": true,
-    "illustrationCells": 36
+    "previewPauseAnd2x": true,
+    "previewSaveUnchanged": true,
+    "duplicateFinaleRewardPrevented": true,
+    "usesControlledFinalWaveFixtures": true
   }
 }

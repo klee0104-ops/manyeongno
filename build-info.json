@@ -1,13 +1,13 @@
 {
-  "version": "0.20.0",
+  "version": "0.21.0",
   "narrativeRevision": "ashes-v1",
-  "builtAt": "2026-09-21T07:23:52.579Z",
+  "builtAt": "2026-09-21T07:55:06.722Z",
   "basedOnCommit": "628af87c7aa85268040c9621756387370facdfbb",
   "includesWorkingTreeChanges": true,
   "harness": {
-    "task": "v020-chapter-bosses",
+    "task": "v021-local-profiles",
     "status": "pass",
-    "runId": "2026-09-21T07-22-40-251Z-27848",
+    "runId": "2026-09-21T07-53-52-223Z-12200",
     "checks": [
       {
         "id": "typecheck",
@@ -89,28 +89,38 @@
     "casterCenteredUltimates": true,
     "skillPreview": true,
     "previewUsesBattleEngine": true,
-    "previewConsumesResources": false
+    "previewConsumesResources": false,
+    "localMultipleProfiles": true,
+    "legacySavePreserved": true,
+    "separateNewJourney": true,
+    "animatedRegionalOpening": true,
+    "loginCharacters": false,
+    "manualSummonMinRarity": 4,
+    "ordinarySummonsImmediate": true,
+    "rareSummonSeal": "purple",
+    "legendarySummonSeal": "gold"
   },
   "browserQA": {
-    "bossBriefs": 40,
-    "bossUltimatePreviews": 20,
-    "finaleFlows": [
-      18,
-      19,
-      20
-    ],
-    "mobileNonDeathOutcomes": [
-      3,
-      9,
-      20
+    "version": "0.21.0",
+    "checks": [
+      "empty menu and background animation",
+      "create profile, start, new journey preserves existing currency/pity/gender",
+      "switch and reload continue correct profile",
+      "title reloads latest save without stale audio overwrite",
+      "mixed 10 pull manual4/5, skip, finish and save invariant at 1440",
+      "mixed 10 pull manual4/5, skip, finish and save invariant at 390",
+      "reduced-motion background",
+      "legacy save appears as existing profile",
+      "real shop 10 pull spends2700 once, guarantees4+, exact rare seal count, result preserves saved award",
+      "ordinary single immediate reveal retains optional story replay",
+      "stable visible menu after audio toggle, mobile layout no horizontal overflow"
     ],
     "viewports": [
       1440,
       390
     ],
-    "previewPauseAnd2x": true,
-    "previewSaveUnchanged": true,
-    "duplicateFinaleRewardPrevented": true,
-    "usesControlledFinalWaveFixtures": true
+    "isolatedStorage": true,
+    "actualShopPull": true,
+    "errors": []
   }
 }

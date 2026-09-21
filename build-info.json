@@ -1,13 +1,13 @@
 {
-  "version": "0.21.0",
+  "version": "0.22.0",
   "narrativeRevision": "ashes-v1",
-  "builtAt": "2026-09-21T07:55:06.722Z",
+  "builtAt": "2026-09-21T08:30:56.707Z",
   "basedOnCommit": "628af87c7aa85268040c9621756387370facdfbb",
   "includesWorkingTreeChanges": true,
   "harness": {
-    "task": "v021-local-profiles",
+    "task": "v022-story-guide",
     "status": "pass",
-    "runId": "2026-09-21T07-53-52-223Z-12200",
+    "runId": "2026-09-21T08-29-08-557Z-13388",
     "checks": [
       {
         "id": "typecheck",
@@ -98,29 +98,36 @@
     "manualSummonMinRarity": 4,
     "ordinarySummonsImmediate": true,
     "rareSummonSeal": "purple",
-    "legendarySummonSeal": "gold"
+    "legendarySummonSeal": "gold",
+    "essentialStoryCastChapters": 20,
+    "prologueCast": true,
+    "earnedCompanionWelcomes": 4,
+    "storyCastIndependentOfParty": true,
+    "automaticContextualGuide": true,
+    "questBulkClaim": true,
+    "journeyResume": true
   },
   "browserQA": {
-    "version": "0.21.0",
+    "version": "0.22.0",
     "checks": [
-      "empty menu and background animation",
-      "create profile, start, new journey preserves existing currency/pity/gender",
-      "switch and reload continue correct profile",
-      "title reloads latest save without stale audio overwrite",
-      "mixed 10 pull manual4/5, skip, finish and save invariant at 1440",
-      "mixed 10 pull manual4/5, skip, finish and save invariant at 390",
-      "reduced-motion background",
-      "legacy save appears as existing profile",
-      "real shop 10 pull spends2700 once, guarantees4+, exact rare seal count, result preserves saved award",
-      "ordinary single immediate reveal retains optional story replay",
-      "stable visible menu after audio toggle, mobile layout no horizontal overflow"
+      "automatic guide, actual growth, first-stage entry and controlled victory, bulk claim, next-stage return",
+      "dismissal survives reload; resume reflects already completed tasks",
+      "chapter5 earned join after outro, one reward, optional formation, 1440px",
+      "chapter9 earned join after outro, one reward, optional formation, 390px",
+      "chapter11 earned join after outro, one reward, optional formation, 1440px",
+      "chapter14 earned join after outro, one reward, optional formation, 390px",
+      "mobile energy row no longer overlaps guide",
+      "prologue mother and mentor appear in authored rescue cut",
+      "all20 chapters render authored essential cast independently of party",
+      "three-character story at1440/390, named NPC entrance, reduced motion, no horizontal overflow"
     ],
     "viewports": [
       1440,
       390
     ],
     "isolatedStorage": true,
-    "actualShopPull": true,
+    "controlledWinningStates": true,
+    "newCombatBalanceEvaluation": false,
     "errors": []
   }
 }

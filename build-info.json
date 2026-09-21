@@ -1,13 +1,13 @@
 {
-  "version": "0.17.0",
+  "version": "0.18.0",
   "narrativeRevision": "ashes-v1",
-  "builtAt": "2026-09-21T04:02:47.914Z",
+  "builtAt": "2026-09-21T04:34:42.459Z",
   "basedOnCommit": "628af87c7aa85268040c9621756387370facdfbb",
   "includesWorkingTreeChanges": true,
   "harness": {
-    "task": "v017-battle-spectacle",
+    "task": "v018-codex-preview",
     "status": "pass",
-    "runId": "2026-09-21T04-01-04-748Z-16796",
+    "runId": "2026-09-21T04-32-14-285Z-10576",
     "checks": [
       {
         "id": "typecheck",
@@ -67,20 +67,43 @@
     "travellingElementalStreams": true,
     "completeFinisherFade": true,
     "boundedDamageNumbers": true,
-    "shieldBashFeedback": true
+    "shieldBashFeedback": true,
+    "skillPreview": true,
+    "previewUsesBattleEngine": true,
+    "previewConsumesResources": false,
+    "interactiveIllustrations": true,
+    "manualIllustrationPause": true,
+    "illustrationMotifs": 6
   },
   "browserQA": {
-    "ultimateSequences": 26,
-    "areaPauseAbortSequences": 12,
-    "combatRegressionSequences": 16,
-    "elementalBeams": 5,
+    "codexSequences": 14,
+    "unownedDetailSequences": 2,
     "liveGameWidths": [
       1440,
       390
     ],
-    "nextAction": true,
+    "awakening": 5,
+    "saveUnchanged": true,
+    "rapidSwitch": true,
     "pause": true,
     "abort": true,
-    "reducedMotion": true
+    "reducedMotion": true,
+    "paintPixelComparison": [
+      {
+        "id": "gumiho",
+        "changedPixels": 9912,
+        "borderPixels": 0
+      },
+      {
+        "id": "mangeomhon",
+        "changedPixels": 11019,
+        "borderPixels": 0
+      },
+      {
+        "id": "stone-general",
+        "changedPixels": 0,
+        "borderPixels": 0
+      }
+    ]
   }
 }

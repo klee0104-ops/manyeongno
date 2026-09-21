@@ -1,0 +1,859 @@
+{
+  "version": 1,
+  "cell": 192,
+  "floor": 174,
+  "assets": [
+    {
+      "id": "gumiho",
+      "awakened": false,
+      "file": "art/combat-v014/gumiho.png",
+      "width": 768,
+      "height": 576,
+      "cell": 192,
+      "columns": 4,
+      "rows": 3,
+      "frames": [
+        "idle",
+        "blink",
+        "step-left",
+        "step-right",
+        "prepare",
+        "accelerate",
+        "contact",
+        "follow-through",
+        "recover",
+        "hurt",
+        "guard",
+        "ultimate"
+      ],
+      "sha256": "ac45cf7ff4a9000ce343d7fdc28aa78a2ff2385238f78fb79748f3042d7bc591",
+      "sourceHash": "111d25adff3c67d7e4accee02ac4297d1355c17e13207f7178331335d3495900",
+      "sourceGutters": {
+        "rows": [
+          0,
+          386,
+          734,
+          1086
+        ],
+        "columns": [
+          [
+            0,
+            361,
+            714,
+            1080,
+            1448
+          ],
+          [
+            0,
+            358,
+            719,
+            1092,
+            1448
+          ],
+          [
+            0,
+            361,
+            721,
+            1082,
+            1448
+          ]
+        ]
+      },
+      "frameHashes": [
+        "637f9a684c925affa8545f4e40b79b871aaf797d772143362feffe1d4632894f",
+        "7089035002d3270e0ece22fc0be4814770d14f98c301609b58d2a10f07c6121f",
+        "845d74e9f0ee40adbc7ff24193dfed4b2772051e0a99e638b3c690dfc6af3a4d",
+        "e807af34342de99d90052bbb6f393bf9a2e1f24a8203828b2815ebb36f55904f",
+        "97a88b4aecf4ff0830af772b677a242e168fdec53cd0911b847d6ac5c12a47a9",
+        "93d70c222bb906fe1fd820378413297165e2cbe6265289f24d4d5572b7072fcb",
+        "62a49bc58ef848a67c528a4a327e5ac7f85cf94bde06fc257438f0413837c7a3",
+        "517c439639e76a235419939845cbaea7f10517814fd46220a2e1b3c8091d0674",
+        "773f08866144505ef4cbf185c729ad533ff0ab12170d0325fd5481fdccbf0363",
+        "05bc70a44038c3c6d5e588d08df239fcf1dc90ae575459717b5cef7e398c682d",
+        "b496c59663b42b6350c457f9bc9a3b172369300757f054d1af23591b1081c580",
+        "4100f573f48764063ef8044be226fc0d730475eb3f6d8eba2fa1d89cc83dda43"
+      ]
+    },
+    {
+      "id": "gumiho",
+      "awakened": true,
+      "file": "art/combat-v014/gumiho-awakened.png",
+      "width": 768,
+      "height": 576,
+      "cell": 192,
+      "columns": 4,
+      "rows": 3,
+      "frames": [
+        "idle",
+        "blink",
+        "step-left",
+        "step-right",
+        "prepare",
+        "accelerate",
+        "contact",
+        "follow-through",
+        "recover",
+        "hurt",
+        "guard",
+        "ultimate"
+      ],
+      "sha256": "46109d19e12402a24229414abd1fe8d321693a32d5d6b4cc927de87acdf5d18a",
+      "sourceHash": "2dda7688dc817bbaf0b156ba5c11987244e9375c72be5660f41121db1014b9da",
+      "sourceGutters": {
+        "rows": [
+          0,
+          396,
+          743,
+          1086
+        ],
+        "columns": [
+          [
+            0,
+            362,
+            732,
+            1088,
+            1448
+          ],
+          [
+            0,
+            358,
+            735,
+            1106,
+            1448
+          ],
+          [
+            0,
+            363,
+            736,
+            1095,
+            1448
+          ]
+        ]
+      },
+      "frameHashes": [
+        "6ac00f1466864b5e759771afd9621493ca7ff5612e6244b13584da67ef1941da",
+        "139ed60739ad581146cc933a481648804a76eaa42f818c2a26afc23f0b4aae85",
+        "7756858c9044cc5701e54af9b00c85e672dbbd3a12d63ac8eb4b2047cbae8dc6",
+        "833ec1ddaed6352794b0e2ec341721128b4c97f2f652bf31fd4a062b0179adb6",
+        "9651f49da8e59c7244698abbc450e55eec63995edd53fd2a8036c5f541577753",
+        "b3db1f8a863a134b1ad8a2d04a0393170a9aee3d0116b7d7518e673370951efd",
+        "6dae14db52c41536fd8f1fb59f6ae8a90250ce457341b9ee50e7cac4d08ff6bd",
+        "15e51d54dbf59466cda4ee4875fda608217a064fe6ef4cc3d375b1dc36a02f03",
+        "48c735f8f575774ce6307249a2a69e045b9d973d59b1f77ab73fbef9b3cbfacb",
+        "621652a92d3d3a1be5636a1a7feaf13acfcef6bd69899512d79af9dae60b6e47",
+        "0b27f77de6ae294bdc82eaa742b7f4a0fcb6e95f0f15c36544784d762ddbd229",
+        "13b35150a1e64bca1ba045eadd06b4004be3a511dc6639e9a70d3ccecfc153a9"
+      ]
+    },
+    {
+      "id": "mangeomhon",
+      "awakened": false,
+      "file": "art/combat-v014/mangeomhon.png",
+      "width": 768,
+      "height": 576,
+      "cell": 192,
+      "columns": 4,
+      "rows": 3,
+      "frames": [
+        "idle",
+        "blink",
+        "step-left",
+        "step-right",
+        "prepare",
+        "accelerate",
+        "contact",
+        "follow-through",
+        "recover",
+        "hurt",
+        "guard",
+        "ultimate"
+      ],
+      "sha256": "8d19ea5e5773c910d3a9fe32d5cc4f28b9065b47802db6a788bacc17af798f0d",
+      "sourceHash": "b526b4f7e1f8702eedfca421f51dd09c75f5c999b8d30dcf27437d2b9754a199",
+      "sourceGutters": {
+        "rows": [
+          0,
+          386,
+          728,
+          1086
+        ],
+        "columns": [
+          [
+            0,
+            369,
+            732,
+            1086,
+            1448
+          ],
+          [
+            0,
+            362,
+            713,
+            1107,
+            1448
+          ],
+          [
+            0,
+            373,
+            724,
+            1078,
+            1448
+          ]
+        ]
+      },
+      "frameHashes": [
+        "2db38f7c433fb43cf2820aee017eada0e52e76bc2b3dc75da7d3c69b9ff58c46",
+        "d9971f5411554d14c7f3b39709c79aeaa8045adf16fa8ab157fefc2043662695",
+        "a9ee824b38e216dc13e82befab83ce56fbb45017ae8970e61d5d040a253d562e",
+        "c9f523159551e41d3ac469ae25d63e492c946666fbb4831c7b5911a4bf14d8df",
+        "064b86c68a7d7953b77fd71c9a0b9d9bb5aa0837e544eda56d81e16904a86e81",
+        "f7dfcb0fde56195205d00959e730128928d1b6ae172a7c57b187ec5cd69c6b78",
+        "df08da7969b64249e8f5847c2180890a06eeb72618d5d75378d0f52227e5f55d",
+        "34307805cfb161aba0caf11f5009e801d1e9d7ff1021f14d1ba2de9b458c0f33",
+        "723dbe219bf2196a4ea8c94c0733daba439b7a58fbc219c4752c7b24d072069c",
+        "d0352b211b288c92881e71fb2e71b1bfe4b170ee19ea27efa452f5fac1efe144",
+        "45a9713647d4ad5b41988cfbd3c8708fc7d80aa0b075c99231caa1e5e9784b8a",
+        "d242553c1aaa6d27d3366eab4b30c447230b660370bd9b5e11010677d2d920ac"
+      ]
+    },
+    {
+      "id": "mangeomhon",
+      "awakened": true,
+      "file": "art/combat-v014/mangeomhon-awakened.png",
+      "width": 768,
+      "height": 576,
+      "cell": 192,
+      "columns": 4,
+      "rows": 3,
+      "frames": [
+        "idle",
+        "blink",
+        "step-left",
+        "step-right",
+        "prepare",
+        "accelerate",
+        "contact",
+        "follow-through",
+        "recover",
+        "hurt",
+        "guard",
+        "ultimate"
+      ],
+      "sha256": "023a7bb3def7109bbed5d139532d95acaf3a900b03e767993b484d4a87b67092",
+      "sourceHash": "da94fe0861aaf0ed3b537507a545902a4e07582db56e2374de7627ff7782ec1f",
+      "sourceGutters": {
+        "rows": [
+          0,
+          391,
+          730,
+          1086
+        ],
+        "columns": [
+          [
+            0,
+            375,
+            734,
+            1083,
+            1448
+          ],
+          [
+            0,
+            358,
+            719,
+            1126,
+            1448
+          ],
+          [
+            0,
+            381,
+            718,
+            1078,
+            1448
+          ]
+        ]
+      },
+      "frameHashes": [
+        "19c8c9c71d1a7023f281e741cd6aea8f1f726eaa82069649d0ffaf53c9959641",
+        "a27edc0b6f81d5fdfaf7209bcd10ead92feed4fc2ff09fbee4589b4af18f1441",
+        "363a1cd3bf55e5f006d8620000f367ca5be4500b8bcb7ec5078d6cf22148bf41",
+        "ffddfc5aabfd4067e20ad69f54780e30cc7e6d8cbb4b685d69764c6dfa2c5800",
+        "796d8c3506ba23e3d8e9ba80a4e38972197bec836f27d595193954ae7e6714ab",
+        "f12dfb3361627a2edd38f62af494285488dfa50b091c76fd3f48639390e87c4f",
+        "e597f0246c03710641e4a976772cdb9689d57809d0d7fd11e30c4c58fd22e53e",
+        "23d2308d1b5867b3847a435a0ad219540eb0611b94620b2d3517ca1c13f84e0f",
+        "7e6f7112ac15be858bf5a2180c59aa6af3cfa11f60b444300800b2259e9dc7c2",
+        "05b32f95bd9832e3984051721fd02be4e154d8142fa432606a6c2e616639054d",
+        "fcf2c401d898ae4f75a9c2008fa925986c91d3b8b5c9188b0e9100f4cfb0dbc8",
+        "699b8b16926636e72fce88eb1c7c82b322239e41fd542ac4efeaebe8e7c65b20"
+      ]
+    },
+    {
+      "id": "jeogyeom",
+      "awakened": false,
+      "file": "art/combat-v014/jeogyeom.png",
+      "width": 768,
+      "height": 576,
+      "cell": 192,
+      "columns": 4,
+      "rows": 3,
+      "frames": [
+        "idle",
+        "blink",
+        "step-left",
+        "step-right",
+        "prepare",
+        "accelerate",
+        "contact",
+        "follow-through",
+        "recover",
+        "hurt",
+        "guard",
+        "ultimate"
+      ],
+      "sha256": "39bc9e3f0172c92d80ce3b7891af0c81520bb6cc769676b956d1ea362d213b67",
+      "sourceHash": "a5cff59dc0102c8e52be3eae3cb6eb4519ff943783720ef058ca51d02ca91de7",
+      "sourceGutters": {
+        "rows": [
+          0,
+          391,
+          722,
+          1087
+        ],
+        "columns": [
+          [
+            0,
+            362,
+            724,
+            1079,
+            1447
+          ],
+          [
+            0,
+            362,
+            711,
+            1087,
+            1447
+          ],
+          [
+            0,
+            362,
+            724,
+            1082,
+            1447
+          ]
+        ]
+      },
+      "frameHashes": [
+        "084d33e8896a1b5736504611612c1e551efc6e2a12d303ee7b31ced2515e4908",
+        "f5f927798947bfa79ff83089e7729b6cd3afeb5ee0ec8a44bfb7ecc3ee8030aa",
+        "543782f376e58341f395d929bf47d71e524ebcbd47698a46e2fd7478f5303f1d",
+        "c116063271959ca9565ab5b849dbd2dc2ccf8a39d061d906d81c0f2d0a9245bc",
+        "03014e53364f35765cb67666c9e3c0f27257703394a33db4f83fa919782c540d",
+        "7af1c61d87f1c5817957d10546fd797c7659da4a3dc540bf92daec0debee82f5",
+        "05408a9fbe75650a227298a2ca20562dd2bb3ac3eb9678c16a8d813c10241b96",
+        "0662d2ff23c514e218e6554b2081b5604a36551c56fe95b860d5170743efae42",
+        "1d58147deda2ad9ea9360b3190901f4c9563c12e40527d7b35a870f0c46dd174",
+        "4045ea5f94eee501c1a01d1b70c23f2f13ea7ada07888ff6e6842dcbe01d9ec8",
+        "7c97901e0bbe9f0ebc0ccf4a5207862672681d6d161caef30bb16b6435290fb0",
+        "a968bc199341cbdd80a4f3b7708c3c99dc22baa77525f276acfa5545d796b025"
+      ]
+    },
+    {
+      "id": "jeogyeom",
+      "awakened": true,
+      "file": "art/combat-v014/jeogyeom-awakened.png",
+      "width": 768,
+      "height": 576,
+      "cell": 192,
+      "columns": 4,
+      "rows": 3,
+      "frames": [
+        "idle",
+        "blink",
+        "step-left",
+        "step-right",
+        "prepare",
+        "accelerate",
+        "contact",
+        "follow-through",
+        "recover",
+        "hurt",
+        "guard",
+        "ultimate"
+      ],
+      "sha256": "a1cb80bcd0e2d26609cfa2e639acd156fd2c53112e1857b55f3346cfdd979294",
+      "sourceHash": "2d4914cfd2d71f77e08a303c67edb139597266022b1ed3190957dc2e78a6140d",
+      "sourceGutters": {
+        "rows": [
+          0,
+          391,
+          712,
+          1086
+        ],
+        "columns": [
+          [
+            0,
+            362,
+            718,
+            1081,
+            1448
+          ],
+          [
+            0,
+            362,
+            711,
+            1108,
+            1448
+          ],
+          [
+            0,
+            365,
+            719,
+            1087,
+            1448
+          ]
+        ]
+      },
+      "frameHashes": [
+        "73048a625f4f950106cbb2c9a90242c775a882743d3b121272816d1252c8c41d",
+        "8d9b7f3361e0fa68a7b4199e013e547043e6fe1759a5c10c04362d8b68d83dcd",
+        "c86cff1e6c544d736fab36b99a2a1963ba37833eeb1ca39bd1f204dd98c06581",
+        "97f54afd559ce3ae58e2ad97706028c6b1e0b0da43c7eb9c03424a23537e5457",
+        "15566d7ee78c67ee977debb45e108bd1e5b6421b77643ab9e923b92ed7911b8b",
+        "938164eff5e42b489bd7cbdf945ea2f8baf3dda4ef8e639a76d61e832ff77480",
+        "2a8e4b8409bf404104ff2ea8f0287f53a386249da3963a5657f8eacfe2cc70aa",
+        "a027cacf6581f1e20a3cbf608e6171dde9c9f1ed221a00f9be9604b413ac07d0",
+        "e4fbe446d92def5400164c507f9248a2e308a803cace431890bef588b28b4d50",
+        "60823b42709b08d9346571923b23ba926774f00ddf649bfaafd87b7a8a8892ea",
+        "bcd55cfe6a809284b33346b110643429f2939604a8a7942bfbfedd065ae6bdbf",
+        "5c4bf740bd377e3a6987eee0b0c191c50c14448f73432e4618276e6e0f28a9b6"
+      ]
+    },
+    {
+      "id": "samsindongja",
+      "awakened": false,
+      "file": "art/combat-v014/samsindongja.png",
+      "width": 768,
+      "height": 576,
+      "cell": 192,
+      "columns": 4,
+      "rows": 3,
+      "frames": [
+        "idle",
+        "blink",
+        "step-left",
+        "step-right",
+        "prepare",
+        "accelerate",
+        "contact",
+        "follow-through",
+        "recover",
+        "hurt",
+        "guard",
+        "ultimate"
+      ],
+      "sha256": "e0d3368b10c814609de59b860c80a560ef2e1fe45c82eeda09ca3c7892df0a62",
+      "sourceHash": "3652d371f94e191d4b233e755425ab198937c8aab968bc65f6acc73ac95d6a62",
+      "sourceGutters": {
+        "rows": [
+          0,
+          388,
+          712,
+          1086
+        ],
+        "columns": [
+          [
+            0,
+            362,
+            723,
+            1085,
+            1448
+          ],
+          [
+            0,
+            362,
+            706,
+            1108,
+            1448
+          ],
+          [
+            0,
+            362,
+            723,
+            1086,
+            1448
+          ]
+        ]
+      },
+      "frameHashes": [
+        "ab8669905ad52cdbaac00ed750be0ce8b1597bba7d5187e77ee43a50bc9211fd",
+        "985ae519fa1dd77b327782acc60b7ce335fdbaf9998b91c3e58827bd624941e1",
+        "a9d15dc833a64406c4fd025953594d715453d8bf8499f874b82536658a329cc1",
+        "e7fab09c21b0e6fbee7059c0e57e079c9c27a65aeb51f06105daa4d940571777",
+        "2623d590b2227370044b1a692d34f639d14ca7cbc38b88e3304a21f2e01a65df",
+        "c8cda349485ccd20edd72aca08d6d8019dae0fd6366cf9f6764038d58b426537",
+        "f224a0066313411f71a49eaffe78313e0e738bab8b68eb2f339f4802647ae2df",
+        "98bd11544e2dbf5fe7c15e16aa86fe90eae6ffe10018a3859f0b6956037c6f77",
+        "c38bcf3801a71692e9f0f458d3b9433c07980377c10ae4e054104555d46d45c4",
+        "46d6518463b1a12edbdb9c2e6a199fdd9c0775fe8b7d0921d13850a579bd84df",
+        "2d5013be739ecce832da1b019e86d5e66650210eb666ded3eb5f2bdd76260be7",
+        "ece1a50d394cc1c028e7653a8827316605d69964535731201d3c9fb044113649"
+      ]
+    },
+    {
+      "id": "simyeon",
+      "awakened": false,
+      "file": "art/combat-v014/simyeon.png",
+      "width": 768,
+      "height": 576,
+      "cell": 192,
+      "columns": 4,
+      "rows": 3,
+      "frames": [
+        "idle",
+        "blink",
+        "step-left",
+        "step-right",
+        "prepare",
+        "accelerate",
+        "contact",
+        "follow-through",
+        "recover",
+        "hurt",
+        "guard",
+        "ultimate"
+      ],
+      "sha256": "525e70bb5c40225deb2182eb66a70285fec6152864430c77a4da6492cf92a5ee",
+      "sourceHash": "9d4b7bdb15e23f06c1524eb40cb6e12aab00e671d438a7c664fe04b95ae557cd",
+      "sourceGutters": {
+        "rows": [
+          0,
+          392,
+          728,
+          1086
+        ],
+        "columns": [
+          [
+            0,
+            361,
+            713,
+            1077,
+            1448
+          ],
+          [
+            0,
+            361,
+            707,
+            1092,
+            1448
+          ],
+          [
+            0,
+            364,
+            712,
+            1077,
+            1448
+          ]
+        ]
+      },
+      "frameHashes": [
+        "f07ebf0f18a1e8ae9f746698c9281f36d0be970f8ba167d04e404600a2da156d",
+        "a7c806a2e406318c9dbec4259419f6defd0b3a3a0b23517a6d9f2d1b83920f9d",
+        "17cbeb611c07b1b9daff7e4eb49a75349b073dfaadb39cd09f5df0e22445b07f",
+        "885d62cc65e53b991f9d4069021ff0b7d17598bebd70009bd2dcf5844552873a",
+        "bde8014803ef9466c27dbe27727ba643b7e8b702293156093566a1d6cf219f01",
+        "a20034030f78594cedce3d473364ef6322e1c2d5c038e93f28f9e6c1fed149ac",
+        "1c7150404a9cef3a80ecbf0c0ecbd79ed86578af4154b9f583fe7b41112adb68",
+        "14a7f4246437cbfd3da8ba2c218d1a907ab86ac27db5eefba3d45e8cefa177f8",
+        "05d49000afe8f7e5ea848e11c0c638c74da10ef1b0c1250ebf2155ea3189d8d6",
+        "a121f0b8dc8d771306077773f4bcc50add26f34cb9780943ef8ab26e241ad2f1",
+        "2fee64a7521a5e6e8a379206710d3c32117599a9074d84a94e960b1398ffc585",
+        "0f7ebabb9c1ecbcd6d40671222d0548183107bce75f3572b2502083e448a1870"
+      ]
+    },
+    {
+      "id": "jibu",
+      "awakened": false,
+      "file": "art/combat-v014/jibu.png",
+      "width": 768,
+      "height": 576,
+      "cell": 192,
+      "columns": 4,
+      "rows": 3,
+      "frames": [
+        "idle",
+        "blink",
+        "step-left",
+        "step-right",
+        "prepare",
+        "accelerate",
+        "contact",
+        "follow-through",
+        "recover",
+        "hurt",
+        "guard",
+        "ultimate"
+      ],
+      "sha256": "77e846300d1c2dd7c653826a0357c2244fccb0b01bdff1fe6d5c9554db777d84",
+      "sourceHash": "d8f3429867a9fb1332c32e4676677cbf97500b3fb529409b85b0119b57215393",
+      "sourceGutters": {
+        "rows": [
+          0,
+          402,
+          731,
+          1086
+        ],
+        "columns": [
+          [
+            0,
+            362,
+            724,
+            1086,
+            1448
+          ],
+          [
+            0,
+            364,
+            730,
+            1090,
+            1448
+          ],
+          [
+            0,
+            362,
+            724,
+            1086,
+            1448
+          ]
+        ]
+      },
+      "frameHashes": [
+        "649dd87ffa645f932cec34af8644a23befa2ac680be600668c0b8c43e9ab1e64",
+        "01c4ca16c71630a011ff6f35e52a42a225612576f93c47cb554b66bd39afe2d0",
+        "0037abb3f3176ab9dd83a819371c28b33c9762ff0a5a095e804b4cb035e1a925",
+        "7f17031549f124514d3cb85d313ae755a0b6766282be434da777992022e266ee",
+        "40c2c17b35e408c0aa8e5d8217e65b3cb647ac65e8a3f821ebd28aba404b4ae1",
+        "f98913fcf114055c9921c152b71a58748ed789bd94fe4da5e07424bae3d8fb74",
+        "f752bfd657e4c74a4063d01782986f9c6523510e33257604a53a88a651b526ba",
+        "79c59a3cfd42f9e9d70f6e88f4d895988b2a787866e4499f2e4e7ff1d38afb0c",
+        "bd8ead38ce17480212f6bc6c2d4ef4cabc4f16f59a50656226d7ffaeaad02928",
+        "8a1e4fe88e2ade0b2069ba6f327dab106099ff3b3946fe9ab02eea261f81e323",
+        "750865d63f482d8b15551594e2ce6fa4fd18d371af46d304df86afd1df63f532",
+        "2a5d7457d8ec9f493c29202892879c7889a39af54bb9ef90301dbbc6a255de7a"
+      ]
+    },
+    {
+      "id": "samsindongja",
+      "awakened": true,
+      "file": "art/combat-v014/samsindongja-awakened.png",
+      "width": 768,
+      "height": 576,
+      "cell": 192,
+      "columns": 4,
+      "rows": 3,
+      "frames": [
+        "idle",
+        "blink",
+        "step-left",
+        "step-right",
+        "prepare",
+        "accelerate",
+        "contact",
+        "follow-through",
+        "recover",
+        "hurt",
+        "guard",
+        "ultimate"
+      ],
+      "sha256": "5b8c5fd7f67b059f6b080c18dcf38e4a4b04a0372afb43f1090a23e7d07092c3",
+      "sourceHash": "e6a10bae9afd8667fb98378e29250d7f9e9a887dbc142a7f59cf5519b2ed9e7a",
+      "sourceGutters": {
+        "rows": [
+          0,
+          398,
+          720,
+          1086
+        ],
+        "columns": [
+          [
+            0,
+            366,
+            732,
+            1101,
+            1448
+          ],
+          [
+            0,
+            365,
+            721,
+            1128,
+            1448
+          ],
+          [
+            0,
+            366,
+            732,
+            1091,
+            1448
+          ]
+        ]
+      },
+      "frameHashes": [
+        "1a6b3ff3d22a9264706f834185cd1cba3bccfc6cf15dd6d909cf20a6e3578b75",
+        "e5e9be5e538c4dfc4bc8e12964705324b28b70a8d8830bf522d50dd74689b5c6",
+        "d472fea5d2432a97765e2a2b9735aa174de826816cd9ba08d387f1d46018b314",
+        "96408f9b452e96e354afd49d92904405e146982ab6f8d0fb41d6e29cbbf78934",
+        "037f6d127a069db3e7a4d79a2f367b0ddba4f176a65db94294e50d94a73beea1",
+        "7c34df7d9fd05537fff4c8387e3ad066c1e4d7c3b6a995dbfb8400c787934e32",
+        "b9b65b878310a69ac8748d39437a653491ab0b3734fe48c50006cc0dbe20994a",
+        "33aad7dbd80d8d6684f947a7db2037188d9211937dbcd7fe809b601252977343",
+        "8b2ece2062a485377d94ffa10d822e73f34035491889e7b5a264ec17b20c6a0c",
+        "3b1f6960baf2d478698cba535cd4b948d06d0b5c85e4c9e68e1154b12990e7e6",
+        "ff8662bf645f83f5dbc1495d3764974f8b12dc42cf56dd8b05642d20ad0fb9ba",
+        "8d96c7b40fe775910bc4ccc15cc476deb77535026160b2f9ef6c685c25506131"
+      ]
+    },
+    {
+      "id": "simyeon",
+      "awakened": true,
+      "file": "art/combat-v014/simyeon-awakened.png",
+      "width": 768,
+      "height": 576,
+      "cell": 192,
+      "columns": 4,
+      "rows": 3,
+      "frames": [
+        "idle",
+        "blink",
+        "step-left",
+        "step-right",
+        "prepare",
+        "accelerate",
+        "contact",
+        "follow-through",
+        "recover",
+        "hurt",
+        "guard",
+        "ultimate"
+      ],
+      "sha256": "8a5d07db36c59415d83e5d5d777aeeab08c0bfc45d6e5e306a20a7f328b654ea",
+      "sourceHash": "e1dd4918935dff01127060ad69f6184881b7e406c1b47e566d268c46605772ad",
+      "sourceGutters": {
+        "rows": [
+          0,
+          386,
+          725,
+          1086
+        ],
+        "columns": [
+          [
+            0,
+            364,
+            713,
+            1090,
+            1448
+          ],
+          [
+            0,
+            354,
+            710,
+            1114,
+            1448
+          ],
+          [
+            0,
+            373,
+            715,
+            1089,
+            1448
+          ]
+        ]
+      },
+      "frameHashes": [
+        "f1dccb20c1d2a6a17624892e1f25d0d2d2851ed671b7070f87db06cd189c450f",
+        "dc64ca3f45f61547b552871d16d5600cde7509e70eb17ef0d55646821b55075c",
+        "a2f8989cb86dd29ba83918fbed7bacc24d459fd6beb3834f0e4697b76a245ad1",
+        "8523fa38e0b0dce8951859861d30ccc7aa9ee431df2a5f6ee57cd430e89a5062",
+        "b50f20c30a93296a221a3b03878ab07423d0c33faf9c20ed4bf8662495517cb9",
+        "6e5898651db4cd933cdce2bcb274f5c4e8872d6241a86c436ea0ff3606bf9dde",
+        "1bbf77f8e07bcbb51aa441820194300fcb5127137017564590123976c5a582a5",
+        "47ae47d762b3dcb98af90ab7cc953e32fcfb2edbc629f4aa02a36592da722af5",
+        "0014cbcd10971e3f509a680b23d9f36f1fcab17fb00df476ac9bb05458d8d2dc",
+        "f8c68c254f923379c3f5e445f12d9bc7485f145534e3adef43e2deff7c69f7bd",
+        "8c3c3c8d822d97f79dea7cea54c0f32f0902fb38d3b40a9b02a9484610fb2f7e",
+        "9aa89def8cd313fac7166bc8375a1e271a326cbf5f6abef0f48465ea444b02c3"
+      ]
+    },
+    {
+      "id": "jibu",
+      "awakened": true,
+      "file": "art/combat-v014/jibu-awakened.png",
+      "width": 768,
+      "height": 576,
+      "cell": 192,
+      "columns": 4,
+      "rows": 3,
+      "frames": [
+        "idle",
+        "blink",
+        "step-left",
+        "step-right",
+        "prepare",
+        "accelerate",
+        "contact",
+        "follow-through",
+        "recover",
+        "hurt",
+        "guard",
+        "ultimate"
+      ],
+      "sha256": "bde0a5b3794912aaf57cdef92744cf297f637764ffaac46d53c15789d8bc2a5d",
+      "sourceHash": "1f001988e2009e2d8b316ef35e4ffec42b1df22df469b5b054be92edfb6d3b27",
+      "sourceGutters": {
+        "rows": [
+          0,
+          388,
+          734,
+          1086
+        ],
+        "columns": [
+          [
+            0,
+            374,
+            745,
+            1107,
+            1448
+          ],
+          [
+            0,
+            374,
+            747,
+            1130,
+            1448
+          ],
+          [
+            0,
+            375,
+            761,
+            1089,
+            1448
+          ]
+        ]
+      },
+      "frameHashes": [
+        "ee2eedfb47b701ff97f43a45475911467d11bd935a7159a043b44d30524ae376",
+        "20e2220e096994ea11c19b0d8be1ebaf9fed64d7cb686daf90249abce3d7e576",
+        "ab16718c2707e18ce3cd3e82a120a03dd0246810cedf4bebce2a64d030e78b15",
+        "5354738428fb122f45eb5a1a69f7c65630ba6374107c2940399bb498633b4777",
+        "f8433ecd129092f1dde625e7c4615bc6f8e4552249e09910071b5231fe1d7d28",
+        "1618a2c3739dbce4dec708df6d7860e2b88c479768ffc2099806a2dc0aa16123",
+        "b66d78c6dafc13f86dc720f339d60a42162ee7dc9e5b96f5f92f5d48f6db7e5d",
+        "de8fac448abd086724f4327ba79286960dcddf650c1c80475275781fd0ae640f",
+        "f8482a3e3f96aa08d5755dbe0ee038d957346d0d8ffbcc0d6052596757fd4903",
+        "df11575b15b3438b16fea4ac83d6e218d9d8269f018dfe52890343a5fd610eab",
+        "8a6b50247e5f59bfab18695a2e5d7797a0a3f63836928860d58aa8e5df19254d",
+        "b5693845675fe2b4403b39b98151010dd5a7526a9846b33ce07a0d0b78cfae5e"
+      ]
+    }
+  ]
+}

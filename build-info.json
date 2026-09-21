@@ -1,13 +1,13 @@
 {
-  "version": "0.23.0",
+  "version": "0.24.0",
   "narrativeRevision": "ashes-v1",
-  "builtAt": "2026-09-21T08:53:30.051Z",
+  "builtAt": "2026-09-21T23:57:10.200Z",
   "basedOnCommit": "628af87c7aa85268040c9621756387370facdfbb",
   "includesWorkingTreeChanges": true,
   "harness": {
-    "task": "v023-loadout-growth",
+    "task": "v024-tester-support",
     "status": "pass",
-    "runId": "2026-09-21T08-50-54-273Z-17168",
+    "runId": "2026-09-21T23-54-27-278Z-9988",
     "checks": [
       {
         "id": "typecheck",
@@ -111,29 +111,42 @@
     "allOwnedArmoryAccess": 71,
     "labelledResourceWallet": true,
     "affordableBulkLevelUp": true,
-    "unchangedGrowthCostsAndCaps": true
+    "unchangedGrowthCostsAndCaps": true,
+    "roleFilters": [
+      "collection",
+      "formation",
+      "base-codex",
+      "awakening-codex",
+      "armory-reserves"
+    ],
+    "firstSummonFiveStarTicket": {
+      "perProfile": 1,
+      "pool": 11,
+      "legacyEligible": true,
+      "changesRegularPity": false
+    },
+    "staminaRecoveryMinutes": 3,
+    "firstClearEntryStamina": 3,
+    "dailyFreeStamina": 120,
+    "partialDailyStaminaSupply": true
   },
   "browserQA": {
-    "version": "0.23.0",
+    "version": "0.24.0",
     "checks": [
-      "all71 characters accessible; nonstarter party first in formation order; first member selected",
-      "party batch equip20 slots, repeated click stable, party unequip, reserve gear and currency preserved",
-      "item owner selector follows party; bulk costs and resulting level exact; wallet updated; gear and growth survive reload",
-      "390px: labelled currencies up to1b fit, no header overlap or horizontal overflow",
-      "360px: labelled currencies up to1b fit, no header overlap or horizontal overflow",
-      "768px: labelled currencies up to1b fit, no header overlap or horizontal overflow",
-      "1024px: labelled currencies up to1b fit, no header overlap or horizontal overflow",
-      "actual formation edit refreshes armory immediately; reserve selectable and growable"
+      "real first regular pull grants ticket; eleven-member review; manual gold seal, two story beats and5-star reveal; no gem/pity/count changes; usage survives reload",
+      "partial free supply1 then119, no overflow loss, bank survives reload, depleted expedition opens recovery, no duplicate supply",
+      "1440px role tabs, formation, reserves, base/awakening codex intersection, legacy ticket and supply screens without horizontal overflow",
+      "390px role tabs, formation, reserves, base/awakening codex intersection, legacy ticket and supply screens without horizontal overflow",
+      "360px role tabs, formation, reserves, base/awakening codex intersection, legacy ticket and supply screens without horizontal overflow"
     ],
     "viewports": [
       1440,
-      1024,
-      768,
       390,
       360
     ],
     "isolatedStorage": true,
     "expandedRosterFixture": true,
+    "actualRegularAndTicketSummons": true,
     "errors": []
   }
 }

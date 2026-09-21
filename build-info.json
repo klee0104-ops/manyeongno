@@ -1,13 +1,13 @@
 {
-  "version": "0.15.0",
+  "version": "0.16.0",
   "narrativeRevision": "ashes-v1",
-  "builtAt": "2026-09-21T02:32:11.302Z",
+  "builtAt": "2026-09-21T02:56:11.397Z",
   "basedOnCommit": "628af87c7aa85268040c9621756387370facdfbb",
   "includesWorkingTreeChanges": true,
   "harness": {
-    "task": "v015-battle-formation",
+    "task": "v016-caster-ultimate",
     "status": "pass",
-    "runId": "2026-09-21T02-31-13-325Z-13744",
+    "runId": "2026-09-21T02-54-48-082Z-31920",
     "checks": [
       {
         "id": "typecheck",
@@ -59,17 +59,18 @@
     "livingIllustrations": true,
     "sharedTeamFormation": true,
     "groundedCharacterIdle": true,
-    "reservedSkillCaptionArea": true
+    "casterCenteredUltimates": true,
+    "ultimateSignatures": 6,
+    "largeUltimateDialog": false
   },
   "browserQA": {
-    "layoutCases": 90,
+    "ultimateSequences": 20,
     "liveGameWidths": [
       1440,
-      768,
-      390,
-      360
+      390
     ],
-    "combatSequences": 16,
-    "ultimateCaptionCases": 12
+    "pause": true,
+    "abort": true,
+    "reducedMotion": true
   }
 }

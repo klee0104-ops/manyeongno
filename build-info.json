@@ -1,13 +1,13 @@
 {
-  "version": "0.18.0",
+  "version": "0.19.0",
   "narrativeRevision": "ashes-v1",
-  "builtAt": "2026-09-21T04:34:42.459Z",
+  "builtAt": "2026-09-21T06:36:48.396Z",
   "basedOnCommit": "628af87c7aa85268040c9621756387370facdfbb",
   "includesWorkingTreeChanges": true,
   "harness": {
-    "task": "v018-codex-preview",
+    "task": "v019-folklore-expansion",
     "status": "pass",
-    "runId": "2026-09-21T04-32-14-285Z-10576",
+    "runId": "2026-09-21T06-35-45-116Z-13696",
     "checks": [
       {
         "id": "typecheck",
@@ -42,6 +42,14 @@
         "status": "pass"
       },
       {
+        "id": "folklore-frames",
+        "status": "pass"
+      },
+      {
+        "id": "folklore-illustrations",
+        "status": "pass"
+      },
+      {
         "id": "production-build",
         "status": "pass"
       }
@@ -49,18 +57,23 @@
   },
   "features": {
     "localAdminProfile": true,
-    "manualSummonStories": 65,
-    "awakeningIllustrations": 325,
-    "awakeningAtlases": 25,
-    "combatFrameCharacters": 6,
-    "combatFrameSheets": 12,
-    "combatPoses": 144,
+    "adminRosterSync": true,
+    "manualSummonStories": 71,
+    "collectibleSpirits": 71,
+    "folkloreNewcomers": 6,
+    "characterPresentationContracts": 71,
+    "awakeningIllustrations": 355,
+    "awakeningAtlases": 30,
+    "combatFrameCharacters": 12,
+    "combatFrameSheets": 24,
+    "combatPoses": 288,
+    "riggedCharacters": 59,
     "exclusiveMotionOwnership": true,
     "livingIllustrations": true,
     "sharedTeamFormation": true,
     "groundedCharacterIdle": true,
     "casterCenteredUltimates": true,
-    "ultimateSignatures": 6,
+    "ultimateSignatures": 20,
     "largeUltimateDialog": false,
     "stageFinishers": true,
     "directionalUltimateMissiles": true,
@@ -73,37 +86,21 @@
     "previewConsumesResources": false,
     "interactiveIllustrations": true,
     "manualIllustrationPause": true,
-    "illustrationMotifs": 6
+    "combatVoiceLines": 231
   },
   "browserQA": {
-    "codexSequences": 14,
-    "unownedDetailSequences": 2,
+    "gameSequences": 14,
+    "effectSequences": 42,
     "liveGameWidths": [
       1440,
       390
     ],
     "awakening": 5,
     "saveUnchanged": true,
-    "rapidSwitch": true,
+    "adminSync": 71,
     "pause": true,
     "abort": true,
     "reducedMotion": true,
-    "paintPixelComparison": [
-      {
-        "id": "gumiho",
-        "changedPixels": 9912,
-        "borderPixels": 0
-      },
-      {
-        "id": "mangeomhon",
-        "changedPixels": 11019,
-        "borderPixels": 0
-      },
-      {
-        "id": "stone-general",
-        "changedPixels": 0,
-        "borderPixels": 0
-      }
-    ]
+    "illustrationCells": 36
   }
 }

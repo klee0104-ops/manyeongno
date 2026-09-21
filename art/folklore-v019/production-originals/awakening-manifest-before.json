@@ -404,7 +404,7 @@
         512,
         1024
       ],
-      "sha256": "68a7a9a80ccdc3fd1e859a791c6d89f83112cb10e220ee0c47dea3848652ee6b"
+      "sha256": "d4de217f2d362c2880c5797e66f2208829a20b4ba601f47f1c7bb25df5556b93"
     },
     {
       "atlas": "roster-d",
@@ -418,7 +418,7 @@
         512,
         1024
       ],
-      "sha256": "9ad4e270a816996091a4914029d74349c5017f2c766863fafecf3de2b6147442"
+      "sha256": "83a08e5d89db9597accda78b3c30b8bd699bf67ef0505c9ebe8519e166532f75"
     },
     {
       "atlas": "roster-d",
@@ -432,7 +432,7 @@
         512,
         1024
       ],
-      "sha256": "d3fb30c6a59eec6af42745f76b38630abf6592e8fab4ebafd4828c1646268f03"
+      "sha256": "43a241c7dbbf17132b6fbf55e96da8d5382a12c0e0308727f74e68761c0887e8"
     },
     {
       "atlas": "roster-d",
@@ -446,7 +446,7 @@
         512,
         1024
       ],
-      "sha256": "0d31d0ff9058f4b9752f6ebb3d33feed2005fc117f4d792453c5eb78d8ad17fa"
+      "sha256": "b1cd24d13074cccd1ea31f95f8767853d3b1f86c1b746f085b8ddb9bdfb78f66"
     },
     {
       "atlas": "roster-d",
@@ -460,7 +460,7 @@
         512,
         1024
       ],
-      "sha256": "94e4e890c5e56797c1ff8a7f8c75b08bddb0859edae7a2f83fa84c9171b37fa6"
+      "sha256": "b5da638081ee825f4d70206212d6bfffcb997caed53363d8439c5424cfe4947e"
     }
   ]
 }

@@ -1,0 +1,1773 @@
+{
+  "version": 1,
+  "revision": "v019",
+  "generator": "built-in image_gen",
+  "cell": 192,
+  "floor": 174,
+  "assets": [
+    {
+      "id": "jiangshi",
+      "awakened": false,
+      "file": "art/combat-v019/jiangshi.png",
+      "width": 768,
+      "height": 576,
+      "cell": 192,
+      "columns": 4,
+      "rows": 3,
+      "frames": [
+        "idle",
+        "blink",
+        "step-left",
+        "step-right",
+        "prepare",
+        "accelerate",
+        "contact",
+        "follow-through",
+        "recover",
+        "hurt",
+        "guard",
+        "ultimate"
+      ],
+      "sha256": "b082ccbcf8679e188ab7cc7876843a36bf9d981e471f29c62b1c6cd3a7e9583c",
+      "sourceFile": "public/art/combat-v019/sources/jiangshi-24.png",
+      "sourceHash": "c4884f6bb8e73bce23051988a292758ca1c02295cdd95d567908da268f28ce39",
+      "packingCutsFile": "public/art/combat-v019/sources/jiangshi-packing.json",
+      "packingCutsHash": "dd1947fe9bbf86efff1f5dc9276a92799b90f16ab7d49868058a7eb4038c2663",
+      "sourceGutters": {
+        "method": "alpha-empty-contour",
+        "rowBounds": [
+          [
+            0,
+            264
+          ],
+          [
+            256,
+            513
+          ],
+          [
+            512,
+            770
+          ],
+          [
+            768,
+            1033
+          ],
+          [
+            1024,
+            1282
+          ],
+          [
+            1280,
+            1536
+          ]
+        ]
+      },
+      "sourceRowOffset": 0,
+      "frameHashes": [
+        "70df19a922e57d675b2ca76a359e4efcb1bc22adfc41fa72ab9ce1a816a70298",
+        "4c0a57f0939e49ef31705b8ee4593556fd735b9a50b62b53ceae53838307bea4",
+        "39fca69185648e80c183bdfd34704a3385c816e6e24998c61f4541194d5bd353",
+        "0f6a460cc43ed6e14d0deec2a171bf4d7bac194e99d79be48785b996e3c3d92c",
+        "90a271e5152cc6c2ee9d55d3fd46d3760a17a3a0b079e9b360abecb05a1bfb07",
+        "e1678166539fe758125f6cf745b8e402b2d5deb2404ad63013eb4ee489f74d9b",
+        "83f0876881b0440bb307698463fdf6c5aa0786047ded33b7b33821968c654c15",
+        "2149f9ca1c92e2f0c1db1ba3f656fee50ebef867ea73f3f0c5724906ab009f4a",
+        "dbb4d5a1e6856cdfbe9f09c407719368a491bc0e29a617ab68bb3c12dee0bb12",
+        "6a8e213260f2b1006d5e7d14d45d049de1df7b4b07ffb5d6f1e5e9857bc4ffa6",
+        "1f9952b8b4dd058a7ddfbd711241c03468ce4cb5188d43d70ea6bd963406b19a",
+        "770e3e9c703a3da831e77acbf7ecf39593b3ee95e976a50c705e0a165e0d7457"
+      ],
+      "frameBounds": [
+        {
+          "minX": 50,
+          "minY": 35,
+          "maxX": 143,
+          "maxY": 174
+        },
+        {
+          "minX": 49,
+          "minY": 36,
+          "maxX": 142,
+          "maxY": 174
+        },
+        {
+          "minX": 41,
+          "minY": 35,
+          "maxX": 142,
+          "maxY": 174
+        },
+        {
+          "minX": 55,
+          "minY": 36,
+          "maxX": 149,
+          "maxY": 174
+        },
+        {
+          "minX": 39,
+          "minY": 54,
+          "maxX": 153,
+          "maxY": 174
+        },
+        {
+          "minX": 48,
+          "minY": 51,
+          "maxX": 166,
+          "maxY": 174
+        },
+        {
+          "minX": 47,
+          "minY": 50,
+          "maxX": 166,
+          "maxY": 174
+        },
+        {
+          "minX": 46,
+          "minY": 50,
+          "maxX": 161,
+          "maxY": 174
+        },
+        {
+          "minX": 50,
+          "minY": 38,
+          "maxX": 145,
+          "maxY": 174
+        },
+        {
+          "minX": 52,
+          "minY": 46,
+          "maxX": 159,
+          "maxY": 174
+        },
+        {
+          "minX": 52,
+          "minY": 56,
+          "maxX": 146,
+          "maxY": 174
+        },
+        {
+          "minX": 56,
+          "minY": 35,
+          "maxX": 153,
+          "maxY": 174
+        }
+      ]
+    },
+    {
+      "id": "jiangshi",
+      "awakened": true,
+      "file": "art/combat-v019/jiangshi-awakened.png",
+      "width": 768,
+      "height": 576,
+      "cell": 192,
+      "columns": 4,
+      "rows": 3,
+      "frames": [
+        "idle",
+        "blink",
+        "step-left",
+        "step-right",
+        "prepare",
+        "accelerate",
+        "contact",
+        "follow-through",
+        "recover",
+        "hurt",
+        "guard",
+        "ultimate"
+      ],
+      "sha256": "d3ce4a28e9564918932f5cbd2186b6a72a78defe8fa869ff03a33eae0114a60b",
+      "sourceFile": "public/art/combat-v019/sources/jiangshi-24.png",
+      "sourceHash": "c4884f6bb8e73bce23051988a292758ca1c02295cdd95d567908da268f28ce39",
+      "packingCutsFile": "public/art/combat-v019/sources/jiangshi-packing.json",
+      "packingCutsHash": "dd1947fe9bbf86efff1f5dc9276a92799b90f16ab7d49868058a7eb4038c2663",
+      "sourceGutters": {
+        "method": "alpha-empty-contour",
+        "rowBounds": [
+          [
+            0,
+            264
+          ],
+          [
+            256,
+            513
+          ],
+          [
+            512,
+            770
+          ],
+          [
+            768,
+            1033
+          ],
+          [
+            1024,
+            1282
+          ],
+          [
+            1280,
+            1536
+          ]
+        ]
+      },
+      "sourceRowOffset": 3,
+      "frameHashes": [
+        "3585b787a41b839f287f2431c522a29b6b150d3230df8c584e66a80132434e93",
+        "3825591862f064c693939e3bc10d78dd3a077fe358e67656c515b6041da04485",
+        "df1cfa4db960093ef2cc501d8f2afaff9efadbd38e9c4b5a1026d0fb4262a249",
+        "d8f483a9964f13fac1f9364c654511913d97824fe5c90ce51e448799479c93eb",
+        "91b6c8b2cad9a9d02d1fd24670b59fae15988b6df7af248d544d4a2c14ee9a3b",
+        "7635634ecce846fe986b8c51981aa1b81c94ca53d25be13800b9b9f4df6911e8",
+        "601de3bcc44729efdbb31edfdde5232045e36669f782d020018bc5b0ad1a14fb",
+        "87d408027559d9a073cc4bff00fb61634ff122e33d6861545beceb7bd85370ec",
+        "fd6690506649afeff0950ae394007a168c19cafdb551fd7632133e0e0762d2b0",
+        "22726ad1e83e40e15fe5cfbe98a452083a368bc7efb8d904234f5a25bbccfee7",
+        "e11478ab9fd8d4ef06987558e5ca7460047a759d916f6b64a54a7e96681a7673",
+        "3fe42a99b3f2ed6339556b88a2895c78533b866ba28c3985910f092dd7041cc5"
+      ],
+      "frameBounds": [
+        {
+          "minX": 44,
+          "minY": 36,
+          "maxX": 148,
+          "maxY": 174
+        },
+        {
+          "minX": 45,
+          "minY": 36,
+          "maxX": 149,
+          "maxY": 174
+        },
+        {
+          "minX": 29,
+          "minY": 36,
+          "maxX": 147,
+          "maxY": 174
+        },
+        {
+          "minX": 42,
+          "minY": 36,
+          "maxX": 149,
+          "maxY": 174
+        },
+        {
+          "minX": 35,
+          "minY": 50,
+          "maxX": 160,
+          "maxY": 174
+        },
+        {
+          "minX": 25,
+          "minY": 43,
+          "maxX": 172,
+          "maxY": 174
+        },
+        {
+          "minX": 30,
+          "minY": 42,
+          "maxX": 175,
+          "maxY": 174
+        },
+        {
+          "minX": 39,
+          "minY": 48,
+          "maxX": 167,
+          "maxY": 174
+        },
+        {
+          "minX": 51,
+          "minY": 41,
+          "maxX": 151,
+          "maxY": 174
+        },
+        {
+          "minX": 49,
+          "minY": 46,
+          "maxX": 163,
+          "maxY": 174
+        },
+        {
+          "minX": 42,
+          "minY": 60,
+          "maxX": 148,
+          "maxY": 174
+        },
+        {
+          "minX": 49,
+          "minY": 39,
+          "maxX": 160,
+          "maxY": 174
+        }
+      ]
+    },
+    {
+      "id": "snow-maiden",
+      "awakened": false,
+      "file": "art/combat-v019/snow-maiden.png",
+      "width": 768,
+      "height": 576,
+      "cell": 192,
+      "columns": 4,
+      "rows": 3,
+      "frames": [
+        "idle",
+        "blink",
+        "step-left",
+        "step-right",
+        "prepare",
+        "accelerate",
+        "contact",
+        "follow-through",
+        "recover",
+        "hurt",
+        "guard",
+        "ultimate"
+      ],
+      "sha256": "125717f8ca9302e0e1e2010a9bf755cbedeb78a67f50ea6103c20b26411ddd1d",
+      "sourceFile": "public/art/combat-v019/sources/snow-maiden-24.png",
+      "sourceHash": "abfbc3eb316072b17986685dddb89ba60ac6b494592c68d62b159dce176e7dfe",
+      "packingCutsFile": "public/art/combat-v019/sources/snow-maiden-packing.json",
+      "packingCutsHash": "df7446c6f150a419e079486ba07a2a3bea66acfa951971bc5e33f8aa57337543",
+      "sourceGutters": {
+        "method": "alpha-empty-contour",
+        "rowBounds": [
+          [
+            0,
+            256
+          ],
+          [
+            256,
+            512
+          ],
+          [
+            512,
+            768
+          ],
+          [
+            768,
+            1024
+          ],
+          [
+            1024,
+            1280
+          ],
+          [
+            1270,
+            1536
+          ]
+        ]
+      },
+      "sourceRowOffset": 0,
+      "frameHashes": [
+        "df9a29db91c4c3a210b10a2df11d0e36fc585dec0194136749caf0680515fc73",
+        "6ef95d600e95250cb4bed5cf44620f0637bb2867c020c0759a47a5f1b49d7add",
+        "abbb6e15b4476e976fcea35f62a0fb23d512713ba296c3c909c51b25c35fdcbf",
+        "176a928c65822ee75141bd838a61503421614539a951ef09da7a1784633688cc",
+        "e5370f8816246aaa6b566baf7b944abf523d05b95f614f4c5d10fb1f2d96dc29",
+        "ea4f3aab30dd554b8162aa9b957e90eee556348b566d2ee7fa8450258999f9ea",
+        "fe2b39386e90fabc811cc0d9dcd1abcf320f83b370d914ecfb56b2b79dd977b9",
+        "c156883d87edd0564cc55692f004007d7f2da76a9c0b7066fb83d199296a46b5",
+        "a0f69f6b3e03765091615244a17db19c4b57cac258bda935166a45f90c9a8eba",
+        "c9bca4112a97ad83e195db67225a7e9b5ee79f8313446548b1dc79e7f23eab51",
+        "924da0f721b6180e4ffb6b60a1b54293430fec1bc14e89bf72296d0822bd1bd8",
+        "ac91892fb0de4d6b703faefa3d1f36012a2b6db0b8b25baf38382b07e2081f07"
+      ],
+      "frameBounds": [
+        {
+          "minX": 34,
+          "minY": 35,
+          "maxX": 158,
+          "maxY": 174
+        },
+        {
+          "minX": 33,
+          "minY": 35,
+          "maxX": 153,
+          "maxY": 174
+        },
+        {
+          "minX": 23,
+          "minY": 35,
+          "maxX": 149,
+          "maxY": 174
+        },
+        {
+          "minX": 33,
+          "minY": 42,
+          "maxX": 150,
+          "maxY": 174
+        },
+        {
+          "minX": 28,
+          "minY": 51,
+          "maxX": 152,
+          "maxY": 174
+        },
+        {
+          "minX": 21,
+          "minY": 54,
+          "maxX": 156,
+          "maxY": 174
+        },
+        {
+          "minX": 17,
+          "minY": 43,
+          "maxX": 182,
+          "maxY": 174
+        },
+        {
+          "minX": 34,
+          "minY": 46,
+          "maxX": 162,
+          "maxY": 174
+        },
+        {
+          "minX": 35,
+          "minY": 45,
+          "maxX": 146,
+          "maxY": 174
+        },
+        {
+          "minX": 33,
+          "minY": 40,
+          "maxX": 152,
+          "maxY": 174
+        },
+        {
+          "minX": 26,
+          "minY": 55,
+          "maxX": 146,
+          "maxY": 174
+        },
+        {
+          "minX": 26,
+          "minY": 33,
+          "maxX": 156,
+          "maxY": 174
+        }
+      ]
+    },
+    {
+      "id": "snow-maiden",
+      "awakened": true,
+      "file": "art/combat-v019/snow-maiden-awakened.png",
+      "width": 768,
+      "height": 576,
+      "cell": 192,
+      "columns": 4,
+      "rows": 3,
+      "frames": [
+        "idle",
+        "blink",
+        "step-left",
+        "step-right",
+        "prepare",
+        "accelerate",
+        "contact",
+        "follow-through",
+        "recover",
+        "hurt",
+        "guard",
+        "ultimate"
+      ],
+      "sha256": "b6dee3aa860e3be8adea860dddd3fb7b7e2a2d0abc321058c1dfcdffc92fcdf2",
+      "sourceFile": "public/art/combat-v019/sources/snow-maiden-24.png",
+      "sourceHash": "abfbc3eb316072b17986685dddb89ba60ac6b494592c68d62b159dce176e7dfe",
+      "packingCutsFile": "public/art/combat-v019/sources/snow-maiden-packing.json",
+      "packingCutsHash": "df7446c6f150a419e079486ba07a2a3bea66acfa951971bc5e33f8aa57337543",
+      "sourceGutters": {
+        "method": "alpha-empty-contour",
+        "rowBounds": [
+          [
+            0,
+            256
+          ],
+          [
+            256,
+            512
+          ],
+          [
+            512,
+            768
+          ],
+          [
+            768,
+            1024
+          ],
+          [
+            1024,
+            1280
+          ],
+          [
+            1270,
+            1536
+          ]
+        ]
+      },
+      "sourceRowOffset": 3,
+      "frameHashes": [
+        "85995208826a41e83c6d42e491e1e1f63267aad77012537d8ca8a516bfbf0874",
+        "b476c24469452368a006b67d3e8d47d66dc302e2ef73765ba212ca65f72d7abd",
+        "a2e1ad1daa1bf9261c51b31bd6d37b2e82711c6c9e3d8ac800aaa79a37ec679d",
+        "a36366a5f4e245177c58598a29b0d3a52a8435956a0bfcc5daefe61682f260db",
+        "f5e510eaef4485c7aeac9013b024a160b9a510a694eb522436a8a75f88880087",
+        "f061c2ed5cb8a5fcd8adb1bc35604a06ca3ae282e6aa8a410e750f94396cb155",
+        "83607f777f61613c43f9bb8f13194361c5edfbeeba4faf1aba1767fc111bfa0f",
+        "37c2892fe31da3cc0ee607d7178a6da43b380f543410c539e57da90ece344a56",
+        "cd47bfc6da0dead843847dddd681caa0b4b8e727be2f5860ed22f789bbb73fe5",
+        "6bbc94311066b236e58546f1db4848e9b10457bb08192540a6b710bd8a369a1e",
+        "7463f1084df5d373c55ca99414b11ef3e339385e346c0c11a108aa900f5a18dc",
+        "30b4e15fd40ca18f28c7685991b2702b8a0b39d6d74b2b82b5655aae1553f7a2"
+      ],
+      "frameBounds": [
+        {
+          "minX": 38,
+          "minY": 35,
+          "maxX": 154,
+          "maxY": 174
+        },
+        {
+          "minX": 34,
+          "minY": 35,
+          "maxX": 151,
+          "maxY": 174
+        },
+        {
+          "minX": 25,
+          "minY": 35,
+          "maxX": 160,
+          "maxY": 174
+        },
+        {
+          "minX": 31,
+          "minY": 35,
+          "maxX": 160,
+          "maxY": 174
+        },
+        {
+          "minX": 33,
+          "minY": 48,
+          "maxX": 156,
+          "maxY": 174
+        },
+        {
+          "minX": 21,
+          "minY": 49,
+          "maxX": 152,
+          "maxY": 174
+        },
+        {
+          "minX": 20,
+          "minY": 45,
+          "maxX": 184,
+          "maxY": 174
+        },
+        {
+          "minX": 38,
+          "minY": 45,
+          "maxX": 161,
+          "maxY": 174
+        },
+        {
+          "minX": 35,
+          "minY": 37,
+          "maxX": 149,
+          "maxY": 174
+        },
+        {
+          "minX": 37,
+          "minY": 40,
+          "maxX": 158,
+          "maxY": 174
+        },
+        {
+          "minX": 24,
+          "minY": 51,
+          "maxX": 160,
+          "maxY": 174
+        },
+        {
+          "minX": 36,
+          "minY": 33,
+          "maxX": 156,
+          "maxY": 174
+        }
+      ]
+    },
+    {
+      "id": "parasol-spirit",
+      "awakened": false,
+      "file": "art/combat-v019/parasol-spirit.png",
+      "width": 768,
+      "height": 576,
+      "cell": 192,
+      "columns": 4,
+      "rows": 3,
+      "frames": [
+        "idle",
+        "blink",
+        "step-left",
+        "step-right",
+        "prepare",
+        "accelerate",
+        "contact",
+        "follow-through",
+        "recover",
+        "hurt",
+        "guard",
+        "ultimate"
+      ],
+      "sha256": "f16eece8155a98e06a30d603e8d04713ae209afed0b81b44428c41e0b380e70a",
+      "sourceFile": "public/art/combat-v019/sources/parasol-spirit-24.png",
+      "sourceHash": "5d97e91f970fe615bf508941ce2a9b65f04fb2686e4aa9f6eb8f03d8c51c2def",
+      "packingCutsFile": "public/art/combat-v019/sources/parasol-spirit-packing.json",
+      "packingCutsHash": "24d69f5b957c366b5243c1606e22f624997bda55853c5d54bc827073ad4ba7ad",
+      "sourceGutters": {
+        "method": "alpha-empty-contour",
+        "rowBounds": [
+          [
+            0,
+            256
+          ],
+          [
+            256,
+            512
+          ],
+          [
+            501,
+            768
+          ],
+          [
+            768,
+            1024
+          ],
+          [
+            1024,
+            1280
+          ],
+          [
+            1265,
+            1536
+          ]
+        ]
+      },
+      "sourceRowOffset": 0,
+      "frameHashes": [
+        "355a0a294167460ba03ceae814908f2083ad3977aac928097b84b5da91ef429d",
+        "ba1a69933598a96781d0d4a48298348a1a631f13e646895e3bb39e996aecdc5d",
+        "ed56305daf9a001f567336817e75a0ecd0d212499cea769e4166f4d0c085459b",
+        "a5e1a1649792125250cb02aa7243df64457e83993afda4a0f832932244c7a821",
+        "96f9aac2b861a7aee1aa37cf011ce1d8e705ff9b381eb2b46f87a51e4bc81d79",
+        "9e0b82a85b7daaa0e367ea7b3b98751eb6d150765cee19bdcc98fbacf565227a",
+        "1d8fd3cc6129d3cb7ab82ec533751cd2331eb7b3c8ccf3f092fab7a87f97caaf",
+        "784e3538fac69e75443e54b09bc0c4ec30246bba78c865af24f337f27f1fc034",
+        "5b0dfe56b7c58cfe2353c02e129c3af06078431faa1de7bce3dd0662002dc587",
+        "9d4d9fb9e5b6813dc593ad46e5631a35e099d18817c1e1d506c1df165079ee92",
+        "5e0b5e2c98e7dd9f89bdab46bd0df98688acffc6f492af3c3bfb5a246c6843d6",
+        "308ed31cd9ed176d1db344ec42af861e5731f7550b93708663fd4ae31ffd0459"
+      ],
+      "frameBounds": [
+        {
+          "minX": 37,
+          "minY": 38,
+          "maxX": 155,
+          "maxY": 174
+        },
+        {
+          "minX": 31,
+          "minY": 37,
+          "maxX": 145,
+          "maxY": 174
+        },
+        {
+          "minX": 33,
+          "minY": 41,
+          "maxX": 150,
+          "maxY": 174
+        },
+        {
+          "minX": 42,
+          "minY": 39,
+          "maxX": 148,
+          "maxY": 174
+        },
+        {
+          "minX": 26,
+          "minY": 49,
+          "maxX": 157,
+          "maxY": 174
+        },
+        {
+          "minX": 13,
+          "minY": 54,
+          "maxX": 172,
+          "maxY": 174
+        },
+        {
+          "minX": 24,
+          "minY": 54,
+          "maxX": 172,
+          "maxY": 174
+        },
+        {
+          "minX": 30,
+          "minY": 55,
+          "maxX": 165,
+          "maxY": 174
+        },
+        {
+          "minX": 48,
+          "minY": 43,
+          "maxX": 150,
+          "maxY": 174
+        },
+        {
+          "minX": 22,
+          "minY": 44,
+          "maxX": 166,
+          "maxY": 174
+        },
+        {
+          "minX": 19,
+          "minY": 49,
+          "maxX": 161,
+          "maxY": 174
+        },
+        {
+          "minX": 31,
+          "minY": 14,
+          "maxX": 164,
+          "maxY": 174
+        }
+      ]
+    },
+    {
+      "id": "parasol-spirit",
+      "awakened": true,
+      "file": "art/combat-v019/parasol-spirit-awakened.png",
+      "width": 768,
+      "height": 576,
+      "cell": 192,
+      "columns": 4,
+      "rows": 3,
+      "frames": [
+        "idle",
+        "blink",
+        "step-left",
+        "step-right",
+        "prepare",
+        "accelerate",
+        "contact",
+        "follow-through",
+        "recover",
+        "hurt",
+        "guard",
+        "ultimate"
+      ],
+      "sha256": "ea32476a8ae743473a6a983f5bf8c0fcf5da9f89b98f0ce24a2612d9f9dc2b69",
+      "sourceFile": "public/art/combat-v019/sources/parasol-spirit-24.png",
+      "sourceHash": "5d97e91f970fe615bf508941ce2a9b65f04fb2686e4aa9f6eb8f03d8c51c2def",
+      "packingCutsFile": "public/art/combat-v019/sources/parasol-spirit-packing.json",
+      "packingCutsHash": "24d69f5b957c366b5243c1606e22f624997bda55853c5d54bc827073ad4ba7ad",
+      "sourceGutters": {
+        "method": "alpha-empty-contour",
+        "rowBounds": [
+          [
+            0,
+            256
+          ],
+          [
+            256,
+            512
+          ],
+          [
+            501,
+            768
+          ],
+          [
+            768,
+            1024
+          ],
+          [
+            1024,
+            1280
+          ],
+          [
+            1265,
+            1536
+          ]
+        ]
+      },
+      "sourceRowOffset": 3,
+      "frameHashes": [
+        "62b0e41bca09d074703bac6988f0ca03ceb0deea757e5a35410a8bbf4518462d",
+        "15a0fd1f92b9be96a0536dcf6c21e409d8aab735b7b799f663df3cf4135fb87c",
+        "3c4f528a43a95392581a48472b52a53cec89565ce9d436cdc04c3563f8e302b5",
+        "a112418650dcae108c140b24a2b243e8979bef3aa7b2fba156091da8dd99ec48",
+        "6ce370871966dda15717c8aee90f9649439722b3d9c60202555232bac9e4bdd0",
+        "f045cc02a76b68dd966925f3e857d3631dc10c6e2637548e6989cddef9648a97",
+        "4c5842417e713961873177aefabd9d66bc7c84a1599a83e7a977ac0fe37dfa4a",
+        "a228a470c7e3668e3f23f7315b90e8817fb3e24bf4690b71fc5c2bc9bfb2ae09",
+        "db132d791cbd1de09e9cfa77000a65dd49c75230730d55b475bcce4f26972e75",
+        "22f392fc0dd6865aa2ae6795f523b1365448106c1bbfbf8abce8c747343912ce",
+        "f8e6b67ac96f81058f0792299bb5b1fa79aa11d6c54ff73ca96cc16b564d25d3",
+        "e23f64a8431dc88aa6d194e93701502c54e1b37fa5728dedeebef46c31a7000f"
+      ],
+      "frameBounds": [
+        {
+          "minX": 37,
+          "minY": 35,
+          "maxX": 155,
+          "maxY": 174
+        },
+        {
+          "minX": 29,
+          "minY": 35,
+          "maxX": 148,
+          "maxY": 174
+        },
+        {
+          "minX": 31,
+          "minY": 35,
+          "maxX": 152,
+          "maxY": 174
+        },
+        {
+          "minX": 37,
+          "minY": 36,
+          "maxX": 150,
+          "maxY": 174
+        },
+        {
+          "minX": 28,
+          "minY": 46,
+          "maxX": 162,
+          "maxY": 174
+        },
+        {
+          "minX": 10,
+          "minY": 53,
+          "maxX": 176,
+          "maxY": 174
+        },
+        {
+          "minX": 25,
+          "minY": 43,
+          "maxX": 184,
+          "maxY": 174
+        },
+        {
+          "minX": 36,
+          "minY": 56,
+          "maxX": 172,
+          "maxY": 174
+        },
+        {
+          "minX": 47,
+          "minY": 42,
+          "maxX": 153,
+          "maxY": 174
+        },
+        {
+          "minX": 38,
+          "minY": 45,
+          "maxX": 177,
+          "maxY": 174
+        },
+        {
+          "minX": 26,
+          "minY": 41,
+          "maxX": 184,
+          "maxY": 174
+        },
+        {
+          "minX": 32,
+          "minY": 20,
+          "maxX": 170,
+          "maxY": 174
+        }
+      ]
+    },
+    {
+      "id": "lotus-lantern",
+      "awakened": false,
+      "file": "art/combat-v019/lotus-lantern.png",
+      "width": 768,
+      "height": 576,
+      "cell": 192,
+      "columns": 4,
+      "rows": 3,
+      "frames": [
+        "idle",
+        "blink",
+        "step-left",
+        "step-right",
+        "prepare",
+        "accelerate",
+        "contact",
+        "follow-through",
+        "recover",
+        "hurt",
+        "guard",
+        "ultimate"
+      ],
+      "sha256": "d69de79074f90fe534ef8b6d9ca692f252411e70b27ac0a3a71d61304181c480",
+      "sourceFile": "public/art/combat-v019/sources/lotus-lantern-24.png",
+      "sourceHash": "da577c51eeafcddaa4fd098841de235225324445847fdfb2d6917427c4894515",
+      "packingCutsFile": "public/art/combat-v019/sources/lotus-lantern-packing.json",
+      "packingCutsHash": "f2566c03eb5f2baf984c37aba447f878c605e587fc105cb08338e7d018157414",
+      "sourceGutters": {
+        "method": "alpha-empty-contour",
+        "rowBounds": [
+          [
+            0,
+            257
+          ],
+          [
+            256,
+            512
+          ],
+          [
+            508,
+            768
+          ],
+          [
+            767,
+            1029
+          ],
+          [
+            1024,
+            1282
+          ],
+          [
+            1272,
+            1536
+          ]
+        ]
+      },
+      "sourceRowOffset": 0,
+      "frameHashes": [
+        "24360bb35846e394d3b8237f4816019d39c0d93c6f63ac86ca8a71ab50cb8bd1",
+        "9fca706e74ec053d69629cbe22e6d7ff95eaa77e7bc38fb8f17c3545105a6c99",
+        "77cd381584ae286c37de9e8a88c9fd6d44efd7b566b86c966c86389ec1d9a921",
+        "7189fa67483a59d1b8e8e009597e58dd741db7fc2f03c27e41c87381ea2fe39d",
+        "1401293e2227ab67801630f7a3427bf3fd961ed5ca5d1fa9b6729f8fcaf7d5ed",
+        "f48ebada4eb155967d896b4c2d46000bd519fcd018ad4a646060672db0815271",
+        "145d70cb8ec330501454e0b5aa3f12d4d9e7be6b678ae4de11591cd8f0f51f56",
+        "f14724d180be33f289a1c5bfd364b973ede14cc8f053954cd82a7ea9d5fbfc05",
+        "5ac3b275e6901f949fc4398dcd03dffd518cc440f68e927433c1d0f89d2bb7fc",
+        "3ca2b3bc2c53332713b750ec1068199fd86625cc0ae7c28dba4c30a3c67ecf23",
+        "979d1ad8c16f473b9b5b4d28885c93327b99272a05ffbf697d931fc6bf084939",
+        "7549c8293dbf446367ee16a0f94aad83fd2add4011b680ed7da0dc832e240c35"
+      ],
+      "frameBounds": [
+        {
+          "minX": 35,
+          "minY": 36,
+          "maxX": 157,
+          "maxY": 174
+        },
+        {
+          "minX": 35,
+          "minY": 36,
+          "maxX": 156,
+          "maxY": 174
+        },
+        {
+          "minX": 26,
+          "minY": 37,
+          "maxX": 153,
+          "maxY": 175
+        },
+        {
+          "minX": 28,
+          "minY": 34,
+          "maxX": 156,
+          "maxY": 174
+        },
+        {
+          "minX": 35,
+          "minY": 48,
+          "maxX": 159,
+          "maxY": 174
+        },
+        {
+          "minX": 36,
+          "minY": 49,
+          "maxX": 169,
+          "maxY": 174
+        },
+        {
+          "minX": 31,
+          "minY": 43,
+          "maxX": 166,
+          "maxY": 174
+        },
+        {
+          "minX": 35,
+          "minY": 42,
+          "maxX": 159,
+          "maxY": 174
+        },
+        {
+          "minX": 39,
+          "minY": 31,
+          "maxX": 154,
+          "maxY": 174
+        },
+        {
+          "minX": 40,
+          "minY": 35,
+          "maxX": 153,
+          "maxY": 174
+        },
+        {
+          "minX": 35,
+          "minY": 56,
+          "maxX": 155,
+          "maxY": 174
+        },
+        {
+          "minX": 28,
+          "minY": 29,
+          "maxX": 157,
+          "maxY": 174
+        }
+      ]
+    },
+    {
+      "id": "lotus-lantern",
+      "awakened": true,
+      "file": "art/combat-v019/lotus-lantern-awakened.png",
+      "width": 768,
+      "height": 576,
+      "cell": 192,
+      "columns": 4,
+      "rows": 3,
+      "frames": [
+        "idle",
+        "blink",
+        "step-left",
+        "step-right",
+        "prepare",
+        "accelerate",
+        "contact",
+        "follow-through",
+        "recover",
+        "hurt",
+        "guard",
+        "ultimate"
+      ],
+      "sha256": "9c33feb58d921754ce7a029b034ab4a4e41e0a15d3ce8d9ebde0b659df7f0415",
+      "sourceFile": "public/art/combat-v019/sources/lotus-lantern-24.png",
+      "sourceHash": "da577c51eeafcddaa4fd098841de235225324445847fdfb2d6917427c4894515",
+      "packingCutsFile": "public/art/combat-v019/sources/lotus-lantern-packing.json",
+      "packingCutsHash": "f2566c03eb5f2baf984c37aba447f878c605e587fc105cb08338e7d018157414",
+      "sourceGutters": {
+        "method": "alpha-empty-contour",
+        "rowBounds": [
+          [
+            0,
+            257
+          ],
+          [
+            256,
+            512
+          ],
+          [
+            508,
+            768
+          ],
+          [
+            767,
+            1029
+          ],
+          [
+            1024,
+            1282
+          ],
+          [
+            1272,
+            1536
+          ]
+        ]
+      },
+      "sourceRowOffset": 3,
+      "frameHashes": [
+        "58ed6234ddd33c9df501d433cd8cb8cc50331f8d7d0391712911e78bc0fff8c2",
+        "8d2efe2f66d3c48d269c64f066ce704f5f7a7319144a8262e61dd3f81fc9749e",
+        "d0456ece7aefa2085e4cd7ac4f07ed6c424186e2e55135765950f28a7d415924",
+        "5dffb6ecd92fb077f9a4da7e08bf382e56ffac41c576acea5ea734e757d2126a",
+        "ca19cc93410873fab4eb8b36a4885f6ea45e89e4af0db67600fe47b929ef0a7b",
+        "cd30125ef848df89dfd8e18aeb1a5428338076faf5c6d7ff30ac5a31503d9a60",
+        "c3086159cd545136f95acd8882874a6b0c75eb7fcdc72999018e572a265236f9",
+        "32b0bdbab49f49857325d90da3286a509fc5877b63f3ffc5ed78d5b4ea5b5522",
+        "e127f9ad3f098918e9188f36c6a60c52baf9566563714a07be1c81e7fc28bf26",
+        "2049c808b015ba413649a9a6b43cf0b54a281531e08ae358aec1a61e47068a42",
+        "efad8eb0d1bbdcea642576d26c75a559d984c7f2837793b78407a430bc928d77",
+        "f0ef79480f0d812f4bb6c2a6bd1d5d71ed6d4270eb19eaadf59a9bebf0676611"
+      ],
+      "frameBounds": [
+        {
+          "minX": 34,
+          "minY": 35,
+          "maxX": 158,
+          "maxY": 174
+        },
+        {
+          "minX": 33,
+          "minY": 35,
+          "maxX": 157,
+          "maxY": 174
+        },
+        {
+          "minX": 32,
+          "minY": 36,
+          "maxX": 157,
+          "maxY": 174
+        },
+        {
+          "minX": 31,
+          "minY": 35,
+          "maxX": 160,
+          "maxY": 174
+        },
+        {
+          "minX": 34,
+          "minY": 50,
+          "maxX": 160,
+          "maxY": 174
+        },
+        {
+          "minX": 38,
+          "minY": 55,
+          "maxX": 170,
+          "maxY": 175
+        },
+        {
+          "minX": 31,
+          "minY": 45,
+          "maxX": 171,
+          "maxY": 174
+        },
+        {
+          "minX": 42,
+          "minY": 43,
+          "maxX": 159,
+          "maxY": 174
+        },
+        {
+          "minX": 37,
+          "minY": 44,
+          "maxX": 157,
+          "maxY": 174
+        },
+        {
+          "minX": 38,
+          "minY": 47,
+          "maxX": 154,
+          "maxY": 174
+        },
+        {
+          "minX": 32,
+          "minY": 58,
+          "maxX": 156,
+          "maxY": 174
+        },
+        {
+          "minX": 33,
+          "minY": 37,
+          "maxX": 160,
+          "maxY": 174
+        }
+      ]
+    },
+    {
+      "id": "azure-serpent",
+      "awakened": false,
+      "file": "art/combat-v019/azure-serpent.png",
+      "width": 768,
+      "height": 576,
+      "cell": 192,
+      "columns": 4,
+      "rows": 3,
+      "frames": [
+        "idle",
+        "blink",
+        "step-left",
+        "step-right",
+        "prepare",
+        "accelerate",
+        "contact",
+        "follow-through",
+        "recover",
+        "hurt",
+        "guard",
+        "ultimate"
+      ],
+      "sha256": "a1a3a54df4ea0a05bdb316d7dd70fd27032a09fbd29548e314bb943c62581447",
+      "sourceFile": "public/art/combat-v019/sources/azure-serpent-24.png",
+      "sourceHash": "dbba49569da09f0633c856bb09a3a3d2fa8d3f449e1c775e05300b23628c518f",
+      "packingCutsFile": "public/art/combat-v019/sources/azure-serpent-packing.json",
+      "packingCutsHash": "2b3a68b227fd887d463b9a94b9145dfa37c7904c5fe511468fa3634b424913ae",
+      "sourceGutters": {
+        "method": "alpha-empty-contour",
+        "rowBounds": [
+          [
+            0,
+            262
+          ],
+          [
+            256,
+            512
+          ],
+          [
+            512,
+            768
+          ],
+          [
+            768,
+            1030
+          ],
+          [
+            1024,
+            1280
+          ],
+          [
+            1280,
+            1536
+          ]
+        ]
+      },
+      "sourceRowOffset": 0,
+      "frameHashes": [
+        "19c04d394198595227ee5a107be9994489ab5f05a9188300119f82fddb86225e",
+        "223edbb57d0233b1a0d8b638a2bb79b9569654427ed7ac94d7cb743c5b6a6a9f",
+        "969b43af647f137c31e1c2c96c41a34a2e02aa40623d1606e484615171519a8a",
+        "ed37904d368fcb190e923f418e49cc93278f37cb7c48a98e02689ee217437220",
+        "aeb9aed0047b2135d59f939b88ccd962a4aac1a74c625d6ae04683c14c228852",
+        "e5f404ca22b326fb0a99ce14d9511d3bae1a3be69d0e6d75e9bd40ad0f57b710",
+        "9bc835683a2ae33aa86c0c1af7ab80ea0e9d050eb8e585809293c03766d4014c",
+        "0d2cd37fdb9710b9a47df6c0609eb77b68832b647fabfb80a615aac5d548b99a",
+        "48034036e0b1efdc504c7d833bd549ebfc2af637de80615b9396d2a26c9f1221",
+        "82eb55f750334f7640830c6f33b161becf23e24a4346792eb51b0b1eaee5d593",
+        "b88fcff250d8a66e95c3bc0b271b5a81454cc0568ed28156e245b184b7344736",
+        "e00a9f1524598026e626c2a11c6bd4f48542a9d1cacd9187ab3b39d020c9e11f"
+      ],
+      "frameBounds": [
+        {
+          "minX": 35,
+          "minY": 35,
+          "maxX": 157,
+          "maxY": 174
+        },
+        {
+          "minX": 35,
+          "minY": 35,
+          "maxX": 155,
+          "maxY": 174
+        },
+        {
+          "minX": 29,
+          "minY": 35,
+          "maxX": 156,
+          "maxY": 174
+        },
+        {
+          "minX": 37,
+          "minY": 44,
+          "maxX": 159,
+          "maxY": 174
+        },
+        {
+          "minX": 33,
+          "minY": 52,
+          "maxX": 151,
+          "maxY": 174
+        },
+        {
+          "minX": 31,
+          "minY": 58,
+          "maxX": 170,
+          "maxY": 174
+        },
+        {
+          "minX": 31,
+          "minY": 53,
+          "maxX": 184,
+          "maxY": 174
+        },
+        {
+          "minX": 39,
+          "minY": 55,
+          "maxX": 162,
+          "maxY": 174
+        },
+        {
+          "minX": 35,
+          "minY": 38,
+          "maxX": 156,
+          "maxY": 174
+        },
+        {
+          "minX": 34,
+          "minY": 44,
+          "maxX": 164,
+          "maxY": 174
+        },
+        {
+          "minX": 31,
+          "minY": 49,
+          "maxX": 151,
+          "maxY": 174
+        },
+        {
+          "minX": 26,
+          "minY": 42,
+          "maxX": 161,
+          "maxY": 174
+        }
+      ]
+    },
+    {
+      "id": "azure-serpent",
+      "awakened": true,
+      "file": "art/combat-v019/azure-serpent-awakened.png",
+      "width": 768,
+      "height": 576,
+      "cell": 192,
+      "columns": 4,
+      "rows": 3,
+      "frames": [
+        "idle",
+        "blink",
+        "step-left",
+        "step-right",
+        "prepare",
+        "accelerate",
+        "contact",
+        "follow-through",
+        "recover",
+        "hurt",
+        "guard",
+        "ultimate"
+      ],
+      "sha256": "c55d44cec77d3bdb36208669390393e9621a48953825f04745534805c5ef1c75",
+      "sourceFile": "public/art/combat-v019/sources/azure-serpent-24.png",
+      "sourceHash": "dbba49569da09f0633c856bb09a3a3d2fa8d3f449e1c775e05300b23628c518f",
+      "packingCutsFile": "public/art/combat-v019/sources/azure-serpent-packing.json",
+      "packingCutsHash": "2b3a68b227fd887d463b9a94b9145dfa37c7904c5fe511468fa3634b424913ae",
+      "sourceGutters": {
+        "method": "alpha-empty-contour",
+        "rowBounds": [
+          [
+            0,
+            262
+          ],
+          [
+            256,
+            512
+          ],
+          [
+            512,
+            768
+          ],
+          [
+            768,
+            1030
+          ],
+          [
+            1024,
+            1280
+          ],
+          [
+            1280,
+            1536
+          ]
+        ]
+      },
+      "sourceRowOffset": 3,
+      "frameHashes": [
+        "5b8e5716da99ccbf4c4c5fa0fdcc4c44e820f2c57cf7580665ca43872611c207",
+        "03cfd1484f1a2cd56f3407addc4c75b5132f11b52893570656f5bf01e4991d2c",
+        "495390211d6babb89f1f31af463b94de2cb599471cf4b266727c7e6fa25ecbeb",
+        "7dc288d6be09050c30fdf0776b7c448325848168f68ef60f9af85222a96c9e69",
+        "a0b0da20cf21e9d0d947700bf798ae5bd1f1026b10cd57b702d99aadfb85c55d",
+        "8d7362f722ee30060dcf4b0245b9db6523589315929825c5a98ab07864dbcf2a",
+        "e8d4cd1ec130178b4649cc6b4e59ca212e6fc75fea1e65eabd0ebc4bd47ad237",
+        "36913bb2d5e735ded7058b2ea5f0fd565d7a51896cacd5108cae6f0a4bfa623b",
+        "1725ab93c9ab75c53f8d0c5617d19cb9279de5c2d815f73c7928c78c6c076940",
+        "7d467abf24ca3c73b4d9931ca6b94d869efbb74d4f9a297dcc2e1b11783db75e",
+        "47a37da744c1fc7c7f68c552b4a30b7eaefd81d4689c657bf9662898eae36e83",
+        "a3de1ddc1e115767b70105328938379461f804e37b6a3efebd34b5ed8d96b14e"
+      ],
+      "frameBounds": [
+        {
+          "minX": 37,
+          "minY": 35,
+          "maxX": 156,
+          "maxY": 174
+        },
+        {
+          "minX": 36,
+          "minY": 35,
+          "maxX": 155,
+          "maxY": 174
+        },
+        {
+          "minX": 31,
+          "minY": 41,
+          "maxX": 158,
+          "maxY": 174
+        },
+        {
+          "minX": 34,
+          "minY": 47,
+          "maxX": 158,
+          "maxY": 174
+        },
+        {
+          "minX": 36,
+          "minY": 57,
+          "maxX": 149,
+          "maxY": 174
+        },
+        {
+          "minX": 34,
+          "minY": 61,
+          "maxX": 167,
+          "maxY": 174
+        },
+        {
+          "minX": 32,
+          "minY": 57,
+          "maxX": 183,
+          "maxY": 174
+        },
+        {
+          "minX": 37,
+          "minY": 58,
+          "maxX": 159,
+          "maxY": 174
+        },
+        {
+          "minX": 37,
+          "minY": 42,
+          "maxX": 158,
+          "maxY": 174
+        },
+        {
+          "minX": 35,
+          "minY": 47,
+          "maxX": 164,
+          "maxY": 174
+        },
+        {
+          "minX": 32,
+          "minY": 58,
+          "maxX": 150,
+          "maxY": 174
+        },
+        {
+          "minX": 28,
+          "minY": 43,
+          "maxX": 159,
+          "maxY": 174
+        }
+      ]
+    },
+    {
+      "id": "hwacha",
+      "awakened": false,
+      "file": "art/combat-v019/hwacha.png",
+      "width": 768,
+      "height": 576,
+      "cell": 192,
+      "columns": 4,
+      "rows": 3,
+      "frames": [
+        "idle",
+        "blink",
+        "step-left",
+        "step-right",
+        "prepare",
+        "accelerate",
+        "contact",
+        "follow-through",
+        "recover",
+        "hurt",
+        "guard",
+        "ultimate"
+      ],
+      "sha256": "78fcaec2c9e226c2127a79376f945fbcff0b544c10845437d86f0fcf78bfc474",
+      "sourceFile": "public/art/combat-v019/sources/hwacha-24-v2.png",
+      "sourceHash": "7dbb7fbe9beae4e2da7b49b83db0f56c7d905b3b31d2e0ff4ccdd815489f3946",
+      "packingCutsFile": "public/art/combat-v019/sources/hwacha-packing.json",
+      "packingCutsHash": "4fa8d791810027de754de6abfc040061876eb1038d5d1b0eba33a5ba98b1192b",
+      "sourceGutters": {
+        "method": "alpha-empty-contour",
+        "rowBounds": [
+          [
+            0,
+            256
+          ],
+          [
+            256,
+            512
+          ],
+          [
+            512,
+            768
+          ],
+          [
+            768,
+            1024
+          ],
+          [
+            1024,
+            1280
+          ],
+          [
+            1280,
+            1536
+          ]
+        ]
+      },
+      "sourceRowOffset": 0,
+      "frameHashes": [
+        "186ca24c7025958d397b83c18048b7d144e255104767ffd17a5ba5f7d971c5a7",
+        "5a466c91edae07d840c0894cbe0b3a8bb718df4cbfd87511728e1a9942b8697f",
+        "ab531b19c3b3c8f51aeb64d54f9892c55d0ba019b37505fedf782b0f7807dab1",
+        "7883517bf7176c7770bc1c4f852b0873b2b7b6bfae8db4343324006b003ff8b3",
+        "7d03b007ed48d34a807f6a65ffdbc41d85013baff9996b22e43f885f37ab2469",
+        "217996167734cf9f85f669f4901daeed918323bcf0d2d40b851396ce23956c00",
+        "96f4d00bb6bca0c8c4d14e21b0c14ac7f84c6c0b7b45aa86c811a9f47db16311",
+        "47e6a11e7288e5eecb1558c6bad5ca35c9d60e95a883184dc2719287226527ba",
+        "0cac13f86772e644228d0dba53136ad2a4371fc4a75e208ba91c04a4f1cea359",
+        "db52e0fb39ddbe28d257bcadd6e1df29ca5c6759c736c6550f33773a8670ea99",
+        "e02ff528479b9821edd0e169d04ff8136cdae276954edbcf8873b41298bb5b0f",
+        "48a0079de7eada4fb4cf2be123dce0ced0e0b7471860576089bea781c3157742"
+      ],
+      "frameBounds": [
+        {
+          "minX": 43,
+          "minY": 44,
+          "maxX": 149,
+          "maxY": 175
+        },
+        {
+          "minX": 43,
+          "minY": 44,
+          "maxX": 149,
+          "maxY": 175
+        },
+        {
+          "minX": 37,
+          "minY": 48,
+          "maxX": 149,
+          "maxY": 175
+        },
+        {
+          "minX": 41,
+          "minY": 51,
+          "maxX": 148,
+          "maxY": 174
+        },
+        {
+          "minX": 34,
+          "minY": 55,
+          "maxX": 148,
+          "maxY": 175
+        },
+        {
+          "minX": 24,
+          "minY": 62,
+          "maxX": 153,
+          "maxY": 175
+        },
+        {
+          "minX": 18,
+          "minY": 57,
+          "maxX": 185,
+          "maxY": 175
+        },
+        {
+          "minX": 41,
+          "minY": 54,
+          "maxX": 162,
+          "maxY": 175
+        },
+        {
+          "minX": 46,
+          "minY": 40,
+          "maxX": 147,
+          "maxY": 175
+        },
+        {
+          "minX": 41,
+          "minY": 40,
+          "maxX": 144,
+          "maxY": 175
+        },
+        {
+          "minX": 22,
+          "minY": 49,
+          "maxX": 149,
+          "maxY": 175
+        },
+        {
+          "minX": 33,
+          "minY": 22,
+          "maxX": 157,
+          "maxY": 175
+        }
+      ]
+    },
+    {
+      "id": "hwacha",
+      "awakened": true,
+      "file": "art/combat-v019/hwacha-awakened.png",
+      "width": 768,
+      "height": 576,
+      "cell": 192,
+      "columns": 4,
+      "rows": 3,
+      "frames": [
+        "idle",
+        "blink",
+        "step-left",
+        "step-right",
+        "prepare",
+        "accelerate",
+        "contact",
+        "follow-through",
+        "recover",
+        "hurt",
+        "guard",
+        "ultimate"
+      ],
+      "sha256": "6c6f803f983b52e55315b15220cc375129057adab1544c272e43e018db7ceb73",
+      "sourceFile": "public/art/combat-v019/sources/hwacha-24-v2.png",
+      "sourceHash": "7dbb7fbe9beae4e2da7b49b83db0f56c7d905b3b31d2e0ff4ccdd815489f3946",
+      "packingCutsFile": "public/art/combat-v019/sources/hwacha-packing.json",
+      "packingCutsHash": "4fa8d791810027de754de6abfc040061876eb1038d5d1b0eba33a5ba98b1192b",
+      "sourceGutters": {
+        "method": "alpha-empty-contour",
+        "rowBounds": [
+          [
+            0,
+            256
+          ],
+          [
+            256,
+            512
+          ],
+          [
+            512,
+            768
+          ],
+          [
+            768,
+            1024
+          ],
+          [
+            1024,
+            1280
+          ],
+          [
+            1280,
+            1536
+          ]
+        ]
+      },
+      "sourceRowOffset": 3,
+      "frameHashes": [
+        "3990f28aae31730ab1b9bcd9e8f3bd9b4f57198be426e27f0e315c4089e10688",
+        "8b3c9309d532794dfb52435bc38704770a210f6ecdfa0ca46338f38ca3842da0",
+        "f5f72c8f84519c96c60c1ba812559bb0f39d9ce3439aaf9f8b2eea7b9e49404a",
+        "ae715e029274979d0539ace6b109598bd38e03fc2609d420e6220651739e9ba8",
+        "c90156fcd0323b38d28f1cb19e3e5842824c31a0b5e9e6607e9395f868ecc7f8",
+        "3de0e92c66ddafb86da01d034f471d3ddc22f669bb78b8698efc9b5b3dce2277",
+        "0c270b666477e17b97b4e5cf7ec7c8ddb42fbd74c034ca5ad3a991222f0bebd7",
+        "feb23cacb8e0d05d2f407c3aabc18a780dec873dd516ce603dc67b2d4272b576",
+        "27b51e93d01a9e7be523bf4ffd877f27642b84a054e64f567fbf1617d1174ee7",
+        "9b464e3ef5e60f60c1cf49d627985ce282eade3bb20e53d8446b52472575cea2",
+        "1c3646e41ebaa283c6b6cdfc3248a90cfc9b31b6600339cb9c478049cbb5fa35",
+        "c3820939f841313c0dd57d2ae4bb652c42b9b6db6818dbff7a0ae9c715d5642a"
+      ],
+      "frameBounds": [
+        {
+          "minX": 37,
+          "minY": 44,
+          "maxX": 156,
+          "maxY": 175
+        },
+        {
+          "minX": 42,
+          "minY": 43,
+          "maxX": 159,
+          "maxY": 175
+        },
+        {
+          "minX": 35,
+          "minY": 48,
+          "maxX": 152,
+          "maxY": 175
+        },
+        {
+          "minX": 42,
+          "minY": 47,
+          "maxX": 157,
+          "maxY": 175
+        },
+        {
+          "minX": 32,
+          "minY": 52,
+          "maxX": 155,
+          "maxY": 175
+        },
+        {
+          "minX": 28,
+          "minY": 57,
+          "maxX": 157,
+          "maxY": 174
+        },
+        {
+          "minX": 18,
+          "minY": 54,
+          "maxX": 185,
+          "maxY": 175
+        },
+        {
+          "minX": 43,
+          "minY": 50,
+          "maxX": 162,
+          "maxY": 175
+        },
+        {
+          "minX": 45,
+          "minY": 43,
+          "maxX": 153,
+          "maxY": 174
+        },
+        {
+          "minX": 40,
+          "minY": 45,
+          "maxX": 148,
+          "maxY": 175
+        },
+        {
+          "minX": 25,
+          "minY": 47,
+          "maxX": 148,
+          "maxY": 175
+        },
+        {
+          "minX": 32,
+          "minY": 24,
+          "maxX": 153,
+          "maxY": 175
+        }
+      ]
+    }
+  ]
+}

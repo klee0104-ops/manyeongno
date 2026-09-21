@@ -1,13 +1,13 @@
 {
-  "version": "0.14.0",
+  "version": "0.15.0",
   "narrativeRevision": "ashes-v1",
-  "builtAt": "2026-09-21T01:52:45.119Z",
+  "builtAt": "2026-09-21T02:32:11.302Z",
   "basedOnCommit": "628af87c7aa85268040c9621756387370facdfbb",
   "includesWorkingTreeChanges": true,
   "harness": {
-    "task": "v014-character-motion",
+    "task": "v015-battle-formation",
     "status": "pass",
-    "runId": "2026-09-21T01-51-07-580Z-16780",
+    "runId": "2026-09-21T02-31-13-325Z-13744",
     "checks": [
       {
         "id": "typecheck",
@@ -56,6 +56,20 @@
     "combatFrameSheets": 12,
     "combatPoses": 144,
     "exclusiveMotionOwnership": true,
-    "livingIllustrations": true
+    "livingIllustrations": true,
+    "sharedTeamFormation": true,
+    "groundedCharacterIdle": true,
+    "reservedSkillCaptionArea": true
+  },
+  "browserQA": {
+    "layoutCases": 90,
+    "liveGameWidths": [
+      1440,
+      768,
+      390,
+      360
+    ],
+    "combatSequences": 16,
+    "ultimateCaptionCases": 12
   }
 }

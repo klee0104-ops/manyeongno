@@ -1,0 +1,2184 @@
+{
+  "generator": "built-in image_gen",
+  "method": "preserved-RGBA-contour-pack",
+  "priorManifest": {
+    "schemaVersion": 1,
+    "artDirection": "동양 판타지 요괴의 정체성과 무기를 유지하는 단계별 새 일러스트",
+    "assets": [
+      {
+        "atlas": "spirits",
+        "stage": 1,
+        "file": "art/awakening/spirits-stage-1.png",
+        "width": 1536,
+        "height": 1024,
+        "columns": 3,
+        "rowEdges": [
+          0,
+          512,
+          1024
+        ],
+        "sha256": "99e24cef2b60d5b8400fca9590dd525b96218e93692826ac9f9eefc3e92a9a79"
+      },
+      {
+        "atlas": "spirits",
+        "stage": 2,
+        "file": "art/awakening/spirits-stage-2.png",
+        "width": 1536,
+        "height": 1024,
+        "columns": 3,
+        "rowEdges": [
+          0,
+          512,
+          1024
+        ],
+        "sha256": "c5ad73811639143d87c5ddd56108516abe5c04086e43df034f96d417a4d4efb6"
+      },
+      {
+        "atlas": "spirits",
+        "stage": 3,
+        "file": "art/awakening/spirits-stage-3.png",
+        "width": 1536,
+        "height": 1024,
+        "columns": 3,
+        "rowEdges": [
+          0,
+          512,
+          1024
+        ],
+        "sha256": "27aabdfa2ada4cd5882d303e80f3266878a87be797494eedd3e901befc0d02ca"
+      },
+      {
+        "atlas": "spirits",
+        "stage": 4,
+        "file": "art/awakening/spirits-stage-4.png",
+        "width": 1536,
+        "height": 1024,
+        "columns": 3,
+        "rowEdges": [
+          0,
+          512,
+          1024
+        ],
+        "sha256": "858ade3aa31ec560e872c66deccccbdc2937ad7760071079d47435a4e531d867"
+      },
+      {
+        "atlas": "spirits",
+        "stage": 5,
+        "file": "art/awakening/spirits-stage-5.png",
+        "width": 1536,
+        "height": 1024,
+        "columns": 3,
+        "rowEdges": [
+          0,
+          512,
+          1024
+        ],
+        "sha256": "772996b8422f41b2b879b78a3e4fd6662831e7ff1955163954051eac55977d50"
+      },
+      {
+        "atlas": "monsters",
+        "stage": 1,
+        "file": "art/awakening/monsters-stage-1.png",
+        "width": 1536,
+        "height": 1024,
+        "columns": 3,
+        "rowEdges": [
+          0,
+          500,
+          1024
+        ],
+        "sha256": "ad2f302fe78a7d6069795765093573fc6f52442f9f2bd433f8f5783a6159eb04"
+      },
+      {
+        "atlas": "monsters",
+        "stage": 2,
+        "file": "art/awakening/monsters-stage-2.png",
+        "width": 1536,
+        "height": 1024,
+        "columns": 3,
+        "rowEdges": [
+          0,
+          512,
+          1024
+        ],
+        "sha256": "a70ad1e0a2db360ad0028b7896889190ba582a64b78ab5551c803cd1d4b922b2"
+      },
+      {
+        "atlas": "monsters",
+        "stage": 3,
+        "file": "art/awakening/monsters-stage-3.png",
+        "width": 1536,
+        "height": 1024,
+        "columns": 3,
+        "rowEdges": [
+          0,
+          512,
+          1024
+        ],
+        "sha256": "c4bdfa2b545fc193b9379a9f2f04dff1fe0879485d7c9dbe4de291a095149047"
+      },
+      {
+        "atlas": "monsters",
+        "stage": 4,
+        "file": "art/awakening/monsters-stage-4.png",
+        "width": 1536,
+        "height": 1024,
+        "columns": 3,
+        "rowEdges": [
+          0,
+          512,
+          1024
+        ],
+        "sha256": "cbc1ec3691a72de4f372ce87b2ef03a42860eeb67087562b9aa921c7093d8c3d"
+      },
+      {
+        "atlas": "monsters",
+        "stage": 5,
+        "file": "art/awakening/monsters-stage-5.png",
+        "width": 1536,
+        "height": 1024,
+        "columns": 3,
+        "rowEdges": [
+          0,
+          512,
+          1024
+        ],
+        "sha256": "5e99a43ffe8ba5cb17677fbbbdcaa53fc4fb868b789c885ada4a94d2f9f29b0f"
+      },
+      {
+        "atlas": "roster-a",
+        "stage": 1,
+        "file": "art/awakening/roster-a-stage-1.png",
+        "width": 1024,
+        "height": 1536,
+        "columns": 4,
+        "rowEdges": [
+          0,
+          271,
+          521,
+          774,
+          1027,
+          1266,
+          1536
+        ],
+        "sha256": "f61a1a5ccde69b8a5955ce98f5ebbbe0bf4ceb84c5423f648fde3567b3bf6963"
+      },
+      {
+        "atlas": "roster-a",
+        "stage": 2,
+        "file": "art/awakening/roster-a-stage-2.png",
+        "width": 1024,
+        "height": 1536,
+        "columns": 4,
+        "rowEdges": [
+          0,
+          270,
+          526,
+          781,
+          1036,
+          1272,
+          1536
+        ],
+        "sha256": "7114d566eb6e5c2045a2a0b92b62a8f1eb949684dcc9aabfda6a25532d722274"
+      },
+      {
+        "atlas": "roster-a",
+        "stage": 3,
+        "file": "art/awakening/roster-a-stage-3.png",
+        "width": 1024,
+        "height": 1536,
+        "columns": 4,
+        "rowEdges": [
+          0,
+          258,
+          513,
+          769,
+          1024,
+          1280,
+          1536
+        ],
+        "sha256": "cef7aa510047de72fdf27d0d02f377d21b997f325f4b66939d5d9cb3f4e8626e"
+      },
+      {
+        "atlas": "roster-a",
+        "stage": 4,
+        "file": "art/awakening/roster-a-stage-4.png",
+        "width": 1024,
+        "height": 1536,
+        "columns": 4,
+        "rowEdges": [
+          0,
+          262,
+          514,
+          769,
+          1024,
+          1274,
+          1536
+        ],
+        "sha256": "5bdaa1c1cf57170b21bae2977492ed35f000cb26f909f0ea85568dede7ce7213"
+      },
+      {
+        "atlas": "roster-a",
+        "stage": 5,
+        "file": "art/awakening/roster-a-stage-5.png",
+        "width": 1024,
+        "height": 1536,
+        "columns": 4,
+        "rowEdges": [
+          0,
+          277,
+          530,
+          779,
+          1033,
+          1277,
+          1536
+        ],
+        "sha256": "d33e766ca9c282971e370a7f28a41cd936d1f0833ef6331fe8610a47bee5f0c6"
+      },
+      {
+        "atlas": "roster-b",
+        "stage": 1,
+        "file": "art/awakening/roster-b-stage-1.png",
+        "width": 1024,
+        "height": 1536,
+        "columns": 4,
+        "rowEdges": [
+          0,
+          256,
+          515,
+          770,
+          1023,
+          1264,
+          1536
+        ],
+        "sha256": "4dd0c864d3a0725379f967ff3840e62c2eddfc940ce82cbd9956aaa3a5483739"
+      },
+      {
+        "atlas": "roster-b",
+        "stage": 2,
+        "file": "art/awakening/roster-b-stage-2.png",
+        "width": 1024,
+        "height": 1536,
+        "columns": 4,
+        "rowEdges": [
+          0,
+          257,
+          514,
+          768,
+          1015,
+          1269,
+          1536
+        ],
+        "sha256": "d7ed241709a5b677703cb20cd926b319c3876e10c854952eca3ab7bda4b5be36"
+      },
+      {
+        "atlas": "roster-b",
+        "stage": 3,
+        "file": "art/awakening/roster-b-stage-3.png",
+        "width": 1024,
+        "height": 1536,
+        "columns": 4,
+        "rowEdges": [
+          0,
+          255,
+          511,
+          768,
+          1019,
+          1257,
+          1536
+        ],
+        "sha256": "f98681a331c134beae2eee06273b98190b0a5757f3a95b417eb647a440d82dcf"
+      },
+      {
+        "atlas": "roster-b",
+        "stage": 4,
+        "file": "art/awakening/roster-b-stage-4.png",
+        "width": 1024,
+        "height": 1536,
+        "columns": 4,
+        "rowEdges": [
+          0,
+          249,
+          517,
+          770,
+          1009,
+          1255,
+          1536
+        ],
+        "sha256": "734646f0c9e0a3b079d7ef149b02fa75fc2ff3da640c56cad617d7fb12c92075"
+      },
+      {
+        "atlas": "roster-b",
+        "stage": 5,
+        "file": "art/awakening/roster-b-stage-5.png",
+        "width": 1024,
+        "height": 1536,
+        "columns": 4,
+        "rowEdges": [
+          0,
+          256,
+          517,
+          772,
+          1006,
+          1261,
+          1536
+        ],
+        "sha256": "8ca9b05ec3e0f64f41303517e0a198a6a509865941aa4470ce8f82ab9bfee55f"
+      },
+      {
+        "atlas": "roster-c",
+        "stage": 1,
+        "file": "art/awakening/roster-c-stage-1.png",
+        "width": 1536,
+        "height": 1024,
+        "columns": 3,
+        "rowEdges": [
+          0,
+          509,
+          1024
+        ],
+        "sha256": "0389c18a15b919a8aeee90a68d14e4e3b3da6240f461c6db7dd30b322de68d72"
+      },
+      {
+        "atlas": "roster-c",
+        "stage": 2,
+        "file": "art/awakening/roster-c-stage-2.png",
+        "width": 1536,
+        "height": 1024,
+        "columns": 3,
+        "rowEdges": [
+          0,
+          512,
+          1024
+        ],
+        "sha256": "bff0217f10119972d8091a6b778dc637ef7a3118b7808d1b14e5514640c244fd"
+      },
+      {
+        "atlas": "roster-c",
+        "stage": 3,
+        "file": "art/awakening/roster-c-stage-3.png",
+        "width": 1536,
+        "height": 1024,
+        "columns": 3,
+        "rowEdges": [
+          0,
+          512,
+          1024
+        ],
+        "sha256": "d0d8266a27664b331c2c4242716d8acc1523e511bba3be5afedd21026a1928d7"
+      },
+      {
+        "atlas": "roster-c",
+        "stage": 4,
+        "file": "art/awakening/roster-c-stage-4.png",
+        "width": 1536,
+        "height": 1024,
+        "columns": 3,
+        "rowEdges": [
+          0,
+          512,
+          1024
+        ],
+        "sha256": "02af83bfa6dbe04a60129895a68647363e4178155d73b7430236e289f7761521"
+      },
+      {
+        "atlas": "roster-c",
+        "stage": 5,
+        "file": "art/awakening/roster-c-stage-5.png",
+        "width": 1536,
+        "height": 1024,
+        "columns": 3,
+        "rowEdges": [
+          0,
+          512,
+          1024
+        ],
+        "sha256": "7eab721ebacd0cdc8b090b78dcfb8b1e64f044f35b5ce47a1f05467f7a1da488"
+      },
+      {
+        "atlas": "roster-d",
+        "stage": 1,
+        "file": "art/awakening/roster-d-stage-1.png",
+        "width": 1536,
+        "height": 1024,
+        "columns": 3,
+        "rowEdges": [
+          0,
+          512,
+          1024
+        ],
+        "sha256": "68a7a9a80ccdc3fd1e859a791c6d89f83112cb10e220ee0c47dea3848652ee6b"
+      },
+      {
+        "atlas": "roster-d",
+        "stage": 2,
+        "file": "art/awakening/roster-d-stage-2.png",
+        "width": 1536,
+        "height": 1024,
+        "columns": 3,
+        "rowEdges": [
+          0,
+          512,
+          1024
+        ],
+        "sha256": "9ad4e270a816996091a4914029d74349c5017f2c766863fafecf3de2b6147442"
+      },
+      {
+        "atlas": "roster-d",
+        "stage": 3,
+        "file": "art/awakening/roster-d-stage-3.png",
+        "width": 1536,
+        "height": 1024,
+        "columns": 3,
+        "rowEdges": [
+          0,
+          512,
+          1024
+        ],
+        "sha256": "d3fb30c6a59eec6af42745f76b38630abf6592e8fab4ebafd4828c1646268f03"
+      },
+      {
+        "atlas": "roster-d",
+        "stage": 4,
+        "file": "art/awakening/roster-d-stage-4.png",
+        "width": 1536,
+        "height": 1024,
+        "columns": 3,
+        "rowEdges": [
+          0,
+          512,
+          1024
+        ],
+        "sha256": "0d31d0ff9058f4b9752f6ebb3d33feed2005fc117f4d792453c5eb78d8ad17fa"
+      },
+      {
+        "atlas": "roster-d",
+        "stage": 5,
+        "file": "art/awakening/roster-d-stage-5.png",
+        "width": 1536,
+        "height": 1024,
+        "columns": 3,
+        "rowEdges": [
+          0,
+          512,
+          1024
+        ],
+        "sha256": "94e4e890c5e56797c1ff8a7f8c75b08bddb0859edae7a2f83fa84c9171b37fa6"
+      },
+      {
+        "atlas": "roster-e",
+        "stage": 1,
+        "file": "art/awakening/roster-e-stage-1.png",
+        "width": 1536,
+        "height": 1024,
+        "columns": 3,
+        "rowEdges": [
+          0,
+          512,
+          1024
+        ],
+        "sha256": "0064fa956259ae01f121cb67d2c0a064649d8e851cd7cae0425511a39a208e9c"
+      },
+      {
+        "atlas": "roster-e",
+        "stage": 2,
+        "file": "art/awakening/roster-e-stage-2.png",
+        "width": 1536,
+        "height": 1024,
+        "columns": 3,
+        "rowEdges": [
+          0,
+          512,
+          1024
+        ],
+        "sha256": "6939a3277b8e4396c6d1cce23708b2e6f716b320ae55203d43ea195a1692f89b"
+      },
+      {
+        "atlas": "roster-e",
+        "stage": 3,
+        "file": "art/awakening/roster-e-stage-3.png",
+        "width": 1536,
+        "height": 1024,
+        "columns": 3,
+        "rowEdges": [
+          0,
+          512,
+          1024
+        ],
+        "sha256": "734b6be73c4b40fdc5bef9eaf69eff00965c78604b28b9f93aedb9ccf27f919c"
+      },
+      {
+        "atlas": "roster-e",
+        "stage": 4,
+        "file": "art/awakening/roster-e-stage-4.png",
+        "width": 1536,
+        "height": 1024,
+        "columns": 3,
+        "rowEdges": [
+          0,
+          512,
+          1024
+        ],
+        "sha256": "84f70ef089a70ec5d237145f704bbdfd7cda1d7cb259460c4294de871ff89031"
+      },
+      {
+        "atlas": "roster-e",
+        "stage": 5,
+        "file": "art/awakening/roster-e-stage-5.png",
+        "width": 1536,
+        "height": 1024,
+        "columns": 3,
+        "rowEdges": [
+          0,
+          512,
+          1024
+        ],
+        "sha256": "52627b087b298f13a70334f80aca885bc6a7f5ca5021965ce0fbd46f23c5749f"
+      },
+      {
+        "atlas": "roster-f",
+        "stage": 1,
+        "file": "art/awakening/roster-f-stage-1.png",
+        "width": 1536,
+        "height": 1024,
+        "columns": 3,
+        "rowEdges": [
+          0,
+          512,
+          1024
+        ],
+        "sha256": "ab35864d55ef1b202d74b3378c49181081515152191f0e6b8cfeb145b06f31fb"
+      },
+      {
+        "atlas": "roster-f",
+        "stage": 2,
+        "file": "art/awakening/roster-f-stage-2.png",
+        "width": 1536,
+        "height": 1024,
+        "columns": 3,
+        "rowEdges": [
+          0,
+          512,
+          1024
+        ],
+        "sha256": "f46d535a70a35ef438fa22265f30217c2768bb51294d8cfb7e6d2de2efac9afb"
+      },
+      {
+        "atlas": "roster-f",
+        "stage": 3,
+        "file": "art/awakening/roster-f-stage-3.png",
+        "width": 1536,
+        "height": 1024,
+        "columns": 3,
+        "rowEdges": [
+          0,
+          512,
+          1024
+        ],
+        "sha256": "f9a94473fdb9196a26f44d5c9184ae095646c0ed2722836c1f6084e1b67a6520"
+      },
+      {
+        "atlas": "roster-f",
+        "stage": 4,
+        "file": "art/awakening/roster-f-stage-4.png",
+        "width": 1536,
+        "height": 1024,
+        "columns": 3,
+        "rowEdges": [
+          0,
+          512,
+          1024
+        ],
+        "sha256": "5343c51de54ee9cdf5a32f8aa79c9a7cf9df342f3eb3a85285c29f8914c8262e"
+      },
+      {
+        "atlas": "roster-f",
+        "stage": 5,
+        "file": "art/awakening/roster-f-stage-5.png",
+        "width": 1536,
+        "height": 1024,
+        "columns": 3,
+        "rowEdges": [
+          0,
+          512,
+          1024
+        ],
+        "sha256": "c5b64a75687f5933b14b25a3cfb544c691e234a85422117a33ab20b5c3459aa5"
+      }
+    ]
+  },
+  "assets": [
+    {
+      "atlas": "roster-g",
+      "stage": 0,
+      "file": "public/art/roster-g-atlas.png",
+      "sha256": "6a9a6266c2de26aba4bd2f332d3471d5409115734ee67951540f7f59cf94c69a",
+      "placements": [
+        {
+          "id": "gumiho",
+          "stage": 0,
+          "sourceFile": "public/art/five-star-v027/sources/gumiho.png",
+          "sourceHash": "f468b22d69d7d2981979d5d47e2aaa1cdb2cd7ce8224c1da83820b6f69b90bb0",
+          "sourceBounds": {
+            "x0": 49,
+            "y0": 0,
+            "x1": 511,
+            "y1": 511
+          },
+          "scale": 0.875,
+          "cellHash": "9402bb6e73d6e14c0cd92ce10e0144b0974b1579891ca0e5984ecad7dbd739a2"
+        },
+        {
+          "id": "samsindongja",
+          "stage": 0,
+          "sourceFile": "public/art/five-star-v027/sources/samsindongja.png",
+          "sourceHash": "14d37a907c4627aa2bbc01066c6a436f46c7f7232d1f2ec19cdc79bfc08533d3",
+          "sourceBounds": {
+            "x0": 31,
+            "y0": 0,
+            "x1": 511,
+            "y1": 511
+          },
+          "scale": 0.875,
+          "cellHash": "2832b26fac41272730a02ce8e21284570b0dfe309aa9d1921d94a6f5d40e68b7"
+        },
+        {
+          "id": "mangeomhon",
+          "stage": 0,
+          "sourceFile": "public/art/five-star-v027/sources/mangeomhon.png",
+          "sourceHash": "514db64f8c6f8620b1a4caecda69cf6a3de7928f9fb7bedc07b856af8edb92d8",
+          "sourceBounds": {
+            "x0": 0,
+            "y0": 11,
+            "x1": 503,
+            "y1": 511
+          },
+          "scale": 0.8888888888888888,
+          "cellHash": "a0aeac04a8a636221a453e48ce0f12157775c9e06b8e7ea297aada67b45f395f"
+        },
+        {
+          "id": "jeogyeom",
+          "stage": 0,
+          "sourceFile": "public/art/five-star-v027/sources/jeogyeom.png",
+          "sourceHash": "a675863db68c6df437d07270edba8ed4c116fa89f2e85ecfe5fb8d5bda080118",
+          "sourceBounds": {
+            "x0": 97,
+            "y0": 0,
+            "x1": 499,
+            "y1": 511
+          },
+          "scale": 0.875,
+          "cellHash": "81539ff13810bfba1a7aee445f161913364c04ec2a568119dd89ceb5bf8fa971"
+        },
+        {
+          "id": "simyeon",
+          "stage": 0,
+          "sourceFile": "public/art/five-star-v027/sources/simyeon.png",
+          "sourceHash": "d751f3bb07ad07b47a9a420b6d447bc2d842a183cc3a65695b0500f5745aae10",
+          "sourceBounds": {
+            "x0": 0,
+            "y0": 0,
+            "x1": 511,
+            "y1": 511
+          },
+          "scale": 0.875,
+          "cellHash": "24ec7edfd7453f3de664cb52e5dcbba9d461312016a13cae6844bcae01ba8127"
+        },
+        {
+          "id": "jibu",
+          "stage": 0,
+          "sourceFile": "public/art/five-star-v027/sources/jibu.png",
+          "sourceHash": "859b4262f4513255499a39602a4d5d37ed74efc362d33cfff3e799267f0cb0dd",
+          "sourceBounds": {
+            "x0": 0,
+            "y0": 0,
+            "x1": 497,
+            "y1": 511
+          },
+          "scale": 0.875,
+          "cellHash": "38cbde970a9d6df71914096ef244c901269b249a0d360f23022b15fe10a987e3"
+        }
+      ]
+    },
+    {
+      "atlas": "roster-g",
+      "stage": 1,
+      "file": "public/art/awakening/roster-g-stage-1.png",
+      "sha256": "c7b31f3f950282e74c7f4fbd1fa15a9d6a2b307fca1b773750310587cf92fac1",
+      "placements": [
+        {
+          "id": "gumiho",
+          "stage": 1,
+          "sourceFile": "public/art/five-star-v027/sources/gumiho.png",
+          "sourceHash": "f468b22d69d7d2981979d5d47e2aaa1cdb2cd7ce8224c1da83820b6f69b90bb0",
+          "sourceBounds": {
+            "x0": 513,
+            "y0": 0,
+            "x1": 1023,
+            "y1": 511
+          },
+          "scale": 0.875,
+          "cellHash": "a7f1b4bf56fe69b4cd586fecb4e5cba5b73f4e773ab1071395bb22207c3a7c68"
+        },
+        {
+          "id": "samsindongja",
+          "stage": 1,
+          "sourceFile": "public/art/five-star-v027/sources/samsindongja.png",
+          "sourceHash": "14d37a907c4627aa2bbc01066c6a436f46c7f7232d1f2ec19cdc79bfc08533d3",
+          "sourceBounds": {
+            "x0": 513,
+            "y0": 0,
+            "x1": 1023,
+            "y1": 511
+          },
+          "scale": 0.875,
+          "cellHash": "e70dacd017301bca03365fa616dfb4d693f49b7301e94adf20025331ee2cc231"
+        },
+        {
+          "id": "mangeomhon",
+          "stage": 1,
+          "sourceFile": "public/art/five-star-v027/sources/mangeomhon.png",
+          "sourceHash": "514db64f8c6f8620b1a4caecda69cf6a3de7928f9fb7bedc07b856af8edb92d8",
+          "sourceBounds": {
+            "x0": 517,
+            "y0": 0,
+            "x1": 1023,
+            "y1": 511
+          },
+          "scale": 0.875,
+          "cellHash": "807b40f291d55e17fb2adfce653a64d667000454ed8a7ada902c73a8f670959c"
+        },
+        {
+          "id": "jeogyeom",
+          "stage": 1,
+          "sourceFile": "public/art/five-star-v027/sources/jeogyeom.png",
+          "sourceHash": "a675863db68c6df437d07270edba8ed4c116fa89f2e85ecfe5fb8d5bda080118",
+          "sourceBounds": {
+            "x0": 591,
+            "y0": 0,
+            "x1": 993,
+            "y1": 511
+          },
+          "scale": 0.875,
+          "cellHash": "50d9a6ad2b61c4a3e61e0115b8e2ed06565604d07ee5b32dc942e9c634a2280c"
+        },
+        {
+          "id": "simyeon",
+          "stage": 1,
+          "sourceFile": "public/art/five-star-v027/sources/simyeon.png",
+          "sourceHash": "d751f3bb07ad07b47a9a420b6d447bc2d842a183cc3a65695b0500f5745aae10",
+          "sourceBounds": {
+            "x0": 513,
+            "y0": 0,
+            "x1": 1023,
+            "y1": 511
+          },
+          "scale": 0.875,
+          "cellHash": "07168f37e77798bfa8f6cffc6b0016bae90eeb09953cbb3324950327b136c83b"
+        },
+        {
+          "id": "jibu",
+          "stage": 1,
+          "sourceFile": "public/art/five-star-v027/sources/jibu.png",
+          "sourceHash": "859b4262f4513255499a39602a4d5d37ed74efc362d33cfff3e799267f0cb0dd",
+          "sourceBounds": {
+            "x0": 519,
+            "y0": 0,
+            "x1": 1017,
+            "y1": 511
+          },
+          "scale": 0.875,
+          "cellHash": "a4cae7d48546e9133deb3593280d9377d8bae5f6685044a249ed32cada4b7c61"
+        }
+      ]
+    },
+    {
+      "atlas": "roster-g",
+      "stage": 2,
+      "file": "public/art/awakening/roster-g-stage-2.png",
+      "sha256": "fe32e75e31125f055f2b2e73b9f03215b1882cf47c36dfa7888d7fab183c7023",
+      "placements": [
+        {
+          "id": "gumiho",
+          "stage": 2,
+          "sourceFile": "public/art/five-star-v027/sources/gumiho.png",
+          "sourceHash": "f468b22d69d7d2981979d5d47e2aaa1cdb2cd7ce8224c1da83820b6f69b90bb0",
+          "sourceBounds": {
+            "x0": 1025,
+            "y0": 0,
+            "x1": 1517,
+            "y1": 511
+          },
+          "scale": 0.875,
+          "cellHash": "e227ae8d40a9d4cc26fd176dc363a9b233cb7a139d53ace66ac9fae1cac7feb9"
+        },
+        {
+          "id": "samsindongja",
+          "stage": 2,
+          "sourceFile": "public/art/five-star-v027/sources/samsindongja.png",
+          "sourceHash": "14d37a907c4627aa2bbc01066c6a436f46c7f7232d1f2ec19cdc79bfc08533d3",
+          "sourceBounds": {
+            "x0": 1025,
+            "y0": 0,
+            "x1": 1525,
+            "y1": 511
+          },
+          "scale": 0.875,
+          "cellHash": "689f69ae8fae8b987accd4926d135134bad5e93665a9872fe98be0ba0b6d9654"
+        },
+        {
+          "id": "mangeomhon",
+          "stage": 2,
+          "sourceFile": "public/art/five-star-v027/sources/mangeomhon.png",
+          "sourceHash": "514db64f8c6f8620b1a4caecda69cf6a3de7928f9fb7bedc07b856af8edb92d8",
+          "sourceBounds": {
+            "x0": 1024,
+            "y0": 0,
+            "x1": 1497,
+            "y1": 511
+          },
+          "scale": 0.875,
+          "cellHash": "1a5930ea5866524173e2d9afebb94e1e8e529518a35517b7735a48d43ab44edf"
+        },
+        {
+          "id": "jeogyeom",
+          "stage": 2,
+          "sourceFile": "public/art/five-star-v027/sources/jeogyeom.png",
+          "sourceHash": "a675863db68c6df437d07270edba8ed4c116fa89f2e85ecfe5fb8d5bda080118",
+          "sourceBounds": {
+            "x0": 1083,
+            "y0": 0,
+            "x1": 1511,
+            "y1": 511
+          },
+          "scale": 0.875,
+          "cellHash": "9ded19c48541e46873f314c84c15f9108bc347ce22acc2a15bf2c170770bdd6c"
+        },
+        {
+          "id": "simyeon",
+          "stage": 2,
+          "sourceFile": "public/art/five-star-v027/sources/simyeon.png",
+          "sourceHash": "d751f3bb07ad07b47a9a420b6d447bc2d842a183cc3a65695b0500f5745aae10",
+          "sourceBounds": {
+            "x0": 1025,
+            "y0": 0,
+            "x1": 1521,
+            "y1": 511
+          },
+          "scale": 0.875,
+          "cellHash": "10ba05d826e487c8a2ec4f70ff8c8e69ec0985801ff27a51820c65bb0cc273ae"
+        },
+        {
+          "id": "jibu",
+          "stage": 2,
+          "sourceFile": "public/art/five-star-v027/sources/jibu.png",
+          "sourceHash": "859b4262f4513255499a39602a4d5d37ed74efc362d33cfff3e799267f0cb0dd",
+          "sourceBounds": {
+            "x0": 1025,
+            "y0": 0,
+            "x1": 1519,
+            "y1": 511
+          },
+          "scale": 0.875,
+          "cellHash": "94a29ab0acf5714176548a4bd24c96077f4fca4d2a3d1d8ffde13cd1df5a159d"
+        }
+      ]
+    },
+    {
+      "atlas": "roster-g",
+      "stage": 3,
+      "file": "public/art/awakening/roster-g-stage-3.png",
+      "sha256": "6bd445c455450b7c2919ee4d565775db5cf279d812627ead6ee75382f1b1e045",
+      "placements": [
+        {
+          "id": "gumiho",
+          "stage": 3,
+          "sourceFile": "public/art/five-star-v027/sources/gumiho.png",
+          "sourceHash": "f468b22d69d7d2981979d5d47e2aaa1cdb2cd7ce8224c1da83820b6f69b90bb0",
+          "sourceBounds": {
+            "x0": 21,
+            "y0": 508,
+            "x1": 511,
+            "y1": 1023
+          },
+          "scale": 0.8682170542635659,
+          "cellHash": "4aa5da0b58b62cb4ea11dcc7c95639496494598ac05f47fb5fc02ae2aee7bcf8"
+        },
+        {
+          "id": "samsindongja",
+          "stage": 3,
+          "sourceFile": "public/art/five-star-v027/sources/samsindongja.png",
+          "sourceHash": "14d37a907c4627aa2bbc01066c6a436f46c7f7232d1f2ec19cdc79bfc08533d3",
+          "sourceBounds": {
+            "x0": 0,
+            "y0": 512,
+            "x1": 511,
+            "y1": 1023
+          },
+          "scale": 0.875,
+          "cellHash": "69429551522465cb804aadf6aa260e75e3729a87821830a236a00b1be183e493"
+        },
+        {
+          "id": "mangeomhon",
+          "stage": 3,
+          "sourceFile": "public/art/five-star-v027/sources/mangeomhon.png",
+          "sourceHash": "514db64f8c6f8620b1a4caecda69cf6a3de7928f9fb7bedc07b856af8edb92d8",
+          "sourceBounds": {
+            "x0": 25,
+            "y0": 512,
+            "x1": 511,
+            "y1": 1023
+          },
+          "scale": 0.875,
+          "cellHash": "1c6bea099dc3887a17e0682224cca87091978eddc662acf14018e3150ad7618b"
+        },
+        {
+          "id": "jeogyeom",
+          "stage": 3,
+          "sourceFile": "public/art/five-star-v027/sources/jeogyeom.png",
+          "sourceHash": "a675863db68c6df437d07270edba8ed4c116fa89f2e85ecfe5fb8d5bda080118",
+          "sourceBounds": {
+            "x0": 74,
+            "y0": 507,
+            "x1": 483,
+            "y1": 1023
+          },
+          "scale": 0.8665377176015474,
+          "cellHash": "b89af3f47cef3cef6019dc91697ed396278d4b7d37ef6d8e94c75ad51997831e"
+        },
+        {
+          "id": "simyeon",
+          "stage": 3,
+          "sourceFile": "public/art/five-star-v027/sources/simyeon.png",
+          "sourceHash": "d751f3bb07ad07b47a9a420b6d447bc2d842a183cc3a65695b0500f5745aae10",
+          "sourceBounds": {
+            "x0": 0,
+            "y0": 496,
+            "x1": 511,
+            "y1": 1023
+          },
+          "scale": 0.8484848484848485,
+          "cellHash": "2af0cbfcc09e83b4b4af48fc15d788b8ad0752a4feedee5aee9dbb476ad3aafd"
+        },
+        {
+          "id": "jibu",
+          "stage": 3,
+          "sourceFile": "public/art/five-star-v027/sources/jibu.png",
+          "sourceHash": "859b4262f4513255499a39602a4d5d37ed74efc362d33cfff3e799267f0cb0dd",
+          "sourceBounds": {
+            "x0": 46,
+            "y0": 512,
+            "x1": 511,
+            "y1": 1023
+          },
+          "scale": 0.875,
+          "cellHash": "588c327243d512594bffc226ca349d094db949773f30f1bbf0e3fcf0c14bd02a"
+        }
+      ]
+    },
+    {
+      "atlas": "roster-g",
+      "stage": 4,
+      "file": "public/art/awakening/roster-g-stage-4.png",
+      "sha256": "9eed99ac25168d5ec74c994c381da41a7bdc348401275fa5dc9e60b47ea4f428",
+      "placements": [
+        {
+          "id": "gumiho",
+          "stage": 4,
+          "sourceFile": "public/art/five-star-v027/sources/gumiho.png",
+          "sourceHash": "f468b22d69d7d2981979d5d47e2aaa1cdb2cd7ce8224c1da83820b6f69b90bb0",
+          "sourceBounds": {
+            "x0": 513,
+            "y0": 508,
+            "x1": 1023,
+            "y1": 1010
+          },
+          "scale": 0.8767123287671232,
+          "cellHash": "9bdf4fccfb65a457fab4cec279463466bfbad1415fee5f55d9208a873c0f3c92"
+        },
+        {
+          "id": "samsindongja",
+          "stage": 4,
+          "sourceFile": "public/art/five-star-v027/sources/samsindongja.png",
+          "sourceHash": "14d37a907c4627aa2bbc01066c6a436f46c7f7232d1f2ec19cdc79bfc08533d3",
+          "sourceBounds": {
+            "x0": 512,
+            "y0": 512,
+            "x1": 1023,
+            "y1": 1023
+          },
+          "scale": 0.875,
+          "cellHash": "058bfbb8a43a46df7f330690aa4d9c2d9662c6dfba346b1f5939f84d0bea0e44"
+        },
+        {
+          "id": "mangeomhon",
+          "stage": 4,
+          "sourceFile": "public/art/five-star-v027/sources/mangeomhon.png",
+          "sourceHash": "514db64f8c6f8620b1a4caecda69cf6a3de7928f9fb7bedc07b856af8edb92d8",
+          "sourceBounds": {
+            "x0": 513,
+            "y0": 512,
+            "x1": 1023,
+            "y1": 1023
+          },
+          "scale": 0.875,
+          "cellHash": "b8d9ab70fb4b5b02ae65bf6a637f5dc76e949fa8c2f764bd5f47fd8abfdcfa45"
+        },
+        {
+          "id": "jeogyeom",
+          "stage": 4,
+          "sourceFile": "public/art/five-star-v027/sources/jeogyeom.png",
+          "sourceHash": "a675863db68c6df437d07270edba8ed4c116fa89f2e85ecfe5fb8d5bda080118",
+          "sourceBounds": {
+            "x0": 538,
+            "y0": 511,
+            "x1": 1023,
+            "y1": 1023
+          },
+          "scale": 0.8732943469785575,
+          "cellHash": "feb76d1d383aaa1c4da468e1d908b86137fb22ae58cc9212df7ad12996e5c96e"
+        },
+        {
+          "id": "simyeon",
+          "stage": 4,
+          "sourceFile": "public/art/five-star-v027/sources/simyeon.png",
+          "sourceHash": "d751f3bb07ad07b47a9a420b6d447bc2d842a183cc3a65695b0500f5745aae10",
+          "sourceBounds": {
+            "x0": 512,
+            "y0": 493,
+            "x1": 1023,
+            "y1": 1023
+          },
+          "scale": 0.8436911487758946,
+          "cellHash": "87ffb878f48e76d9ab7db1b143ae906dd64586f97ed77996497a129368c21d44"
+        },
+        {
+          "id": "jibu",
+          "stage": 4,
+          "sourceFile": "public/art/five-star-v027/sources/jibu.png",
+          "sourceHash": "859b4262f4513255499a39602a4d5d37ed74efc362d33cfff3e799267f0cb0dd",
+          "sourceBounds": {
+            "x0": 513,
+            "y0": 512,
+            "x1": 1030,
+            "y1": 1023
+          },
+          "scale": 0.8648648648648649,
+          "cellHash": "f9a417c306593940437f615cbafc3ecb0b08f00d53d187ea52cbdfcf3717c212"
+        }
+      ]
+    },
+    {
+      "atlas": "roster-g",
+      "stage": 5,
+      "file": "public/art/awakening/roster-g-stage-5.png",
+      "sha256": "431f82870faa30f03e270f9bb5f21a0116bbf2d6b741f8d6b647ac09f556f7d2",
+      "placements": [
+        {
+          "id": "gumiho",
+          "stage": 5,
+          "sourceFile": "public/art/five-star-v027/sources/gumiho.png",
+          "sourceHash": "f468b22d69d7d2981979d5d47e2aaa1cdb2cd7ce8224c1da83820b6f69b90bb0",
+          "sourceBounds": {
+            "x0": 1025,
+            "y0": 509,
+            "x1": 1525,
+            "y1": 1023
+          },
+          "scale": 0.8699029126213592,
+          "cellHash": "c0105e53bf5eab349c35fe75ad420bdb90c1de26707b1a538708395fdca6cbb4"
+        },
+        {
+          "id": "samsindongja",
+          "stage": 5,
+          "sourceFile": "public/art/five-star-v027/sources/samsindongja.png",
+          "sourceHash": "14d37a907c4627aa2bbc01066c6a436f46c7f7232d1f2ec19cdc79bfc08533d3",
+          "sourceBounds": {
+            "x0": 1025,
+            "y0": 512,
+            "x1": 1532,
+            "y1": 1023
+          },
+          "scale": 0.875,
+          "cellHash": "aee58a4e4a1ab5757026fb12461fd4426c1f9a709cddda7c3180c2897071e9b7"
+        },
+        {
+          "id": "mangeomhon",
+          "stage": 5,
+          "sourceFile": "public/art/five-star-v027/sources/mangeomhon.png",
+          "sourceHash": "514db64f8c6f8620b1a4caecda69cf6a3de7928f9fb7bedc07b856af8edb92d8",
+          "sourceBounds": {
+            "x0": 1024,
+            "y0": 512,
+            "x1": 1523,
+            "y1": 1023
+          },
+          "scale": 0.875,
+          "cellHash": "166adee9c588d0981619b21739ea94a7eb093d3ebff164d412fd1b608fa6eb68"
+        },
+        {
+          "id": "jeogyeom",
+          "stage": 5,
+          "sourceFile": "public/art/five-star-v027/sources/jeogyeom.png",
+          "sourceHash": "a675863db68c6df437d07270edba8ed4c116fa89f2e85ecfe5fb8d5bda080118",
+          "sourceBounds": {
+            "x0": 1002,
+            "y0": 498,
+            "x1": 1519,
+            "y1": 1023
+          },
+          "scale": 0.8517110266159695,
+          "cellHash": "c92dae6d0a1d1105f7389bc7531003d80f32c407e4816f79bd8f4d20a710f10e"
+        },
+        {
+          "id": "simyeon",
+          "stage": 5,
+          "sourceFile": "public/art/five-star-v027/sources/simyeon.png",
+          "sourceHash": "d751f3bb07ad07b47a9a420b6d447bc2d842a183cc3a65695b0500f5745aae10",
+          "sourceBounds": {
+            "x0": 1024,
+            "y0": 493,
+            "x1": 1534,
+            "y1": 1023
+          },
+          "scale": 0.8436911487758946,
+          "cellHash": "a871600a173241d6d454b5da451fb7467b5117596218720f6afd4cf23f146252"
+        },
+        {
+          "id": "jibu",
+          "stage": 5,
+          "sourceFile": "public/art/five-star-v027/sources/jibu.png",
+          "sourceHash": "859b4262f4513255499a39602a4d5d37ed74efc362d33cfff3e799267f0cb0dd",
+          "sourceBounds": {
+            "x0": 1024,
+            "y0": 485,
+            "x1": 1529,
+            "y1": 1023
+          },
+          "scale": 0.8311688311688312,
+          "cellHash": "e6c995ec6120044cd22fd9facc093bb2f66b16186ae116f7d3b1e6f6faf580d3"
+        }
+      ]
+    },
+    {
+      "atlas": "roster-h",
+      "stage": 0,
+      "file": "public/art/roster-h-atlas.png",
+      "sha256": "23a8e0797aeb877caf088d47158ce3366643e6765d964ca0d3e639d878ea4bcc",
+      "placements": [
+        {
+          "id": "mansudogun",
+          "stage": 0,
+          "sourceFile": "public/art/five-star-v027/sources/mansudogun.png",
+          "sourceHash": "3f4c97d37f4ffec1aa46bf8d692f58e712ebe81f48045121ef6c2c9a3767bdf6",
+          "sourceBounds": {
+            "x0": 53,
+            "y0": 0,
+            "x1": 499,
+            "y1": 503
+          },
+          "scale": 0.8888888888888888,
+          "cellHash": "5525378fe315268900f4bb33835c9ab953ce97eff6dea9f77a2575a0127878a1"
+        },
+        {
+          "id": "fox-god",
+          "stage": 0,
+          "sourceFile": "public/art/five-star-v027/sources/fox-god.png",
+          "sourceHash": "da7b72baeb37c46e7fe366778f3810ba04c3fbf974c1ba6adbb53f282b22f9d9",
+          "sourceBounds": {
+            "x0": 17,
+            "y0": 15,
+            "x1": 511,
+            "y1": 505
+          },
+          "scale": 0.9050505050505051,
+          "cellHash": "f7f46ea97928317614a3f0f87095f927cc72e5a5a256e7d63a3fc6082397f39e"
+        },
+        {
+          "id": "wolf-star",
+          "stage": 0,
+          "sourceFile": "public/art/five-star-v027/sources/wolf-star.png",
+          "sourceHash": "939f2806668af0588fed9ba1e8ada3460149782022a19858c067ab7f7078562c",
+          "sourceBounds": {
+            "x0": 0,
+            "y0": 0,
+            "x1": 507,
+            "y1": 511
+          },
+          "scale": 0.875,
+          "cellHash": "0210e4fc394dc0c3c436687f0dc07350cac433a5d8d2682c06f92e37804b349e"
+        },
+        {
+          "id": "sword-founder",
+          "stage": 0,
+          "sourceFile": "public/art/five-star-v027/sources/sword-founder.png",
+          "sourceHash": "1aefd4c9c7bcc370d698240afcfd2f880be92a378f043e86eca5c4f740167396",
+          "sourceBounds": {
+            "x0": 0,
+            "y0": 0,
+            "x1": 511,
+            "y1": 509
+          },
+          "scale": 0.875,
+          "cellHash": "7a96e3441a164a260ca9b4bbde81bab43d1e51410f8c9286fb1dd87a3e5042d2"
+        },
+        {
+          "id": "ancient-dragon",
+          "stage": 0,
+          "sourceFile": "public/art/five-star-v027/sources/ancient-dragon.png",
+          "sourceHash": "1e433e5e40877cf67021a9492a6c82b24a0e1826ea97ef68edab0d1aba28ad55",
+          "sourceBounds": {
+            "x0": 33,
+            "y0": 0,
+            "x1": 511,
+            "y1": 511
+          },
+          "scale": 0.875,
+          "cellHash": "28547746a8fbb5838e80e6cdefcb8274e3b61a7e65fbec3cb41d5669aa98987a"
+        },
+        {
+          "id": "jiangshi",
+          "stage": 0,
+          "sourceFile": "public/art/five-star-v027/sources/jiangshi.png",
+          "sourceHash": "a79e05cf0836bbd20123aee79abe7a1d2b0ae041a073aa36c934f65153fcaaea",
+          "sourceBounds": {
+            "x0": 0,
+            "y0": 0,
+            "x1": 503,
+            "y1": 499
+          },
+          "scale": 0.8888888888888888,
+          "cellHash": "af191773f2a8c3d493bb50bee39126029672943182c81c91e832d9f9ca70c7eb"
+        }
+      ]
+    },
+    {
+      "atlas": "roster-h",
+      "stage": 1,
+      "file": "public/art/awakening/roster-h-stage-1.png",
+      "sha256": "f6523b11b22df60ba2f94b112b816dd17b87e5ad8c1666d358f33abbe62fa7a7",
+      "placements": [
+        {
+          "id": "mansudogun",
+          "stage": 1,
+          "sourceFile": "public/art/five-star-v027/sources/mansudogun.png",
+          "sourceHash": "3f4c97d37f4ffec1aa46bf8d692f58e712ebe81f48045121ef6c2c9a3767bdf6",
+          "sourceBounds": {
+            "x0": 519,
+            "y0": 0,
+            "x1": 1023,
+            "y1": 511
+          },
+          "scale": 0.875,
+          "cellHash": "22e6c70bd84e06ebf28db38dfbd699ebc66d44e5e649f30a9febd9455fe44be1"
+        },
+        {
+          "id": "fox-god",
+          "stage": 1,
+          "sourceFile": "public/art/five-star-v027/sources/fox-god.png",
+          "sourceHash": "da7b72baeb37c46e7fe366778f3810ba04c3fbf974c1ba6adbb53f282b22f9d9",
+          "sourceBounds": {
+            "x0": 513,
+            "y0": 17,
+            "x1": 1023,
+            "y1": 489
+          },
+          "scale": 0.8767123287671232,
+          "cellHash": "c2c5c5197940170a0c8ebee91b0d1519d98075314fa2e06caa01742d2c8c7c3f"
+        },
+        {
+          "id": "wolf-star",
+          "stage": 1,
+          "sourceFile": "public/art/five-star-v027/sources/wolf-star.png",
+          "sourceHash": "939f2806668af0588fed9ba1e8ada3460149782022a19858c067ab7f7078562c",
+          "sourceBounds": {
+            "x0": 523,
+            "y0": 0,
+            "x1": 1021,
+            "y1": 511
+          },
+          "scale": 0.875,
+          "cellHash": "31831af4e35b0afb9a97b828b39bf3a9c43f3a225583a968c8f6769d67dd7234"
+        },
+        {
+          "id": "sword-founder",
+          "stage": 1,
+          "sourceFile": "public/art/five-star-v027/sources/sword-founder.png",
+          "sourceHash": "1aefd4c9c7bcc370d698240afcfd2f880be92a378f043e86eca5c4f740167396",
+          "sourceBounds": {
+            "x0": 513,
+            "y0": 0,
+            "x1": 1023,
+            "y1": 511
+          },
+          "scale": 0.875,
+          "cellHash": "3863d622021d4365c1325edaf3e02d8830e1ec1a7c1509b8127472a7d2c2212b"
+        },
+        {
+          "id": "ancient-dragon",
+          "stage": 1,
+          "sourceFile": "public/art/five-star-v027/sources/ancient-dragon.png",
+          "sourceHash": "1e433e5e40877cf67021a9492a6c82b24a0e1826ea97ef68edab0d1aba28ad55",
+          "sourceBounds": {
+            "x0": 513,
+            "y0": 0,
+            "x1": 1023,
+            "y1": 511
+          },
+          "scale": 0.875,
+          "cellHash": "2fa2f11f1a23e919def59b35f3fd47d58a43c023bdbc03ccb7e1de2d1af4b12f"
+        },
+        {
+          "id": "jiangshi",
+          "stage": 1,
+          "sourceFile": "public/art/five-star-v027/sources/jiangshi.png",
+          "sourceHash": "a79e05cf0836bbd20123aee79abe7a1d2b0ae041a073aa36c934f65153fcaaea",
+          "sourceBounds": {
+            "x0": 521,
+            "y0": 0,
+            "x1": 1023,
+            "y1": 511
+          },
+          "scale": 0.875,
+          "cellHash": "2897d165ac06ac9a5a5e23a2248011c345da94fba37d9f75f13fbce52c7eecfa"
+        }
+      ]
+    },
+    {
+      "atlas": "roster-h",
+      "stage": 2,
+      "file": "public/art/awakening/roster-h-stage-2.png",
+      "sha256": "89d637dbaff54c8b4b3c35966f5d77cb3bd42efb2e98f3a443317097f74081ec",
+      "placements": [
+        {
+          "id": "mansudogun",
+          "stage": 2,
+          "sourceFile": "public/art/five-star-v027/sources/mansudogun.png",
+          "sourceHash": "3f4c97d37f4ffec1aa46bf8d692f58e712ebe81f48045121ef6c2c9a3767bdf6",
+          "sourceBounds": {
+            "x0": 1025,
+            "y0": 0,
+            "x1": 1513,
+            "y1": 511
+          },
+          "scale": 0.875,
+          "cellHash": "dd7b0afa7abc6c5f21b5c4f9e1ddc1b61f8ee99d3ff226dffe13bd63cbc0e044"
+        },
+        {
+          "id": "fox-god",
+          "stage": 2,
+          "sourceFile": "public/art/five-star-v027/sources/fox-god.png",
+          "sourceHash": "da7b72baeb37c46e7fe366778f3810ba04c3fbf974c1ba6adbb53f282b22f9d9",
+          "sourceBounds": {
+            "x0": 1025,
+            "y0": 13,
+            "x1": 1509,
+            "y1": 511
+          },
+          "scale": 0.8977955911823647,
+          "cellHash": "1114d9eb7a9edb0e8d5c1cd2b0506eaa3039c7815acd1911fbabddcdc886d59e"
+        },
+        {
+          "id": "wolf-star",
+          "stage": 2,
+          "sourceFile": "public/art/five-star-v027/sources/wolf-star.png",
+          "sourceHash": "939f2806668af0588fed9ba1e8ada3460149782022a19858c067ab7f7078562c",
+          "sourceBounds": {
+            "x0": 1051,
+            "y0": 0,
+            "x1": 1509,
+            "y1": 511
+          },
+          "scale": 0.875,
+          "cellHash": "4ac2b9add12a8aa5c656c59a0025943a6b9ddecbf4e5442dfe19290dcbd4595b"
+        },
+        {
+          "id": "sword-founder",
+          "stage": 2,
+          "sourceFile": "public/art/five-star-v027/sources/sword-founder.png",
+          "sourceHash": "1aefd4c9c7bcc370d698240afcfd2f880be92a378f043e86eca5c4f740167396",
+          "sourceBounds": {
+            "x0": 1024,
+            "y0": 0,
+            "x1": 1525,
+            "y1": 511
+          },
+          "scale": 0.875,
+          "cellHash": "21f00b81322ce92772347cc1a0ce369b004c265ff0bc21ed41c94dff003b6ce0"
+        },
+        {
+          "id": "ancient-dragon",
+          "stage": 2,
+          "sourceFile": "public/art/five-star-v027/sources/ancient-dragon.png",
+          "sourceHash": "1e433e5e40877cf67021a9492a6c82b24a0e1826ea97ef68edab0d1aba28ad55",
+          "sourceBounds": {
+            "x0": 1025,
+            "y0": 5,
+            "x1": 1517,
+            "y1": 511
+          },
+          "scale": 0.883629191321499,
+          "cellHash": "43abbe26d7fc2354f0ae1e4b8a0df9b470c20f571978e5b5e1855ef538839e66"
+        },
+        {
+          "id": "jiangshi",
+          "stage": 2,
+          "sourceFile": "public/art/five-star-v027/sources/jiangshi.png",
+          "sourceHash": "a79e05cf0836bbd20123aee79abe7a1d2b0ae041a073aa36c934f65153fcaaea",
+          "sourceBounds": {
+            "x0": 1025,
+            "y0": 0,
+            "x1": 1513,
+            "y1": 511
+          },
+          "scale": 0.875,
+          "cellHash": "a89e74afe7c06ab7f9c84e504cf125d93b0d61f9c584ba283b657bfe70b913fd"
+        }
+      ]
+    },
+    {
+      "atlas": "roster-h",
+      "stage": 3,
+      "file": "public/art/awakening/roster-h-stage-3.png",
+      "sha256": "bd1d06ba46d712bf71b49bc865b655ad7682774202d55fa96263728d5d22664b",
+      "placements": [
+        {
+          "id": "mansudogun",
+          "stage": 3,
+          "sourceFile": "public/art/five-star-v027/sources/mansudogun.png",
+          "sourceHash": "3f4c97d37f4ffec1aa46bf8d692f58e712ebe81f48045121ef6c2c9a3767bdf6",
+          "sourceBounds": {
+            "x0": 21,
+            "y0": 512,
+            "x1": 511,
+            "y1": 1023
+          },
+          "scale": 0.875,
+          "cellHash": "dff438104d365527f81f2e0234d060c0c250460949542556818295627c3cf214"
+        },
+        {
+          "id": "fox-god",
+          "stage": 3,
+          "sourceFile": "public/art/five-star-v027/sources/fox-god.png",
+          "sourceHash": "da7b72baeb37c46e7fe366778f3810ba04c3fbf974c1ba6adbb53f282b22f9d9",
+          "sourceBounds": {
+            "x0": 33,
+            "y0": 515,
+            "x1": 511,
+            "y1": 1023
+          },
+          "scale": 0.8801571709233792,
+          "cellHash": "ad8a5f59f34dde9c954a0dbb09e24e1b2c33f946db9c25d803e6f7db2e7e0918"
+        },
+        {
+          "id": "wolf-star",
+          "stage": 3,
+          "sourceFile": "public/art/five-star-v027/sources/wolf-star.png",
+          "sourceHash": "939f2806668af0588fed9ba1e8ada3460149782022a19858c067ab7f7078562c",
+          "sourceBounds": {
+            "x0": 25,
+            "y0": 505,
+            "x1": 481,
+            "y1": 1013
+          },
+          "scale": 0.8801571709233792,
+          "cellHash": "057fe2ec94834cedecdcd76c3b4ff8d4c69c1163aa90c2532de8679f107fdb09"
+        },
+        {
+          "id": "sword-founder",
+          "stage": 3,
+          "sourceFile": "public/art/five-star-v027/sources/sword-founder.png",
+          "sourceHash": "1aefd4c9c7bcc370d698240afcfd2f880be92a378f043e86eca5c4f740167396",
+          "sourceBounds": {
+            "x0": 0,
+            "y0": 512,
+            "x1": 511,
+            "y1": 1010
+          },
+          "scale": 0.875,
+          "cellHash": "52eee3980dac0415d210a41eff79daefa260ee370c05a0fef6aad19ce8aa73f5"
+        },
+        {
+          "id": "ancient-dragon",
+          "stage": 3,
+          "sourceFile": "public/art/five-star-v027/sources/ancient-dragon.png",
+          "sourceHash": "1e433e5e40877cf67021a9492a6c82b24a0e1826ea97ef68edab0d1aba28ad55",
+          "sourceBounds": {
+            "x0": 0,
+            "y0": 512,
+            "x1": 511,
+            "y1": 1023
+          },
+          "scale": 0.875,
+          "cellHash": "b36af7fba289e63ecf7f90e5b5e85b503bd85bfadc91d723c7f9342a0ac35a95"
+        },
+        {
+          "id": "jiangshi",
+          "stage": 3,
+          "sourceFile": "public/art/five-star-v027/sources/jiangshi.png",
+          "sourceHash": "a79e05cf0836bbd20123aee79abe7a1d2b0ae041a073aa36c934f65153fcaaea",
+          "sourceBounds": {
+            "x0": 51,
+            "y0": 512,
+            "x1": 509,
+            "y1": 1023
+          },
+          "scale": 0.875,
+          "cellHash": "e5f8ab87c717cf6a2d44ad4c8eb4765ec563072bdb5eaa5e5058d915e48f6a4e"
+        }
+      ]
+    },
+    {
+      "atlas": "roster-h",
+      "stage": 4,
+      "file": "public/art/awakening/roster-h-stage-4.png",
+      "sha256": "565f53dbe05d6dfa547d92a6b65a23d08a880fc52560f8c869c907a24f5bf3d9",
+      "placements": [
+        {
+          "id": "mansudogun",
+          "stage": 4,
+          "sourceFile": "public/art/five-star-v027/sources/mansudogun.png",
+          "sourceHash": "3f4c97d37f4ffec1aa46bf8d692f58e712ebe81f48045121ef6c2c9a3767bdf6",
+          "sourceBounds": {
+            "x0": 525,
+            "y0": 512,
+            "x1": 1021,
+            "y1": 1023
+          },
+          "scale": 0.875,
+          "cellHash": "1d6809dc255cd39a971c1ba6d0547c9c64db7bddc5cc7f3b0eb0203d5aaaf968"
+        },
+        {
+          "id": "fox-god",
+          "stage": 4,
+          "sourceFile": "public/art/five-star-v027/sources/fox-god.png",
+          "sourceHash": "da7b72baeb37c46e7fe366778f3810ba04c3fbf974c1ba6adbb53f282b22f9d9",
+          "sourceBounds": {
+            "x0": 513,
+            "y0": 515,
+            "x1": 1023,
+            "y1": 1001
+          },
+          "scale": 0.8767123287671232,
+          "cellHash": "1dea24f9a1700d799b3253ad893108bc8717ea90035a7ccf76e479c07ab00e7b"
+        },
+        {
+          "id": "wolf-star",
+          "stage": 4,
+          "sourceFile": "public/art/five-star-v027/sources/wolf-star.png",
+          "sourceHash": "939f2806668af0588fed9ba1e8ada3460149782022a19858c067ab7f7078562c",
+          "sourceBounds": {
+            "x0": 541,
+            "y0": 505,
+            "x1": 1037,
+            "y1": 1023
+          },
+          "scale": 0.8631984585741811,
+          "cellHash": "b92976984126ff84c448c52b09c36555050516ea0f2f0efc9e8b03931bb983cf"
+        },
+        {
+          "id": "sword-founder",
+          "stage": 4,
+          "sourceFile": "public/art/five-star-v027/sources/sword-founder.png",
+          "sourceHash": "1aefd4c9c7bcc370d698240afcfd2f880be92a378f043e86eca5c4f740167396",
+          "sourceBounds": {
+            "x0": 512,
+            "y0": 510,
+            "x1": 1023,
+            "y1": 1023
+          },
+          "scale": 0.8715953307392996,
+          "cellHash": "c7b12faef7d0c09e5086bffe688ad821fefd6ca2bb77ac6c4af1c404aa18d26d"
+        },
+        {
+          "id": "ancient-dragon",
+          "stage": 4,
+          "sourceFile": "public/art/five-star-v027/sources/ancient-dragon.png",
+          "sourceHash": "1e433e5e40877cf67021a9492a6c82b24a0e1826ea97ef68edab0d1aba28ad55",
+          "sourceBounds": {
+            "x0": 513,
+            "y0": 512,
+            "x1": 1023,
+            "y1": 1023
+          },
+          "scale": 0.875,
+          "cellHash": "0b9430ad0e774bea75885084f514adb22cb81c9aa0b5155881bd45d346bc7b13"
+        },
+        {
+          "id": "jiangshi",
+          "stage": 4,
+          "sourceFile": "public/art/five-star-v027/sources/jiangshi.png",
+          "sourceHash": "a79e05cf0836bbd20123aee79abe7a1d2b0ae041a073aa36c934f65153fcaaea",
+          "sourceBounds": {
+            "x0": 513,
+            "y0": 512,
+            "x1": 1023,
+            "y1": 1023
+          },
+          "scale": 0.875,
+          "cellHash": "e2c570c18b441b8c8a1db0653b7d2bc015e99a22288509d494f6c7ddb88a74af"
+        }
+      ]
+    },
+    {
+      "atlas": "roster-h",
+      "stage": 5,
+      "file": "public/art/awakening/roster-h-stage-5.png",
+      "sha256": "b53905edcff0218c5c930cc0fdf0dbc2a5f6f3a30bfde1072c321d55a8e9ba0f",
+      "placements": [
+        {
+          "id": "mansudogun",
+          "stage": 5,
+          "sourceFile": "public/art/five-star-v027/sources/mansudogun.png",
+          "sourceHash": "3f4c97d37f4ffec1aa46bf8d692f58e712ebe81f48045121ef6c2c9a3767bdf6",
+          "sourceBounds": {
+            "x0": 1029,
+            "y0": 509,
+            "x1": 1535,
+            "y1": 1023
+          },
+          "scale": 0.8699029126213592,
+          "cellHash": "62d90ac7208be8ba21dc3a8f62ff400fcb1adde37972addd540c71d5f0d5c63f"
+        },
+        {
+          "id": "fox-god",
+          "stage": 5,
+          "sourceFile": "public/art/five-star-v027/sources/fox-god.png",
+          "sourceHash": "da7b72baeb37c46e7fe366778f3810ba04c3fbf974c1ba6adbb53f282b22f9d9",
+          "sourceBounds": {
+            "x0": 1024,
+            "y0": 511,
+            "x1": 1521,
+            "y1": 993
+          },
+          "scale": 0.8995983935742972,
+          "cellHash": "3439fd2f63b38e50b388b20ca1e77d33366f7ba3804abc76b3be8222c44a5f29"
+        },
+        {
+          "id": "wolf-star",
+          "stage": 5,
+          "sourceFile": "public/art/five-star-v027/sources/wolf-star.png",
+          "sourceHash": "939f2806668af0588fed9ba1e8ada3460149782022a19858c067ab7f7078562c",
+          "sourceBounds": {
+            "x0": 1024,
+            "y0": 500,
+            "x1": 1535,
+            "y1": 1023
+          },
+          "scale": 0.8549618320610687,
+          "cellHash": "7ce797c4be040549f8ee67aa5dcd29c49b04a6841db80683ae9c48992c3629e5"
+        },
+        {
+          "id": "sword-founder",
+          "stage": 5,
+          "sourceFile": "public/art/five-star-v027/sources/sword-founder.png",
+          "sourceHash": "1aefd4c9c7bcc370d698240afcfd2f880be92a378f043e86eca5c4f740167396",
+          "sourceBounds": {
+            "x0": 1024,
+            "y0": 492,
+            "x1": 1535,
+            "y1": 1023
+          },
+          "scale": 0.8421052631578947,
+          "cellHash": "340e4ed6feee28b547ccac37fd392a2756aa824b7aa26e99393547d4463df904"
+        },
+        {
+          "id": "ancient-dragon",
+          "stage": 5,
+          "sourceFile": "public/art/five-star-v027/sources/ancient-dragon.png",
+          "sourceHash": "1e433e5e40877cf67021a9492a6c82b24a0e1826ea97ef68edab0d1aba28ad55",
+          "sourceBounds": {
+            "x0": 1024,
+            "y0": 498,
+            "x1": 1525,
+            "y1": 1023
+          },
+          "scale": 0.8517110266159695,
+          "cellHash": "6db7b59ac092ba9698489c92655c11fed4bd39eec111864b3a555108355586b1"
+        },
+        {
+          "id": "jiangshi",
+          "stage": 5,
+          "sourceFile": "public/art/five-star-v027/sources/jiangshi.png",
+          "sourceHash": "a79e05cf0836bbd20123aee79abe7a1d2b0ae041a073aa36c934f65153fcaaea",
+          "sourceBounds": {
+            "x0": 1016,
+            "y0": 507,
+            "x1": 1525,
+            "y1": 1023
+          },
+          "scale": 0.8665377176015474,
+          "cellHash": "a3479f97c3e609392ccb2cccec9c1875bf4b878c9bafc1486b81c20868f31110"
+        }
+      ]
+    },
+    {
+      "atlas": "roster-i",
+      "stage": 0,
+      "file": "public/art/roster-i-atlas.png",
+      "sha256": "9ec331784459b887610968aea3b1d16ac15fbd656a73212a12d88b414eac6e57",
+      "placements": [
+        {
+          "id": "snow-maiden",
+          "stage": 0,
+          "sourceFile": "public/art/five-star-v027/sources/snow-maiden.png",
+          "sourceHash": "08beb1c9d91affa3f0148acd14fa930a015a938d5e47c8356637bd6513240a9b",
+          "sourceBounds": {
+            "x0": 0,
+            "y0": 0,
+            "x1": 507,
+            "y1": 511
+          },
+          "scale": 0.875,
+          "cellHash": "5b5187facd1cf3e9f9a761a6b94666843e552434734c3a86a878c37b6dbb60ac"
+        },
+        {
+          "id": "parasol-spirit",
+          "stage": 0,
+          "sourceFile": "public/art/five-star-v027/sources/parasol-spirit.png",
+          "sourceHash": "aba17b0d3e81c069d75e38095c5685319cbdcb2e77125e68dcf52f4353ab544f",
+          "sourceBounds": {
+            "x0": 71,
+            "y0": 0,
+            "x1": 511,
+            "y1": 511
+          },
+          "scale": 0.875,
+          "cellHash": "9babf94d60ddc2f6a7e57f630f6aaf249fb6313518b69658e11f5ff8ea975581"
+        },
+        {
+          "id": "lotus-lantern",
+          "stage": 0,
+          "sourceFile": "public/art/five-star-v027/sources/lotus-lantern.png",
+          "sourceHash": "aee06f1eea16d339d2f97594faff009b0f741ba6259405a24c84279b1a43f4b0",
+          "sourceBounds": {
+            "x0": 0,
+            "y0": 0,
+            "x1": 432,
+            "y1": 511
+          },
+          "scale": 0.875,
+          "cellHash": "58cc359821f6e71cfac1ff35ebc494221ebe14236701e31d5b18d5b88d3aca75"
+        },
+        {
+          "id": "azure-serpent",
+          "stage": 0,
+          "sourceFile": "public/art/five-star-v027/sources/azure-serpent.png",
+          "sourceHash": "0e29d608c98f24562cac6875c4b6943d59a2f1df126cbf7036635f5d39e93491",
+          "sourceBounds": {
+            "x0": 0,
+            "y0": 0,
+            "x1": 511,
+            "y1": 511
+          },
+          "scale": 0.875,
+          "cellHash": "3cadb3719ffe938426d3e1782dea76bc90777d2b7aa9f11918b81525b123741f"
+        },
+        {
+          "id": "hwacha",
+          "stage": 0,
+          "sourceFile": "public/art/five-star-v027/sources/hwacha.png",
+          "sourceHash": "3855030ce723b03d3bbc53f148d78314679e4cc0ec17f447b364dc80968dbc38",
+          "sourceBounds": {
+            "x0": 61,
+            "y0": 2,
+            "x1": 511,
+            "y1": 511
+          },
+          "scale": 0.8784313725490196,
+          "cellHash": "d4133e0fd043e4b4405e56eb7d14d1daee65c53d005f05e0c5da3b2875a4a551"
+        }
+      ]
+    },
+    {
+      "atlas": "roster-i",
+      "stage": 1,
+      "file": "public/art/awakening/roster-i-stage-1.png",
+      "sha256": "597904b2618d974c4922ee3e4570715b65daa64818fa04104808e13ab4aaf16b",
+      "placements": [
+        {
+          "id": "snow-maiden",
+          "stage": 1,
+          "sourceFile": "public/art/five-star-v027/sources/snow-maiden.png",
+          "sourceHash": "08beb1c9d91affa3f0148acd14fa930a015a938d5e47c8356637bd6513240a9b",
+          "sourceBounds": {
+            "x0": 513,
+            "y0": 0,
+            "x1": 1023,
+            "y1": 511
+          },
+          "scale": 0.875,
+          "cellHash": "8f1f75de5155259d181a9d541502ff8467c053acbd5d49db80b77cf946004b3f"
+        },
+        {
+          "id": "parasol-spirit",
+          "stage": 1,
+          "sourceFile": "public/art/five-star-v027/sources/parasol-spirit.png",
+          "sourceHash": "aba17b0d3e81c069d75e38095c5685319cbdcb2e77125e68dcf52f4353ab544f",
+          "sourceBounds": {
+            "x0": 521,
+            "y0": 0,
+            "x1": 1023,
+            "y1": 511
+          },
+          "scale": 0.875,
+          "cellHash": "fd5b2a55951587b0133b5abd126e77abe6f8cd9e6c6c6bc2ad42c18281b0e133"
+        },
+        {
+          "id": "lotus-lantern",
+          "stage": 1,
+          "sourceFile": "public/art/five-star-v027/sources/lotus-lantern.png",
+          "sourceHash": "aee06f1eea16d339d2f97594faff009b0f741ba6259405a24c84279b1a43f4b0",
+          "sourceBounds": {
+            "x0": 519,
+            "y0": 0,
+            "x1": 1023,
+            "y1": 511
+          },
+          "scale": 0.875,
+          "cellHash": "72d6af907d561ad01fc327d9c8ea78b5ecc5bc80eb8642bab4dd21e917776e64"
+        },
+        {
+          "id": "azure-serpent",
+          "stage": 1,
+          "sourceFile": "public/art/five-star-v027/sources/azure-serpent.png",
+          "sourceHash": "0e29d608c98f24562cac6875c4b6943d59a2f1df126cbf7036635f5d39e93491",
+          "sourceBounds": {
+            "x0": 512,
+            "y0": 0,
+            "x1": 1023,
+            "y1": 511
+          },
+          "scale": 0.875,
+          "cellHash": "4e6a248d44ffead1c09a37f5b4152b340840b4b3254d78aacb1006e66c8426eb"
+        },
+        {
+          "id": "hwacha",
+          "stage": 1,
+          "sourceFile": "public/art/five-star-v027/sources/hwacha.png",
+          "sourceHash": "3855030ce723b03d3bbc53f148d78314679e4cc0ec17f447b364dc80968dbc38",
+          "sourceBounds": {
+            "x0": 519,
+            "y0": 0,
+            "x1": 1009,
+            "y1": 511
+          },
+          "scale": 0.875,
+          "cellHash": "b95ed9a68b84fc30ee2ff504620c3f762173fef940331f443fe9573c6689c803"
+        }
+      ]
+    },
+    {
+      "atlas": "roster-i",
+      "stage": 2,
+      "file": "public/art/awakening/roster-i-stage-2.png",
+      "sha256": "b817e519481b8b4a86290fbf66dd8cf3c99b6829c1f1442f7e0f1c1c8f351b2f",
+      "placements": [
+        {
+          "id": "snow-maiden",
+          "stage": 2,
+          "sourceFile": "public/art/five-star-v027/sources/snow-maiden.png",
+          "sourceHash": "08beb1c9d91affa3f0148acd14fa930a015a938d5e47c8356637bd6513240a9b",
+          "sourceBounds": {
+            "x0": 1024,
+            "y0": 0,
+            "x1": 1511,
+            "y1": 511
+          },
+          "scale": 0.875,
+          "cellHash": "a769faf7072e229b6f2428333f661ae2be16bf6c3a69fa1335a4c2c2af367ca4"
+        },
+        {
+          "id": "parasol-spirit",
+          "stage": 2,
+          "sourceFile": "public/art/five-star-v027/sources/parasol-spirit.png",
+          "sourceHash": "aba17b0d3e81c069d75e38095c5685319cbdcb2e77125e68dcf52f4353ab544f",
+          "sourceBounds": {
+            "x0": 1024,
+            "y0": 0,
+            "x1": 1517,
+            "y1": 511
+          },
+          "scale": 0.875,
+          "cellHash": "1875b3eaf87656f078b633308a684fdfa0ab38a4e6de43db959fdb113a91bd61"
+        },
+        {
+          "id": "lotus-lantern",
+          "stage": 2,
+          "sourceFile": "public/art/five-star-v027/sources/lotus-lantern.png",
+          "sourceHash": "aee06f1eea16d339d2f97594faff009b0f741ba6259405a24c84279b1a43f4b0",
+          "sourceBounds": {
+            "x0": 1025,
+            "y0": 1,
+            "x1": 1485,
+            "y1": 511
+          },
+          "scale": 0.8767123287671232,
+          "cellHash": "5b480aa9d45db05df9d5dbf1c6b679b2f633d5c52769049375024ad6631fa023"
+        },
+        {
+          "id": "azure-serpent",
+          "stage": 2,
+          "sourceFile": "public/art/five-star-v027/sources/azure-serpent.png",
+          "sourceHash": "0e29d608c98f24562cac6875c4b6943d59a2f1df126cbf7036635f5d39e93491",
+          "sourceBounds": {
+            "x0": 1024,
+            "y0": 0,
+            "x1": 1517,
+            "y1": 511
+          },
+          "scale": 0.875,
+          "cellHash": "a818613d1f3c6271599bbebfec3d5c99db35675c96de3bead2f8f257a28d8045"
+        },
+        {
+          "id": "hwacha",
+          "stage": 2,
+          "sourceFile": "public/art/five-star-v027/sources/hwacha.png",
+          "sourceHash": "3855030ce723b03d3bbc53f148d78314679e4cc0ec17f447b364dc80968dbc38",
+          "sourceBounds": {
+            "x0": 1035,
+            "y0": 0,
+            "x1": 1509,
+            "y1": 511
+          },
+          "scale": 0.875,
+          "cellHash": "1e691c6c3145ff08946638149c4aeca26fe3e98f2f0c19de481f7cfe32af7efc"
+        }
+      ]
+    },
+    {
+      "atlas": "roster-i",
+      "stage": 3,
+      "file": "public/art/awakening/roster-i-stage-3.png",
+      "sha256": "321f8608ca2695f55e4fc1580bb00fb30cac3db777343458bb16d3b9a80c86c1",
+      "placements": [
+        {
+          "id": "snow-maiden",
+          "stage": 3,
+          "sourceFile": "public/art/five-star-v027/sources/snow-maiden.png",
+          "sourceHash": "08beb1c9d91affa3f0148acd14fa930a015a938d5e47c8356637bd6513240a9b",
+          "sourceBounds": {
+            "x0": 0,
+            "y0": 512,
+            "x1": 511,
+            "y1": 1023
+          },
+          "scale": 0.875,
+          "cellHash": "d7e1154722959c44ad668a6fb8fd8ce0e095089306cae984be94d19a3120dc6c"
+        },
+        {
+          "id": "parasol-spirit",
+          "stage": 3,
+          "sourceFile": "public/art/five-star-v027/sources/parasol-spirit.png",
+          "sourceHash": "aba17b0d3e81c069d75e38095c5685319cbdcb2e77125e68dcf52f4353ab544f",
+          "sourceBounds": {
+            "x0": 25,
+            "y0": 509,
+            "x1": 511,
+            "y1": 1014
+          },
+          "scale": 0.8853754940711462,
+          "cellHash": "7a47b72b3338c39bb106db584c88afd4deb5d139aea61e8b7e7cbe545341c95f"
+        },
+        {
+          "id": "lotus-lantern",
+          "stage": 3,
+          "sourceFile": "public/art/five-star-v027/sources/lotus-lantern.png",
+          "sourceHash": "aee06f1eea16d339d2f97594faff009b0f741ba6259405a24c84279b1a43f4b0",
+          "sourceBounds": {
+            "x0": 0,
+            "y0": 512,
+            "x1": 511,
+            "y1": 1023
+          },
+          "scale": 0.875,
+          "cellHash": "bfb8c915810c703c2d622a260f7285eff92f521b7cdaa41e65ac03605ecd1460"
+        },
+        {
+          "id": "azure-serpent",
+          "stage": 3,
+          "sourceFile": "public/art/five-star-v027/sources/azure-serpent.png",
+          "sourceHash": "0e29d608c98f24562cac6875c4b6943d59a2f1df126cbf7036635f5d39e93491",
+          "sourceBounds": {
+            "x0": 0,
+            "y0": 512,
+            "x1": 511,
+            "y1": 1023
+          },
+          "scale": 0.875,
+          "cellHash": "c2b3473b9d492f530a920a68224775b2f8425559184460947e4e53a4534f44b2"
+        },
+        {
+          "id": "hwacha",
+          "stage": 3,
+          "sourceFile": "public/art/five-star-v027/sources/hwacha.png",
+          "sourceHash": "3855030ce723b03d3bbc53f148d78314679e4cc0ec17f447b364dc80968dbc38",
+          "sourceBounds": {
+            "x0": 33,
+            "y0": 513,
+            "x1": 464,
+            "y1": 1023
+          },
+          "scale": 0.8767123287671232,
+          "cellHash": "f49c09b1b22573018d7717ed5193d08a49c6a77370359fbcc43f490cb65fe594"
+        }
+      ]
+    },
+    {
+      "atlas": "roster-i",
+      "stage": 4,
+      "file": "public/art/awakening/roster-i-stage-4.png",
+      "sha256": "0ea1cb1ea9b8d5fec0f27450a2b51c0d45414c265db8ea6db691df252bf4dc90",
+      "placements": [
+        {
+          "id": "snow-maiden",
+          "stage": 4,
+          "sourceFile": "public/art/five-star-v027/sources/snow-maiden.png",
+          "sourceHash": "08beb1c9d91affa3f0148acd14fa930a015a938d5e47c8356637bd6513240a9b",
+          "sourceBounds": {
+            "x0": 512,
+            "y0": 512,
+            "x1": 1023,
+            "y1": 1023
+          },
+          "scale": 0.875,
+          "cellHash": "2d5b3615a5726264e72a9101c751e468908f33da4222681411886001a43ca5aa"
+        },
+        {
+          "id": "parasol-spirit",
+          "stage": 4,
+          "sourceFile": "public/art/five-star-v027/sources/parasol-spirit.png",
+          "sourceHash": "aba17b0d3e81c069d75e38095c5685319cbdcb2e77125e68dcf52f4353ab544f",
+          "sourceBounds": {
+            "x0": 512,
+            "y0": 506,
+            "x1": 1029,
+            "y1": 1023
+          },
+          "scale": 0.8648648648648649,
+          "cellHash": "487ff390cf489f1e2c1e7b01ffe6d7563ad1f1091bb3b50f5fe0013cbf52d199"
+        },
+        {
+          "id": "lotus-lantern",
+          "stage": 4,
+          "sourceFile": "public/art/five-star-v027/sources/lotus-lantern.png",
+          "sourceHash": "aee06f1eea16d339d2f97594faff009b0f741ba6259405a24c84279b1a43f4b0",
+          "sourceBounds": {
+            "x0": 512,
+            "y0": 512,
+            "x1": 1023,
+            "y1": 1023
+          },
+          "scale": 0.875,
+          "cellHash": "dcdf0b50258846a8c641bc5a54a4732797e4999fc2c92465728b835ddad0405e"
+        },
+        {
+          "id": "azure-serpent",
+          "stage": 4,
+          "sourceFile": "public/art/five-star-v027/sources/azure-serpent.png",
+          "sourceHash": "0e29d608c98f24562cac6875c4b6943d59a2f1df126cbf7036635f5d39e93491",
+          "sourceBounds": {
+            "x0": 513,
+            "y0": 512,
+            "x1": 1023,
+            "y1": 1023
+          },
+          "scale": 0.875,
+          "cellHash": "7e30309abd819e78ffedc48de663c096a2a8e44487a5fc3dc65d26b90ce34365"
+        },
+        {
+          "id": "hwacha",
+          "stage": 4,
+          "sourceFile": "public/art/five-star-v027/sources/hwacha.png",
+          "sourceHash": "3855030ce723b03d3bbc53f148d78314679e4cc0ec17f447b364dc80968dbc38",
+          "sourceBounds": {
+            "x0": 515,
+            "y0": 511,
+            "x1": 1023,
+            "y1": 1023
+          },
+          "scale": 0.8732943469785575,
+          "cellHash": "2e010ba85a684eadcda2ed3dcee1ed77dd35f2cf84f0e384d3f2944ef2074ffe"
+        }
+      ]
+    },
+    {
+      "atlas": "roster-i",
+      "stage": 5,
+      "file": "public/art/awakening/roster-i-stage-5.png",
+      "sha256": "8d24df633f7737ad7d07d83898cbeb48b465c48307676dd8367c2e606d82f607",
+      "placements": [
+        {
+          "id": "snow-maiden",
+          "stage": 5,
+          "sourceFile": "public/art/five-star-v027/sources/snow-maiden.png",
+          "sourceHash": "08beb1c9d91affa3f0148acd14fa930a015a938d5e47c8356637bd6513240a9b",
+          "sourceBounds": {
+            "x0": 1024,
+            "y0": 505,
+            "x1": 1525,
+            "y1": 1023
+          },
+          "scale": 0.8631984585741811,
+          "cellHash": "e5f0031d34d447e3e11f6aefd7c59ffde984fe8b310a93add0272d3b7fa77628"
+        },
+        {
+          "id": "parasol-spirit",
+          "stage": 5,
+          "sourceFile": "public/art/five-star-v027/sources/parasol-spirit.png",
+          "sourceHash": "aba17b0d3e81c069d75e38095c5685319cbdcb2e77125e68dcf52f4353ab544f",
+          "sourceBounds": {
+            "x0": 1024,
+            "y0": 502,
+            "x1": 1535,
+            "y1": 1023
+          },
+          "scale": 0.8582375478927203,
+          "cellHash": "3c2c5d46aa003ed3a2985832b1b2a4bdb728e080eef80ec57324d861bd7b7d3b"
+        },
+        {
+          "id": "lotus-lantern",
+          "stage": 5,
+          "sourceFile": "public/art/five-star-v027/sources/lotus-lantern.png",
+          "sourceHash": "aee06f1eea16d339d2f97594faff009b0f741ba6259405a24c84279b1a43f4b0",
+          "sourceBounds": {
+            "x0": 1021,
+            "y0": 512,
+            "x1": 1535,
+            "y1": 1023
+          },
+          "scale": 0.8699029126213592,
+          "cellHash": "97d3e8823aec5c4b844a816e09f7fdc52b81a4d35d04c1f0731137cb190e858f"
+        },
+        {
+          "id": "azure-serpent",
+          "stage": 5,
+          "sourceFile": "public/art/five-star-v027/sources/azure-serpent.png",
+          "sourceHash": "0e29d608c98f24562cac6875c4b6943d59a2f1df126cbf7036635f5d39e93491",
+          "sourceBounds": {
+            "x0": 1024,
+            "y0": 512,
+            "x1": 1535,
+            "y1": 1023
+          },
+          "scale": 0.875,
+          "cellHash": "420b064d8b024b0e5b14ce5cb5716f7a7c3833e611c25c69f25b9eaf8a8e9139"
+        },
+        {
+          "id": "hwacha",
+          "stage": 5,
+          "sourceFile": "public/art/five-star-v027/sources/hwacha.png",
+          "sourceHash": "3855030ce723b03d3bbc53f148d78314679e4cc0ec17f447b364dc80968dbc38",
+          "sourceBounds": {
+            "x0": 1029,
+            "y0": 512,
+            "x1": 1535,
+            "y1": 1023
+          },
+          "scale": 0.875,
+          "cellHash": "d98d6b033deaa5fe63774f236c34a4b1a59ea525cddbd5874a1a5ef6616522c2"
+        }
+      ]
+    }
+  ]
+}

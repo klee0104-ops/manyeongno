@@ -1,4 +1,4 @@
-﻿{
+{
     "clips":  {
                   "ch11-outro-2":  {
                                        "file":  "/audio/story/ch11-outro-2.wav",
@@ -384,10 +384,6 @@
                                        "file":  "/audio/story/ch01-outro-3.wav",
                                        "text":  "그림자를 따라가면, 사라진 사람들의 흔적을 찾을 수 있을 것이다."
                                    },
-                  "ch09-intro-3":  {
-                                       "file":  "/audio/story/ch09-intro-3.wav",
-                                       "text":  "여우무녀는 달아나지 않았다. 펼쳐진 부적들이 사람들의 피난길을 밝혔다."
-                                   },
                   "ch20-outro-1":  {
                                        "file":  "/audio/story/ch20-outro-1.wav",
                                        "text":  "흩어질 것인가, 함께 살아갈 것인가."
@@ -735,6 +731,10 @@
                   "ch20-mid15-1":  {
                                        "text":  "혼원의 그림자가 하늘을 덮었다. 모두가 건넨 빛을 안고 새로운 세계의 문 앞에 섰다.",
                                        "file":  "/audio/story/ch20-mid15-1.wav"
+                                   },
+                  "ch09-intro-3":  {
+                                       "text":  "붉은 권갑의 귀왕은 요괴 전체를 대신해 말하지 않았다. 그저 눈앞의 아이를 놓으라고 관리자에게 명했다.",
+                                       "file":  "/audio/story/ch09-intro-3.wav"
                                    }
               },
     "language":  "ko-KR",

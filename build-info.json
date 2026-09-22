@@ -1,13 +1,13 @@
 {
-  "version": "0.25.0",
+  "version": "0.26.0",
   "narrativeRevision": "ashes-v1",
-  "builtAt": "2026-09-22T00:38:43.305Z",
+  "builtAt": "2026-09-22T01:56:24.384Z",
   "basedOnCommit": "628af87c7aa85268040c9621756387370facdfbb",
   "includesWorkingTreeChanges": true,
   "harness": {
-    "task": "v025-exclusive-equipment",
+    "task": "v026-heroines",
     "status": "pass",
-    "runId": "2026-09-22T00-36-59-580Z-2640",
+    "runId": "2026-09-22T01-55-01-541Z-25772",
     "checks": [
       {
         "id": "typecheck",
@@ -54,36 +54,45 @@
         "status": "pass"
       },
       {
+        "id": "v026-illustrations",
+        "status": "pass"
+      },
+      {
+        "id": "v026-frames",
+        "status": "pass"
+      },
+      {
         "id": "production-build",
         "status": "pass"
       }
-    ]
+    ],
+    "review": "recorded"
   },
   "features": {
     "localAdminProfile": true,
     "adminRosterSync": true,
-    "manualSummonStories": 71,
-    "collectibleSpirits": 71,
-    "summonableSpirits": 67,
+    "manualSummonStories": 81,
+    "collectibleSpirits": 81,
+    "summonableSpirits": 77,
     "storyCompanions": 4,
-    "awakeningIllustrations": 355,
-    "awakeningAtlases": 30,
-    "combatFrameCharacters": 12,
-    "combatFrameSheets": 24,
-    "combatPoses": 288,
+    "awakeningIllustrations": 405,
+    "awakeningAtlases": 40,
+    "combatFrameCharacters": 22,
+    "combatFrameSheets": 44,
+    "combatPoses": 528,
     "riggedCollectibleCharacters": 59,
     "chapterBossEncounters": 20,
     "chapterBossIdentities": 19,
     "chapterBossIllustrations": 20,
     "chapterBossPosesEach": 1,
     "chapterBossVoices": 60,
-    "combatVoiceLines": 291,
+    "combatVoiceLines": 321,
     "storyCuts": 209,
     "chapterBossPreview": true,
     "chapter20EvacuationColumns": 3,
     "chapter19And20StoryBeforeReward": true,
-    "codexRewardEligibleSpirits": 66,
-    "characterPresentationContracts": 71,
+    "codexRewardEligibleSpirits": 76,
+    "characterPresentationContracts": 81,
     "livingIllustrations": true,
     "groundedCharacterIdle": true,
     "casterCenteredUltimates": true,
@@ -108,7 +117,7 @@
     "journeyResume": true,
     "partyOrderedArmory": true,
     "partyBulkEquipAndUnequip": true,
-    "allOwnedArmoryAccess": 71,
+    "allOwnedArmoryAccess": 81,
     "labelledResourceWallet": true,
     "affordableBulkLevelUp": true,
     "unchangedGrowthCostsAndCaps": true,
@@ -121,7 +130,7 @@
     ],
     "firstSummonFiveStarTicket": {
       "perProfile": 1,
-      "pool": 17,
+      "pool": 27,
       "legacyEligible": true,
       "changesRegularPity": false
     },
@@ -138,7 +147,7 @@
       "boots"
     ],
     "exclusiveGear": {
-      "roster": 71,
+      "roster": 81,
       "separateSlot": true,
       "singleCost": 200,
       "tenCost": 1800,
@@ -158,25 +167,58 @@
       "lotus-lantern",
       "azure-serpent",
       "hwacha"
-    ]
+    ],
+    "adultFiveStarHeroines": [
+      "moon-shaman",
+      "red-butterfly",
+      "mountain-lynx",
+      "bamboo-healer",
+      "sea-mist",
+      "snow-leopard",
+      "gold-kirin",
+      "red-spear",
+      "sand-flower",
+      "obsidian-warden"
+    ],
+    "newAuthoredIllustrations": 60,
+    "newAuthoredCombatPoses": 240,
+    "newNamedSkills": 30,
+    "newNamedExclusives": 10,
+    "archerFriend": {
+      "id": "moon-shaman",
+      "name": "소휘",
+      "chapters": [
+        1,
+        2,
+        9,
+        16
+      ],
+      "storyRequiresOwnership": false,
+      "projectile": "talisman-arrow"
+    }
   },
   "browserQA": {
-    "version": "0.25.0",
+    "version": "0.26.0",
     "checks": [
-      "admin v0.25 and six ordinary slots",
-      "party auto-equip and six-piece resonance",
-      "actual target-specific ten-pull charged once; character pity/count/ticket unchanged",
-      "individual seal reveal then equip and reveal all",
-      "random options and equipment persist after reload",
-      "mobile 390/360 shop, result and six-slot armory without page overflow",
-      "six newcomers shown as five stars",
-      "actual combat command displays equipped skill enhancement",
+      "admin opens v0.26 with 81 owned characters",
+      "all ten base/awakened codex portraits and authored sprites; all 30 base skills and ten awakened ultimates",
+      "single visible actor, distinct frames and complete melee movement",
+      "Sohwi arrow flight arrives before HP change; 2x faster; pause/resume works",
+      "skill previews leave profile and currencies unchanged",
+      "reduced-motion Sohwi ultimate completes",
+      "actual Sohwi ten-pull, manual reveal, equip; charge once; options preserved after reload",
+      "390px codex and skill preview; 360px exclusive shop without horizontal overflow",
       "ordinary account and welcome shop choice",
       "unowned target warning and equip disabled",
       "single draw charged once after double click",
       "old gear/roster/character pity preserved",
       "saved random item restored after reload",
-      "confirmed salvage returns exact dust"
+      "confirmed salvage returns exact dust",
+      "1:intro Sohwi has own correctly proportioned illustration and matching caption",
+      "1:outro Sohwi has own correctly proportioned illustration and matching caption",
+      "2:intro Sohwi has own correctly proportioned illustration and matching caption",
+      "9:outro Sohwi has own correctly proportioned illustration and matching caption",
+      "16:intro Sohwi has own correctly proportioned illustration and matching caption"
     ],
     "viewports": [
       1440,

@@ -2269,5 +2269,305 @@
         "voice":  "Microsoft Heami Desktop",
         "pitch":  "-8%",
         "source":  "Windows System.Speech local TTS"
+    },
+    {
+        "id":  "moon-shaman",
+        "slot":  "skill1",
+        "text":  "파사 부적시!",
+        "rate":  0,
+        "file":  "moon-shaman-skill1.wav",
+        "voice":  "Microsoft Heami Desktop",
+        "pitch":  "-2%",
+        "source":  "Windows System.Speech local TTS"
+    },
+    {
+        "id":  "moon-shaman",
+        "slot":  "skill2",
+        "text":  "월영 봉진!",
+        "rate":  0,
+        "file":  "moon-shaman-skill2.wav",
+        "voice":  "Microsoft Heami Desktop",
+        "pitch":  "-2%",
+        "source":  "Windows System.Speech local TTS"
+    },
+    {
+        "id":  "moon-shaman",
+        "slot":  "ultimate",
+        "text":  "월궁 천시!",
+        "rate":  0,
+        "file":  "moon-shaman-ultimate.wav",
+        "voice":  "Microsoft Heami Desktop",
+        "pitch":  "-2%",
+        "source":  "Windows System.Speech local TTS"
+    },
+    {
+        "id":  "red-butterfly",
+        "slot":  "skill1",
+        "text":  "홍접 인화!",
+        "rate":  -1,
+        "file":  "red-butterfly-skill1.wav",
+        "voice":  "Microsoft Heami Desktop",
+        "pitch":  "-5%",
+        "source":  "Windows System.Speech local TTS"
+    },
+    {
+        "id":  "red-butterfly",
+        "slot":  "skill2",
+        "text":  "재꽃 현혹!",
+        "rate":  -1,
+        "file":  "red-butterfly-skill2.wav",
+        "voice":  "Microsoft Heami Desktop",
+        "pitch":  "-5%",
+        "source":  "Windows System.Speech local TTS"
+    },
+    {
+        "id":  "red-butterfly",
+        "slot":  "ultimate",
+        "text":  "만접 홍련무!",
+        "rate":  -1,
+        "file":  "red-butterfly-ultimate.wav",
+        "voice":  "Microsoft Heami Desktop",
+        "pitch":  "-5%",
+        "source":  "Windows System.Speech local TTS"
+    },
+    {
+        "id":  "mountain-lynx",
+        "slot":  "skill1",
+        "text":  "쌍도 추흔!",
+        "rate":  1,
+        "file":  "mountain-lynx-skill1.wav",
+        "voice":  "Microsoft Heami Desktop",
+        "pitch":  "-1%",
+        "source":  "Windows System.Speech local TTS"
+    },
+    {
+        "id":  "mountain-lynx",
+        "slot":  "skill2",
+        "text":  "산바람 질주!",
+        "rate":  1,
+        "file":  "mountain-lynx-skill2.wav",
+        "voice":  "Microsoft Heami Desktop",
+        "pitch":  "-1%",
+        "source":  "Windows System.Speech local TTS"
+    },
+    {
+        "id":  "mountain-lynx",
+        "slot":  "ultimate",
+        "text":  "월하 산영참!",
+        "rate":  1,
+        "file":  "mountain-lynx-ultimate.wav",
+        "voice":  "Microsoft Heami Desktop",
+        "pitch":  "-1%",
+        "source":  "Windows System.Speech local TTS"
+    },
+    {
+        "id":  "bamboo-healer",
+        "slot":  "skill1",
+        "text":  "죽엽 회생!",
+        "rate":  -1,
+        "file":  "bamboo-healer-skill1.wav",
+        "voice":  "Microsoft Heami Desktop",
+        "pitch":  "-4%",
+        "source":  "Windows System.Speech local TTS"
+    },
+    {
+        "id":  "bamboo-healer",
+        "slot":  "skill2",
+        "text":  "청향 해독!",
+        "rate":  -1,
+        "file":  "bamboo-healer-skill2.wav",
+        "voice":  "Microsoft Heami Desktop",
+        "pitch":  "-4%",
+        "source":  "Windows System.Speech local TTS"
+    },
+    {
+        "id":  "bamboo-healer",
+        "slot":  "ultimate",
+        "text":  "천죽 생맥진!",
+        "rate":  -1,
+        "file":  "bamboo-healer-ultimate.wav",
+        "voice":  "Microsoft Heami Desktop",
+        "pitch":  "-4%",
+        "source":  "Windows System.Speech local TTS"
+    },
+    {
+        "id":  "sea-mist",
+        "slot":  "skill1",
+        "text":  "진주 이슬!",
+        "rate":  -1,
+        "file":  "sea-mist-skill1.wav",
+        "voice":  "Microsoft Heami Desktop",
+        "pitch":  "-3%",
+        "source":  "Windows System.Speech local TTS"
+    },
+    {
+        "id":  "sea-mist",
+        "slot":  "skill2",
+        "text":  "해무 정온!",
+        "rate":  -1,
+        "file":  "sea-mist-skill2.wav",
+        "voice":  "Microsoft Heami Desktop",
+        "pitch":  "-3%",
+        "source":  "Windows System.Speech local TTS"
+    },
+    {
+        "id":  "sea-mist",
+        "slot":  "ultimate",
+        "text":  "만조 귀항가!",
+        "rate":  -1,
+        "file":  "sea-mist-ultimate.wav",
+        "voice":  "Microsoft Heami Desktop",
+        "pitch":  "-3%",
+        "source":  "Windows System.Speech local TTS"
+    },
+    {
+        "id":  "snow-leopard",
+        "slot":  "skill1",
+        "text":  "설령 일섬!",
+        "rate":  0,
+        "file":  "snow-leopard-skill1.wav",
+        "voice":  "Microsoft Heami Desktop",
+        "pitch":  "-2%",
+        "source":  "Windows System.Speech local TTS"
+    },
+    {
+        "id":  "snow-leopard",
+        "slot":  "skill2",
+        "text":  "빙흔 추격!",
+        "rate":  0,
+        "file":  "snow-leopard-skill2.wav",
+        "voice":  "Microsoft Heami Desktop",
+        "pitch":  "-2%",
+        "source":  "Windows System.Speech local TTS"
+    },
+    {
+        "id":  "snow-leopard",
+        "slot":  "ultimate",
+        "text":  "백야 절명검!",
+        "rate":  0,
+        "file":  "snow-leopard-ultimate.wav",
+        "voice":  "Microsoft Heami Desktop",
+        "pitch":  "-2%",
+        "source":  "Windows System.Speech local TTS"
+    },
+    {
+        "id":  "gold-kirin",
+        "slot":  "skill1",
+        "text":  "금린 호법!",
+        "rate":  -1,
+        "file":  "gold-kirin-skill1.wav",
+        "voice":  "Microsoft Heami Desktop",
+        "pitch":  "-7%",
+        "source":  "Windows System.Speech local TTS"
+    },
+    {
+        "id":  "gold-kirin",
+        "slot":  "skill2",
+        "text":  "철벽 호령!",
+        "rate":  -1,
+        "file":  "gold-kirin-skill2.wav",
+        "voice":  "Microsoft Heami Desktop",
+        "pitch":  "-7%",
+        "source":  "Windows System.Speech local TTS"
+    },
+    {
+        "id":  "gold-kirin",
+        "slot":  "ultimate",
+        "text":  "불퇴 금성진!",
+        "rate":  -1,
+        "file":  "gold-kirin-ultimate.wav",
+        "voice":  "Microsoft Heami Desktop",
+        "pitch":  "-7%",
+        "source":  "Windows System.Speech local TTS"
+    },
+    {
+        "id":  "red-spear",
+        "slot":  "skill1",
+        "text":  "적련 관통!",
+        "rate":  1,
+        "file":  "red-spear-skill1.wav",
+        "voice":  "Microsoft Heami Desktop",
+        "pitch":  "-3%",
+        "source":  "Windows System.Speech local TTS"
+    },
+    {
+        "id":  "red-spear",
+        "slot":  "skill2",
+        "text":  "업화 돌파!",
+        "rate":  1,
+        "file":  "red-spear-skill2.wav",
+        "voice":  "Microsoft Heami Desktop",
+        "pitch":  "-3%",
+        "source":  "Windows System.Speech local TTS"
+    },
+    {
+        "id":  "red-spear",
+        "slot":  "ultimate",
+        "text":  "홍천 용창격!",
+        "rate":  1,
+        "file":  "red-spear-ultimate.wav",
+        "voice":  "Microsoft Heami Desktop",
+        "pitch":  "-3%",
+        "source":  "Windows System.Speech local TTS"
+    },
+    {
+        "id":  "sand-flower",
+        "slot":  "skill1",
+        "text":  "사화 얽힘!",
+        "rate":  0,
+        "file":  "sand-flower-skill1.wav",
+        "voice":  "Microsoft Heami Desktop",
+        "pitch":  "-5%",
+        "source":  "Windows System.Speech local TTS"
+    },
+    {
+        "id":  "sand-flower",
+        "slot":  "skill2",
+        "text":  "모래 침식!",
+        "rate":  0,
+        "file":  "sand-flower-skill2.wav",
+        "voice":  "Microsoft Heami Desktop",
+        "pitch":  "-5%",
+        "source":  "Windows System.Speech local TTS"
+    },
+    {
+        "id":  "sand-flower",
+        "slot":  "ultimate",
+        "text":  "천사 만화장!",
+        "rate":  0,
+        "file":  "sand-flower-ultimate.wav",
+        "voice":  "Microsoft Heami Desktop",
+        "pitch":  "-5%",
+        "source":  "Windows System.Speech local TTS"
+    },
+    {
+        "id":  "obsidian-warden",
+        "slot":  "skill1",
+        "text":  "흑암 버팀!",
+        "rate":  -1,
+        "file":  "obsidian-warden-skill1.wav",
+        "voice":  "Microsoft Heami Desktop",
+        "pitch":  "-8%",
+        "source":  "Windows System.Speech local TTS"
+    },
+    {
+        "id":  "obsidian-warden",
+        "slot":  "skill2",
+        "text":  "암추 호신!",
+        "rate":  -1,
+        "file":  "obsidian-warden-skill2.wav",
+        "voice":  "Microsoft Heami Desktop",
+        "pitch":  "-8%",
+        "source":  "Windows System.Speech local TTS"
+    },
+    {
+        "id":  "obsidian-warden",
+        "slot":  "ultimate",
+        "text":  "불괴 산하벽!",
+        "rate":  -1,
+        "file":  "obsidian-warden-ultimate.wav",
+        "voice":  "Microsoft Heami Desktop",
+        "pitch":  "-8%",
+        "source":  "Windows System.Speech local TTS"
     }
 ]

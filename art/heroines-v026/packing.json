@@ -1,0 +1,1408 @@
+{
+  "generator": "built-in image_gen",
+  "method": "preserved-RGBA-contour-pack",
+  "priorManifest": {
+    "schemaVersion": 1,
+    "artDirection": "동양 판타지 요괴의 정체성과 무기를 유지하는 단계별 새 일러스트",
+    "assets": [
+      {
+        "atlas": "spirits",
+        "stage": 1,
+        "file": "art/awakening/spirits-stage-1.png",
+        "width": 1536,
+        "height": 1024,
+        "columns": 3,
+        "rowEdges": [
+          0,
+          512,
+          1024
+        ],
+        "sha256": "99e24cef2b60d5b8400fca9590dd525b96218e93692826ac9f9eefc3e92a9a79"
+      },
+      {
+        "atlas": "spirits",
+        "stage": 2,
+        "file": "art/awakening/spirits-stage-2.png",
+        "width": 1536,
+        "height": 1024,
+        "columns": 3,
+        "rowEdges": [
+          0,
+          512,
+          1024
+        ],
+        "sha256": "c5ad73811639143d87c5ddd56108516abe5c04086e43df034f96d417a4d4efb6"
+      },
+      {
+        "atlas": "spirits",
+        "stage": 3,
+        "file": "art/awakening/spirits-stage-3.png",
+        "width": 1536,
+        "height": 1024,
+        "columns": 3,
+        "rowEdges": [
+          0,
+          512,
+          1024
+        ],
+        "sha256": "27aabdfa2ada4cd5882d303e80f3266878a87be797494eedd3e901befc0d02ca"
+      },
+      {
+        "atlas": "spirits",
+        "stage": 4,
+        "file": "art/awakening/spirits-stage-4.png",
+        "width": 1536,
+        "height": 1024,
+        "columns": 3,
+        "rowEdges": [
+          0,
+          512,
+          1024
+        ],
+        "sha256": "858ade3aa31ec560e872c66deccccbdc2937ad7760071079d47435a4e531d867"
+      },
+      {
+        "atlas": "spirits",
+        "stage": 5,
+        "file": "art/awakening/spirits-stage-5.png",
+        "width": 1536,
+        "height": 1024,
+        "columns": 3,
+        "rowEdges": [
+          0,
+          512,
+          1024
+        ],
+        "sha256": "772996b8422f41b2b879b78a3e4fd6662831e7ff1955163954051eac55977d50"
+      },
+      {
+        "atlas": "monsters",
+        "stage": 1,
+        "file": "art/awakening/monsters-stage-1.png",
+        "width": 1536,
+        "height": 1024,
+        "columns": 3,
+        "rowEdges": [
+          0,
+          500,
+          1024
+        ],
+        "sha256": "ad2f302fe78a7d6069795765093573fc6f52442f9f2bd433f8f5783a6159eb04"
+      },
+      {
+        "atlas": "monsters",
+        "stage": 2,
+        "file": "art/awakening/monsters-stage-2.png",
+        "width": 1536,
+        "height": 1024,
+        "columns": 3,
+        "rowEdges": [
+          0,
+          512,
+          1024
+        ],
+        "sha256": "a70ad1e0a2db360ad0028b7896889190ba582a64b78ab5551c803cd1d4b922b2"
+      },
+      {
+        "atlas": "monsters",
+        "stage": 3,
+        "file": "art/awakening/monsters-stage-3.png",
+        "width": 1536,
+        "height": 1024,
+        "columns": 3,
+        "rowEdges": [
+          0,
+          512,
+          1024
+        ],
+        "sha256": "c4bdfa2b545fc193b9379a9f2f04dff1fe0879485d7c9dbe4de291a095149047"
+      },
+      {
+        "atlas": "monsters",
+        "stage": 4,
+        "file": "art/awakening/monsters-stage-4.png",
+        "width": 1536,
+        "height": 1024,
+        "columns": 3,
+        "rowEdges": [
+          0,
+          512,
+          1024
+        ],
+        "sha256": "cbc1ec3691a72de4f372ce87b2ef03a42860eeb67087562b9aa921c7093d8c3d"
+      },
+      {
+        "atlas": "monsters",
+        "stage": 5,
+        "file": "art/awakening/monsters-stage-5.png",
+        "width": 1536,
+        "height": 1024,
+        "columns": 3,
+        "rowEdges": [
+          0,
+          512,
+          1024
+        ],
+        "sha256": "5e99a43ffe8ba5cb17677fbbbdcaa53fc4fb868b789c885ada4a94d2f9f29b0f"
+      },
+      {
+        "atlas": "roster-a",
+        "stage": 1,
+        "file": "art/awakening/roster-a-stage-1.png",
+        "width": 1024,
+        "height": 1536,
+        "columns": 4,
+        "rowEdges": [
+          0,
+          271,
+          521,
+          774,
+          1027,
+          1266,
+          1536
+        ],
+        "sha256": "f61a1a5ccde69b8a5955ce98f5ebbbe0bf4ceb84c5423f648fde3567b3bf6963"
+      },
+      {
+        "atlas": "roster-a",
+        "stage": 2,
+        "file": "art/awakening/roster-a-stage-2.png",
+        "width": 1024,
+        "height": 1536,
+        "columns": 4,
+        "rowEdges": [
+          0,
+          270,
+          526,
+          781,
+          1036,
+          1272,
+          1536
+        ],
+        "sha256": "7114d566eb6e5c2045a2a0b92b62a8f1eb949684dcc9aabfda6a25532d722274"
+      },
+      {
+        "atlas": "roster-a",
+        "stage": 3,
+        "file": "art/awakening/roster-a-stage-3.png",
+        "width": 1024,
+        "height": 1536,
+        "columns": 4,
+        "rowEdges": [
+          0,
+          258,
+          513,
+          769,
+          1024,
+          1280,
+          1536
+        ],
+        "sha256": "cef7aa510047de72fdf27d0d02f377d21b997f325f4b66939d5d9cb3f4e8626e"
+      },
+      {
+        "atlas": "roster-a",
+        "stage": 4,
+        "file": "art/awakening/roster-a-stage-4.png",
+        "width": 1024,
+        "height": 1536,
+        "columns": 4,
+        "rowEdges": [
+          0,
+          262,
+          514,
+          769,
+          1024,
+          1274,
+          1536
+        ],
+        "sha256": "5bdaa1c1cf57170b21bae2977492ed35f000cb26f909f0ea85568dede7ce7213"
+      },
+      {
+        "atlas": "roster-a",
+        "stage": 5,
+        "file": "art/awakening/roster-a-stage-5.png",
+        "width": 1024,
+        "height": 1536,
+        "columns": 4,
+        "rowEdges": [
+          0,
+          277,
+          530,
+          779,
+          1033,
+          1277,
+          1536
+        ],
+        "sha256": "d33e766ca9c282971e370a7f28a41cd936d1f0833ef6331fe8610a47bee5f0c6"
+      },
+      {
+        "atlas": "roster-b",
+        "stage": 1,
+        "file": "art/awakening/roster-b-stage-1.png",
+        "width": 1024,
+        "height": 1536,
+        "columns": 4,
+        "rowEdges": [
+          0,
+          256,
+          515,
+          770,
+          1023,
+          1264,
+          1536
+        ],
+        "sha256": "4dd0c864d3a0725379f967ff3840e62c2eddfc940ce82cbd9956aaa3a5483739"
+      },
+      {
+        "atlas": "roster-b",
+        "stage": 2,
+        "file": "art/awakening/roster-b-stage-2.png",
+        "width": 1024,
+        "height": 1536,
+        "columns": 4,
+        "rowEdges": [
+          0,
+          257,
+          514,
+          768,
+          1015,
+          1269,
+          1536
+        ],
+        "sha256": "d7ed241709a5b677703cb20cd926b319c3876e10c854952eca3ab7bda4b5be36"
+      },
+      {
+        "atlas": "roster-b",
+        "stage": 3,
+        "file": "art/awakening/roster-b-stage-3.png",
+        "width": 1024,
+        "height": 1536,
+        "columns": 4,
+        "rowEdges": [
+          0,
+          255,
+          511,
+          768,
+          1019,
+          1257,
+          1536
+        ],
+        "sha256": "f98681a331c134beae2eee06273b98190b0a5757f3a95b417eb647a440d82dcf"
+      },
+      {
+        "atlas": "roster-b",
+        "stage": 4,
+        "file": "art/awakening/roster-b-stage-4.png",
+        "width": 1024,
+        "height": 1536,
+        "columns": 4,
+        "rowEdges": [
+          0,
+          249,
+          517,
+          770,
+          1009,
+          1255,
+          1536
+        ],
+        "sha256": "734646f0c9e0a3b079d7ef149b02fa75fc2ff3da640c56cad617d7fb12c92075"
+      },
+      {
+        "atlas": "roster-b",
+        "stage": 5,
+        "file": "art/awakening/roster-b-stage-5.png",
+        "width": 1024,
+        "height": 1536,
+        "columns": 4,
+        "rowEdges": [
+          0,
+          256,
+          517,
+          772,
+          1006,
+          1261,
+          1536
+        ],
+        "sha256": "8ca9b05ec3e0f64f41303517e0a198a6a509865941aa4470ce8f82ab9bfee55f"
+      },
+      {
+        "atlas": "roster-c",
+        "stage": 1,
+        "file": "art/awakening/roster-c-stage-1.png",
+        "width": 1536,
+        "height": 1024,
+        "columns": 3,
+        "rowEdges": [
+          0,
+          509,
+          1024
+        ],
+        "sha256": "0389c18a15b919a8aeee90a68d14e4e3b3da6240f461c6db7dd30b322de68d72"
+      },
+      {
+        "atlas": "roster-c",
+        "stage": 2,
+        "file": "art/awakening/roster-c-stage-2.png",
+        "width": 1536,
+        "height": 1024,
+        "columns": 3,
+        "rowEdges": [
+          0,
+          512,
+          1024
+        ],
+        "sha256": "bff0217f10119972d8091a6b778dc637ef7a3118b7808d1b14e5514640c244fd"
+      },
+      {
+        "atlas": "roster-c",
+        "stage": 3,
+        "file": "art/awakening/roster-c-stage-3.png",
+        "width": 1536,
+        "height": 1024,
+        "columns": 3,
+        "rowEdges": [
+          0,
+          512,
+          1024
+        ],
+        "sha256": "d0d8266a27664b331c2c4242716d8acc1523e511bba3be5afedd21026a1928d7"
+      },
+      {
+        "atlas": "roster-c",
+        "stage": 4,
+        "file": "art/awakening/roster-c-stage-4.png",
+        "width": 1536,
+        "height": 1024,
+        "columns": 3,
+        "rowEdges": [
+          0,
+          512,
+          1024
+        ],
+        "sha256": "02af83bfa6dbe04a60129895a68647363e4178155d73b7430236e289f7761521"
+      },
+      {
+        "atlas": "roster-c",
+        "stage": 5,
+        "file": "art/awakening/roster-c-stage-5.png",
+        "width": 1536,
+        "height": 1024,
+        "columns": 3,
+        "rowEdges": [
+          0,
+          512,
+          1024
+        ],
+        "sha256": "7eab721ebacd0cdc8b090b78dcfb8b1e64f044f35b5ce47a1f05467f7a1da488"
+      },
+      {
+        "atlas": "roster-d",
+        "stage": 1,
+        "file": "art/awakening/roster-d-stage-1.png",
+        "width": 1536,
+        "height": 1024,
+        "columns": 3,
+        "rowEdges": [
+          0,
+          512,
+          1024
+        ],
+        "sha256": "68a7a9a80ccdc3fd1e859a791c6d89f83112cb10e220ee0c47dea3848652ee6b"
+      },
+      {
+        "atlas": "roster-d",
+        "stage": 2,
+        "file": "art/awakening/roster-d-stage-2.png",
+        "width": 1536,
+        "height": 1024,
+        "columns": 3,
+        "rowEdges": [
+          0,
+          512,
+          1024
+        ],
+        "sha256": "9ad4e270a816996091a4914029d74349c5017f2c766863fafecf3de2b6147442"
+      },
+      {
+        "atlas": "roster-d",
+        "stage": 3,
+        "file": "art/awakening/roster-d-stage-3.png",
+        "width": 1536,
+        "height": 1024,
+        "columns": 3,
+        "rowEdges": [
+          0,
+          512,
+          1024
+        ],
+        "sha256": "d3fb30c6a59eec6af42745f76b38630abf6592e8fab4ebafd4828c1646268f03"
+      },
+      {
+        "atlas": "roster-d",
+        "stage": 4,
+        "file": "art/awakening/roster-d-stage-4.png",
+        "width": 1536,
+        "height": 1024,
+        "columns": 3,
+        "rowEdges": [
+          0,
+          512,
+          1024
+        ],
+        "sha256": "0d31d0ff9058f4b9752f6ebb3d33feed2005fc117f4d792453c5eb78d8ad17fa"
+      },
+      {
+        "atlas": "roster-d",
+        "stage": 5,
+        "file": "art/awakening/roster-d-stage-5.png",
+        "width": 1536,
+        "height": 1024,
+        "columns": 3,
+        "rowEdges": [
+          0,
+          512,
+          1024
+        ],
+        "sha256": "94e4e890c5e56797c1ff8a7f8c75b08bddb0859edae7a2f83fa84c9171b37fa6"
+      }
+    ]
+  },
+  "assets": [
+    {
+      "atlas": "roster-e",
+      "stage": 0,
+      "file": "public/art/roster-e-atlas.png",
+      "sha256": "88ecafc34575c558c8a41f2f9b8a09d7c31a431b626712cebbc346ef5a3a0896",
+      "placements": [
+        {
+          "id": "moon-shaman",
+          "stage": 0,
+          "sourceFile": "public/art/heroines-v026/sources/moon-shaman.png",
+          "sourceHash": "77d6746be27d61d71dab9367c2df684a91116cd30f00dd854de7fd0f5005fc74",
+          "sourceBounds": {
+            "x0": 0,
+            "y0": 19,
+            "x1": 425,
+            "y1": 485
+          },
+          "scale": 0.9593147751605996,
+          "cellHash": "7a6cd4c3f220db124a0bd7311c5c1f06974e77ae4b08c350fcb3ee0299d645fd"
+        },
+        {
+          "id": "red-butterfly",
+          "stage": 0,
+          "sourceFile": "public/art/heroines-v026/sources/red-butterfly.png",
+          "sourceHash": "a9631fb4b2ae6389a233103fee5fd60acc5928ccac8ad0410c65d83c06f27ae1",
+          "sourceBounds": {
+            "x0": 111,
+            "y0": 14,
+            "x1": 457,
+            "y1": 501
+          },
+          "scale": 0.9180327868852459,
+          "cellHash": "7abce8099f0aa742e9202fdba4e316edb99f9fe4fb176ffc423360b22b1ff9d9"
+        },
+        {
+          "id": "mountain-lynx",
+          "stage": 0,
+          "sourceFile": "public/art/heroines-v026/sources/mountain-lynx.png",
+          "sourceHash": "9738e420a5a56934e507916e115ca155c8d200fe44e20cd763ad4f7c94b53f56",
+          "sourceBounds": {
+            "x0": 65,
+            "y0": 5,
+            "x1": 511,
+            "y1": 501
+          },
+          "scale": 0.9014084507042254,
+          "cellHash": "18346d7cb543fe49b5da093e69ac02c23e2ab91e3161ef7db44fcbb282927304"
+        },
+        {
+          "id": "bamboo-healer",
+          "stage": 0,
+          "sourceFile": "public/art/heroines-v026/sources/bamboo-healer.png",
+          "sourceHash": "e0970c5de9130492488b4c8276fa698ca9fb082c287648825e8c70819627eef5",
+          "sourceBounds": {
+            "x0": 0,
+            "y0": 0,
+            "x1": 511,
+            "y1": 511
+          },
+          "scale": 0.875,
+          "cellHash": "95b5619fb7aca7bac9d83c396222c373cb78ee969b84159c27143d5eb45dde85"
+        },
+        {
+          "id": "sea-mist",
+          "stage": 0,
+          "sourceFile": "public/art/heroines-v026/sources/sea-mist.png",
+          "sourceHash": "6a53cdb0e5e58a5fe038f3738759d8f8c3e5b42f668113e71a60d9b75f102099",
+          "sourceBounds": {
+            "x0": 0,
+            "y0": 30,
+            "x1": 505,
+            "y1": 511
+          },
+          "scale": 0.8853754940711462,
+          "cellHash": "71c11b51343bd2fdaaf63a4104bf8764ddebdbbf4ba2aa31b59b468f7cfd4617"
+        }
+      ]
+    },
+    {
+      "atlas": "roster-e",
+      "stage": 1,
+      "file": "public/art/awakening/roster-e-stage-1.png",
+      "sha256": "0064fa956259ae01f121cb67d2c0a064649d8e851cd7cae0425511a39a208e9c",
+      "placements": [
+        {
+          "id": "moon-shaman",
+          "stage": 1,
+          "sourceFile": "public/art/heroines-v026/sources/moon-shaman.png",
+          "sourceHash": "77d6746be27d61d71dab9367c2df684a91116cd30f00dd854de7fd0f5005fc74",
+          "sourceBounds": {
+            "x0": 521,
+            "y0": 33,
+            "x1": 995,
+            "y1": 503
+          },
+          "scale": 0.9431578947368421,
+          "cellHash": "eb25bfcc50d41bd08beb07e9f08f801bf5c19faddf7cf133412ca150eb0488ba"
+        },
+        {
+          "id": "red-butterfly",
+          "stage": 1,
+          "sourceFile": "public/art/heroines-v026/sources/red-butterfly.png",
+          "sourceHash": "a9631fb4b2ae6389a233103fee5fd60acc5928ccac8ad0410c65d83c06f27ae1",
+          "sourceBounds": {
+            "x0": 521,
+            "y0": 16,
+            "x1": 1015,
+            "y1": 511
+          },
+          "scale": 0.9032258064516129,
+          "cellHash": "31aa98450dd79415ef821da1b57b1b82403e4478becf9c76882d7676318f3101"
+        },
+        {
+          "id": "mountain-lynx",
+          "stage": 1,
+          "sourceFile": "public/art/heroines-v026/sources/mountain-lynx.png",
+          "sourceHash": "9738e420a5a56934e507916e115ca155c8d200fe44e20cd763ad4f7c94b53f56",
+          "sourceBounds": {
+            "x0": 513,
+            "y0": 0,
+            "x1": 1023,
+            "y1": 511
+          },
+          "scale": 0.875,
+          "cellHash": "2b4b14397bbcd8dba039e24ca5138cf0110bc34cf5d687b2832de6ce3d7ada94"
+        },
+        {
+          "id": "bamboo-healer",
+          "stage": 1,
+          "sourceFile": "public/art/heroines-v026/sources/bamboo-healer.png",
+          "sourceHash": "e0970c5de9130492488b4c8276fa698ca9fb082c287648825e8c70819627eef5",
+          "sourceBounds": {
+            "x0": 513,
+            "y0": 0,
+            "x1": 1023,
+            "y1": 511
+          },
+          "scale": 0.875,
+          "cellHash": "1d41d11de52462e3c1d66e195f43cd1d178527c703a6289a6410f75c0818d1ff"
+        },
+        {
+          "id": "sea-mist",
+          "stage": 1,
+          "sourceFile": "public/art/heroines-v026/sources/sea-mist.png",
+          "sourceHash": "6a53cdb0e5e58a5fe038f3738759d8f8c3e5b42f668113e71a60d9b75f102099",
+          "sourceBounds": {
+            "x0": 513,
+            "y0": 30,
+            "x1": 1023,
+            "y1": 511
+          },
+          "scale": 0.8767123287671232,
+          "cellHash": "a4c6240f504bc0789d84ba6fdc4a1b8d9d370bd5fc65cbae57074804b8615bd5"
+        }
+      ]
+    },
+    {
+      "atlas": "roster-e",
+      "stage": 2,
+      "file": "public/art/awakening/roster-e-stage-2.png",
+      "sha256": "6939a3277b8e4396c6d1cce23708b2e6f716b320ae55203d43ea195a1692f89b",
+      "placements": [
+        {
+          "id": "moon-shaman",
+          "stage": 2,
+          "sourceFile": "public/art/heroines-v026/sources/moon-shaman.png",
+          "sourceHash": "77d6746be27d61d71dab9367c2df684a91116cd30f00dd854de7fd0f5005fc74",
+          "sourceBounds": {
+            "x0": 1025,
+            "y0": 31,
+            "x1": 1469,
+            "y1": 505
+          },
+          "scale": 0.9431578947368421,
+          "cellHash": "65f3b226a4830e5351e4c612c4d5e37108a2879f684d45d36ad5a77709de40b1"
+        },
+        {
+          "id": "red-butterfly",
+          "stage": 2,
+          "sourceFile": "public/art/heroines-v026/sources/red-butterfly.png",
+          "sourceHash": "a9631fb4b2ae6389a233103fee5fd60acc5928ccac8ad0410c65d83c06f27ae1",
+          "sourceBounds": {
+            "x0": 1059,
+            "y0": 14,
+            "x1": 1471,
+            "y1": 511
+          },
+          "scale": 0.8995983935742972,
+          "cellHash": "4ce7284af40e99a6e742f759868ef56d9aa0d1273d5968d0068d9a6c3e7f0c53"
+        },
+        {
+          "id": "mountain-lynx",
+          "stage": 2,
+          "sourceFile": "public/art/heroines-v026/sources/mountain-lynx.png",
+          "sourceHash": "9738e420a5a56934e507916e115ca155c8d200fe44e20cd763ad4f7c94b53f56",
+          "sourceBounds": {
+            "x0": 1025,
+            "y0": 0,
+            "x1": 1521,
+            "y1": 511
+          },
+          "scale": 0.875,
+          "cellHash": "80cd6d06fadb1fe471cdd10463f4c512014759ea21809330137240b76a1f9f99"
+        },
+        {
+          "id": "bamboo-healer",
+          "stage": 2,
+          "sourceFile": "public/art/heroines-v026/sources/bamboo-healer.png",
+          "sourceHash": "e0970c5de9130492488b4c8276fa698ca9fb082c287648825e8c70819627eef5",
+          "sourceBounds": {
+            "x0": 1025,
+            "y0": 0,
+            "x1": 1479,
+            "y1": 511
+          },
+          "scale": 0.875,
+          "cellHash": "c575302db0243df626e5b7136cfff01de20967a7c5c61a22f701fab24b07be9a"
+        },
+        {
+          "id": "sea-mist",
+          "stage": 2,
+          "sourceFile": "public/art/heroines-v026/sources/sea-mist.png",
+          "sourceHash": "6a53cdb0e5e58a5fe038f3738759d8f8c3e5b42f668113e71a60d9b75f102099",
+          "sourceBounds": {
+            "x0": 1024,
+            "y0": 25,
+            "x1": 1521,
+            "y1": 511
+          },
+          "scale": 0.8995983935742972,
+          "cellHash": "c88aeda536a3cb7ccfcfa095a85ff3db9f7516d4ed193d5bea502f5a2152d61d"
+        }
+      ]
+    },
+    {
+      "atlas": "roster-e",
+      "stage": 3,
+      "file": "public/art/awakening/roster-e-stage-3.png",
+      "sha256": "734b6be73c4b40fdc5bef9eaf69eff00965c78604b28b9f93aedb9ccf27f919c",
+      "placements": [
+        {
+          "id": "moon-shaman",
+          "stage": 3,
+          "sourceFile": "public/art/heroines-v026/sources/moon-shaman.png",
+          "sourceHash": "77d6746be27d61d71dab9367c2df684a91116cd30f00dd854de7fd0f5005fc74",
+          "sourceBounds": {
+            "x0": 55,
+            "y0": 527,
+            "x1": 455,
+            "y1": 989
+          },
+          "scale": 0.9676025917926566,
+          "cellHash": "00b061979cce0f4223450a5e3210d5897fcf49a973a26262249a55ee4b2c5f49"
+        },
+        {
+          "id": "red-butterfly",
+          "stage": 3,
+          "sourceFile": "public/art/heroines-v026/sources/red-butterfly.png",
+          "sourceHash": "a9631fb4b2ae6389a233103fee5fd60acc5928ccac8ad0410c65d83c06f27ae1",
+          "sourceBounds": {
+            "x0": 57,
+            "y0": 512,
+            "x1": 481,
+            "y1": 1007
+          },
+          "scale": 0.9032258064516129,
+          "cellHash": "f819b68e7e42495524e020c703656d27b56b416dab6de08ffc4ff408dc38f90d"
+        },
+        {
+          "id": "mountain-lynx",
+          "stage": 3,
+          "sourceFile": "public/art/heroines-v026/sources/mountain-lynx.png",
+          "sourceHash": "9738e420a5a56934e507916e115ca155c8d200fe44e20cd763ad4f7c94b53f56",
+          "sourceBounds": {
+            "x0": 47,
+            "y0": 514,
+            "x1": 511,
+            "y1": 1010
+          },
+          "scale": 0.9014084507042254,
+          "cellHash": "a24513668107fc5352b2b468d1b20bd5ee5ab5bad53750b86107208a482941ae"
+        },
+        {
+          "id": "bamboo-healer",
+          "stage": 3,
+          "sourceFile": "public/art/heroines-v026/sources/bamboo-healer.png",
+          "sourceHash": "e0970c5de9130492488b4c8276fa698ca9fb082c287648825e8c70819627eef5",
+          "sourceBounds": {
+            "x0": 53,
+            "y0": 504,
+            "x1": 511,
+            "y1": 1023
+          },
+          "scale": 0.8615384615384616,
+          "cellHash": "04baf6cf92e0d3e4098ed37067ad7a942e49858938d5962a9752df8ccaf2bafe"
+        },
+        {
+          "id": "sea-mist",
+          "stage": 3,
+          "sourceFile": "public/art/heroines-v026/sources/sea-mist.png",
+          "sourceHash": "6a53cdb0e5e58a5fe038f3738759d8f8c3e5b42f668113e71a60d9b75f102099",
+          "sourceBounds": {
+            "x0": 21,
+            "y0": 512,
+            "x1": 511,
+            "y1": 1023
+          },
+          "scale": 0.875,
+          "cellHash": "f077ce6e0efc5a2d16793bc3bbc5773e621aceb2e2b08611efd14f87cfc893f9"
+        }
+      ]
+    },
+    {
+      "atlas": "roster-e",
+      "stage": 4,
+      "file": "public/art/awakening/roster-e-stage-4.png",
+      "sha256": "84f70ef089a70ec5d237145f704bbdfd7cda1d7cb259460c4294de871ff89031",
+      "placements": [
+        {
+          "id": "moon-shaman",
+          "stage": 4,
+          "sourceFile": "public/art/heroines-v026/sources/moon-shaman.png",
+          "sourceHash": "77d6746be27d61d71dab9367c2df684a91116cd30f00dd854de7fd0f5005fc74",
+          "sourceBounds": {
+            "x0": 541,
+            "y0": 527,
+            "x1": 1019,
+            "y1": 997
+          },
+          "scale": 0.9352818371607515,
+          "cellHash": "59e833b356c1bec5ccafa79a38caf8ed95b85f63126f6c5486b70e9970f2eb3a"
+        },
+        {
+          "id": "red-butterfly",
+          "stage": 4,
+          "sourceFile": "public/art/heroines-v026/sources/red-butterfly.png",
+          "sourceHash": "a9631fb4b2ae6389a233103fee5fd60acc5928ccac8ad0410c65d83c06f27ae1",
+          "sourceBounds": {
+            "x0": 515,
+            "y0": 512,
+            "x1": 1019,
+            "y1": 1008
+          },
+          "scale": 0.8871287128712871,
+          "cellHash": "04df04c53897cb64a8398dcdbc7a38a3a3da901256239029ae2bbfed0ba7e2b4"
+        },
+        {
+          "id": "mountain-lynx",
+          "stage": 4,
+          "sourceFile": "public/art/heroines-v026/sources/mountain-lynx.png",
+          "sourceHash": "9738e420a5a56934e507916e115ca155c8d200fe44e20cd763ad4f7c94b53f56",
+          "sourceBounds": {
+            "x0": 513,
+            "y0": 512,
+            "x1": 1023,
+            "y1": 1023
+          },
+          "scale": 0.875,
+          "cellHash": "c678d01643702102efd56ccf2e8b6d4946ad962b975dff5df682c08e834ca3ae"
+        },
+        {
+          "id": "bamboo-healer",
+          "stage": 4,
+          "sourceFile": "public/art/heroines-v026/sources/bamboo-healer.png",
+          "sourceHash": "e0970c5de9130492488b4c8276fa698ca9fb082c287648825e8c70819627eef5",
+          "sourceBounds": {
+            "x0": 512,
+            "y0": 497,
+            "x1": 1007,
+            "y1": 1023
+          },
+          "scale": 0.8500948766603416,
+          "cellHash": "441147a679bc74d19b7e3d0a07dbd6bf0eb78d2e4d40f6eed5845a4ca05abff6"
+        },
+        {
+          "id": "sea-mist",
+          "stage": 4,
+          "sourceFile": "public/art/heroines-v026/sources/sea-mist.png",
+          "sourceHash": "6a53cdb0e5e58a5fe038f3738759d8f8c3e5b42f668113e71a60d9b75f102099",
+          "sourceBounds": {
+            "x0": 513,
+            "y0": 512,
+            "x1": 1023,
+            "y1": 1023
+          },
+          "scale": 0.875,
+          "cellHash": "35fe6acd337c7b341206d279b2383ecbb005665ad8ea752c51dd98c1bfdeac0e"
+        }
+      ]
+    },
+    {
+      "atlas": "roster-e",
+      "stage": 5,
+      "file": "public/art/awakening/roster-e-stage-5.png",
+      "sha256": "52627b087b298f13a70334f80aca885bc6a7f5ca5021965ce0fbd46f23c5749f",
+      "placements": [
+        {
+          "id": "moon-shaman",
+          "stage": 5,
+          "sourceFile": "public/art/heroines-v026/sources/moon-shaman.png",
+          "sourceHash": "77d6746be27d61d71dab9367c2df684a91116cd30f00dd854de7fd0f5005fc74",
+          "sourceBounds": {
+            "x0": 1033,
+            "y0": 513,
+            "x1": 1495,
+            "y1": 991
+          },
+          "scale": 0.9352818371607515,
+          "cellHash": "5bd4c0654aff02a4b43599589ed674ac8640819f308856af94e9771a052568c3"
+        },
+        {
+          "id": "red-butterfly",
+          "stage": 5,
+          "sourceFile": "public/art/heroines-v026/sources/red-butterfly.png",
+          "sourceHash": "a9631fb4b2ae6389a233103fee5fd60acc5928ccac8ad0410c65d83c06f27ae1",
+          "sourceBounds": {
+            "x0": 1050,
+            "y0": 512,
+            "x1": 1535,
+            "y1": 1011
+          },
+          "scale": 0.896,
+          "cellHash": "28a813e91d8713ea5b4cab2dc167c7a88c3d9d5cd0de6cd67a63eb98307513e8"
+        },
+        {
+          "id": "mountain-lynx",
+          "stage": 5,
+          "sourceFile": "public/art/heroines-v026/sources/mountain-lynx.png",
+          "sourceHash": "9738e420a5a56934e507916e115ca155c8d200fe44e20cd763ad4f7c94b53f56",
+          "sourceBounds": {
+            "x0": 1017,
+            "y0": 505,
+            "x1": 1535,
+            "y1": 1023
+          },
+          "scale": 0.8631984585741811,
+          "cellHash": "5f0afc673ef4d1e85cdbb3df0035312910157c30fb980143f6e709ee507d4ce6"
+        },
+        {
+          "id": "bamboo-healer",
+          "stage": 5,
+          "sourceFile": "public/art/heroines-v026/sources/bamboo-healer.png",
+          "sourceHash": "e0970c5de9130492488b4c8276fa698ca9fb082c287648825e8c70819627eef5",
+          "sourceBounds": {
+            "x0": 1033,
+            "y0": 487,
+            "x1": 1521,
+            "y1": 1023
+          },
+          "scale": 0.8342644320297952,
+          "cellHash": "a5792ab3ca9bf26e69b1440968eb524ef512fe1fcfb55180370fe6c52e2f4cca"
+        },
+        {
+          "id": "sea-mist",
+          "stage": 5,
+          "sourceFile": "public/art/heroines-v026/sources/sea-mist.png",
+          "sourceHash": "6a53cdb0e5e58a5fe038f3738759d8f8c3e5b42f668113e71a60d9b75f102099",
+          "sourceBounds": {
+            "x0": 1024,
+            "y0": 512,
+            "x1": 1521,
+            "y1": 1023
+          },
+          "scale": 0.875,
+          "cellHash": "98530088373dd0b33b1eef880bb0afe241dc2ede1aeaaadfe37e6474a8dcfb7d"
+        }
+      ]
+    },
+    {
+      "atlas": "roster-f",
+      "stage": 0,
+      "file": "public/art/roster-f-atlas.png",
+      "sha256": "d9c9ca98e1f8a511f2beb324fec79c6233350fc448feb67b6b2d562125153a20",
+      "placements": [
+        {
+          "id": "snow-leopard",
+          "stage": 0,
+          "sourceFile": "public/art/heroines-v026/sources/snow-leopard.png",
+          "sourceHash": "3c54b8f0a1a45b44d9dd418c4577f513b9c6753d83f4ae823eb5f44ecdc29870",
+          "sourceBounds": {
+            "x0": 47,
+            "y0": 15,
+            "x1": 499,
+            "y1": 501
+          },
+          "scale": 0.919917864476386,
+          "cellHash": "9b5271466ee392a39b3ea6b67567f6e793f0ab820ba6c4c925425f5ecb81f1d8"
+        },
+        {
+          "id": "gold-kirin",
+          "stage": 0,
+          "sourceFile": "public/art/heroines-v026/sources/gold-kirin.png",
+          "sourceHash": "e36ac742589b860fe2e31f2c3a79aaf7ad3f172503771f1bf8e2e092bfa92e34",
+          "sourceBounds": {
+            "x0": 39,
+            "y0": 17,
+            "x1": 508,
+            "y1": 499
+          },
+          "scale": 0.927536231884058,
+          "cellHash": "7707f66cf716baea5b576e827cf9ec651ca2637da6f4eba929fea0a9fd494f63"
+        },
+        {
+          "id": "red-spear",
+          "stage": 0,
+          "sourceFile": "public/art/heroines-v026/sources/red-spear.png",
+          "sourceHash": "448ec3170e9aeeccc14348afffc4c53a5e5ed7eefbb6d2e3e415efa06a405461",
+          "sourceBounds": {
+            "x0": 55,
+            "y0": 16,
+            "x1": 465,
+            "y1": 501
+          },
+          "scale": 0.9218106995884774,
+          "cellHash": "0e4f3873f01f9b17cb6de14ce440b75ed00e433de22edf54cee9498863f1041f"
+        },
+        {
+          "id": "sand-flower",
+          "stage": 0,
+          "sourceFile": "public/art/heroines-v026/sources/sand-flower.png",
+          "sourceHash": "27f8cb0ea63f84f1a9efaf40e0cd803ba02a450c650e17782bd0a83f8283a3bb",
+          "sourceBounds": {
+            "x0": 63,
+            "y0": 1,
+            "x1": 499,
+            "y1": 501
+          },
+          "scale": 0.8942115768463074,
+          "cellHash": "e0ce777071d3ce0accea5fb2856c194c319c70b0691f3beee0d2cf1e54e64690"
+        },
+        {
+          "id": "obsidian-warden",
+          "stage": 0,
+          "sourceFile": "public/art/heroines-v026/sources/obsidian-warden.png",
+          "sourceHash": "50ed040faf899043974c3a9d5caf6401ea68472050781792c679ffa97b3ff987",
+          "sourceBounds": {
+            "x0": 80,
+            "y0": 28,
+            "x1": 503,
+            "y1": 481
+          },
+          "scale": 0.986784140969163,
+          "cellHash": "db0b3834258916435f8a8a611d46f3cb30c237b17b7301899e90b176676ba933"
+        }
+      ]
+    },
+    {
+      "atlas": "roster-f",
+      "stage": 1,
+      "file": "public/art/awakening/roster-f-stage-1.png",
+      "sha256": "ab35864d55ef1b202d74b3378c49181081515152191f0e6b8cfeb145b06f31fb",
+      "placements": [
+        {
+          "id": "snow-leopard",
+          "stage": 1,
+          "sourceFile": "public/art/heroines-v026/sources/snow-leopard.png",
+          "sourceHash": "3c54b8f0a1a45b44d9dd418c4577f513b9c6753d83f4ae823eb5f44ecdc29870",
+          "sourceBounds": {
+            "x0": 521,
+            "y0": 15,
+            "x1": 997,
+            "y1": 511
+          },
+          "scale": 0.9014084507042254,
+          "cellHash": "76f2ac51de38257f43f1a08517021f650d13275b705983de1166c52a86c36b99"
+        },
+        {
+          "id": "gold-kirin",
+          "stage": 1,
+          "sourceFile": "public/art/heroines-v026/sources/gold-kirin.png",
+          "sourceHash": "e36ac742589b860fe2e31f2c3a79aaf7ad3f172503771f1bf8e2e092bfa92e34",
+          "sourceBounds": {
+            "x0": 513,
+            "y0": 17,
+            "x1": 1023,
+            "y1": 511
+          },
+          "scale": 0.8767123287671232,
+          "cellHash": "2e3a6203ac4ec9c8585f73a4401fdaf8824d9d008c696353079872419232c468"
+        },
+        {
+          "id": "red-spear",
+          "stage": 1,
+          "sourceFile": "public/art/heroines-v026/sources/red-spear.png",
+          "sourceHash": "448ec3170e9aeeccc14348afffc4c53a5e5ed7eefbb6d2e3e415efa06a405461",
+          "sourceBounds": {
+            "x0": 574,
+            "y0": 17,
+            "x1": 1009,
+            "y1": 511
+          },
+          "scale": 0.9050505050505051,
+          "cellHash": "c97c5d7f880b2adede664dd7d9c2ae6568c05a97c482830707dbcc0237204fdd"
+        },
+        {
+          "id": "sand-flower",
+          "stage": 1,
+          "sourceFile": "public/art/heroines-v026/sources/sand-flower.png",
+          "sourceHash": "27f8cb0ea63f84f1a9efaf40e0cd803ba02a450c650e17782bd0a83f8283a3bb",
+          "sourceBounds": {
+            "x0": 513,
+            "y0": 18,
+            "x1": 1019,
+            "y1": 511
+          },
+          "scale": 0.883629191321499,
+          "cellHash": "3cd80730934bffa0aa419dfc48012f86d13fd8c09fed3bc0db927d4f2566c954"
+        },
+        {
+          "id": "obsidian-warden",
+          "stage": 1,
+          "sourceFile": "public/art/heroines-v026/sources/obsidian-warden.png",
+          "sourceHash": "50ed040faf899043974c3a9d5caf6401ea68472050781792c679ffa97b3ff987",
+          "sourceBounds": {
+            "x0": 583,
+            "y0": 33,
+            "x1": 1023,
+            "y1": 482
+          },
+          "scale": 0.9955555555555555,
+          "cellHash": "887e9572d0d6bd4af4c523e83ceaf0fbbd0d957c9f1bc6499165e94acbff1731"
+        }
+      ]
+    },
+    {
+      "atlas": "roster-f",
+      "stage": 2,
+      "file": "public/art/awakening/roster-f-stage-2.png",
+      "sha256": "f46d535a70a35ef438fa22265f30217c2768bb51294d8cfb7e6d2de2efac9afb",
+      "placements": [
+        {
+          "id": "snow-leopard",
+          "stage": 2,
+          "sourceFile": "public/art/heroines-v026/sources/snow-leopard.png",
+          "sourceHash": "3c54b8f0a1a45b44d9dd418c4577f513b9c6753d83f4ae823eb5f44ecdc29870",
+          "sourceBounds": {
+            "x0": 1057,
+            "y0": 13,
+            "x1": 1483,
+            "y1": 507
+          },
+          "scale": 0.9050505050505051,
+          "cellHash": "49cd452abacd777e1ca498c933de25bbc9ecc5f0c22428e7668bd9b4bea311fb"
+        },
+        {
+          "id": "gold-kirin",
+          "stage": 2,
+          "sourceFile": "public/art/heroines-v026/sources/gold-kirin.png",
+          "sourceHash": "e36ac742589b860fe2e31f2c3a79aaf7ad3f172503771f1bf8e2e092bfa92e34",
+          "sourceBounds": {
+            "x0": 1025,
+            "y0": 9,
+            "x1": 1515,
+            "y1": 511
+          },
+          "scale": 0.8906560636182903,
+          "cellHash": "9c96b69e8dbc78803fd4493145ba5f9fb57b438e3ede4ff6c3d1c7ab4730f078"
+        },
+        {
+          "id": "red-spear",
+          "stage": 2,
+          "sourceFile": "public/art/heroines-v026/sources/red-spear.png",
+          "sourceHash": "448ec3170e9aeeccc14348afffc4c53a5e5ed7eefbb6d2e3e415efa06a405461",
+          "sourceBounds": {
+            "x0": 1049,
+            "y0": 15,
+            "x1": 1535,
+            "y1": 509
+          },
+          "scale": 0.9050505050505051,
+          "cellHash": "926d8f474697c2a5b62f00ee5b9fc89d9cdf846e9d9a6922bea878a4dd0f3b2c"
+        },
+        {
+          "id": "sand-flower",
+          "stage": 2,
+          "sourceFile": "public/art/heroines-v026/sources/sand-flower.png",
+          "sourceHash": "27f8cb0ea63f84f1a9efaf40e0cd803ba02a450c650e17782bd0a83f8283a3bb",
+          "sourceBounds": {
+            "x0": 1029,
+            "y0": 21,
+            "x1": 1487,
+            "y1": 511
+          },
+          "scale": 0.9124236252545825,
+          "cellHash": "f37df43a0a6cc3dce5bc8fbb59265f7efcbfd61e803c93a327c0a315ca337203"
+        },
+        {
+          "id": "obsidian-warden",
+          "stage": 2,
+          "sourceFile": "public/art/heroines-v026/sources/obsidian-warden.png",
+          "sourceHash": "50ed040faf899043974c3a9d5caf6401ea68472050781792c679ffa97b3ff987",
+          "sourceBounds": {
+            "x0": 1043,
+            "y0": 9,
+            "x1": 1457,
+            "y1": 511
+          },
+          "scale": 0.8906560636182903,
+          "cellHash": "53858dd92ef9667db90b6661b5b681106b2ed7f1c69c4801d4dfcd91bcf35ecb"
+        }
+      ]
+    },
+    {
+      "atlas": "roster-f",
+      "stage": 3,
+      "file": "public/art/awakening/roster-f-stage-3.png",
+      "sha256": "f9a94473fdb9196a26f44d5c9184ae095646c0ed2722836c1f6084e1b67a6520",
+      "placements": [
+        {
+          "id": "snow-leopard",
+          "stage": 3,
+          "sourceFile": "public/art/heroines-v026/sources/snow-leopard.png",
+          "sourceHash": "3c54b8f0a1a45b44d9dd418c4577f513b9c6753d83f4ae823eb5f44ecdc29870",
+          "sourceBounds": {
+            "x0": 57,
+            "y0": 512,
+            "x1": 503,
+            "y1": 1009
+          },
+          "scale": 0.8995983935742972,
+          "cellHash": "62fb2fabecca44ec57bcb00d93bcfe9aa4a20781b7f48dd427c27e17605f20bc"
+        },
+        {
+          "id": "gold-kirin",
+          "stage": 3,
+          "sourceFile": "public/art/heroines-v026/sources/gold-kirin.png",
+          "sourceHash": "e36ac742589b860fe2e31f2c3a79aaf7ad3f172503771f1bf8e2e092bfa92e34",
+          "sourceBounds": {
+            "x0": 65,
+            "y0": 517,
+            "x1": 511,
+            "y1": 1003
+          },
+          "scale": 0.919917864476386,
+          "cellHash": "00d277d4c5527307b3d45f81958d829df08240fc9b83082e30abc97562111a86"
+        },
+        {
+          "id": "red-spear",
+          "stage": 3,
+          "sourceFile": "public/art/heroines-v026/sources/red-spear.png",
+          "sourceHash": "448ec3170e9aeeccc14348afffc4c53a5e5ed7eefbb6d2e3e415efa06a405461",
+          "sourceBounds": {
+            "x0": 29,
+            "y0": 519,
+            "x1": 511,
+            "y1": 993
+          },
+          "scale": 0.927536231884058,
+          "cellHash": "1c197471169a328b18c741b0e05c5fd6a10bb7cd26b8bfa126a5e89d6d29a552"
+        },
+        {
+          "id": "sand-flower",
+          "stage": 3,
+          "sourceFile": "public/art/heroines-v026/sources/sand-flower.png",
+          "sourceHash": "27f8cb0ea63f84f1a9efaf40e0cd803ba02a450c650e17782bd0a83f8283a3bb",
+          "sourceBounds": {
+            "x0": 57,
+            "y0": 513,
+            "x1": 511,
+            "y1": 1007
+          },
+          "scale": 0.9050505050505051,
+          "cellHash": "c28d2a2683aaf143b680bc6952caa789180100204f62b79856e6350cd396ea69"
+        },
+        {
+          "id": "obsidian-warden",
+          "stage": 3,
+          "sourceFile": "public/art/heroines-v026/sources/obsidian-warden.png",
+          "sourceHash": "50ed040faf899043974c3a9d5caf6401ea68472050781792c679ffa97b3ff987",
+          "sourceBounds": {
+            "x0": 64,
+            "y0": 529,
+            "x1": 458,
+            "y1": 991
+          },
+          "scale": 0.9676025917926566,
+          "cellHash": "954d9611569db3e6766487576f57e097e446a2b6a3bccf02af282e773177dae7"
+        }
+      ]
+    },
+    {
+      "atlas": "roster-f",
+      "stage": 4,
+      "file": "public/art/awakening/roster-f-stage-4.png",
+      "sha256": "5343c51de54ee9cdf5a32f8aa79c9a7cf9df342f3eb3a85285c29f8914c8262e",
+      "placements": [
+        {
+          "id": "snow-leopard",
+          "stage": 4,
+          "sourceFile": "public/art/heroines-v026/sources/snow-leopard.png",
+          "sourceHash": "3c54b8f0a1a45b44d9dd418c4577f513b9c6753d83f4ae823eb5f44ecdc29870",
+          "sourceBounds": {
+            "x0": 513,
+            "y0": 513,
+            "x1": 1023,
+            "y1": 1023
+          },
+          "scale": 0.8767123287671232,
+          "cellHash": "12b37b9309808bb3a198cea6af70c13428cfcb77f909352b24cd456641e8fddc"
+        },
+        {
+          "id": "gold-kirin",
+          "stage": 4,
+          "sourceFile": "public/art/heroines-v026/sources/gold-kirin.png",
+          "sourceHash": "e36ac742589b860fe2e31f2c3a79aaf7ad3f172503771f1bf8e2e092bfa92e34",
+          "sourceBounds": {
+            "x0": 512,
+            "y0": 513,
+            "x1": 1007,
+            "y1": 1006
+          },
+          "scale": 0.9032258064516129,
+          "cellHash": "3bbebb8d5c7b18a188e55ebae082ce7b83cf9e3eb3bc9a4a0c2df14154895a2e"
+        },
+        {
+          "id": "red-spear",
+          "stage": 4,
+          "sourceFile": "public/art/heroines-v026/sources/red-spear.png",
+          "sourceHash": "448ec3170e9aeeccc14348afffc4c53a5e5ed7eefbb6d2e3e415efa06a405461",
+          "sourceBounds": {
+            "x0": 512,
+            "y0": 513,
+            "x1": 1023,
+            "y1": 993
+          },
+          "scale": 0.875,
+          "cellHash": "12cce7788de14a5ed34943a053922ceb64ffba4759c1c64071e28a9e6bf342c9"
+        },
+        {
+          "id": "sand-flower",
+          "stage": 4,
+          "sourceFile": "public/art/heroines-v026/sources/sand-flower.png",
+          "sourceHash": "27f8cb0ea63f84f1a9efaf40e0cd803ba02a450c650e17782bd0a83f8283a3bb",
+          "sourceBounds": {
+            "x0": 541,
+            "y0": 513,
+            "x1": 1005,
+            "y1": 1023
+          },
+          "scale": 0.8767123287671232,
+          "cellHash": "830f77fc2db423d810eb036c2b682d30beb93276e7c9271f02d80f477dd9ef7d"
+        },
+        {
+          "id": "obsidian-warden",
+          "stage": 4,
+          "sourceFile": "public/art/heroines-v026/sources/obsidian-warden.png",
+          "sourceHash": "50ed040faf899043974c3a9d5caf6401ea68472050781792c679ffa97b3ff987",
+          "sourceBounds": {
+            "x0": 545,
+            "y0": 527,
+            "x1": 975,
+            "y1": 997
+          },
+          "scale": 0.9511677282377919,
+          "cellHash": "231dc6550642ed7a5b6c8d4ab4ae81cfd19dc9d07848619075750f7a156f48f8"
+        }
+      ]
+    },
+    {
+      "atlas": "roster-f",
+      "stage": 5,
+      "file": "public/art/awakening/roster-f-stage-5.png",
+      "sha256": "c5b64a75687f5933b14b25a3cfb544c691e234a85422117a33ab20b5c3459aa5",
+      "placements": [
+        {
+          "id": "snow-leopard",
+          "stage": 5,
+          "sourceFile": "public/art/heroines-v026/sources/snow-leopard.png",
+          "sourceHash": "3c54b8f0a1a45b44d9dd418c4577f513b9c6753d83f4ae823eb5f44ecdc29870",
+          "sourceBounds": {
+            "x0": 1024,
+            "y0": 513,
+            "x1": 1525,
+            "y1": 1023
+          },
+          "scale": 0.8767123287671232,
+          "cellHash": "a1770449b447ef17f594cbb3aa3d5842428b2cdd12b5bcb8e411f822a221b80a"
+        },
+        {
+          "id": "gold-kirin",
+          "stage": 5,
+          "sourceFile": "public/art/heroines-v026/sources/gold-kirin.png",
+          "sourceHash": "e36ac742589b860fe2e31f2c3a79aaf7ad3f172503771f1bf8e2e092bfa92e34",
+          "sourceBounds": {
+            "x0": 1025,
+            "y0": 505,
+            "x1": 1523,
+            "y1": 1007
+          },
+          "scale": 0.8906560636182903,
+          "cellHash": "dee2f782e39e9eb6d0c0b7906e5019da9e026f35721c1246d90fb2cc3f174e03"
+        },
+        {
+          "id": "red-spear",
+          "stage": 5,
+          "sourceFile": "public/art/heroines-v026/sources/red-spear.png",
+          "sourceHash": "448ec3170e9aeeccc14348afffc4c53a5e5ed7eefbb6d2e3e415efa06a405461",
+          "sourceBounds": {
+            "x0": 1047,
+            "y0": 518,
+            "x1": 1526,
+            "y1": 998
+          },
+          "scale": 0.9313929313929314,
+          "cellHash": "492a351affdbdb06dc744ec3964e442389063f3d095c299ea7218db11538a4b5"
+        },
+        {
+          "id": "sand-flower",
+          "stage": 5,
+          "sourceFile": "public/art/heroines-v026/sources/sand-flower.png",
+          "sourceHash": "27f8cb0ea63f84f1a9efaf40e0cd803ba02a450c650e17782bd0a83f8283a3bb",
+          "sourceBounds": {
+            "x0": 1031,
+            "y0": 512,
+            "x1": 1521,
+            "y1": 1023
+          },
+          "scale": 0.875,
+          "cellHash": "558ef98a1d10d44340b1204582d384b89505ae0b765680dcb6d53510e936382c"
+        },
+        {
+          "id": "obsidian-warden",
+          "stage": 5,
+          "sourceFile": "public/art/heroines-v026/sources/obsidian-warden.png",
+          "sourceHash": "50ed040faf899043974c3a9d5caf6401ea68472050781792c679ffa97b3ff987",
+          "sourceBounds": {
+            "x0": 1060,
+            "y0": 505,
+            "x1": 1488,
+            "y1": 991
+          },
+          "scale": 0.919917864476386,
+          "cellHash": "62d3d29228b3a6f529879a92296f76baaeb71e24127041b9e08c848fd0d152f5"
+        }
+      ]
+    }
+  ]
+}

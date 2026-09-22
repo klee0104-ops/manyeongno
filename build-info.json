@@ -1,13 +1,13 @@
 {
-  "version": "0.29.0",
+  "version": "0.30.0",
   "narrativeRevision": "ashes-v1",
-  "builtAt": "2026-09-22T09:25:27.372Z",
+  "builtAt": "2026-09-22T10:14:56.587Z",
   "basedOnCommit": "628af87c7aa85268040c9621756387370facdfbb",
   "includesWorkingTreeChanges": true,
   "harness": {
-    "task": "v029-art-motion",
+    "task": "v030-expedition-hell",
     "status": "pass",
-    "runId": "2026-09-22T09-23-37-275Z-30272",
+    "runId": "2026-09-22T10-12-30-314Z-24536",
     "checks": [
       {
         "id": "typecheck",
@@ -19,6 +19,10 @@
       },
       {
         "id": "all-tests",
+        "status": "pass"
+      },
+      {
+        "id": "challenge-balance",
         "status": "pass"
       },
       {
@@ -199,7 +203,7 @@
       "sand-flower",
       "obsidian-warden"
     ],
-    "newAuthoredIllustrations": 486,
+    "newAuthoredIllustrations": 0,
     "newAuthoredCombatPoses": 0,
     "newNamedExclusives": 10,
     "archerFriend": {
@@ -263,8 +267,6 @@
     "totalRuntimeIllustrations": 546,
     "skillMotionCharacters": 91,
     "skillMotionSlotsConfigured": 182,
-    "playableSkillTechniquesAudited": 164,
-    "finalSlingshotTechniquesAudited": 4,
     "stickyCodexNavigation": true,
     "demonsEmphasized": [
       "soul-flame",
@@ -273,38 +275,57 @@
       "ferryman"
     ],
     "existingSpeciesAndAgesPreserved": true,
-    "previousArtAssetsPreserved": 902,
-    "combatNumericalBalancePreserved": true,
     "existingSavesPreserved": true,
     "visualWeaponCorrection": "alley-ghost slingshot",
-    "authoringSourcesExcludedFromBuild": true
+    "authoringSourcesExcludedFromBuild": true,
+    "fullChapterRouteNodes": 20,
+    "departurePreview": true,
+    "departureDoubleChargeGuard": true,
+    "dailyChallengeTiers": 5,
+    "dailyUnlockClears": [
+      0,
+      10,
+      30,
+      80,
+      160
+    ],
+    "hellName": "무간지옥",
+    "hellActualRarity": 5,
+    "hellPartySize": 5,
+    "hellBossEvery": 5,
+    "hellKeepsNativeElements": true,
+    "enemyScalesToPlayer": false,
+    "legacyMazeProgressPreserved": true,
+    "challengeBalanceRevision": "v030",
+    "campaignAndPlayerBalancePreserved": true
   },
   "browserQA": {
-    "version": "0.29.0",
+    "version": "0.30.0",
     "checks": [
-      "desktop sticky index next/previous works at page bottom",
-      "new demon portraits, independent awakening forms, entry next/previous",
-      "six identities have distinct skill1/skill2 bodies and poses; no invisible caster; 2x and pause/resume",
-      "390px sticky index and entry navigation; no overflow; reduced motion completes; saves unchanged",
-      "ordinary profile: actual four-star draw, purple manual seal, two arrival story beats, full tapir portrait, one charge with no reroll",
-      "new unowned exclusive: warning, disabled equip, charge once after double click, saved options, exact salvage refund; character pity unchanged",
-      "legacy single-save profile opens without conversion: all 81 growth records, currencies, equipment, pity, awakening stones, party and chapter retained",
-      "promoted Sangun shows five stars while retaining level 19, seven shards and three awakening stones",
-      "91 identities /164 playable skills; final slingshot basic/skill1/skill2/ultimate rechecked",
-      "81 x6 unique RGBA portraits and old902 assets preserved"
+      "20-stage route; departure preview/cancel spends nothing; repeated confirm charges once; campaign entry/pause/retreat",
+      "five daily tiers; tier5 essence complete, exact480 essence, single charge/entry, no campaign progression",
+      "legacy floor4 becomes B5; five actual5-star foes plus warden; win advances and grants100 gems once; B6 retreat preserves record",
+      "390px map and departure fit without overflow,44px route targets; new tier and old maze records persist after reload",
+      "fresh ordinary profile:20 nodes,only first unlocked,3-stamina departure preview,4 higher daily tiers locked;Lv1 party wins gold tier1,exact3000gold/8stamina/oneentry;2x and4x/pause work on390px",
+      "legacy single-save normal profile:growth,party,equipment,exclusive,pity,currency and chapter ratings retained on new map"
     ],
     "viewports": [
       1440,
       390
     ],
     "isolatedStorage": true,
-    "actualCharacterAndExclusiveSummons": true,
     "errors": []
+  },
+  "balanceQA": {
+    "simulations": 828,
+    "dailyRecommendedCombinations": 20,
+    "seededEngine": true,
+    "scope": "Representative starter-equipment compositions; not all possible parties"
   },
   "artProvenance": "docs/art/v029-generation-briefs.json",
   "build": {
     "files": 1261,
-    "bytes": 725463494,
+    "bytes": 725479650,
     "portraitsVerified": 486
   }
 }

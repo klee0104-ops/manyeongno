@@ -1,0 +1,1758 @@
+{
+  "generator": "built-in image_gen",
+  "method": "preserved-RGBA-contour-pack",
+  "priorManifest": {
+    "schemaVersion": 1,
+    "artDirection": "동양 판타지 요괴의 정체성과 무기를 유지하는 단계별 새 일러스트",
+    "assets": [
+      {
+        "atlas": "spirits",
+        "stage": 1,
+        "file": "art/awakening/spirits-stage-1.png",
+        "width": 1536,
+        "height": 1024,
+        "columns": 3,
+        "rowEdges": [
+          0,
+          512,
+          1024
+        ],
+        "sha256": "99e24cef2b60d5b8400fca9590dd525b96218e93692826ac9f9eefc3e92a9a79"
+      },
+      {
+        "atlas": "spirits",
+        "stage": 2,
+        "file": "art/awakening/spirits-stage-2.png",
+        "width": 1536,
+        "height": 1024,
+        "columns": 3,
+        "rowEdges": [
+          0,
+          512,
+          1024
+        ],
+        "sha256": "c5ad73811639143d87c5ddd56108516abe5c04086e43df034f96d417a4d4efb6"
+      },
+      {
+        "atlas": "spirits",
+        "stage": 3,
+        "file": "art/awakening/spirits-stage-3.png",
+        "width": 1536,
+        "height": 1024,
+        "columns": 3,
+        "rowEdges": [
+          0,
+          512,
+          1024
+        ],
+        "sha256": "27aabdfa2ada4cd5882d303e80f3266878a87be797494eedd3e901befc0d02ca"
+      },
+      {
+        "atlas": "spirits",
+        "stage": 4,
+        "file": "art/awakening/spirits-stage-4.png",
+        "width": 1536,
+        "height": 1024,
+        "columns": 3,
+        "rowEdges": [
+          0,
+          512,
+          1024
+        ],
+        "sha256": "858ade3aa31ec560e872c66deccccbdc2937ad7760071079d47435a4e531d867"
+      },
+      {
+        "atlas": "spirits",
+        "stage": 5,
+        "file": "art/awakening/spirits-stage-5.png",
+        "width": 1536,
+        "height": 1024,
+        "columns": 3,
+        "rowEdges": [
+          0,
+          512,
+          1024
+        ],
+        "sha256": "772996b8422f41b2b879b78a3e4fd6662831e7ff1955163954051eac55977d50"
+      },
+      {
+        "atlas": "monsters",
+        "stage": 1,
+        "file": "art/awakening/monsters-stage-1.png",
+        "width": 1536,
+        "height": 1024,
+        "columns": 3,
+        "rowEdges": [
+          0,
+          500,
+          1024
+        ],
+        "sha256": "ad2f302fe78a7d6069795765093573fc6f52442f9f2bd433f8f5783a6159eb04"
+      },
+      {
+        "atlas": "monsters",
+        "stage": 2,
+        "file": "art/awakening/monsters-stage-2.png",
+        "width": 1536,
+        "height": 1024,
+        "columns": 3,
+        "rowEdges": [
+          0,
+          512,
+          1024
+        ],
+        "sha256": "a70ad1e0a2db360ad0028b7896889190ba582a64b78ab5551c803cd1d4b922b2"
+      },
+      {
+        "atlas": "monsters",
+        "stage": 3,
+        "file": "art/awakening/monsters-stage-3.png",
+        "width": 1536,
+        "height": 1024,
+        "columns": 3,
+        "rowEdges": [
+          0,
+          512,
+          1024
+        ],
+        "sha256": "c4bdfa2b545fc193b9379a9f2f04dff1fe0879485d7c9dbe4de291a095149047"
+      },
+      {
+        "atlas": "monsters",
+        "stage": 4,
+        "file": "art/awakening/monsters-stage-4.png",
+        "width": 1536,
+        "height": 1024,
+        "columns": 3,
+        "rowEdges": [
+          0,
+          512,
+          1024
+        ],
+        "sha256": "cbc1ec3691a72de4f372ce87b2ef03a42860eeb67087562b9aa921c7093d8c3d"
+      },
+      {
+        "atlas": "monsters",
+        "stage": 5,
+        "file": "art/awakening/monsters-stage-5.png",
+        "width": 1536,
+        "height": 1024,
+        "columns": 3,
+        "rowEdges": [
+          0,
+          512,
+          1024
+        ],
+        "sha256": "5e99a43ffe8ba5cb17677fbbbdcaa53fc4fb868b789c885ada4a94d2f9f29b0f"
+      },
+      {
+        "atlas": "roster-a",
+        "stage": 1,
+        "file": "art/awakening/roster-a-stage-1.png",
+        "width": 1024,
+        "height": 1536,
+        "columns": 4,
+        "rowEdges": [
+          0,
+          271,
+          521,
+          774,
+          1027,
+          1266,
+          1536
+        ],
+        "sha256": "f61a1a5ccde69b8a5955ce98f5ebbbe0bf4ceb84c5423f648fde3567b3bf6963"
+      },
+      {
+        "atlas": "roster-a",
+        "stage": 2,
+        "file": "art/awakening/roster-a-stage-2.png",
+        "width": 1024,
+        "height": 1536,
+        "columns": 4,
+        "rowEdges": [
+          0,
+          270,
+          526,
+          781,
+          1036,
+          1272,
+          1536
+        ],
+        "sha256": "7114d566eb6e5c2045a2a0b92b62a8f1eb949684dcc9aabfda6a25532d722274"
+      },
+      {
+        "atlas": "roster-a",
+        "stage": 3,
+        "file": "art/awakening/roster-a-stage-3.png",
+        "width": 1024,
+        "height": 1536,
+        "columns": 4,
+        "rowEdges": [
+          0,
+          258,
+          513,
+          769,
+          1024,
+          1280,
+          1536
+        ],
+        "sha256": "cef7aa510047de72fdf27d0d02f377d21b997f325f4b66939d5d9cb3f4e8626e"
+      },
+      {
+        "atlas": "roster-a",
+        "stage": 4,
+        "file": "art/awakening/roster-a-stage-4.png",
+        "width": 1024,
+        "height": 1536,
+        "columns": 4,
+        "rowEdges": [
+          0,
+          262,
+          514,
+          769,
+          1024,
+          1274,
+          1536
+        ],
+        "sha256": "5bdaa1c1cf57170b21bae2977492ed35f000cb26f909f0ea85568dede7ce7213"
+      },
+      {
+        "atlas": "roster-a",
+        "stage": 5,
+        "file": "art/awakening/roster-a-stage-5.png",
+        "width": 1024,
+        "height": 1536,
+        "columns": 4,
+        "rowEdges": [
+          0,
+          277,
+          530,
+          779,
+          1033,
+          1277,
+          1536
+        ],
+        "sha256": "d33e766ca9c282971e370a7f28a41cd936d1f0833ef6331fe8610a47bee5f0c6"
+      },
+      {
+        "atlas": "roster-b",
+        "stage": 1,
+        "file": "art/awakening/roster-b-stage-1.png",
+        "width": 1024,
+        "height": 1536,
+        "columns": 4,
+        "rowEdges": [
+          0,
+          256,
+          515,
+          770,
+          1023,
+          1264,
+          1536
+        ],
+        "sha256": "4dd0c864d3a0725379f967ff3840e62c2eddfc940ce82cbd9956aaa3a5483739"
+      },
+      {
+        "atlas": "roster-b",
+        "stage": 2,
+        "file": "art/awakening/roster-b-stage-2.png",
+        "width": 1024,
+        "height": 1536,
+        "columns": 4,
+        "rowEdges": [
+          0,
+          257,
+          514,
+          768,
+          1015,
+          1269,
+          1536
+        ],
+        "sha256": "d7ed241709a5b677703cb20cd926b319c3876e10c854952eca3ab7bda4b5be36"
+      },
+      {
+        "atlas": "roster-b",
+        "stage": 3,
+        "file": "art/awakening/roster-b-stage-3.png",
+        "width": 1024,
+        "height": 1536,
+        "columns": 4,
+        "rowEdges": [
+          0,
+          255,
+          511,
+          768,
+          1019,
+          1257,
+          1536
+        ],
+        "sha256": "f98681a331c134beae2eee06273b98190b0a5757f3a95b417eb647a440d82dcf"
+      },
+      {
+        "atlas": "roster-b",
+        "stage": 4,
+        "file": "art/awakening/roster-b-stage-4.png",
+        "width": 1024,
+        "height": 1536,
+        "columns": 4,
+        "rowEdges": [
+          0,
+          249,
+          517,
+          770,
+          1009,
+          1255,
+          1536
+        ],
+        "sha256": "734646f0c9e0a3b079d7ef149b02fa75fc2ff3da640c56cad617d7fb12c92075"
+      },
+      {
+        "atlas": "roster-b",
+        "stage": 5,
+        "file": "art/awakening/roster-b-stage-5.png",
+        "width": 1024,
+        "height": 1536,
+        "columns": 4,
+        "rowEdges": [
+          0,
+          256,
+          517,
+          772,
+          1006,
+          1261,
+          1536
+        ],
+        "sha256": "8ca9b05ec3e0f64f41303517e0a198a6a509865941aa4470ce8f82ab9bfee55f"
+      },
+      {
+        "atlas": "roster-c",
+        "stage": 1,
+        "file": "art/awakening/roster-c-stage-1.png",
+        "width": 1536,
+        "height": 1024,
+        "columns": 3,
+        "rowEdges": [
+          0,
+          509,
+          1024
+        ],
+        "sha256": "0389c18a15b919a8aeee90a68d14e4e3b3da6240f461c6db7dd30b322de68d72"
+      },
+      {
+        "atlas": "roster-c",
+        "stage": 2,
+        "file": "art/awakening/roster-c-stage-2.png",
+        "width": 1536,
+        "height": 1024,
+        "columns": 3,
+        "rowEdges": [
+          0,
+          512,
+          1024
+        ],
+        "sha256": "bff0217f10119972d8091a6b778dc637ef7a3118b7808d1b14e5514640c244fd"
+      },
+      {
+        "atlas": "roster-c",
+        "stage": 3,
+        "file": "art/awakening/roster-c-stage-3.png",
+        "width": 1536,
+        "height": 1024,
+        "columns": 3,
+        "rowEdges": [
+          0,
+          512,
+          1024
+        ],
+        "sha256": "d0d8266a27664b331c2c4242716d8acc1523e511bba3be5afedd21026a1928d7"
+      },
+      {
+        "atlas": "roster-c",
+        "stage": 4,
+        "file": "art/awakening/roster-c-stage-4.png",
+        "width": 1536,
+        "height": 1024,
+        "columns": 3,
+        "rowEdges": [
+          0,
+          512,
+          1024
+        ],
+        "sha256": "02af83bfa6dbe04a60129895a68647363e4178155d73b7430236e289f7761521"
+      },
+      {
+        "atlas": "roster-c",
+        "stage": 5,
+        "file": "art/awakening/roster-c-stage-5.png",
+        "width": 1536,
+        "height": 1024,
+        "columns": 3,
+        "rowEdges": [
+          0,
+          512,
+          1024
+        ],
+        "sha256": "7eab721ebacd0cdc8b090b78dcfb8b1e64f044f35b5ce47a1f05467f7a1da488"
+      },
+      {
+        "atlas": "roster-d",
+        "stage": 1,
+        "file": "art/awakening/roster-d-stage-1.png",
+        "width": 1536,
+        "height": 1024,
+        "columns": 3,
+        "rowEdges": [
+          0,
+          512,
+          1024
+        ],
+        "sha256": "68a7a9a80ccdc3fd1e859a791c6d89f83112cb10e220ee0c47dea3848652ee6b"
+      },
+      {
+        "atlas": "roster-d",
+        "stage": 2,
+        "file": "art/awakening/roster-d-stage-2.png",
+        "width": 1536,
+        "height": 1024,
+        "columns": 3,
+        "rowEdges": [
+          0,
+          512,
+          1024
+        ],
+        "sha256": "9ad4e270a816996091a4914029d74349c5017f2c766863fafecf3de2b6147442"
+      },
+      {
+        "atlas": "roster-d",
+        "stage": 3,
+        "file": "art/awakening/roster-d-stage-3.png",
+        "width": 1536,
+        "height": 1024,
+        "columns": 3,
+        "rowEdges": [
+          0,
+          512,
+          1024
+        ],
+        "sha256": "d3fb30c6a59eec6af42745f76b38630abf6592e8fab4ebafd4828c1646268f03"
+      },
+      {
+        "atlas": "roster-d",
+        "stage": 4,
+        "file": "art/awakening/roster-d-stage-4.png",
+        "width": 1536,
+        "height": 1024,
+        "columns": 3,
+        "rowEdges": [
+          0,
+          512,
+          1024
+        ],
+        "sha256": "0d31d0ff9058f4b9752f6ebb3d33feed2005fc117f4d792453c5eb78d8ad17fa"
+      },
+      {
+        "atlas": "roster-d",
+        "stage": 5,
+        "file": "art/awakening/roster-d-stage-5.png",
+        "width": 1536,
+        "height": 1024,
+        "columns": 3,
+        "rowEdges": [
+          0,
+          512,
+          1024
+        ],
+        "sha256": "94e4e890c5e56797c1ff8a7f8c75b08bddb0859edae7a2f83fa84c9171b37fa6"
+      },
+      {
+        "atlas": "roster-e",
+        "stage": 1,
+        "file": "art/awakening/roster-e-stage-1.png",
+        "width": 1536,
+        "height": 1024,
+        "columns": 3,
+        "rowEdges": [
+          0,
+          512,
+          1024
+        ],
+        "sha256": "0064fa956259ae01f121cb67d2c0a064649d8e851cd7cae0425511a39a208e9c"
+      },
+      {
+        "atlas": "roster-e",
+        "stage": 2,
+        "file": "art/awakening/roster-e-stage-2.png",
+        "width": 1536,
+        "height": 1024,
+        "columns": 3,
+        "rowEdges": [
+          0,
+          512,
+          1024
+        ],
+        "sha256": "6939a3277b8e4396c6d1cce23708b2e6f716b320ae55203d43ea195a1692f89b"
+      },
+      {
+        "atlas": "roster-e",
+        "stage": 3,
+        "file": "art/awakening/roster-e-stage-3.png",
+        "width": 1536,
+        "height": 1024,
+        "columns": 3,
+        "rowEdges": [
+          0,
+          512,
+          1024
+        ],
+        "sha256": "734b6be73c4b40fdc5bef9eaf69eff00965c78604b28b9f93aedb9ccf27f919c"
+      },
+      {
+        "atlas": "roster-e",
+        "stage": 4,
+        "file": "art/awakening/roster-e-stage-4.png",
+        "width": 1536,
+        "height": 1024,
+        "columns": 3,
+        "rowEdges": [
+          0,
+          512,
+          1024
+        ],
+        "sha256": "84f70ef089a70ec5d237145f704bbdfd7cda1d7cb259460c4294de871ff89031"
+      },
+      {
+        "atlas": "roster-e",
+        "stage": 5,
+        "file": "art/awakening/roster-e-stage-5.png",
+        "width": 1536,
+        "height": 1024,
+        "columns": 3,
+        "rowEdges": [
+          0,
+          512,
+          1024
+        ],
+        "sha256": "52627b087b298f13a70334f80aca885bc6a7f5ca5021965ce0fbd46f23c5749f"
+      },
+      {
+        "atlas": "roster-f",
+        "stage": 1,
+        "file": "art/awakening/roster-f-stage-1.png",
+        "width": 1536,
+        "height": 1024,
+        "columns": 3,
+        "rowEdges": [
+          0,
+          512,
+          1024
+        ],
+        "sha256": "ab35864d55ef1b202d74b3378c49181081515152191f0e6b8cfeb145b06f31fb"
+      },
+      {
+        "atlas": "roster-f",
+        "stage": 2,
+        "file": "art/awakening/roster-f-stage-2.png",
+        "width": 1536,
+        "height": 1024,
+        "columns": 3,
+        "rowEdges": [
+          0,
+          512,
+          1024
+        ],
+        "sha256": "f46d535a70a35ef438fa22265f30217c2768bb51294d8cfb7e6d2de2efac9afb"
+      },
+      {
+        "atlas": "roster-f",
+        "stage": 3,
+        "file": "art/awakening/roster-f-stage-3.png",
+        "width": 1536,
+        "height": 1024,
+        "columns": 3,
+        "rowEdges": [
+          0,
+          512,
+          1024
+        ],
+        "sha256": "f9a94473fdb9196a26f44d5c9184ae095646c0ed2722836c1f6084e1b67a6520"
+      },
+      {
+        "atlas": "roster-f",
+        "stage": 4,
+        "file": "art/awakening/roster-f-stage-4.png",
+        "width": 1536,
+        "height": 1024,
+        "columns": 3,
+        "rowEdges": [
+          0,
+          512,
+          1024
+        ],
+        "sha256": "5343c51de54ee9cdf5a32f8aa79c9a7cf9df342f3eb3a85285c29f8914c8262e"
+      },
+      {
+        "atlas": "roster-f",
+        "stage": 5,
+        "file": "art/awakening/roster-f-stage-5.png",
+        "width": 1536,
+        "height": 1024,
+        "columns": 3,
+        "rowEdges": [
+          0,
+          512,
+          1024
+        ],
+        "sha256": "c5b64a75687f5933b14b25a3cfb544c691e234a85422117a33ab20b5c3459aa5"
+      },
+      {
+        "atlas": "roster-g",
+        "stage": 1,
+        "file": "art/awakening/roster-g-stage-1.png",
+        "width": 1536,
+        "height": 1024,
+        "columns": 3,
+        "rowEdges": [
+          0,
+          512,
+          1024
+        ],
+        "sha256": "c7b31f3f950282e74c7f4fbd1fa15a9d6a2b307fca1b773750310587cf92fac1"
+      },
+      {
+        "atlas": "roster-g",
+        "stage": 2,
+        "file": "art/awakening/roster-g-stage-2.png",
+        "width": 1536,
+        "height": 1024,
+        "columns": 3,
+        "rowEdges": [
+          0,
+          512,
+          1024
+        ],
+        "sha256": "fe32e75e31125f055f2b2e73b9f03215b1882cf47c36dfa7888d7fab183c7023"
+      },
+      {
+        "atlas": "roster-g",
+        "stage": 3,
+        "file": "art/awakening/roster-g-stage-3.png",
+        "width": 1536,
+        "height": 1024,
+        "columns": 3,
+        "rowEdges": [
+          0,
+          512,
+          1024
+        ],
+        "sha256": "6bd445c455450b7c2919ee4d565775db5cf279d812627ead6ee75382f1b1e045"
+      },
+      {
+        "atlas": "roster-g",
+        "stage": 4,
+        "file": "art/awakening/roster-g-stage-4.png",
+        "width": 1536,
+        "height": 1024,
+        "columns": 3,
+        "rowEdges": [
+          0,
+          512,
+          1024
+        ],
+        "sha256": "9eed99ac25168d5ec74c994c381da41a7bdc348401275fa5dc9e60b47ea4f428"
+      },
+      {
+        "atlas": "roster-g",
+        "stage": 5,
+        "file": "art/awakening/roster-g-stage-5.png",
+        "width": 1536,
+        "height": 1024,
+        "columns": 3,
+        "rowEdges": [
+          0,
+          512,
+          1024
+        ],
+        "sha256": "431f82870faa30f03e270f9bb5f21a0116bbf2d6b741f8d6b647ac09f556f7d2"
+      },
+      {
+        "atlas": "roster-h",
+        "stage": 1,
+        "file": "art/awakening/roster-h-stage-1.png",
+        "width": 1536,
+        "height": 1024,
+        "columns": 3,
+        "rowEdges": [
+          0,
+          512,
+          1024
+        ],
+        "sha256": "f6523b11b22df60ba2f94b112b816dd17b87e5ad8c1666d358f33abbe62fa7a7"
+      },
+      {
+        "atlas": "roster-h",
+        "stage": 2,
+        "file": "art/awakening/roster-h-stage-2.png",
+        "width": 1536,
+        "height": 1024,
+        "columns": 3,
+        "rowEdges": [
+          0,
+          512,
+          1024
+        ],
+        "sha256": "89d637dbaff54c8b4b3c35966f5d77cb3bd42efb2e98f3a443317097f74081ec"
+      },
+      {
+        "atlas": "roster-h",
+        "stage": 3,
+        "file": "art/awakening/roster-h-stage-3.png",
+        "width": 1536,
+        "height": 1024,
+        "columns": 3,
+        "rowEdges": [
+          0,
+          512,
+          1024
+        ],
+        "sha256": "bd1d06ba46d712bf71b49bc865b655ad7682774202d55fa96263728d5d22664b"
+      },
+      {
+        "atlas": "roster-h",
+        "stage": 4,
+        "file": "art/awakening/roster-h-stage-4.png",
+        "width": 1536,
+        "height": 1024,
+        "columns": 3,
+        "rowEdges": [
+          0,
+          512,
+          1024
+        ],
+        "sha256": "565f53dbe05d6dfa547d92a6b65a23d08a880fc52560f8c869c907a24f5bf3d9"
+      },
+      {
+        "atlas": "roster-h",
+        "stage": 5,
+        "file": "art/awakening/roster-h-stage-5.png",
+        "width": 1536,
+        "height": 1024,
+        "columns": 3,
+        "rowEdges": [
+          0,
+          512,
+          1024
+        ],
+        "sha256": "b53905edcff0218c5c930cc0fdf0dbc2a5f6f3a30bfde1072c321d55a8e9ba0f"
+      },
+      {
+        "atlas": "roster-i",
+        "stage": 1,
+        "file": "art/awakening/roster-i-stage-1.png",
+        "width": 1536,
+        "height": 1024,
+        "columns": 3,
+        "rowEdges": [
+          0,
+          512,
+          1024
+        ],
+        "sha256": "597904b2618d974c4922ee3e4570715b65daa64818fa04104808e13ab4aaf16b"
+      },
+      {
+        "atlas": "roster-i",
+        "stage": 2,
+        "file": "art/awakening/roster-i-stage-2.png",
+        "width": 1536,
+        "height": 1024,
+        "columns": 3,
+        "rowEdges": [
+          0,
+          512,
+          1024
+        ],
+        "sha256": "b817e519481b8b4a86290fbf66dd8cf3c99b6829c1f1442f7e0f1c1c8f351b2f"
+      },
+      {
+        "atlas": "roster-i",
+        "stage": 3,
+        "file": "art/awakening/roster-i-stage-3.png",
+        "width": 1536,
+        "height": 1024,
+        "columns": 3,
+        "rowEdges": [
+          0,
+          512,
+          1024
+        ],
+        "sha256": "321f8608ca2695f55e4fc1580bb00fb30cac3db777343458bb16d3b9a80c86c1"
+      },
+      {
+        "atlas": "roster-i",
+        "stage": 4,
+        "file": "art/awakening/roster-i-stage-4.png",
+        "width": 1536,
+        "height": 1024,
+        "columns": 3,
+        "rowEdges": [
+          0,
+          512,
+          1024
+        ],
+        "sha256": "0ea1cb1ea9b8d5fec0f27450a2b51c0d45414c265db8ea6db691df252bf4dc90"
+      },
+      {
+        "atlas": "roster-i",
+        "stage": 5,
+        "file": "art/awakening/roster-i-stage-5.png",
+        "width": 1536,
+        "height": 1024,
+        "columns": 3,
+        "rowEdges": [
+          0,
+          512,
+          1024
+        ],
+        "sha256": "8d24df633f7737ad7d07d83898cbeb48b465c48307676dd8367c2e606d82f607"
+      }
+    ]
+  },
+  "assets": [
+    {
+      "atlas": "roster-j",
+      "stage": 0,
+      "file": "public/art/roster-j-atlas.png",
+      "sha256": "82a3027cb575c5dc7fad67370052c5671bc4951bf36e022770e471eb530479d2",
+      "placements": [
+        {
+          "id": "dream-tapir",
+          "stage": 0,
+          "sourceFile": "public/art/yokai-v028/sources/dream-tapir.png",
+          "sourceHash": "6055197682c34b186fb83c12b5b8878cc93360af5dea068a78304178ba962294",
+          "sourceBounds": {
+            "x0": 0,
+            "y0": 2,
+            "x1": 499,
+            "y1": 505
+          },
+          "scale": 0.8888888888888888,
+          "cellHash": "43595f4d06e45b54e2cefd12ede1d983c42b529f15ffd9c2eff934e981a5f9ad"
+        },
+        {
+          "id": "vine-stag",
+          "stage": 0,
+          "sourceFile": "public/art/yokai-v028/sources/vine-stag.png",
+          "sourceHash": "7f1aef4724e410f3f2f4ae7955dee40c4d7c36fa54e52dc1575573929375aa8e",
+          "sourceBounds": {
+            "x0": 0,
+            "y0": 0,
+            "x1": 503,
+            "y1": 511
+          },
+          "scale": 0.875,
+          "cellHash": "c87bb5ac6e10a1bec94b087304ed444b94a7644d9ec7a1e8b1163872c109f8ad"
+        },
+        {
+          "id": "ember-marten",
+          "stage": 0,
+          "sourceFile": "public/art/yokai-v028/sources/ember-marten.png",
+          "sourceHash": "4c84e10893d99f101f520b863a8cc1eaddb92abd20da3a658e7703af3f7e4b24",
+          "sourceBounds": {
+            "x0": 35,
+            "y0": 33,
+            "x1": 503,
+            "y1": 511
+          },
+          "scale": 0.9352818371607515,
+          "cellHash": "9dbd3da2d0b7465f5d8312c0ef3a89f4540a4c3d7539d838a8acee2e891f7c2a"
+        },
+        {
+          "id": "kiln-kettle",
+          "stage": 0,
+          "sourceFile": "public/art/yokai-v028/sources/kiln-kettle.png",
+          "sourceHash": "6d50f721876276b7771d43f6dc2bfd3af07bea64cbfbd12abe2b3a6a212fbddb",
+          "sourceBounds": {
+            "x0": 0,
+            "y0": 30,
+            "x1": 511,
+            "y1": 503
+          },
+          "scale": 0.875,
+          "cellHash": "bf866365af4eea786a8688ce7fe59d9d530e295688f48470fa0436de3a8dcc62"
+        },
+        {
+          "id": "tile-tortoise",
+          "stage": 0,
+          "sourceFile": "public/art/yokai-v028/sources/tile-tortoise.png",
+          "sourceHash": "3a36e0065624bd41cbb24d9b9aef5416c1d3fc47cf481fd10746496b2a66586b",
+          "sourceBounds": {
+            "x0": 0,
+            "y0": 57,
+            "x1": 499,
+            "y1": 511
+          },
+          "scale": 0.896,
+          "cellHash": "bb18725993dc58b4dd9be316b09df5d4166bb0be454ef270bba684b79508703c"
+        }
+      ]
+    },
+    {
+      "atlas": "roster-j",
+      "stage": 1,
+      "file": "public/art/awakening/roster-j-stage-1.png",
+      "sha256": "2365b174f7d45959b60b8fdc7bb716be6af927f72165804725b7eacd3410afd0",
+      "placements": [
+        {
+          "id": "dream-tapir",
+          "stage": 1,
+          "sourceFile": "public/art/yokai-v028/sources/dream-tapir.png",
+          "sourceHash": "6055197682c34b186fb83c12b5b8878cc93360af5dea068a78304178ba962294",
+          "sourceBounds": {
+            "x0": 513,
+            "y0": 9,
+            "x1": 1023,
+            "y1": 511
+          },
+          "scale": 0.8767123287671232,
+          "cellHash": "b6bae59909ab3e1ffeface611f0fcf211c0188d4f02f256e12df1f076c4b386e"
+        },
+        {
+          "id": "vine-stag",
+          "stage": 1,
+          "sourceFile": "public/art/yokai-v028/sources/vine-stag.png",
+          "sourceHash": "7f1aef4724e410f3f2f4ae7955dee40c4d7c36fa54e52dc1575573929375aa8e",
+          "sourceBounds": {
+            "x0": 517,
+            "y0": 7,
+            "x1": 1023,
+            "y1": 511
+          },
+          "scale": 0.883629191321499,
+          "cellHash": "287feefa63f000f997a30e152fbd7ac24616df39a5ecc56b7bd6854e9cd668e2"
+        },
+        {
+          "id": "ember-marten",
+          "stage": 1,
+          "sourceFile": "public/art/yokai-v028/sources/ember-marten.png",
+          "sourceHash": "4c84e10893d99f101f520b863a8cc1eaddb92abd20da3a658e7703af3f7e4b24",
+          "sourceBounds": {
+            "x0": 525,
+            "y0": 21,
+            "x1": 993,
+            "y1": 511
+          },
+          "scale": 0.9124236252545825,
+          "cellHash": "84438ee4d2ab1b25522d5613e0d76e760c43a13f700f1b471caabf2be9b73478"
+        },
+        {
+          "id": "kiln-kettle",
+          "stage": 1,
+          "sourceFile": "public/art/yokai-v028/sources/kiln-kettle.png",
+          "sourceHash": "6d50f721876276b7771d43f6dc2bfd3af07bea64cbfbd12abe2b3a6a212fbddb",
+          "sourceBounds": {
+            "x0": 517,
+            "y0": 9,
+            "x1": 1023,
+            "y1": 511
+          },
+          "scale": 0.883629191321499,
+          "cellHash": "f6a334eb1a1a9bd0dad21dcc251887c349d02c1f41bc04cf2d295b0dddea9201"
+        },
+        {
+          "id": "tile-tortoise",
+          "stage": 1,
+          "sourceFile": "public/art/yokai-v028/sources/tile-tortoise.png",
+          "sourceHash": "3a36e0065624bd41cbb24d9b9aef5416c1d3fc47cf481fd10746496b2a66586b",
+          "sourceBounds": {
+            "x0": 519,
+            "y0": 19,
+            "x1": 1023,
+            "y1": 501
+          },
+          "scale": 0.8871287128712871,
+          "cellHash": "4335d318fc0fa136fd17945b04d64867dac6fca9e293800db89e691cb5b40daa"
+        }
+      ]
+    },
+    {
+      "atlas": "roster-j",
+      "stage": 2,
+      "file": "public/art/awakening/roster-j-stage-2.png",
+      "sha256": "abbbab5eb4b1ab341d3bd3c61b6f7f072e4016103594e6f864e31c8546cb648c",
+      "placements": [
+        {
+          "id": "dream-tapir",
+          "stage": 2,
+          "sourceFile": "public/art/yokai-v028/sources/dream-tapir.png",
+          "sourceHash": "6055197682c34b186fb83c12b5b8878cc93360af5dea068a78304178ba962294",
+          "sourceBounds": {
+            "x0": 1025,
+            "y0": 25,
+            "x1": 1495,
+            "y1": 511
+          },
+          "scale": 0.919917864476386,
+          "cellHash": "a59dbcdf1e713df5ee2e574fef0de00bbc36fbdb6af76779028bb7fe0143f0a9"
+        },
+        {
+          "id": "vine-stag",
+          "stage": 2,
+          "sourceFile": "public/art/yokai-v028/sources/vine-stag.png",
+          "sourceHash": "7f1aef4724e410f3f2f4ae7955dee40c4d7c36fa54e52dc1575573929375aa8e",
+          "sourceBounds": {
+            "x0": 1024,
+            "y0": 0,
+            "x1": 1521,
+            "y1": 511
+          },
+          "scale": 0.875,
+          "cellHash": "e08ddcef843a8fc1e863470b1c166fac99d443bf88c5991e3248195df3570e02"
+        },
+        {
+          "id": "ember-marten",
+          "stage": 2,
+          "sourceFile": "public/art/yokai-v028/sources/ember-marten.png",
+          "sourceHash": "4c84e10893d99f101f520b863a8cc1eaddb92abd20da3a658e7703af3f7e4b24",
+          "sourceBounds": {
+            "x0": 1025,
+            "y0": 37,
+            "x1": 1523,
+            "y1": 511
+          },
+          "scale": 0.8977955911823647,
+          "cellHash": "31098177ee20b5b15657633bd973c258c325510b99d642dba3617892033582d1"
+        },
+        {
+          "id": "kiln-kettle",
+          "stage": 2,
+          "sourceFile": "public/art/yokai-v028/sources/kiln-kettle.png",
+          "sourceHash": "6d50f721876276b7771d43f6dc2bfd3af07bea64cbfbd12abe2b3a6a212fbddb",
+          "sourceBounds": {
+            "x0": 1025,
+            "y0": 31,
+            "x1": 1511,
+            "y1": 511
+          },
+          "scale": 0.919917864476386,
+          "cellHash": "ebde4cc48fb43a183c322eb822ef261fcd867d02f269eac6d3370f379bb7902a"
+        },
+        {
+          "id": "tile-tortoise",
+          "stage": 2,
+          "sourceFile": "public/art/yokai-v028/sources/tile-tortoise.png",
+          "sourceHash": "3a36e0065624bd41cbb24d9b9aef5416c1d3fc47cf481fd10746496b2a66586b",
+          "sourceBounds": {
+            "x0": 1025,
+            "y0": 31,
+            "x1": 1517,
+            "y1": 511
+          },
+          "scale": 0.9087221095334685,
+          "cellHash": "80e487059c455f7bfea761ce160c49f4a549149fe9ab106a75555516580cc562"
+        }
+      ]
+    },
+    {
+      "atlas": "roster-j",
+      "stage": 3,
+      "file": "public/art/awakening/roster-j-stage-3.png",
+      "sha256": "28bd3d9a9fdb029d59405d5907a70247587fc142c9dc69a18c2df95bb908fa43",
+      "placements": [
+        {
+          "id": "dream-tapir",
+          "stage": 3,
+          "sourceFile": "public/art/yokai-v028/sources/dream-tapir.png",
+          "sourceHash": "6055197682c34b186fb83c12b5b8878cc93360af5dea068a78304178ba962294",
+          "sourceBounds": {
+            "x0": 0,
+            "y0": 517,
+            "x1": 511,
+            "y1": 1023
+          },
+          "scale": 0.875,
+          "cellHash": "726db3f55a80376ed9f8768f71a76796bc50b47e5b473dcc9e9e7d122b413f7f"
+        },
+        {
+          "id": "vine-stag",
+          "stage": 3,
+          "sourceFile": "public/art/yokai-v028/sources/vine-stag.png",
+          "sourceHash": "7f1aef4724e410f3f2f4ae7955dee40c4d7c36fa54e52dc1575573929375aa8e",
+          "sourceBounds": {
+            "x0": 19,
+            "y0": 510,
+            "x1": 511,
+            "y1": 1007
+          },
+          "scale": 0.8995983935742972,
+          "cellHash": "6e14fffd8633932f2be12248ebe293b69fa590b345eb1b75a2d5168f1b5fe882"
+        },
+        {
+          "id": "ember-marten",
+          "stage": 3,
+          "sourceFile": "public/art/yokai-v028/sources/ember-marten.png",
+          "sourceHash": "4c84e10893d99f101f520b863a8cc1eaddb92abd20da3a658e7703af3f7e4b24",
+          "sourceBounds": {
+            "x0": 25,
+            "y0": 498,
+            "x1": 507,
+            "y1": 1023
+          },
+          "scale": 0.8517110266159695,
+          "cellHash": "d2ba43250a2d9b570b7aaf36d4698f0145fb1ca16d24e1c9d80c68ef0ee38f5c"
+        },
+        {
+          "id": "kiln-kettle",
+          "stage": 3,
+          "sourceFile": "public/art/yokai-v028/sources/kiln-kettle.png",
+          "sourceHash": "6d50f721876276b7771d43f6dc2bfd3af07bea64cbfbd12abe2b3a6a212fbddb",
+          "sourceBounds": {
+            "x0": 27,
+            "y0": 521,
+            "x1": 505,
+            "y1": 999
+          },
+          "scale": 0.9352818371607515,
+          "cellHash": "b21bf1373bd809132a8a259d46c0a4be1e5f3dd66ee1c571b22caccb92c8fefb"
+        },
+        {
+          "id": "tile-tortoise",
+          "stage": 3,
+          "sourceFile": "public/art/yokai-v028/sources/tile-tortoise.png",
+          "sourceHash": "3a36e0065624bd41cbb24d9b9aef5416c1d3fc47cf481fd10746496b2a66586b",
+          "sourceBounds": {
+            "x0": 21,
+            "y0": 512,
+            "x1": 511,
+            "y1": 975
+          },
+          "scale": 0.9124236252545825,
+          "cellHash": "db240875a5890b7b3d06a01381909777d16dd542787d46cfe8b35f2cebbf53da"
+        }
+      ]
+    },
+    {
+      "atlas": "roster-j",
+      "stage": 4,
+      "file": "public/art/awakening/roster-j-stage-4.png",
+      "sha256": "512a40d703c9fdfa892378c2b397ab55527d6bccecc9b90aaa2d5925c00d5937",
+      "placements": [
+        {
+          "id": "dream-tapir",
+          "stage": 4,
+          "sourceFile": "public/art/yokai-v028/sources/dream-tapir.png",
+          "sourceHash": "6055197682c34b186fb83c12b5b8878cc93360af5dea068a78304178ba962294",
+          "sourceBounds": {
+            "x0": 505,
+            "y0": 512,
+            "x1": 1023,
+            "y1": 999
+          },
+          "scale": 0.8631984585741811,
+          "cellHash": "6834dfff67ee2b41414ade8c9b9b2e342879d1e5a08b8746a14cf48188a5e7e9"
+        },
+        {
+          "id": "vine-stag",
+          "stage": 4,
+          "sourceFile": "public/art/yokai-v028/sources/vine-stag.png",
+          "sourceHash": "7f1aef4724e410f3f2f4ae7955dee40c4d7c36fa54e52dc1575573929375aa8e",
+          "sourceBounds": {
+            "x0": 512,
+            "y0": 499,
+            "x1": 1023,
+            "y1": 1023
+          },
+          "scale": 0.8533333333333334,
+          "cellHash": "d0b9be2a264af8c91d27519d7b2f71c269f9b44315509a17b215f9f6407019e5"
+        },
+        {
+          "id": "ember-marten",
+          "stage": 4,
+          "sourceFile": "public/art/yokai-v028/sources/ember-marten.png",
+          "sourceHash": "4c84e10893d99f101f520b863a8cc1eaddb92abd20da3a658e7703af3f7e4b24",
+          "sourceBounds": {
+            "x0": 515,
+            "y0": 507,
+            "x1": 1019,
+            "y1": 999
+          },
+          "scale": 0.8871287128712871,
+          "cellHash": "50b340aee53a1b53b200c1f987bb9059f126e735b9104c53a101da931ee5f00f"
+        },
+        {
+          "id": "kiln-kettle",
+          "stage": 4,
+          "sourceFile": "public/art/yokai-v028/sources/kiln-kettle.png",
+          "sourceHash": "6d50f721876276b7771d43f6dc2bfd3af07bea64cbfbd12abe2b3a6a212fbddb",
+          "sourceBounds": {
+            "x0": 517,
+            "y0": 510,
+            "x1": 1023,
+            "y1": 1000
+          },
+          "scale": 0.883629191321499,
+          "cellHash": "5409271d7d0e9ae7c07067708364c63fde6fb72772ff2bd2b222bd431c7117e5"
+        },
+        {
+          "id": "tile-tortoise",
+          "stage": 4,
+          "sourceFile": "public/art/yokai-v028/sources/tile-tortoise.png",
+          "sourceHash": "3a36e0065624bd41cbb24d9b9aef5416c1d3fc47cf481fd10746496b2a66586b",
+          "sourceBounds": {
+            "x0": 512,
+            "y0": 513,
+            "x1": 1023,
+            "y1": 1003
+          },
+          "scale": 0.875,
+          "cellHash": "5df0594928b20c8d8d1c46354199a5ffa06691a0d9cbca2bdb3d94389f8f9725"
+        }
+      ]
+    },
+    {
+      "atlas": "roster-j",
+      "stage": 5,
+      "file": "public/art/awakening/roster-j-stage-5.png",
+      "sha256": "c161cbe388586feeeeea453689bf49fe0fa533d08bb3945575e5e6b74b8ba7b0",
+      "placements": [
+        {
+          "id": "dream-tapir",
+          "stage": 5,
+          "sourceFile": "public/art/yokai-v028/sources/dream-tapir.png",
+          "sourceHash": "6055197682c34b186fb83c12b5b8878cc93360af5dea068a78304178ba962294",
+          "sourceBounds": {
+            "x0": 1016,
+            "y0": 506,
+            "x1": 1523,
+            "y1": 978
+          },
+          "scale": 0.8818897637795275,
+          "cellHash": "8170cf7388c5c0dd8d05def88734f33a673d5aa084c03a40e394b4600c3ec4fd"
+        },
+        {
+          "id": "vine-stag",
+          "stage": 5,
+          "sourceFile": "public/art/yokai-v028/sources/vine-stag.png",
+          "sourceHash": "7f1aef4724e410f3f2f4ae7955dee40c4d7c36fa54e52dc1575573929375aa8e",
+          "sourceBounds": {
+            "x0": 1024,
+            "y0": 496,
+            "x1": 1523,
+            "y1": 1023
+          },
+          "scale": 0.8484848484848485,
+          "cellHash": "2b0c8bc45558301ece1c31a5c55a36243fe9f80726ffc6b1dee13335f55963e7"
+        },
+        {
+          "id": "ember-marten",
+          "stage": 5,
+          "sourceFile": "public/art/yokai-v028/sources/ember-marten.png",
+          "sourceHash": "4c84e10893d99f101f520b863a8cc1eaddb92abd20da3a658e7703af3f7e4b24",
+          "sourceBounds": {
+            "x0": 1029,
+            "y0": 476,
+            "x1": 1523,
+            "y1": 985
+          },
+          "scale": 0.8784313725490196,
+          "cellHash": "7b60e73d2130683f5787da5e2afa277e79ea49248aaf8b21aeba6b0a2d0851cd"
+        },
+        {
+          "id": "kiln-kettle",
+          "stage": 5,
+          "sourceFile": "public/art/yokai-v028/sources/kiln-kettle.png",
+          "sourceHash": "6d50f721876276b7771d43f6dc2bfd3af07bea64cbfbd12abe2b3a6a212fbddb",
+          "sourceBounds": {
+            "x0": 1024,
+            "y0": 479,
+            "x1": 1526,
+            "y1": 1023
+          },
+          "scale": 0.8220183486238533,
+          "cellHash": "4743c565b71f0f74611c91d84ecaeb8d412a7e0730e101963d87b0a952899d16"
+        },
+        {
+          "id": "tile-tortoise",
+          "stage": 5,
+          "sourceFile": "public/art/yokai-v028/sources/tile-tortoise.png",
+          "sourceHash": "3a36e0065624bd41cbb24d9b9aef5416c1d3fc47cf481fd10746496b2a66586b",
+          "sourceBounds": {
+            "x0": 1024,
+            "y0": 495,
+            "x1": 1535,
+            "y1": 975
+          },
+          "scale": 0.875,
+          "cellHash": "abb189c57d61b9e1397fdf4990ed7e33f03f2500776d6094319a6cc555350d85"
+        }
+      ]
+    },
+    {
+      "atlas": "roster-k",
+      "stage": 0,
+      "file": "public/art/roster-k-atlas.png",
+      "sha256": "d65e211ae3cb47741f1e5b84327749c06dc5ec1d57de97565a41af9da8c763f7",
+      "placements": [
+        {
+          "id": "sand-scorpion",
+          "stage": 0,
+          "sourceFile": "public/art/yokai-v028/sources/sand-scorpion.png",
+          "sourceHash": "ed6181354133cb85d659365a7f545b71dd9421a1c8b9ab272f0e0d703c3144c4",
+          "sourceBounds": {
+            "x0": 45,
+            "y0": 9,
+            "x1": 511,
+            "y1": 511
+          },
+          "scale": 0.8906560636182903,
+          "cellHash": "81e9982fc6f3797685a9d118203a486dc6f651a321610607449e55a329cb10e4"
+        },
+        {
+          "id": "chime-moth",
+          "stage": 0,
+          "sourceFile": "public/art/yokai-v028/sources/chime-moth.png",
+          "sourceHash": "84b3329b1805f55452e463a9faea95dd216ec5f538b938d9f4ea3fa5f580b5e8",
+          "sourceBounds": {
+            "x0": 0,
+            "y0": 0,
+            "x1": 530,
+            "y1": 511
+          },
+          "scale": 0.8436911487758946,
+          "cellHash": "b1f2c0389d32055ea094040494b8622f64031085aa6b592ae42d1d0a7a9dc475"
+        },
+        {
+          "id": "mirror-crab",
+          "stage": 0,
+          "sourceFile": "public/art/yokai-v028/sources/mirror-crab.png",
+          "sourceHash": "e35002ba62e4852ebb96fd2c91b58274769e9799b3376842d799bcf31a86e25b",
+          "sourceBounds": {
+            "x0": 17,
+            "y0": 7,
+            "x1": 511,
+            "y1": 503
+          },
+          "scale": 0.9014084507042254,
+          "cellHash": "f35d075387fa54304ade5ffb4a96c93bfbc820d6f5419fb135f01cdb97445722"
+        },
+        {
+          "id": "ink-ray",
+          "stage": 0,
+          "sourceFile": "public/art/yokai-v028/sources/ink-ray.png",
+          "sourceHash": "01e179697450069a5eebdec5b9b12ccd391eed0ffb7535b322f3529a708901fe",
+          "sourceBounds": {
+            "x0": 0,
+            "y0": 9,
+            "x1": 520,
+            "y1": 511
+          },
+          "scale": 0.8598848368522073,
+          "cellHash": "fcbec8437f023084465ba3ed61ccf40b4da140a47af8410803eea55c7a4af7be"
+        },
+        {
+          "id": "lotus-toad",
+          "stage": 0,
+          "sourceFile": "public/art/yokai-v028/sources/lotus-toad.png",
+          "sourceHash": "d5e8eb35064e68ed11f190eac36b56d6a10d98eb4908cebcea1ed035a1f38e37",
+          "sourceBounds": {
+            "x0": 0,
+            "y0": 0,
+            "x1": 511,
+            "y1": 509
+          },
+          "scale": 0.875,
+          "cellHash": "edb8fcd820547d9e00601d602e41e94e761d3d5a891148801f3987114f885a2b"
+        }
+      ]
+    },
+    {
+      "atlas": "roster-k",
+      "stage": 1,
+      "file": "public/art/awakening/roster-k-stage-1.png",
+      "sha256": "08d64f80b544b0f32bb006370aed21de3940a306252a13494f47e483db33ad61",
+      "placements": [
+        {
+          "id": "sand-scorpion",
+          "stage": 1,
+          "sourceFile": "public/art/yokai-v028/sources/sand-scorpion.png",
+          "sourceHash": "ed6181354133cb85d659365a7f545b71dd9421a1c8b9ab272f0e0d703c3144c4",
+          "sourceBounds": {
+            "x0": 525,
+            "y0": 14,
+            "x1": 1023,
+            "y1": 511
+          },
+          "scale": 0.8977955911823647,
+          "cellHash": "ace0a89ee1fa3dd6e7575ce085baaa01c6333d72a9250657af8eb7f93a9b1420"
+        },
+        {
+          "id": "chime-moth",
+          "stage": 1,
+          "sourceFile": "public/art/yokai-v028/sources/chime-moth.png",
+          "sourceHash": "84b3329b1805f55452e463a9faea95dd216ec5f538b938d9f4ea3fa5f580b5e8",
+          "sourceBounds": {
+            "x0": 512,
+            "y0": 9,
+            "x1": 1035,
+            "y1": 511
+          },
+          "scale": 0.8549618320610687,
+          "cellHash": "6eb8bfeba9965d9706c194482d49c9a491c14721934fb980a7e3d0f1e69f16b1"
+        },
+        {
+          "id": "mirror-crab",
+          "stage": 1,
+          "sourceFile": "public/art/yokai-v028/sources/mirror-crab.png",
+          "sourceHash": "e35002ba62e4852ebb96fd2c91b58274769e9799b3376842d799bcf31a86e25b",
+          "sourceBounds": {
+            "x0": 513,
+            "y0": 19,
+            "x1": 1023,
+            "y1": 511
+          },
+          "scale": 0.8767123287671232,
+          "cellHash": "7bc08eff200cdf7172496651fc2a2a89f8e4baab2e37a8d43eb8f67124f945f8"
+        },
+        {
+          "id": "ink-ray",
+          "stage": 1,
+          "sourceFile": "public/art/yokai-v028/sources/ink-ray.png",
+          "sourceHash": "01e179697450069a5eebdec5b9b12ccd391eed0ffb7535b322f3529a708901fe",
+          "sourceBounds": {
+            "x0": 512,
+            "y0": 9,
+            "x1": 1036,
+            "y1": 511
+          },
+          "scale": 0.8533333333333334,
+          "cellHash": "450e83e3e850868344dfd7fe18186b51e9a398ffb1483445dc674e631788aab2"
+        },
+        {
+          "id": "lotus-toad",
+          "stage": 1,
+          "sourceFile": "public/art/yokai-v028/sources/lotus-toad.png",
+          "sourceHash": "d5e8eb35064e68ed11f190eac36b56d6a10d98eb4908cebcea1ed035a1f38e37",
+          "sourceBounds": {
+            "x0": 513,
+            "y0": 9,
+            "x1": 1023,
+            "y1": 511
+          },
+          "scale": 0.8767123287671232,
+          "cellHash": "50d519aeb7dffac70b0995b99f51e75a8f63446bf69f1427039bc0c451eb2fac"
+        }
+      ]
+    },
+    {
+      "atlas": "roster-k",
+      "stage": 2,
+      "file": "public/art/awakening/roster-k-stage-2.png",
+      "sha256": "8aa1710d93cce844107f5d726595978e337ee1a0ecbc46c7bc0db85c0624be61",
+      "placements": [
+        {
+          "id": "sand-scorpion",
+          "stage": 2,
+          "sourceFile": "public/art/yokai-v028/sources/sand-scorpion.png",
+          "sourceHash": "ed6181354133cb85d659365a7f545b71dd9421a1c8b9ab272f0e0d703c3144c4",
+          "sourceBounds": {
+            "x0": 1025,
+            "y0": 15,
+            "x1": 1507,
+            "y1": 511
+          },
+          "scale": 0.9014084507042254,
+          "cellHash": "1898c99da26611579931ce67fecc6ac2d3c5bc9606997dbc3c8a96621017eabf"
+        },
+        {
+          "id": "chime-moth",
+          "stage": 2,
+          "sourceFile": "public/art/yokai-v028/sources/chime-moth.png",
+          "sourceHash": "84b3329b1805f55452e463a9faea95dd216ec5f538b938d9f4ea3fa5f580b5e8",
+          "sourceBounds": {
+            "x0": 1024,
+            "y0": 19,
+            "x1": 1525,
+            "y1": 511
+          },
+          "scale": 0.8924302788844621,
+          "cellHash": "6c08cbd4806a6d0a882f0a41389635583932b2782badc63d75b26c6caf5bdb3b"
+        },
+        {
+          "id": "mirror-crab",
+          "stage": 2,
+          "sourceFile": "public/art/yokai-v028/sources/mirror-crab.png",
+          "sourceHash": "e35002ba62e4852ebb96fd2c91b58274769e9799b3376842d799bcf31a86e25b",
+          "sourceBounds": {
+            "x0": 1025,
+            "y0": 9,
+            "x1": 1507,
+            "y1": 511
+          },
+          "scale": 0.8906560636182903,
+          "cellHash": "02dc298693fa7545626197786efd1d6fea6accee50c54be7f40770d6f4074b96"
+        },
+        {
+          "id": "ink-ray",
+          "stage": 2,
+          "sourceFile": "public/art/yokai-v028/sources/ink-ray.png",
+          "sourceHash": "01e179697450069a5eebdec5b9b12ccd391eed0ffb7535b322f3529a708901fe",
+          "sourceBounds": {
+            "x0": 1024,
+            "y0": 17,
+            "x1": 1529,
+            "y1": 511
+          },
+          "scale": 0.8853754940711462,
+          "cellHash": "b6e1b4ce49997f9e072527edda74fd1bf44199f9db4ee81756959c50df1013ad"
+        },
+        {
+          "id": "lotus-toad",
+          "stage": 2,
+          "sourceFile": "public/art/yokai-v028/sources/lotus-toad.png",
+          "sourceHash": "d5e8eb35064e68ed11f190eac36b56d6a10d98eb4908cebcea1ed035a1f38e37",
+          "sourceBounds": {
+            "x0": 1025,
+            "y0": 31,
+            "x1": 1515,
+            "y1": 511
+          },
+          "scale": 0.9124236252545825,
+          "cellHash": "024d9be05817ff0b5c9c5e527fcbfa12be2197465ed37aa6ef1fc2037b052265"
+        }
+      ]
+    },
+    {
+      "atlas": "roster-k",
+      "stage": 3,
+      "file": "public/art/awakening/roster-k-stage-3.png",
+      "sha256": "7be0c534990d7e23f8a72e0cc29910ab204fca6ee9c85bfb15b5f970ad450ab8",
+      "placements": [
+        {
+          "id": "sand-scorpion",
+          "stage": 3,
+          "sourceFile": "public/art/yokai-v028/sources/sand-scorpion.png",
+          "sourceHash": "ed6181354133cb85d659365a7f545b71dd9421a1c8b9ab272f0e0d703c3144c4",
+          "sourceBounds": {
+            "x0": 0,
+            "y0": 502,
+            "x1": 511,
+            "y1": 1023
+          },
+          "scale": 0.8582375478927203,
+          "cellHash": "6890dc9a2d842834cad1899611d08494335fd2dd5d5ceca4769c3764d722cc65"
+        },
+        {
+          "id": "chime-moth",
+          "stage": 3,
+          "sourceFile": "public/art/yokai-v028/sources/chime-moth.png",
+          "sourceHash": "84b3329b1805f55452e463a9faea95dd216ec5f538b938d9f4ea3fa5f580b5e8",
+          "sourceBounds": {
+            "x0": 0,
+            "y0": 512,
+            "x1": 511,
+            "y1": 1023
+          },
+          "scale": 0.875,
+          "cellHash": "c9b2bbccd8b572bbc7c10192b926d965a9945c9ee72ed6b3709f5103baf47df5"
+        },
+        {
+          "id": "mirror-crab",
+          "stage": 3,
+          "sourceFile": "public/art/yokai-v028/sources/mirror-crab.png",
+          "sourceHash": "e35002ba62e4852ebb96fd2c91b58274769e9799b3376842d799bcf31a86e25b",
+          "sourceBounds": {
+            "x0": 15,
+            "y0": 513,
+            "x1": 511,
+            "y1": 977
+          },
+          "scale": 0.9014084507042254,
+          "cellHash": "cb5cf5f15c862c671e1321de6220e9e6343ddc1ae66e6eac1a85e0816b0f951e"
+        },
+        {
+          "id": "ink-ray",
+          "stage": 3,
+          "sourceFile": "public/art/yokai-v028/sources/ink-ray.png",
+          "sourceHash": "01e179697450069a5eebdec5b9b12ccd391eed0ffb7535b322f3529a708901fe",
+          "sourceBounds": {
+            "x0": 0,
+            "y0": 492,
+            "x1": 522,
+            "y1": 1023
+          },
+          "scale": 0.8421052631578947,
+          "cellHash": "0f4938420c71496b286bcd8052f9aeba6161efcec63860572b09959f8539c2d8"
+        },
+        {
+          "id": "lotus-toad",
+          "stage": 3,
+          "sourceFile": "public/art/yokai-v028/sources/lotus-toad.png",
+          "sourceHash": "d5e8eb35064e68ed11f190eac36b56d6a10d98eb4908cebcea1ed035a1f38e37",
+          "sourceBounds": {
+            "x0": 16,
+            "y0": 513,
+            "x1": 511,
+            "y1": 1023
+          },
+          "scale": 0.8767123287671232,
+          "cellHash": "875fcac9f08bc24f31048d68414218ad547a01c42d2551d2e2502dbd7d8f5fee"
+        }
+      ]
+    },
+    {
+      "atlas": "roster-k",
+      "stage": 4,
+      "file": "public/art/awakening/roster-k-stage-4.png",
+      "sha256": "4e8bc346abc9039cc1b74b44d1e03836b94c5992e19ef295efa718265ff49b33",
+      "placements": [
+        {
+          "id": "sand-scorpion",
+          "stage": 4,
+          "sourceFile": "public/art/yokai-v028/sources/sand-scorpion.png",
+          "sourceHash": "ed6181354133cb85d659365a7f545b71dd9421a1c8b9ab272f0e0d703c3144c4",
+          "sourceBounds": {
+            "x0": 513,
+            "y0": 503,
+            "x1": 1023,
+            "y1": 1007
+          },
+          "scale": 0.8767123287671232,
+          "cellHash": "137950a43be86121c4c96810d8aa3b0edbaaf55d05b73270db5d2515274a4e2d"
+        },
+        {
+          "id": "chime-moth",
+          "stage": 4,
+          "sourceFile": "public/art/yokai-v028/sources/chime-moth.png",
+          "sourceHash": "84b3329b1805f55452e463a9faea95dd216ec5f538b938d9f4ea3fa5f580b5e8",
+          "sourceBounds": {
+            "x0": 511,
+            "y0": 512,
+            "x1": 1023,
+            "y1": 1023
+          },
+          "scale": 0.8732943469785575,
+          "cellHash": "545fc51de7618b41639713cf55da2b67bda50b4d9324fac0b4157a29587e4316"
+        },
+        {
+          "id": "mirror-crab",
+          "stage": 4,
+          "sourceFile": "public/art/yokai-v028/sources/mirror-crab.png",
+          "sourceHash": "e35002ba62e4852ebb96fd2c91b58274769e9799b3376842d799bcf31a86e25b",
+          "sourceBounds": {
+            "x0": 512,
+            "y0": 512,
+            "x1": 1023,
+            "y1": 1023
+          },
+          "scale": 0.875,
+          "cellHash": "be59d3585384e3a2c59520c3250b08393128750f5f55ca340a571db64f996bd4"
+        },
+        {
+          "id": "ink-ray",
+          "stage": 4,
+          "sourceFile": "public/art/yokai-v028/sources/ink-ray.png",
+          "sourceHash": "01e179697450069a5eebdec5b9b12ccd391eed0ffb7535b322f3529a708901fe",
+          "sourceBounds": {
+            "x0": 512,
+            "y0": 485,
+            "x1": 1023,
+            "y1": 1023
+          },
+          "scale": 0.8311688311688312,
+          "cellHash": "10662f8a3d69e938310028d45c00bfb78e683f4fb2b046d923e7bdac9236017b"
+        },
+        {
+          "id": "lotus-toad",
+          "stage": 4,
+          "sourceFile": "public/art/yokai-v028/sources/lotus-toad.png",
+          "sourceHash": "d5e8eb35064e68ed11f190eac36b56d6a10d98eb4908cebcea1ed035a1f38e37",
+          "sourceBounds": {
+            "x0": 513,
+            "y0": 512,
+            "x1": 1023,
+            "y1": 997
+          },
+          "scale": 0.8767123287671232,
+          "cellHash": "c4c6f4bcd6cc800bda63538af6c097117fd56b6d60b026623b381ef33caf289e"
+        }
+      ]
+    },
+    {
+      "atlas": "roster-k",
+      "stage": 5,
+      "file": "public/art/awakening/roster-k-stage-5.png",
+      "sha256": "ccb88f7127be06b80d25fc0cd25a485bd291c9f4a3af81c9e9a5dec6595f2cd8",
+      "placements": [
+        {
+          "id": "sand-scorpion",
+          "stage": 5,
+          "sourceFile": "public/art/yokai-v028/sources/sand-scorpion.png",
+          "sourceHash": "ed6181354133cb85d659365a7f545b71dd9421a1c8b9ab272f0e0d703c3144c4",
+          "sourceBounds": {
+            "x0": 1025,
+            "y0": 492,
+            "x1": 1523,
+            "y1": 1023
+          },
+          "scale": 0.8421052631578947,
+          "cellHash": "ef87d475bda5af508773d4ac97f6cdfc2180ce92e286db770d62da9064e6698a"
+        },
+        {
+          "id": "chime-moth",
+          "stage": 5,
+          "sourceFile": "public/art/yokai-v028/sources/chime-moth.png",
+          "sourceHash": "84b3329b1805f55452e463a9faea95dd216ec5f538b938d9f4ea3fa5f580b5e8",
+          "sourceBounds": {
+            "x0": 1024,
+            "y0": 510,
+            "x1": 1534,
+            "y1": 1023
+          },
+          "scale": 0.8715953307392996,
+          "cellHash": "240a17c9ae1d9c035ec6e99525bd485c032440a8eafebd1817d41d9b305b8d93"
+        },
+        {
+          "id": "mirror-crab",
+          "stage": 5,
+          "sourceFile": "public/art/yokai-v028/sources/mirror-crab.png",
+          "sourceHash": "e35002ba62e4852ebb96fd2c91b58274769e9799b3376842d799bcf31a86e25b",
+          "sourceBounds": {
+            "x0": 1024,
+            "y0": 488,
+            "x1": 1535,
+            "y1": 1023
+          },
+          "scale": 0.835820895522388,
+          "cellHash": "c66a7af8515bd7b112e50570c087106d4dc32c50288d56c53301458c7beba3b6"
+        },
+        {
+          "id": "ink-ray",
+          "stage": 5,
+          "sourceFile": "public/art/yokai-v028/sources/ink-ray.png",
+          "sourceHash": "01e179697450069a5eebdec5b9b12ccd391eed0ffb7535b322f3529a708901fe",
+          "sourceBounds": {
+            "x0": 1024,
+            "y0": 507,
+            "x1": 1535,
+            "y1": 1023
+          },
+          "scale": 0.8665377176015474,
+          "cellHash": "541b331f6c233b625715ddc989c1384cc070bd2da5e3daab11ba523ede33158c"
+        },
+        {
+          "id": "lotus-toad",
+          "stage": 5,
+          "sourceFile": "public/art/yokai-v028/sources/lotus-toad.png",
+          "sourceHash": "d5e8eb35064e68ed11f190eac36b56d6a10d98eb4908cebcea1ed035a1f38e37",
+          "sourceBounds": {
+            "x0": 1025,
+            "y0": 496,
+            "x1": 1523,
+            "y1": 985
+          },
+          "scale": 0.8977955911823647,
+          "cellHash": "fb7e8710f0769e30e46609d9b7b563abb7ef35c02900c9fe098c5d67311f8cf8"
+        }
+      ]
+    }
+  ]
+}

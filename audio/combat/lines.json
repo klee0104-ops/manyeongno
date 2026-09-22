@@ -2569,5 +2569,305 @@
         "voice":  "Microsoft Heami Desktop",
         "pitch":  "-8%",
         "source":  "Windows System.Speech local TTS"
+    },
+    {
+        "id":  "dream-tapir",
+        "slot":  "skill1",
+        "text":  "초향 숨결!",
+        "rate":  0,
+        "file":  "dream-tapir-skill1.wav",
+        "voice":  "Microsoft Heami Desktop",
+        "pitch":  "-2%",
+        "source":  "Windows System.Speech local TTS"
+    },
+    {
+        "id":  "dream-tapir",
+        "slot":  "skill2",
+        "text":  "악몽 거두기!",
+        "rate":  0,
+        "file":  "dream-tapir-skill2.wav",
+        "voice":  "Microsoft Heami Desktop",
+        "pitch":  "-2%",
+        "source":  "Windows System.Speech local TTS"
+    },
+    {
+        "id":  "dream-tapir",
+        "slot":  "ultimate",
+        "text":  "녹몽 안식진!",
+        "rate":  0,
+        "file":  "dream-tapir-ultimate.wav",
+        "voice":  "Microsoft Heami Desktop",
+        "pitch":  "-2%",
+        "source":  "Windows System.Speech local TTS"
+    },
+    {
+        "id":  "vine-stag",
+        "slot":  "skill1",
+        "text":  "청근 들이받기!",
+        "rate":  -1,
+        "file":  "vine-stag-skill1.wav",
+        "voice":  "Microsoft Heami Desktop",
+        "pitch":  "-6%",
+        "source":  "Windows System.Speech local TTS"
+    },
+    {
+        "id":  "vine-stag",
+        "slot":  "skill2",
+        "text":  "뿌리 호위!",
+        "rate":  -1,
+        "file":  "vine-stag-skill2.wav",
+        "voice":  "Microsoft Heami Desktop",
+        "pitch":  "-6%",
+        "source":  "Windows System.Speech local TTS"
+    },
+    {
+        "id":  "vine-stag",
+        "slot":  "ultimate",
+        "text":  "천근 수림벽!",
+        "rate":  -1,
+        "file":  "vine-stag-ultimate.wav",
+        "voice":  "Microsoft Heami Desktop",
+        "pitch":  "-6%",
+        "source":  "Windows System.Speech local TTS"
+    },
+    {
+        "id":  "ember-marten",
+        "slot":  "skill1",
+        "text":  "화섬 할퀴기!",
+        "rate":  0,
+        "file":  "ember-marten-skill1.wav",
+        "voice":  "Microsoft Heami Desktop",
+        "pitch":  "-2%",
+        "source":  "Windows System.Speech local TTS"
+    },
+    {
+        "id":  "ember-marten",
+        "slot":  "skill2",
+        "text":  "잔화 추격!",
+        "rate":  0,
+        "file":  "ember-marten-skill2.wav",
+        "voice":  "Microsoft Heami Desktop",
+        "pitch":  "-2%",
+        "source":  "Windows System.Speech local TTS"
+    },
+    {
+        "id":  "ember-marten",
+        "slot":  "ultimate",
+        "text":  "홍미 연섬!",
+        "rate":  0,
+        "file":  "ember-marten-ultimate.wav",
+        "voice":  "Microsoft Heami Desktop",
+        "pitch":  "-2%",
+        "source":  "Windows System.Speech local TTS"
+    },
+    {
+        "id":  "kiln-kettle",
+        "slot":  "skill1",
+        "text":  "가마 불탄!",
+        "rate":  0,
+        "file":  "kiln-kettle-skill1.wav",
+        "voice":  "Microsoft Heami Desktop",
+        "pitch":  "-2%",
+        "source":  "Windows System.Speech local TTS"
+    },
+    {
+        "id":  "kiln-kettle",
+        "slot":  "skill2",
+        "text":  "열기 분출!",
+        "rate":  0,
+        "file":  "kiln-kettle-skill2.wav",
+        "voice":  "Microsoft Heami Desktop",
+        "pitch":  "-2%",
+        "source":  "Windows System.Speech local TTS"
+    },
+    {
+        "id":  "kiln-kettle",
+        "slot":  "ultimate",
+        "text":  "백열 다화진!",
+        "rate":  0,
+        "file":  "kiln-kettle-ultimate.wav",
+        "voice":  "Microsoft Heami Desktop",
+        "pitch":  "-2%",
+        "source":  "Windows System.Speech local TTS"
+    },
+    {
+        "id":  "tile-tortoise",
+        "slot":  "skill1",
+        "text":  "기와갑 받기!",
+        "rate":  -1,
+        "file":  "tile-tortoise-skill1.wav",
+        "voice":  "Microsoft Heami Desktop",
+        "pitch":  "-6%",
+        "source":  "Windows System.Speech local TTS"
+    },
+    {
+        "id":  "tile-tortoise",
+        "slot":  "skill2",
+        "text":  "처마 호위!",
+        "rate":  -1,
+        "file":  "tile-tortoise-skill2.wav",
+        "voice":  "Microsoft Heami Desktop",
+        "pitch":  "-6%",
+        "source":  "Windows System.Speech local TTS"
+    },
+    {
+        "id":  "tile-tortoise",
+        "slot":  "ultimate",
+        "text":  "불퇴 와성벽!",
+        "rate":  -1,
+        "file":  "tile-tortoise-ultimate.wav",
+        "voice":  "Microsoft Heami Desktop",
+        "pitch":  "-6%",
+        "source":  "Windows System.Speech local TTS"
+    },
+    {
+        "id":  "sand-scorpion",
+        "slot":  "skill1",
+        "text":  "사문 찌르기!",
+        "rate":  0,
+        "file":  "sand-scorpion-skill1.wav",
+        "voice":  "Microsoft Heami Desktop",
+        "pitch":  "-2%",
+        "source":  "Windows System.Speech local TTS"
+    },
+    {
+        "id":  "sand-scorpion",
+        "slot":  "skill2",
+        "text":  "돌집게 파쇄!",
+        "rate":  0,
+        "file":  "sand-scorpion-skill2.wav",
+        "voice":  "Microsoft Heami Desktop",
+        "pitch":  "-2%",
+        "source":  "Windows System.Speech local TTS"
+    },
+    {
+        "id":  "sand-scorpion",
+        "slot":  "ultimate",
+        "text":  "황사 독문진!",
+        "rate":  0,
+        "file":  "sand-scorpion-ultimate.wav",
+        "voice":  "Microsoft Heami Desktop",
+        "pitch":  "-2%",
+        "source":  "Windows System.Speech local TTS"
+    },
+    {
+        "id":  "chime-moth",
+        "slot":  "skill1",
+        "text":  "경익 은분!",
+        "rate":  0,
+        "file":  "chime-moth-skill1.wav",
+        "voice":  "Microsoft Heami Desktop",
+        "pitch":  "-2%",
+        "source":  "Windows System.Speech local TTS"
+    },
+    {
+        "id":  "chime-moth",
+        "slot":  "skill2",
+        "text":  "절음 종울림!",
+        "rate":  0,
+        "file":  "chime-moth-skill2.wav",
+        "voice":  "Microsoft Heami Desktop",
+        "pitch":  "-2%",
+        "source":  "Windows System.Speech local TTS"
+    },
+    {
+        "id":  "chime-moth",
+        "slot":  "ultimate",
+        "text":  "만경 월명진!",
+        "rate":  0,
+        "file":  "chime-moth-ultimate.wav",
+        "voice":  "Microsoft Heami Desktop",
+        "pitch":  "-2%",
+        "source":  "Windows System.Speech local TTS"
+    },
+    {
+        "id":  "mirror-crab",
+        "slot":  "skill1",
+        "text":  "경갑 되치기!",
+        "rate":  -1,
+        "file":  "mirror-crab-skill1.wav",
+        "voice":  "Microsoft Heami Desktop",
+        "pitch":  "-6%",
+        "source":  "Windows System.Speech local TTS"
+    },
+    {
+        "id":  "mirror-crab",
+        "slot":  "skill2",
+        "text":  "청동 집게벽!",
+        "rate":  -1,
+        "file":  "mirror-crab-skill2.wav",
+        "voice":  "Microsoft Heami Desktop",
+        "pitch":  "-6%",
+        "source":  "Windows System.Speech local TTS"
+    },
+    {
+        "id":  "mirror-crab",
+        "slot":  "ultimate",
+        "text":  "반광 수호진!",
+        "rate":  -1,
+        "file":  "mirror-crab-ultimate.wav",
+        "voice":  "Microsoft Heami Desktop",
+        "pitch":  "-6%",
+        "source":  "Windows System.Speech local TTS"
+    },
+    {
+        "id":  "ink-ray",
+        "slot":  "skill1",
+        "text":  "묵류 물살!",
+        "rate":  0,
+        "file":  "ink-ray-skill1.wav",
+        "voice":  "Microsoft Heami Desktop",
+        "pitch":  "-2%",
+        "source":  "Windows System.Speech local TTS"
+    },
+    {
+        "id":  "ink-ray",
+        "slot":  "skill2",
+        "text":  "먹안개 덮기!",
+        "rate":  0,
+        "file":  "ink-ray-skill2.wav",
+        "voice":  "Microsoft Heami Desktop",
+        "pitch":  "-2%",
+        "source":  "Windows System.Speech local TTS"
+    },
+    {
+        "id":  "ink-ray",
+        "slot":  "ultimate",
+        "text":  "현수 만류진!",
+        "rate":  0,
+        "file":  "ink-ray-ultimate.wav",
+        "voice":  "Microsoft Heami Desktop",
+        "pitch":  "-2%",
+        "source":  "Windows System.Speech local TTS"
+    },
+    {
+        "id":  "lotus-toad",
+        "slot":  "skill1",
+        "text":  "청련 약수!",
+        "rate":  0,
+        "file":  "lotus-toad-skill1.wav",
+        "voice":  "Microsoft Heami Desktop",
+        "pitch":  "-2%",
+        "source":  "Windows System.Speech local TTS"
+    },
+    {
+        "id":  "lotus-toad",
+        "slot":  "skill2",
+        "text":  "맑은 숨 씻기!",
+        "rate":  0,
+        "file":  "lotus-toad-skill2.wav",
+        "voice":  "Microsoft Heami Desktop",
+        "pitch":  "-2%",
+        "source":  "Windows System.Speech local TTS"
+    },
+    {
+        "id":  "lotus-toad",
+        "slot":  "ultimate",
+        "text":  "만련 회생파!",
+        "rate":  0,
+        "file":  "lotus-toad-ultimate.wav",
+        "voice":  "Microsoft Heami Desktop",
+        "pitch":  "-2%",
+        "source":  "Windows System.Speech local TTS"
     }
 ]

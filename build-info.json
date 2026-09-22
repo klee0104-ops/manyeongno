@@ -1,13 +1,13 @@
 {
-  "version": "0.27.0",
+  "version": "0.28.0",
   "narrativeRevision": "ashes-v1",
-  "builtAt": "2026-09-22T03:45:17.435Z",
+  "builtAt": "2026-09-22T06:45:59.600Z",
   "basedOnCommit": "628af87c7aa85268040c9621756387370facdfbb",
   "includesWorkingTreeChanges": true,
   "harness": {
-    "task": "v027-five-stars",
+    "task": "v028-yokai",
     "status": "pass",
-    "runId": "2026-09-22T03-43-56-113Z-30416",
+    "runId": "2026-09-22T06-44-09-866Z-9532",
     "checks": [
       {
         "id": "typecheck",
@@ -70,6 +70,14 @@
         "status": "pass"
       },
       {
+        "id": "v028-illustrations",
+        "status": "pass"
+      },
+      {
+        "id": "v028-frames",
+        "status": "pass"
+      },
+      {
         "id": "production-build",
         "status": "pass"
       }
@@ -79,28 +87,28 @@
   "features": {
     "localAdminProfile": true,
     "adminRosterSync": true,
-    "manualSummonStories": 81,
-    "collectibleSpirits": 81,
-    "summonableSpirits": 77,
+    "manualSummonStories": 91,
+    "collectibleSpirits": 91,
+    "summonableSpirits": 87,
     "storyCompanions": 4,
-    "awakeningIllustrations": 405,
-    "awakeningAtlases": 45,
-    "combatFrameCharacters": 27,
-    "combatFrameSheets": 54,
-    "combatPoses": 648,
+    "awakeningIllustrations": 455,
+    "awakeningAtlases": 55,
+    "combatFrameCharacters": 37,
+    "combatFrameSheets": 74,
+    "combatPoses": 888,
     "riggedCollectibleCharacters": 54,
     "chapterBossEncounters": 20,
     "chapterBossIdentities": 19,
     "chapterBossIllustrations": 20,
     "chapterBossPosesEach": 1,
     "chapterBossVoices": 60,
-    "combatVoiceLines": 321,
+    "combatVoiceLines": 351,
     "storyCuts": 209,
     "chapterBossPreview": true,
     "chapter20EvacuationColumns": 3,
     "chapter19And20StoryBeforeReward": true,
-    "codexRewardEligibleSpirits": 76,
-    "characterPresentationContracts": 81,
+    "codexRewardEligibleSpirits": 86,
+    "characterPresentationContracts": 91,
     "livingIllustrations": true,
     "groundedCharacterIdle": true,
     "casterCenteredUltimates": true,
@@ -125,10 +133,9 @@
     "journeyResume": true,
     "partyOrderedArmory": true,
     "partyBulkEquipAndUnequip": true,
-    "allOwnedArmoryAccess": 81,
+    "allOwnedArmoryAccess": 91,
     "labelledResourceWallet": true,
     "affordableBulkLevelUp": true,
-    "unchangedGrowthCostsAndCaps": true,
     "roleFilters": [
       "collection",
       "formation",
@@ -138,7 +145,7 @@
     ],
     "firstSummonFiveStarTicket": {
       "perProfile": 1,
-      "pool": 27,
+      "pool": 50,
       "legacyEligible": true,
       "changesRegularPity": false
     },
@@ -155,7 +162,7 @@
       "boots"
     ],
     "exclusiveGear": {
-      "roster": 81,
+      "roster": 91,
       "separateSlot": true,
       "singleCost": 200,
       "tenCost": 1800,
@@ -188,9 +195,9 @@
       "sand-flower",
       "obsidian-warden"
     ],
-    "newAuthoredIllustrations": 102,
-    "newAuthoredCombatPoses": 408,
-    "newNamedExclusives": 17,
+    "newAuthoredIllustrations": 60,
+    "newAuthoredCombatPoses": 240,
+    "newNamedExclusives": 10,
     "archerFriend": {
       "id": "moon-shaman",
       "name": "소휘",
@@ -203,7 +210,7 @@
       "storyRequiresOwnership": false,
       "projectile": "talisman-arrow"
     },
-    "registeredAwakeningAtlases": 55,
+    "registeredAwakeningAtlases": 65,
     "archivedAwakeningIllustrations": 85,
     "reworkedFiveStars": [
       "gumiho",
@@ -225,32 +232,46 @@
       "hwacha"
     ],
     "preservedSexAndSpecies": true,
-    "reviewedTechniques": 51,
-    "numericalCombatBudgetsPreserved": true,
-    "wolfClawAndShieldSeparated": true
+    "reviewedTechniques": 30,
+    "wolfClawAndShieldSeparated": true,
+    "newFourStarYokai": [
+      "dream-tapir",
+      "vine-stag",
+      "ember-marten",
+      "kiln-kettle",
+      "tile-tortoise",
+      "sand-scorpion",
+      "chime-moth",
+      "mirror-crab",
+      "ink-ray",
+      "lotus-toad"
+    ],
+    "promotedHumanoidCount": 27,
+    "allFigureFiveStars": 52,
+    "totalFiveStars": 54,
+    "summonableFiveStars": 50,
+    "existingSpeciesAndArtPreserved": true,
+    "existingWeaponCorrections": 8,
+    "unchangedGrowthFormulas": true,
+    "promotedUseFiveStarBudgets": true,
+    "campaignEnemyBudgetsPreserved": true,
+    "legacyEncounterFixtures": 100
   },
   "browserQA": {
-    "version": "0.27.0",
+    "version": "0.28.0",
     "checks": [
-      "admin opens v0.27 with 81 owned characters",
-      "all seventeen base/awakened codex portraits and authored sprites; all 51 base skills and seventeen awakened ultimates",
+      "admin opens v0.28 with 91 owned characters",
+      "all ten base portraits and fifty awakening forms; thirty base techniques and ten final ultimates",
       "single visible actor, distinct frames and complete melee movement",
-      "Gumiho arrow flight arrives before HP change; 2x faster; pause/resume works",
+      "Kettle flame flight arrives before HP change; 2x faster; pause/resume works",
       "skill previews leave profile and currencies unchanged",
-      "reduced-motion Gumiho ultimate completes",
-      "actual Gumiho ten-pull, manual reveal, equip; charge once; options preserved after reload",
+      "reduced-motion Tapir ultimate completes",
+      "actual Tapir ten-pull, manual reveal, equip; charge once; options preserved after reload",
       "390px codex and skill preview; 360px exclusive shop without horizontal overflow",
-      "ordinary account and welcome shop choice",
-      "unowned target warning and equip disabled",
-      "single draw charged once after double click",
-      "old gear/roster/character pity preserved",
-      "saved random item restored after reload",
-      "confirmed salvage returns exact dust",
-      "wolf idle breathing remains active with one painted pose",
-      "wolf claw approaches >70px, contacts and returns; shield casts stationary",
-      "adult Jiangshi portrait and revised age-consistent biography",
-      "Jiangshi awakened frame and mobile ultimate",
-      "chapter9 revised adult oni caption and portrait"
+      "ordinary profile: actual four-star draw, purple manual seal, two arrival story beats, full tapir portrait, one charge with no reroll",
+      "new unowned exclusive: warning, disabled equip, charge once after double click, saved options, exact salvage refund; character pity unchanged",
+      "legacy single-save profile opens without conversion: all 81 growth records, currencies, equipment, pity, awakening stones, party and chapter retained",
+      "promoted Sangun shows five stars while retaining level 19, seven shards and three awakening stones"
     ],
     "viewports": [
       1440,
@@ -258,7 +279,7 @@
       360
     ],
     "isolatedStorage": true,
-    "actualExclusiveSummons": true,
+    "actualCharacterAndExclusiveSummons": true,
     "errors": []
   }
 }

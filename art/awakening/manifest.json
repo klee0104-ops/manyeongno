@@ -811,6 +811,146 @@
         1024
       ],
       "sha256": "8d24df633f7737ad7d07d83898cbeb48b465c48307676dd8367c2e606d82f607"
+    },
+    {
+      "atlas": "roster-j",
+      "stage": 1,
+      "file": "art/awakening/roster-j-stage-1.png",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rowEdges": [
+        0,
+        512,
+        1024
+      ],
+      "sha256": "2365b174f7d45959b60b8fdc7bb716be6af927f72165804725b7eacd3410afd0"
+    },
+    {
+      "atlas": "roster-j",
+      "stage": 2,
+      "file": "art/awakening/roster-j-stage-2.png",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rowEdges": [
+        0,
+        512,
+        1024
+      ],
+      "sha256": "abbbab5eb4b1ab341d3bd3c61b6f7f072e4016103594e6f864e31c8546cb648c"
+    },
+    {
+      "atlas": "roster-j",
+      "stage": 3,
+      "file": "art/awakening/roster-j-stage-3.png",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rowEdges": [
+        0,
+        512,
+        1024
+      ],
+      "sha256": "28bd3d9a9fdb029d59405d5907a70247587fc142c9dc69a18c2df95bb908fa43"
+    },
+    {
+      "atlas": "roster-j",
+      "stage": 4,
+      "file": "art/awakening/roster-j-stage-4.png",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rowEdges": [
+        0,
+        512,
+        1024
+      ],
+      "sha256": "512a40d703c9fdfa892378c2b397ab55527d6bccecc9b90aaa2d5925c00d5937"
+    },
+    {
+      "atlas": "roster-j",
+      "stage": 5,
+      "file": "art/awakening/roster-j-stage-5.png",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rowEdges": [
+        0,
+        512,
+        1024
+      ],
+      "sha256": "c161cbe388586feeeeea453689bf49fe0fa533d08bb3945575e5e6b74b8ba7b0"
+    },
+    {
+      "atlas": "roster-k",
+      "stage": 1,
+      "file": "art/awakening/roster-k-stage-1.png",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rowEdges": [
+        0,
+        512,
+        1024
+      ],
+      "sha256": "08d64f80b544b0f32bb006370aed21de3940a306252a13494f47e483db33ad61"
+    },
+    {
+      "atlas": "roster-k",
+      "stage": 2,
+      "file": "art/awakening/roster-k-stage-2.png",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rowEdges": [
+        0,
+        512,
+        1024
+      ],
+      "sha256": "8aa1710d93cce844107f5d726595978e337ee1a0ecbc46c7bc0db85c0624be61"
+    },
+    {
+      "atlas": "roster-k",
+      "stage": 3,
+      "file": "art/awakening/roster-k-stage-3.png",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rowEdges": [
+        0,
+        512,
+        1024
+      ],
+      "sha256": "7be0c534990d7e23f8a72e0cc29910ab204fca6ee9c85bfb15b5f970ad450ab8"
+    },
+    {
+      "atlas": "roster-k",
+      "stage": 4,
+      "file": "art/awakening/roster-k-stage-4.png",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rowEdges": [
+        0,
+        512,
+        1024
+      ],
+      "sha256": "4e8bc346abc9039cc1b74b44d1e03836b94c5992e19ef295efa718265ff49b33"
+    },
+    {
+      "atlas": "roster-k",
+      "stage": 5,
+      "file": "art/awakening/roster-k-stage-5.png",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rowEdges": [
+        0,
+        512,
+        1024
+      ],
+      "sha256": "ccb88f7127be06b80d25fc0cd25a485bd291c9f4a3af81c9e9a5dec6595f2cd8"
     }
   ]
 }

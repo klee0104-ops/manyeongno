@@ -1,13 +1,13 @@
 {
-  "version": "0.28.0",
+  "version": "0.29.0",
   "narrativeRevision": "ashes-v1",
-  "builtAt": "2026-09-22T06:45:59.600Z",
+  "builtAt": "2026-09-22T09:25:27.372Z",
   "basedOnCommit": "628af87c7aa85268040c9621756387370facdfbb",
   "includesWorkingTreeChanges": true,
   "harness": {
-    "task": "v028-yokai",
+    "task": "v029-art-motion",
     "status": "pass",
-    "runId": "2026-09-22T06-44-09-866Z-9532",
+    "runId": "2026-09-22T09-23-37-275Z-30272",
     "checks": [
       {
         "id": "typecheck",
@@ -75,6 +75,10 @@
       },
       {
         "id": "v028-frames",
+        "status": "pass"
+      },
+      {
+        "id": "v029-illustrations",
         "status": "pass"
       },
       {
@@ -195,8 +199,8 @@
       "sand-flower",
       "obsidian-warden"
     ],
-    "newAuthoredIllustrations": 60,
-    "newAuthoredCombatPoses": 240,
+    "newAuthoredIllustrations": 486,
+    "newAuthoredCombatPoses": 0,
     "newNamedExclusives": 10,
     "archerFriend": {
       "id": "moon-shaman",
@@ -250,36 +254,57 @@
     "allFigureFiveStars": 52,
     "totalFiveStars": 54,
     "summonableFiveStars": 50,
-    "existingSpeciesAndArtPreserved": true,
     "existingWeaponCorrections": 8,
     "unchangedGrowthFormulas": true,
     "promotedUseFiveStarBudgets": true,
     "campaignEnemyBudgetsPreserved": true,
-    "legacyEncounterFixtures": 100
+    "legacyEncounterFixtures": 100,
+    "nativePaintedReworks": 81,
+    "totalRuntimeIllustrations": 546,
+    "skillMotionCharacters": 91,
+    "skillMotionSlotsConfigured": 182,
+    "playableSkillTechniquesAudited": 164,
+    "finalSlingshotTechniquesAudited": 4,
+    "stickyCodexNavigation": true,
+    "demonsEmphasized": [
+      "soul-flame",
+      "red-oni",
+      "fire-bandit",
+      "ferryman"
+    ],
+    "existingSpeciesAndAgesPreserved": true,
+    "previousArtAssetsPreserved": 902,
+    "combatNumericalBalancePreserved": true,
+    "existingSavesPreserved": true,
+    "visualWeaponCorrection": "alley-ghost slingshot",
+    "authoringSourcesExcludedFromBuild": true
   },
   "browserQA": {
-    "version": "0.28.0",
+    "version": "0.29.0",
     "checks": [
-      "admin opens v0.28 with 91 owned characters",
-      "all ten base portraits and fifty awakening forms; thirty base techniques and ten final ultimates",
-      "single visible actor, distinct frames and complete melee movement",
-      "Kettle flame flight arrives before HP change; 2x faster; pause/resume works",
-      "skill previews leave profile and currencies unchanged",
-      "reduced-motion Tapir ultimate completes",
-      "actual Tapir ten-pull, manual reveal, equip; charge once; options preserved after reload",
-      "390px codex and skill preview; 360px exclusive shop without horizontal overflow",
+      "desktop sticky index next/previous works at page bottom",
+      "new demon portraits, independent awakening forms, entry next/previous",
+      "six identities have distinct skill1/skill2 bodies and poses; no invisible caster; 2x and pause/resume",
+      "390px sticky index and entry navigation; no overflow; reduced motion completes; saves unchanged",
       "ordinary profile: actual four-star draw, purple manual seal, two arrival story beats, full tapir portrait, one charge with no reroll",
       "new unowned exclusive: warning, disabled equip, charge once after double click, saved options, exact salvage refund; character pity unchanged",
       "legacy single-save profile opens without conversion: all 81 growth records, currencies, equipment, pity, awakening stones, party and chapter retained",
-      "promoted Sangun shows five stars while retaining level 19, seven shards and three awakening stones"
+      "promoted Sangun shows five stars while retaining level 19, seven shards and three awakening stones",
+      "91 identities /164 playable skills; final slingshot basic/skill1/skill2/ultimate rechecked",
+      "81 x6 unique RGBA portraits and old902 assets preserved"
     ],
     "viewports": [
       1440,
-      390,
-      360
+      390
     ],
     "isolatedStorage": true,
     "actualCharacterAndExclusiveSummons": true,
     "errors": []
+  },
+  "artProvenance": "docs/art/v029-generation-briefs.json",
+  "build": {
+    "files": 1261,
+    "bytes": 725463494,
+    "portraitsVerified": 486
   }
 }

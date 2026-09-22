@@ -1,0 +1,896 @@
+{
+  "version": "0.29.0",
+  "characters": [
+    {
+      "id": "gumiho",
+      "files": [
+        "art/painted-v029/gumiho-0.png",
+        "art/painted-v029/gumiho-1.png",
+        "art/painted-v029/gumiho-2.png",
+        "art/painted-v029/gumiho-3.png",
+        "art/painted-v029/gumiho-4.png",
+        "art/painted-v029/gumiho-5.png"
+      ]
+    },
+    {
+      "id": "samsindongja",
+      "files": [
+        "art/painted-v029/samsindongja-0.png",
+        "art/painted-v029/samsindongja-1.png",
+        "art/painted-v029/samsindongja-2.png",
+        "art/painted-v029/samsindongja-3.png",
+        "art/painted-v029/samsindongja-4.png",
+        "art/painted-v029/samsindongja-5.png"
+      ]
+    },
+    {
+      "id": "mangeomhon",
+      "files": [
+        "art/painted-v029/mangeomhon-0.png",
+        "art/painted-v029/mangeomhon-1.png",
+        "art/painted-v029/mangeomhon-2.png",
+        "art/painted-v029/mangeomhon-3.png",
+        "art/painted-v029/mangeomhon-4.png",
+        "art/painted-v029/mangeomhon-5.png"
+      ]
+    },
+    {
+      "id": "jeogyeom",
+      "files": [
+        "art/painted-v029/jeogyeom-0.png",
+        "art/painted-v029/jeogyeom-1.png",
+        "art/painted-v029/jeogyeom-2.png",
+        "art/painted-v029/jeogyeom-3.png",
+        "art/painted-v029/jeogyeom-4.png",
+        "art/painted-v029/jeogyeom-5.png"
+      ]
+    },
+    {
+      "id": "simyeon",
+      "files": [
+        "art/painted-v029/simyeon-0.png",
+        "art/painted-v029/simyeon-1.png",
+        "art/painted-v029/simyeon-2.png",
+        "art/painted-v029/simyeon-3.png",
+        "art/painted-v029/simyeon-4.png",
+        "art/painted-v029/simyeon-5.png"
+      ]
+    },
+    {
+      "id": "jibu",
+      "files": [
+        "art/painted-v029/jibu-0.png",
+        "art/painted-v029/jibu-1.png",
+        "art/painted-v029/jibu-2.png",
+        "art/painted-v029/jibu-3.png",
+        "art/painted-v029/jibu-4.png",
+        "art/painted-v029/jibu-5.png"
+      ]
+    },
+    {
+      "id": "sangun",
+      "files": [
+        "art/painted-v029/sangun-0.png",
+        "art/painted-v029/sangun-1.png",
+        "art/painted-v029/sangun-2.png",
+        "art/painted-v029/sangun-3.png",
+        "art/painted-v029/sangun-4.png",
+        "art/painted-v029/sangun-5.png"
+      ]
+    },
+    {
+      "id": "jungnimbaem",
+      "files": [
+        "art/painted-v029/jungnimbaem-0.png",
+        "art/painted-v029/jungnimbaem-1.png",
+        "art/painted-v029/jungnimbaem-2.png",
+        "art/painted-v029/jungnimbaem-3.png",
+        "art/painted-v029/jungnimbaem-4.png",
+        "art/painted-v029/jungnimbaem-5.png"
+      ]
+    },
+    {
+      "id": "japchojeongryeong",
+      "files": [
+        "art/painted-v029/japchojeongryeong-0.png",
+        "art/painted-v029/japchojeongryeong-1.png",
+        "art/painted-v029/japchojeongryeong-2.png",
+        "art/painted-v029/japchojeongryeong-3.png",
+        "art/painted-v029/japchojeongryeong-4.png",
+        "art/painted-v029/japchojeongryeong-5.png"
+      ]
+    },
+    {
+      "id": "heugmu-imugiwang",
+      "files": [
+        "art/painted-v029/heugmu-imugiwang-0.png",
+        "art/painted-v029/heugmu-imugiwang-1.png",
+        "art/painted-v029/heugmu-imugiwang-2.png",
+        "art/painted-v029/heugmu-imugiwang-3.png",
+        "art/painted-v029/heugmu-imugiwang-4.png",
+        "art/painted-v029/heugmu-imugiwang-5.png"
+      ]
+    },
+    {
+      "id": "mansudogun",
+      "files": [
+        "art/painted-v029/mansudogun-0.png",
+        "art/painted-v029/mansudogun-1.png",
+        "art/painted-v029/mansudogun-2.png",
+        "art/painted-v029/mansudogun-3.png",
+        "art/painted-v029/mansudogun-4.png",
+        "art/painted-v029/mansudogun-5.png"
+      ]
+    },
+    {
+      "id": "dokkaebi",
+      "files": [
+        "art/painted-v029/dokkaebi-0.png",
+        "art/painted-v029/dokkaebi-1.png",
+        "art/painted-v029/dokkaebi-2.png",
+        "art/painted-v029/dokkaebi-3.png",
+        "art/painted-v029/dokkaebi-4.png",
+        "art/painted-v029/dokkaebi-5.png"
+      ]
+    },
+    {
+      "id": "fox-god",
+      "files": [
+        "art/painted-v029/fox-god-0.png",
+        "art/painted-v029/fox-god-1.png",
+        "art/painted-v029/fox-god-2.png",
+        "art/painted-v029/fox-god-3.png",
+        "art/painted-v029/fox-god-4.png",
+        "art/painted-v029/fox-god-5.png"
+      ]
+    },
+    {
+      "id": "wolf-star",
+      "files": [
+        "art/painted-v029/wolf-star-0.png",
+        "art/painted-v029/wolf-star-1.png",
+        "art/painted-v029/wolf-star-2.png",
+        "art/painted-v029/wolf-star-3.png",
+        "art/painted-v029/wolf-star-4.png",
+        "art/painted-v029/wolf-star-5.png"
+      ]
+    },
+    {
+      "id": "sword-founder",
+      "files": [
+        "art/painted-v029/sword-founder-0.png",
+        "art/painted-v029/sword-founder-1.png",
+        "art/painted-v029/sword-founder-2.png",
+        "art/painted-v029/sword-founder-3.png",
+        "art/painted-v029/sword-founder-4.png",
+        "art/painted-v029/sword-founder-5.png"
+      ]
+    },
+    {
+      "id": "ancient-dragon",
+      "files": [
+        "art/painted-v029/ancient-dragon-0.png",
+        "art/painted-v029/ancient-dragon-1.png",
+        "art/painted-v029/ancient-dragon-2.png",
+        "art/painted-v029/ancient-dragon-3.png",
+        "art/painted-v029/ancient-dragon-4.png",
+        "art/painted-v029/ancient-dragon-5.png"
+      ]
+    },
+    {
+      "id": "judge",
+      "files": [
+        "art/painted-v029/judge-0.png",
+        "art/painted-v029/judge-1.png",
+        "art/painted-v029/judge-2.png",
+        "art/painted-v029/judge-3.png",
+        "art/painted-v029/judge-4.png",
+        "art/painted-v029/judge-5.png"
+      ]
+    },
+    {
+      "id": "fire-fox",
+      "files": [
+        "art/painted-v029/fire-fox-0.png",
+        "art/painted-v029/fire-fox-1.png",
+        "art/painted-v029/fire-fox-2.png",
+        "art/painted-v029/fire-fox-3.png",
+        "art/painted-v029/fire-fox-4.png",
+        "art/painted-v029/fire-fox-5.png"
+      ]
+    },
+    {
+      "id": "soul-flame",
+      "files": [
+        "art/painted-v029/soul-flame-0.png",
+        "art/painted-v029/soul-flame-1.png",
+        "art/painted-v029/soul-flame-2.png",
+        "art/painted-v029/soul-flame-3.png",
+        "art/painted-v029/soul-flame-4.png",
+        "art/painted-v029/soul-flame-5.png"
+      ]
+    },
+    {
+      "id": "red-oni",
+      "files": [
+        "art/painted-v029/red-oni-0.png",
+        "art/painted-v029/red-oni-1.png",
+        "art/painted-v029/red-oni-2.png",
+        "art/painted-v029/red-oni-3.png",
+        "art/painted-v029/red-oni-4.png",
+        "art/painted-v029/red-oni-5.png"
+      ]
+    },
+    {
+      "id": "thunder-bird",
+      "files": [
+        "art/painted-v029/thunder-bird-0.png",
+        "art/painted-v029/thunder-bird-1.png",
+        "art/painted-v029/thunder-bird-2.png",
+        "art/painted-v029/thunder-bird-3.png",
+        "art/painted-v029/thunder-bird-4.png",
+        "art/painted-v029/thunder-bird-5.png"
+      ]
+    },
+    {
+      "id": "silver-guard",
+      "files": [
+        "art/painted-v029/silver-guard-0.png",
+        "art/painted-v029/silver-guard-1.png",
+        "art/painted-v029/silver-guard-2.png",
+        "art/painted-v029/silver-guard-3.png",
+        "art/painted-v029/silver-guard-4.png",
+        "art/painted-v029/silver-guard-5.png"
+      ]
+    },
+    {
+      "id": "silver-wolf",
+      "files": [
+        "art/painted-v029/silver-wolf-0.png",
+        "art/painted-v029/silver-wolf-1.png",
+        "art/painted-v029/silver-wolf-2.png",
+        "art/painted-v029/silver-wolf-3.png",
+        "art/painted-v029/silver-wolf-4.png",
+        "art/painted-v029/silver-wolf-5.png"
+      ]
+    },
+    {
+      "id": "ferryman",
+      "files": [
+        "art/painted-v029/ferryman-0.png",
+        "art/painted-v029/ferryman-1.png",
+        "art/painted-v029/ferryman-2.png",
+        "art/painted-v029/ferryman-3.png",
+        "art/painted-v029/ferryman-4.png",
+        "art/painted-v029/ferryman-5.png"
+      ]
+    },
+    {
+      "id": "bamboo-spirit",
+      "files": [
+        "art/painted-v029/bamboo-spirit-0.png",
+        "art/painted-v029/bamboo-spirit-1.png",
+        "art/painted-v029/bamboo-spirit-2.png",
+        "art/painted-v029/bamboo-spirit-3.png",
+        "art/painted-v029/bamboo-spirit-4.png",
+        "art/painted-v029/bamboo-spirit-5.png"
+      ]
+    },
+    {
+      "id": "fire-bandit",
+      "files": [
+        "art/painted-v029/fire-bandit-0.png",
+        "art/painted-v029/fire-bandit-1.png",
+        "art/painted-v029/fire-bandit-2.png",
+        "art/painted-v029/fire-bandit-3.png",
+        "art/painted-v029/fire-bandit-4.png",
+        "art/painted-v029/fire-bandit-5.png"
+      ]
+    },
+    {
+      "id": "canyon-hawk",
+      "files": [
+        "art/painted-v029/canyon-hawk-0.png",
+        "art/painted-v029/canyon-hawk-1.png",
+        "art/painted-v029/canyon-hawk-2.png",
+        "art/painted-v029/canyon-hawk-3.png",
+        "art/painted-v029/canyon-hawk-4.png",
+        "art/painted-v029/canyon-hawk-5.png"
+      ]
+    },
+    {
+      "id": "stone-general",
+      "files": [
+        "art/painted-v029/stone-general-0.png",
+        "art/painted-v029/stone-general-1.png",
+        "art/painted-v029/stone-general-2.png",
+        "art/painted-v029/stone-general-3.png",
+        "art/painted-v029/stone-general-4.png",
+        "art/painted-v029/stone-general-5.png"
+      ]
+    },
+    {
+      "id": "ovoo-stone",
+      "files": [
+        "art/painted-v029/ovoo-stone-0.png",
+        "art/painted-v029/ovoo-stone-1.png",
+        "art/painted-v029/ovoo-stone-2.png",
+        "art/painted-v029/ovoo-stone-3.png",
+        "art/painted-v029/ovoo-stone-4.png",
+        "art/painted-v029/ovoo-stone-5.png"
+      ]
+    },
+    {
+      "id": "bronze-bell",
+      "files": [
+        "art/painted-v029/bronze-bell-0.png",
+        "art/painted-v029/bronze-bell-1.png",
+        "art/painted-v029/bronze-bell-2.png",
+        "art/painted-v029/bronze-bell-3.png",
+        "art/painted-v029/bronze-bell-4.png",
+        "art/painted-v029/bronze-bell-5.png"
+      ]
+    },
+    {
+      "id": "immortal-crane",
+      "files": [
+        "art/painted-v029/immortal-crane-0.png",
+        "art/painted-v029/immortal-crane-1.png",
+        "art/painted-v029/immortal-crane-2.png",
+        "art/painted-v029/immortal-crane-3.png",
+        "art/painted-v029/immortal-crane-4.png",
+        "art/painted-v029/immortal-crane-5.png"
+      ]
+    },
+    {
+      "id": "river-messenger",
+      "files": [
+        "art/painted-v029/river-messenger-0.png",
+        "art/painted-v029/river-messenger-1.png",
+        "art/painted-v029/river-messenger-2.png",
+        "art/painted-v029/river-messenger-3.png",
+        "art/painted-v029/river-messenger-4.png",
+        "art/painted-v029/river-messenger-5.png"
+      ]
+    },
+    {
+      "id": "ice-river",
+      "files": [
+        "art/painted-v029/ice-river-0.png",
+        "art/painted-v029/ice-river-1.png",
+        "art/painted-v029/ice-river-2.png",
+        "art/painted-v029/ice-river-3.png",
+        "art/painted-v029/ice-river-4.png",
+        "art/painted-v029/ice-river-5.png"
+      ]
+    },
+    {
+      "id": "jungle-frog",
+      "files": [
+        "art/painted-v029/jungle-frog-0.png",
+        "art/painted-v029/jungle-frog-1.png",
+        "art/painted-v029/jungle-frog-2.png",
+        "art/painted-v029/jungle-frog-3.png",
+        "art/painted-v029/jungle-frog-4.png",
+        "art/painted-v029/jungle-frog-5.png"
+      ]
+    },
+    {
+      "id": "jungle-monkey",
+      "files": [
+        "art/painted-v029/jungle-monkey-0.png",
+        "art/painted-v029/jungle-monkey-1.png",
+        "art/painted-v029/jungle-monkey-2.png",
+        "art/painted-v029/jungle-monkey-3.png",
+        "art/painted-v029/jungle-monkey-4.png",
+        "art/painted-v029/jungle-monkey-5.png"
+      ]
+    },
+    {
+      "id": "wildfire-fox",
+      "files": [
+        "art/painted-v029/wildfire-fox-0.png",
+        "art/painted-v029/wildfire-fox-1.png",
+        "art/painted-v029/wildfire-fox-2.png",
+        "art/painted-v029/wildfire-fox-3.png",
+        "art/painted-v029/wildfire-fox-4.png",
+        "art/painted-v029/wildfire-fox-5.png"
+      ]
+    },
+    {
+      "id": "temple-snake",
+      "files": [
+        "art/painted-v029/temple-snake-0.png",
+        "art/painted-v029/temple-snake-1.png",
+        "art/painted-v029/temple-snake-2.png",
+        "art/painted-v029/temple-snake-3.png",
+        "art/painted-v029/temple-snake-4.png",
+        "art/painted-v029/temple-snake-5.png"
+      ]
+    },
+    {
+      "id": "fire-prankster",
+      "files": [
+        "art/painted-v029/fire-prankster-0.png",
+        "art/painted-v029/fire-prankster-1.png",
+        "art/painted-v029/fire-prankster-2.png",
+        "art/painted-v029/fire-prankster-3.png",
+        "art/painted-v029/fire-prankster-4.png",
+        "art/painted-v029/fire-prankster-5.png"
+      ]
+    },
+    {
+      "id": "alley-ghost",
+      "files": [
+        "art/painted-v029/alley-ghost-0.png",
+        "art/painted-v029/alley-ghost-1.png",
+        "art/painted-v029/alley-ghost-2.png",
+        "art/painted-v029/alley-ghost-3.png",
+        "art/painted-v029/alley-ghost-4.png",
+        "art/painted-v029/alley-ghost-5.png"
+      ]
+    },
+    {
+      "id": "dry-bones",
+      "files": [
+        "art/painted-v029/dry-bones-0.png",
+        "art/painted-v029/dry-bones-1.png",
+        "art/painted-v029/dry-bones-2.png",
+        "art/painted-v029/dry-bones-3.png",
+        "art/painted-v029/dry-bones-4.png",
+        "art/painted-v029/dry-bones-5.png"
+      ]
+    },
+    {
+      "id": "shrine-bellkeeper",
+      "files": [
+        "art/painted-v029/shrine-bellkeeper-0.png",
+        "art/painted-v029/shrine-bellkeeper-1.png",
+        "art/painted-v029/shrine-bellkeeper-2.png",
+        "art/painted-v029/shrine-bellkeeper-3.png",
+        "art/painted-v029/shrine-bellkeeper-4.png",
+        "art/painted-v029/shrine-bellkeeper-5.png"
+      ]
+    },
+    {
+      "id": "festival-mask",
+      "files": [
+        "art/painted-v029/festival-mask-0.png",
+        "art/painted-v029/festival-mask-1.png",
+        "art/painted-v029/festival-mask-2.png",
+        "art/painted-v029/festival-mask-3.png",
+        "art/painted-v029/festival-mask-4.png",
+        "art/painted-v029/festival-mask-5.png"
+      ]
+    },
+    {
+      "id": "steppe-falcon",
+      "files": [
+        "art/painted-v029/steppe-falcon-0.png",
+        "art/painted-v029/steppe-falcon-1.png",
+        "art/painted-v029/steppe-falcon-2.png",
+        "art/painted-v029/steppe-falcon-3.png",
+        "art/painted-v029/steppe-falcon-4.png",
+        "art/painted-v029/steppe-falcon-5.png"
+      ]
+    },
+    {
+      "id": "rusted-sword",
+      "files": [
+        "art/painted-v029/rusted-sword-0.png",
+        "art/painted-v029/rusted-sword-1.png",
+        "art/painted-v029/rusted-sword-2.png",
+        "art/painted-v029/rusted-sword-3.png",
+        "art/painted-v029/rusted-sword-4.png",
+        "art/painted-v029/rusted-sword-5.png"
+      ]
+    },
+    {
+      "id": "hot-spring-ghost",
+      "files": [
+        "art/painted-v029/hot-spring-ghost-0.png",
+        "art/painted-v029/hot-spring-ghost-1.png",
+        "art/painted-v029/hot-spring-ghost-2.png",
+        "art/painted-v029/hot-spring-ghost-3.png",
+        "art/painted-v029/hot-spring-ghost-4.png",
+        "art/painted-v029/hot-spring-ghost-5.png"
+      ]
+    },
+    {
+      "id": "brook-child",
+      "files": [
+        "art/painted-v029/brook-child-0.png",
+        "art/painted-v029/brook-child-1.png",
+        "art/painted-v029/brook-child-2.png",
+        "art/painted-v029/brook-child-3.png",
+        "art/painted-v029/brook-child-4.png",
+        "art/painted-v029/brook-child-5.png"
+      ]
+    },
+    {
+      "id": "waterfall-drake",
+      "files": [
+        "art/painted-v029/waterfall-drake-0.png",
+        "art/painted-v029/waterfall-drake-1.png",
+        "art/painted-v029/waterfall-drake-2.png",
+        "art/painted-v029/waterfall-drake-3.png",
+        "art/painted-v029/waterfall-drake-4.png",
+        "art/painted-v029/waterfall-drake-5.png"
+      ]
+    },
+    {
+      "id": "bamboo-fairy",
+      "files": [
+        "art/painted-v029/bamboo-fairy-0.png",
+        "art/painted-v029/bamboo-fairy-1.png",
+        "art/painted-v029/bamboo-fairy-2.png",
+        "art/painted-v029/bamboo-fairy-3.png",
+        "art/painted-v029/bamboo-fairy-4.png",
+        "art/painted-v029/bamboo-fairy-5.png"
+      ]
+    },
+    {
+      "id": "floating-moss",
+      "files": [
+        "art/painted-v029/floating-moss-0.png",
+        "art/painted-v029/floating-moss-1.png",
+        "art/painted-v029/floating-moss-2.png",
+        "art/painted-v029/floating-moss-3.png",
+        "art/painted-v029/floating-moss-4.png",
+        "art/painted-v029/floating-moss-5.png"
+      ]
+    },
+    {
+      "id": "firefly",
+      "files": [
+        "art/painted-v029/firefly-0.png",
+        "art/painted-v029/firefly-1.png",
+        "art/painted-v029/firefly-2.png",
+        "art/painted-v029/firefly-3.png",
+        "art/painted-v029/firefly-4.png",
+        "art/painted-v029/firefly-5.png"
+      ]
+    },
+    {
+      "id": "mosquito",
+      "files": [
+        "art/painted-v029/mosquito-0.png",
+        "art/painted-v029/mosquito-1.png",
+        "art/painted-v029/mosquito-2.png",
+        "art/painted-v029/mosquito-3.png",
+        "art/painted-v029/mosquito-4.png",
+        "art/painted-v029/mosquito-5.png"
+      ]
+    },
+    {
+      "id": "campfire",
+      "files": [
+        "art/painted-v029/campfire-0.png",
+        "art/painted-v029/campfire-1.png",
+        "art/painted-v029/campfire-2.png",
+        "art/painted-v029/campfire-3.png",
+        "art/painted-v029/campfire-4.png",
+        "art/painted-v029/campfire-5.png"
+      ]
+    },
+    {
+      "id": "eyeball-goblin",
+      "files": [
+        "art/painted-v029/eyeball-goblin-0.png",
+        "art/painted-v029/eyeball-goblin-1.png",
+        "art/painted-v029/eyeball-goblin-2.png",
+        "art/painted-v029/eyeball-goblin-3.png",
+        "art/painted-v029/eyeball-goblin-4.png",
+        "art/painted-v029/eyeball-goblin-5.png"
+      ]
+    },
+    {
+      "id": "pebble-goblin",
+      "files": [
+        "art/painted-v029/pebble-goblin-0.png",
+        "art/painted-v029/pebble-goblin-1.png",
+        "art/painted-v029/pebble-goblin-2.png",
+        "art/painted-v029/pebble-goblin-3.png",
+        "art/painted-v029/pebble-goblin-4.png",
+        "art/painted-v029/pebble-goblin-5.png"
+      ]
+    },
+    {
+      "id": "mud-child",
+      "files": [
+        "art/painted-v029/mud-child-0.png",
+        "art/painted-v029/mud-child-1.png",
+        "art/painted-v029/mud-child-2.png",
+        "art/painted-v029/mud-child-3.png",
+        "art/painted-v029/mud-child-4.png",
+        "art/painted-v029/mud-child-5.png"
+      ]
+    },
+    {
+      "id": "rat",
+      "files": [
+        "art/painted-v029/rat-0.png",
+        "art/painted-v029/rat-1.png",
+        "art/painted-v029/rat-2.png",
+        "art/painted-v029/rat-3.png",
+        "art/painted-v029/rat-4.png",
+        "art/painted-v029/rat-5.png"
+      ]
+    },
+    {
+      "id": "pebble-spirit",
+      "files": [
+        "art/painted-v029/pebble-spirit-0.png",
+        "art/painted-v029/pebble-spirit-1.png",
+        "art/painted-v029/pebble-spirit-2.png",
+        "art/painted-v029/pebble-spirit-3.png",
+        "art/painted-v029/pebble-spirit-4.png",
+        "art/painted-v029/pebble-spirit-5.png"
+      ]
+    },
+    {
+      "id": "coin-ghost",
+      "files": [
+        "art/painted-v029/coin-ghost-0.png",
+        "art/painted-v029/coin-ghost-1.png",
+        "art/painted-v029/coin-ghost-2.png",
+        "art/painted-v029/coin-ghost-3.png",
+        "art/painted-v029/coin-ghost-4.png",
+        "art/painted-v029/coin-ghost-5.png"
+      ]
+    },
+    {
+      "id": "waterdrop",
+      "files": [
+        "art/painted-v029/waterdrop-0.png",
+        "art/painted-v029/waterdrop-1.png",
+        "art/painted-v029/waterdrop-2.png",
+        "art/painted-v029/waterdrop-3.png",
+        "art/painted-v029/waterdrop-4.png",
+        "art/painted-v029/waterdrop-5.png"
+      ]
+    },
+    {
+      "id": "mudwater",
+      "files": [
+        "art/painted-v029/mudwater-0.png",
+        "art/painted-v029/mudwater-1.png",
+        "art/painted-v029/mudwater-2.png",
+        "art/painted-v029/mudwater-3.png",
+        "art/painted-v029/mudwater-4.png",
+        "art/painted-v029/mudwater-5.png"
+      ]
+    },
+    {
+      "id": "dew-spirit",
+      "files": [
+        "art/painted-v029/dew-spirit-0.png",
+        "art/painted-v029/dew-spirit-1.png",
+        "art/painted-v029/dew-spirit-2.png",
+        "art/painted-v029/dew-spirit-3.png",
+        "art/painted-v029/dew-spirit-4.png",
+        "art/painted-v029/dew-spirit-5.png"
+      ]
+    },
+    {
+      "id": "story-swordsman",
+      "files": [
+        "art/painted-v029/story-swordsman-0.png",
+        "art/painted-v029/story-swordsman-1.png",
+        "art/painted-v029/story-swordsman-2.png",
+        "art/painted-v029/story-swordsman-3.png",
+        "art/painted-v029/story-swordsman-4.png",
+        "art/painted-v029/story-swordsman-5.png"
+      ]
+    },
+    {
+      "id": "story-priestess",
+      "files": [
+        "art/painted-v029/story-priestess-0.png",
+        "art/painted-v029/story-priestess-1.png",
+        "art/painted-v029/story-priestess-2.png",
+        "art/painted-v029/story-priestess-3.png",
+        "art/painted-v029/story-priestess-4.png",
+        "art/painted-v029/story-priestess-5.png"
+      ]
+    },
+    {
+      "id": "story-dancer",
+      "files": [
+        "art/painted-v029/story-dancer-0.png",
+        "art/painted-v029/story-dancer-1.png",
+        "art/painted-v029/story-dancer-2.png",
+        "art/painted-v029/story-dancer-3.png",
+        "art/painted-v029/story-dancer-4.png",
+        "art/painted-v029/story-dancer-5.png"
+      ]
+    },
+    {
+      "id": "story-prophet",
+      "files": [
+        "art/painted-v029/story-prophet-0.png",
+        "art/painted-v029/story-prophet-1.png",
+        "art/painted-v029/story-prophet-2.png",
+        "art/painted-v029/story-prophet-3.png",
+        "art/painted-v029/story-prophet-4.png",
+        "art/painted-v029/story-prophet-5.png"
+      ]
+    },
+    {
+      "id": "jiangshi",
+      "files": [
+        "art/painted-v029/jiangshi-0.png",
+        "art/painted-v029/jiangshi-1.png",
+        "art/painted-v029/jiangshi-2.png",
+        "art/painted-v029/jiangshi-3.png",
+        "art/painted-v029/jiangshi-4.png",
+        "art/painted-v029/jiangshi-5.png"
+      ]
+    },
+    {
+      "id": "snow-maiden",
+      "files": [
+        "art/painted-v029/snow-maiden-0.png",
+        "art/painted-v029/snow-maiden-1.png",
+        "art/painted-v029/snow-maiden-2.png",
+        "art/painted-v029/snow-maiden-3.png",
+        "art/painted-v029/snow-maiden-4.png",
+        "art/painted-v029/snow-maiden-5.png"
+      ]
+    },
+    {
+      "id": "parasol-spirit",
+      "files": [
+        "art/painted-v029/parasol-spirit-0.png",
+        "art/painted-v029/parasol-spirit-1.png",
+        "art/painted-v029/parasol-spirit-2.png",
+        "art/painted-v029/parasol-spirit-3.png",
+        "art/painted-v029/parasol-spirit-4.png",
+        "art/painted-v029/parasol-spirit-5.png"
+      ]
+    },
+    {
+      "id": "lotus-lantern",
+      "files": [
+        "art/painted-v029/lotus-lantern-0.png",
+        "art/painted-v029/lotus-lantern-1.png",
+        "art/painted-v029/lotus-lantern-2.png",
+        "art/painted-v029/lotus-lantern-3.png",
+        "art/painted-v029/lotus-lantern-4.png",
+        "art/painted-v029/lotus-lantern-5.png"
+      ]
+    },
+    {
+      "id": "azure-serpent",
+      "files": [
+        "art/painted-v029/azure-serpent-0.png",
+        "art/painted-v029/azure-serpent-1.png",
+        "art/painted-v029/azure-serpent-2.png",
+        "art/painted-v029/azure-serpent-3.png",
+        "art/painted-v029/azure-serpent-4.png",
+        "art/painted-v029/azure-serpent-5.png"
+      ]
+    },
+    {
+      "id": "hwacha",
+      "files": [
+        "art/painted-v029/hwacha-0.png",
+        "art/painted-v029/hwacha-1.png",
+        "art/painted-v029/hwacha-2.png",
+        "art/painted-v029/hwacha-3.png",
+        "art/painted-v029/hwacha-4.png",
+        "art/painted-v029/hwacha-5.png"
+      ]
+    },
+    {
+      "id": "moon-shaman",
+      "files": [
+        "art/painted-v029/moon-shaman-0.png",
+        "art/painted-v029/moon-shaman-1.png",
+        "art/painted-v029/moon-shaman-2.png",
+        "art/painted-v029/moon-shaman-3.png",
+        "art/painted-v029/moon-shaman-4.png",
+        "art/painted-v029/moon-shaman-5.png"
+      ]
+    },
+    {
+      "id": "red-butterfly",
+      "files": [
+        "art/painted-v029/red-butterfly-0.png",
+        "art/painted-v029/red-butterfly-1.png",
+        "art/painted-v029/red-butterfly-2.png",
+        "art/painted-v029/red-butterfly-3.png",
+        "art/painted-v029/red-butterfly-4.png",
+        "art/painted-v029/red-butterfly-5.png"
+      ]
+    },
+    {
+      "id": "mountain-lynx",
+      "files": [
+        "art/painted-v029/mountain-lynx-0.png",
+        "art/painted-v029/mountain-lynx-1.png",
+        "art/painted-v029/mountain-lynx-2.png",
+        "art/painted-v029/mountain-lynx-3.png",
+        "art/painted-v029/mountain-lynx-4.png",
+        "art/painted-v029/mountain-lynx-5.png"
+      ]
+    },
+    {
+      "id": "bamboo-healer",
+      "files": [
+        "art/painted-v029/bamboo-healer-0.png",
+        "art/painted-v029/bamboo-healer-1.png",
+        "art/painted-v029/bamboo-healer-2.png",
+        "art/painted-v029/bamboo-healer-3.png",
+        "art/painted-v029/bamboo-healer-4.png",
+        "art/painted-v029/bamboo-healer-5.png"
+      ]
+    },
+    {
+      "id": "sea-mist",
+      "files": [
+        "art/painted-v029/sea-mist-0.png",
+        "art/painted-v029/sea-mist-1.png",
+        "art/painted-v029/sea-mist-2.png",
+        "art/painted-v029/sea-mist-3.png",
+        "art/painted-v029/sea-mist-4.png",
+        "art/painted-v029/sea-mist-5.png"
+      ]
+    },
+    {
+      "id": "snow-leopard",
+      "files": [
+        "art/painted-v029/snow-leopard-0.png",
+        "art/painted-v029/snow-leopard-1.png",
+        "art/painted-v029/snow-leopard-2.png",
+        "art/painted-v029/snow-leopard-3.png",
+        "art/painted-v029/snow-leopard-4.png",
+        "art/painted-v029/snow-leopard-5.png"
+      ]
+    },
+    {
+      "id": "gold-kirin",
+      "files": [
+        "art/painted-v029/gold-kirin-0.png",
+        "art/painted-v029/gold-kirin-1.png",
+        "art/painted-v029/gold-kirin-2.png",
+        "art/painted-v029/gold-kirin-3.png",
+        "art/painted-v029/gold-kirin-4.png",
+        "art/painted-v029/gold-kirin-5.png"
+      ]
+    },
+    {
+      "id": "red-spear",
+      "files": [
+        "art/painted-v029/red-spear-0.png",
+        "art/painted-v029/red-spear-1.png",
+        "art/painted-v029/red-spear-2.png",
+        "art/painted-v029/red-spear-3.png",
+        "art/painted-v029/red-spear-4.png",
+        "art/painted-v029/red-spear-5.png"
+      ]
+    },
+    {
+      "id": "sand-flower",
+      "files": [
+        "art/painted-v029/sand-flower-0.png",
+        "art/painted-v029/sand-flower-1.png",
+        "art/painted-v029/sand-flower-2.png",
+        "art/painted-v029/sand-flower-3.png",
+        "art/painted-v029/sand-flower-4.png",
+        "art/painted-v029/sand-flower-5.png"
+      ]
+    },
+    {
+      "id": "obsidian-warden",
+      "files": [
+        "art/painted-v029/obsidian-warden-0.png",
+        "art/painted-v029/obsidian-warden-1.png",
+        "art/painted-v029/obsidian-warden-2.png",
+        "art/painted-v029/obsidian-warden-3.png",
+        "art/painted-v029/obsidian-warden-4.png",
+        "art/painted-v029/obsidian-warden-5.png"
+      ]
+    }
+  ]
+}

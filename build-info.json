@@ -1,13 +1,13 @@
 {
-  "version": "0.24.0",
+  "version": "0.25.0",
   "narrativeRevision": "ashes-v1",
-  "builtAt": "2026-09-21T23:57:10.200Z",
+  "builtAt": "2026-09-22T00:38:43.305Z",
   "basedOnCommit": "628af87c7aa85268040c9621756387370facdfbb",
   "includesWorkingTreeChanges": true,
   "harness": {
-    "task": "v024-tester-support",
+    "task": "v025-exclusive-equipment",
     "status": "pass",
-    "runId": "2026-09-21T23-54-27-278Z-9988",
+    "runId": "2026-09-22T00-36-59-580Z-2640",
     "checks": [
       {
         "id": "typecheck",
@@ -121,23 +121,62 @@
     ],
     "firstSummonFiveStarTicket": {
       "perProfile": 1,
-      "pool": 11,
+      "pool": 17,
       "legacyEligible": true,
       "changesRegularPity": false
     },
     "staminaRecoveryMinutes": 3,
     "firstClearEntryStamina": 3,
     "dailyFreeStamina": 120,
-    "partialDailyStaminaSupply": true
+    "partialDailyStaminaSupply": true,
+    "equipmentSlots": [
+      "weapon",
+      "armor",
+      "relic",
+      "talisman",
+      "head",
+      "boots"
+    ],
+    "exclusiveGear": {
+      "roster": 71,
+      "separateSlot": true,
+      "singleCost": 200,
+      "tenCost": 1800,
+      "hardPity": 30,
+      "optionsPersist": true,
+      "combatEffects": [
+        "damage",
+        "heal",
+        "shield"
+      ],
+      "capacity": 500
+    },
+    "promotedFiveStars": [
+      "jiangshi",
+      "snow-maiden",
+      "parasol-spirit",
+      "lotus-lantern",
+      "azure-serpent",
+      "hwacha"
+    ]
   },
   "browserQA": {
-    "version": "0.24.0",
+    "version": "0.25.0",
     "checks": [
-      "real first regular pull grants ticket; eleven-member review; manual gold seal, two story beats and5-star reveal; no gem/pity/count changes; usage survives reload",
-      "partial free supply1 then119, no overflow loss, bank survives reload, depleted expedition opens recovery, no duplicate supply",
-      "1440px role tabs, formation, reserves, base/awakening codex intersection, legacy ticket and supply screens without horizontal overflow",
-      "390px role tabs, formation, reserves, base/awakening codex intersection, legacy ticket and supply screens without horizontal overflow",
-      "360px role tabs, formation, reserves, base/awakening codex intersection, legacy ticket and supply screens without horizontal overflow"
+      "admin v0.25 and six ordinary slots",
+      "party auto-equip and six-piece resonance",
+      "actual target-specific ten-pull charged once; character pity/count/ticket unchanged",
+      "individual seal reveal then equip and reveal all",
+      "random options and equipment persist after reload",
+      "mobile 390/360 shop, result and six-slot armory without page overflow",
+      "six newcomers shown as five stars",
+      "actual combat command displays equipped skill enhancement",
+      "ordinary account and welcome shop choice",
+      "unowned target warning and equip disabled",
+      "single draw charged once after double click",
+      "old gear/roster/character pity preserved",
+      "saved random item restored after reload",
+      "confirmed salvage returns exact dust"
     ],
     "viewports": [
       1440,
@@ -145,8 +184,7 @@
       360
     ],
     "isolatedStorage": true,
-    "expandedRosterFixture": true,
-    "actualRegularAndTicketSummons": true,
+    "actualExclusiveSummons": true,
     "errors": []
   }
 }

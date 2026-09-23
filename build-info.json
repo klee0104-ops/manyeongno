@@ -1,13 +1,13 @@
 {
-  "version": "0.32.0",
+  "version": "0.33.0",
   "narrativeRevision": "ashes-v1",
-  "builtAt": "2026-09-23T00:38:30.649Z",
+  "builtAt": "2026-09-23T01:20:00.214Z",
   "basedOnCommit": "628af87c7aa85268040c9621756387370facdfbb",
   "includesWorkingTreeChanges": true,
   "harness": {
-    "task": "v032-admin-journey",
+    "task": "v033-diorama",
     "status": "pass",
-    "runId": "2026-09-23T00-36-26-988Z-22028",
+    "runId": "2026-09-23T01-17-05-464Z-26136",
     "checks": [
       {
         "id": "typecheck",
@@ -318,18 +318,27 @@
     "continuousJourneyCamera": true,
     "sixRegionalJourneys": true,
     "persistedMapViewpoint": true,
-    "reducedMotionJourney": true
+    "reducedMotionJourney": true,
+    "webglDioramaMap": true,
+    "sixDioramaThemes": true,
+    "routeCameraFlight": true,
+    "mapOrbitAndZoom": true,
+    "perProfileMapStyle": true,
+    "paintedMapFallback": true,
+    "reusedMapRenderer": true
   },
   "browserQA": {
-    "version": "0.32.0",
+    "version": "0.33.0",
     "checks": [
-      "continuous camera has intermediate positions, rapid navigation cancels old motion, boundaries work, selecting routes never changes progress or economy",
-      "selected map viewpoint and cute mode survive reload",
-      "four real Hell campaign admissions with exhausted weekly counter; no counter or stamina charge",
-      "four real tier5 daily entries despite3/3 consumed, retry remains available",
-      "regular and10x exclusive summons actually grant results at zero currency; cost and balance shown free/infinite",
-      "six regional map backgrounds and depths inspected through chapter selector",
-      "390px previous/next buttons are tappable above bottom nav; reduced-motion mode jumps directly",
+      "actual WebGL terrain, intermediate camera movement, persistent canvas and admin infinite wallets",
+      "pointer drag orbit, zoom and reset controls work",
+      "route marker and dropdown selection preserve progress, economy, party and a single reused WebGL context",
+      "rapid navigation remains continuous; profile map style and stage survive reload",
+      "six regional scenes and repeated map detachment/reentry",
+      "real combat admission detaches map, retreat restores it",
+      "390px view has no overflow, navigation is tappable, reduced motion skips camera flight",
+      "lost WebGL context falls back to usable painted map and next navigation can recreate renderer",
+      "unsupported WebGL device retains painted map and controls",
       "fresh ordinary profile keeps19 locked destinations and first-entry cost3; retreat grants no progress",
       "ordinary daily dungeon still costs8 stamina and1 daily admission; upper tiers remain locked",
       "ordinary summon still charges300 and grants one roll"
@@ -339,9 +348,8 @@
       390
     ],
     "isolatedStorage": true,
-    "actualAdminHellAdmissions": 4,
-    "actualAdminDailyAdmissions": 4,
-    "actualZeroBalanceSummons": true,
+    "renderer": "Chromium software WebGL",
+    "physicalMobilePerformanceMeasured": false,
     "actualOrdinaryCharges": true,
     "errors": []
   },
@@ -353,9 +361,9 @@
     "rechecked": true,
     "modeBattleEquivalence": true
   },
-  "releaseNotes": "docs/V032_ADMIN_AND_JOURNEY.md",
+  "releaseNotes": "docs/V033_DIORAMA_MAP.md",
   "build": {
-    "files": 1261,
-    "bytes": 725499054
+    "files": 1262,
+    "bytes": 726045696
   }
 }

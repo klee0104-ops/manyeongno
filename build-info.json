@@ -1,13 +1,13 @@
 {
-  "version": "0.36.0",
+  "version": "0.37.0",
   "narrativeRevision": "ashes-v1",
-  "builtAt": "2026-09-23T03:22:16.371Z",
+  "builtAt": "2026-09-23T04:17:21.708Z",
   "basedOnCommit": "628af87c7aa85268040c9621756387370facdfbb",
   "includesWorkingTreeChanges": true,
   "harness": {
-    "task": "v036-forest-trial",
+    "task": "v037-chapter-environments",
     "status": "pass",
-    "runId": "2026-09-23T03-20-45-061Z-33336",
+    "runId": "2026-09-23T04-15-21-662Z-20156",
     "checks": [
       {
         "id": "typecheck",
@@ -346,35 +346,167 @@
     "generatedForestMaterials": true,
     "forestComparison": true,
     "forestSceneryView": true,
-    "forestMobileCollapsibleControls": true
+    "forestMobileCollapsibleControls": true,
+    "chapterGeometryEnvironments": 20,
+    "chapterRouteProfiles": 20,
+    "chapterLandmarks": 60,
+    "chapterGeometryBackground": true,
+    "chapterComparison": true,
+    "chapterSceneryView": true,
+    "chapterMobileCollapsibleControls": true,
+    "chapterWaterFlow": true,
+    "forestTrialSupersededBy": "v037"
   },
   "browserQA": {
-    "version": "0.36.0",
+    "version": "0.37.0",
     "checks": [
-      "preview opens forest without wiping progress; geometry-only background and scenery view work",
-      "stage1/5/10/15/20, orbit and zoom keep usable stage markers with a single renderer",
-      "three old/new comparisons restore actual geometry sky, release resources, and preserve the same canvas",
-      "only forest region chapters1-3 change; other regions and canonical bosses retain their existing presentation",
-      "390px view, boss tap, painted switch and reduced motion remain usable",
-      "real battle and retreat restore the forest",
-      "completed-stage return closes the existing world selector; context loss falls back and next navigation reconstructs the map",
+      "All20 distinct geometry scenes: desktop stages1/10/20, all20 mobile390px boss endpoints, canonical boss IDs,3 actual landmarks each and one chapter19 jade; no horizontal overflow or header/footer overlap",
+      "Navigation retains inventory, party, currency, clear history, summon data, difficulty and cute appearance mode; administrator wallet remains unlimited",
+      "Orbit/zoom/reset, chapter-switch comparison reset and three world disposal/rebuild cycles reuse the canvas without geometry/texture growth",
+      "Mobile folded controls, painted-map return, boss click and reduced-motion breathing hold work",
+      "Foundry stage10 battle, pause and retreat restore the correct chapter scene",
+      "Context loss falls back to usable painted map; next navigation reconstructs the correct scene",
       "fresh ordinary profile keeps19 locked destinations and first-entry cost3; retreat grants no progress",
       "ordinary daily dungeon still costs8 stamina and1 daily admission; upper tiers remain locked",
       "ordinary summon still charges300 and grants one roll",
-      "Deliberate forest texture404 switches to usable painted map; next navigation rebuilds real3D after asset recovery"
+      "Deliberate chapter texture404 switches to usable painted map; next navigation rebuilds real3D after asset recovery",
+      "Unavailable WebGL falls back and previous-stage navigation remains usable",
+      "Raised dais floors clear underlying foundation; final boss placement and all six affected scenes render"
     ],
-    "forestMemory": [
+    "chapterScenes": [
       {
-        "geometries": 22,
-        "textures": 7
+        "chapter": 1,
+        "id": "requisition-village",
+        "geometries": 18,
+        "textures": 9
       },
       {
-        "geometries": 22,
-        "textures": 7
+        "chapter": 2,
+        "id": "caged-convoy",
+        "geometries": 19,
+        "textures": 8
       },
       {
+        "chapter": 3,
+        "id": "shrine-vault",
+        "geometries": 15,
+        "textures": 8
+      },
+      {
+        "chapter": 4,
+        "id": "waterfall-convoy",
+        "geometries": 19,
+        "textures": 9
+      },
+      {
+        "chapter": 5,
+        "id": "sealed-dojo",
+        "geometries": 17,
+        "textures": 9
+      },
+      {
+        "chapter": 6,
+        "id": "abandoned-foundry",
+        "geometries": 16,
+        "textures": 8
+      },
+      {
+        "chapter": 7,
+        "id": "inspector-archive",
+        "geometries": 17,
+        "textures": 9
+      },
+      {
+        "chapter": 8,
+        "id": "permit-quarter",
+        "geometries": 17,
+        "textures": 9
+      },
+      {
+        "chapter": 9,
+        "id": "overloaded-festival",
+        "geometries": 20,
+        "textures": 9
+      },
+      {
+        "chapter": 10,
+        "id": "royal-banquet",
+        "geometries": 18,
+        "textures": 9
+      },
+      {
+        "chapter": 11,
+        "id": "drowned-records",
+        "geometries": 21,
+        "textures": 9
+      },
+      {
+        "chapter": 12,
+        "id": "numbered-cells",
+        "geometries": 15,
+        "textures": 8
+      },
+      {
+        "chapter": 13,
+        "id": "reversed-water",
+        "geometries": 24,
+        "textures": 9
+      },
+      {
+        "chapter": 14,
+        "id": "grassland-watch",
         "geometries": 22,
-        "textures": 7
+        "textures": 9
+      },
+      {
+        "chapter": 15,
+        "id": "besieged-obo",
+        "geometries": 24,
+        "textures": 9
+      },
+      {
+        "chapter": 16,
+        "id": "burned-relay",
+        "geometries": 20,
+        "textures": 8
+      },
+      {
+        "chapter": 17,
+        "id": "three-silent-gates",
+        "geometries": 15,
+        "textures": 8
+      },
+      {
+        "chapter": 18,
+        "id": "forced-power",
+        "geometries": 17,
+        "textures": 8
+      },
+      {
+        "chapter": 19,
+        "id": "unshielded-hall",
+        "geometries": 17,
+        "textures": 8
+      },
+      {
+        "chapter": 20,
+        "id": "fractured-evacuation",
+        "geometries": 15,
+        "textures": 8
+      }
+    ],
+    "rebuildMemory": [
+      {
+        "geometries": "16",
+        "textures": "8"
+      },
+      {
+        "geometries": "16",
+        "textures": "8"
+      },
+      {
+        "geometries": "16",
+        "textures": "8"
       }
     ],
     "viewports": [
@@ -394,9 +526,9 @@
     "rechecked": true,
     "modeBattleEquivalence": true
   },
-  "releaseNotes": "docs/V036_FOREST_TRIAL.md",
+  "releaseNotes": "docs/V037_CHAPTER_ENVIRONMENTS.md",
   "build": {
-    "files": 1265,
-    "bytes": 732642272
+    "files": 1268,
+    "bytes": 739938332
   }
 }

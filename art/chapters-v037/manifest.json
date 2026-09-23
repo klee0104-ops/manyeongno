@@ -1,0 +1,15 @@
+{
+  "version": "v037",
+  "generator": "built-in image_gen",
+  "usage": "New surfaces on 20 chapter-specific 3D scenes; no backdrop image",
+  "assets": [
+    {
+      "file": "structures.png",
+      "prompt": "Use case: stylized-concept. Asset type: production base-color material atlas for an original real-time 3D Korean dark-fantasy RPG, matching a detailed hand-painted moonlit forest and shrine. One square image split into FOUR exact equal touching square quadrants in a 2x2 grid, no borders or margins. Each quadrant is a flat orthographic seamless surface material under neutral even diffuse light, fine plausible natural wear, painterly realism, no perspective, no objects, no text, no highlights baked as dramatic light. TOP LEFT: warm old brown timber boards, close grain, narrow parallel joins, subtle scratches, no nails larger than a pin. TOP RIGHT: worn muted ochre sandstone temple masonry with large squared blocks and delicate moss in sparse cracks. BOTTOM LEFT: aged dark gray iron plate with subtle rust speckles and close small riveted joins, medium neutral exposure, no emblems. BOTTOM RIGHT: deep burgundy-red painted plaster wall, subtle weathered brush layers and fine cracks, muted luxurious historical palace color. Material changes exactly at halfway lines, no border lines. The atlas will be sampled as four separate materials on real geometry, never as background art."
+    },
+    {
+      "file": "terrain.png",
+      "prompt": "Use case: stylized-concept. Asset type: real-time 3D environment base-color atlas for an original Korean fantasy RPG, detailed soft hand-painted natural materials. A perfectly square image divided into FOUR equal square quadrants in an exact 2x2 grid. No margins, labels, borders, objects, lighting effects, perspective or scenery. Neutral diffuse illumination and consistent understated fine texture scale. TOP LEFT: sun-dried steppe grasses mixed with olive straw, warm earthy soil and tiny pebbles, irregular natural ground, no large plants. TOP RIGHT: cold blue-gray stratified cliff rock with craggy fractures and light mineral veins, no individual boulders or silhouette. BOTTOM LEFT: charred earth, soft ash, small burnt splinters and dark rubble, still visible medium-dark gray and warm brown, no fire. BOTTOM RIGHT: aged warm ivory lime plaster, small weather cracks, faint patches of earthen wear, no writing. Each quadrant independently seamless with natural variation and fills its whole equal square. A game material sheet to map on actual 3D geometry, not background art. Subtle painterly realism consistent with a mossy moonlit forest shrine."
+    }
+  ]
+}

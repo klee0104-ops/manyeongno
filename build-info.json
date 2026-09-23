@@ -1,13 +1,13 @@
 {
-  "version": "0.39.0",
+  "version": "0.40.0",
   "narrativeRevision": "ashes-v1",
-  "builtAt": "2026-09-23T05:53:12.696Z",
+  "builtAt": "2026-09-23T06:38:28.935Z",
   "basedOnCommit": "628af87c7aa85268040c9621756387370facdfbb",
   "includesWorkingTreeChanges": true,
   "harness": {
-    "task": "v039-story-lobby",
+    "task": "v040-acting-pilot",
     "status": "pass",
-    "runId": "2026-09-23T05-49-32-591Z-20156",
+    "runId": "2026-09-23T06-35-57-640Z-20664",
     "checks": [
       {
         "id": "typecheck",
@@ -90,41 +90,45 @@
         "status": "pass"
       },
       {
+        "id": "dialogue-art",
+        "status": "pass"
+      },
+      {
         "id": "production-build",
         "status": "pass"
       }
     ],
-    "tests": 465,
-    "testFiles": 62,
+    "tests": 470,
+    "testFiles": 63,
     "review": {
       "recordedSeparately": true,
-      "source": "tmp/harness/v039-review.json",
-      "runId": "2026-09-23T05-49-32-591Z-20156",
+      "source": "tmp/harness/v040-review.json",
+      "runId": "2026-09-23T06-35-57-640Z-20664",
       "checks": [
         {
           "id": "revenge-and-responsibility",
           "status": "pass",
-          "evidence": "Read current canon and chapter novel, authored80 separate conversations. Yun remains willing purge perpetrator;18 after dialogue explicitly says alive,19 aftermath follows existing execution and jade recovery. Mechanical bosses have no human speaker lines. Source and tests assert cast/reveal boundaries. Real18/19 battles exercised canonical outro before new aftermath in tmp/qa-v039/outcomes.json."
+          "evidence": "Canonical world, novel chapter1 and boss purpose read. Existing chapter18/19 lines, stage20 story scenes and worldCanon have identical SHA256 to v039. No dialogue rewrites. First boss survives as an obstacle; victory means family/paper escape, never killing the conscript ghost. Canon tests rerun."
         },
         {
           "id": "theft-causality",
           "status": "pass",
-          "evidence": "Conversations13/15/17 establish reversed pillars, three disabled and two remaining; alarm and guards explicitly prepared before recovery. Chapter19 after follows the cut-to-alarm of its existing outro;20 preboss protects three evacuation columns, and new20 after is explicitly post-epilogue with jade still held by Gwijang. Actual20 victory → unchanged canonical theft/convergence/outro → new epilogue dialogue → single settled result verified."
+          "evidence": "Existing chapter19 jade recovery and chapter20 theft/convergence/three-rescue canon unchanged by SHA256. Pilot gate requires chapter1 stage20 final wave and excludes challenge spawn callbacks. Tested explicit chapter2/challenge exclusions. No new branch or jade introduced."
         },
         {
           "id": "combat-contact",
           "status": "pass",
-          "evidence": "Combat motion and damage code unchanged. Actual stage1-12 and18/19/20 bosses played,2x and paused/retreated without dialogue bleeding into active combat; outcomes.json confirms real boss completion. Inspected result and existing motion behavior; no claim of newly auditing all91 characters' 1x/2x moves. Full harness reran combat/contact assets, rules and both balance measurement scripts."
+          "evidence": "Actual first-boss battle played at2x with unchanged movement/damage code. Boss intro starts when real final-wave roster is rendered, then combat continues; actual victory validated. Physics/contact asset and balance checks rerun in full harness. This release adds surrounding direction, not newly authored full-body combat frames; no claim of reauditing all91 moves."
         },
         {
           "id": "combat-controls",
           "status": "pass",
-          "evidence": "UI QA covers1440px/390px lobby, current party leader art, desktop and mobile dialogue, previous/log/automatic/skip, Escape returning to archive, map entry and repeat suppression. Actual final-three-chapter flows end at result and return to map. Inspected lobby-desktop/mobile,dialogue-mobile,boss1/9/18/19/20 screenshots. Mobile action was too low and adjusted; name label moved above mission panel. Reduced-motion and responsive CSS kept. Physical mobile FPS not measured."
+          "evidence": "Viewed desktop and390px dialogue, male/cute appearance, boss arrival/formation and escape screenshots in tmp/qa-v040. Actual UI supports skip/pause/replay and exits into battle/result/map. Reduced-motion and AbortSignal disposal tested; exact hell roster5 present. Physical mobile FPS unmeasured."
         },
         {
           "id": "save-and-voice",
           "status": "pass",
-          "evidence": "Unit checks validate legacy saves, optional bounded history, repair, no reward/progress changes, rewind reset and locked replay. Real legacy-profile browser test preserves inventory/ratings/currency, charges exactly3 only after skip and unlocks only reached dialogue; normal QA confirms daily8+entry and300-gem summon. Existing209 caption-verified audio clips unchanged. New lines use optional system Korean speech or text, never old recordings. Mock engine confirms auto waits for speech end and skip cancels pending speech/timers; actual Korean engine voice quality not measured. Evidence: migration.json,normal.json,ui.json,outcomes.json."
+          "evidence": "Five browser reports all pass: UI, actual battle, fresh ordinary, legacy migration, lifecycle. Replay does not grant rewards; repeated skip cannot settle twice. Stage cost3, daily8+one entry, summon300 retained. Mock Korean speech waits for end and skip cancels. Face mouth movement is illustrative frame cycling, not phoneme lip-sync or new recordings. Profile gender persists through title reentry after draft fix."
         }
       ]
     }
@@ -428,23 +432,40 @@
     ],
     "bossAftermathAfterCanon": true,
     "dialogueSkipAndReplay": true,
-    "gameLobby": true
+    "gameLobby": true,
+    "dialogueActing": {
+      "sheets": 4,
+      "frames": 48,
+      "heroGenders": true,
+      "companions": [
+        "moon-shaman",
+        "gumiho"
+      ],
+      "cuteCompanionExpressions": false
+    },
+    "bossCinematicPilot": {
+      "chapter": 1,
+      "arrivalAtFinalWave": true,
+      "escapeBeforeCanonOutro": true,
+      "replay": true
+    }
   },
   "browserQA": {
-    "version": "0.39.0",
+    "version": "0.40.0",
     "checks": [
-      "Admin and fresh dialogue history persist; mobile previous/log/auto/skip restore focus and never award currency or progress",
-      "Chapter1,9,18,19,20 boss dialogue and mechanical-enemy narration render; Escape skips each into archive",
-      "First stage12 entry shows conversation before combat; skip starts battle; reentry never repeats; pause and retreat work",
+      "Drawn expression/mouth frames, hero speaker changes, Gumiho warm expression, mobile log/previous/skip; no horizontal overflow",
+      "Arrival auto completion, paused timeline, escape replay and Escape restore archive without economic/progression mutation",
+      "Reduced motion stops frame animation; male profile chooses its own portrait; cute companion mode remains its original artwork",
+      "Actual 1-20 battle at 2x: first wave → final-wave arrival with exact enemy lineup → combat pause/resume → escape → canonical outro → after dialogue → result; skip never duplicates rewards",
+      "Reentry keeps consumed dialogue history; reduced-motion pause/retreat restores map with no orphan film",
       "fresh ordinary profile keeps19 locked destinations and first-entry cost3; retreat grants no progress",
       "ordinary daily dungeon still costs8 stamina and1 daily admission; upper tiers remain locked",
       "ordinary summon still charges300 and grants one roll",
-      "Chapter 18 actual battle: preboss dialogue → combat → canonical outro → aftermath → result; repeated skip gives no duplicate rewards",
-      "Chapter 19 actual battle: preboss dialogue → combat → canonical outro → aftermath → result; repeated skip gives no duplicate rewards",
-      "Chapter 20 actual battle: preboss dialogue → combat → canonical outro → aftermath → result; repeated skip gives no duplicate rewards",
       "Legacy save without dialogueSeen preserves inventory, ratings and currency; only reached road4 can replay; locked scenes stay disabled",
       "Story costs no stamina; skip charges stage entry exactly3 and marks history once",
-      "Mock Korean speech: automatic mode waits for speech end, then advances; skip cancels speech/timers and no delayed scene reappears"
+      "Mock Korean speech: automatic mode waits for speech end, then advances; skip cancels speech/timers and no delayed scene reappears",
+      "Profile gender survives editing → title → reentry in admin, including the opening draft",
+      "Abort before contact cancels callbacks and sound, restores app and removes cinematic once; hell preview uses all 5 real enemies"
     ],
     "viewports": [
       1440,
@@ -3352,26 +3373,27 @@
     "package-lock.json",
     "package.json",
     "scripts/verify-canon.mjs",
-    "src/data/worldCanon.ts",
-    "src/systems/adventure.ts",
-    "src/systems/autoExplore.ts",
-    "src/systems/campaign.ts",
-    "src/ui/components.ts",
+    "src/ui/dialoguePlayer.ts",
     "src/ui/game.ts",
     "src/ui/openingScreen.ts",
     "src/ui/storyPlayer.ts",
-    "src/data/dialogueHistory.ts",
-    "src/data/journeyDialogues.ts",
-    "src/systems/dialogues.ts",
-    "src/ui/dialoguePlayer.css",
-    "src/ui/dialoguePlayer.ts",
-    "src/ui/lobby.css",
-    "src/ui/lobby.ts",
-    "tests/journeyDialogues.test.ts"
+    "docs/art/v040-generation-briefs.json",
+    "public/art/acting-v040/gumiho.png",
+    "public/art/acting-v040/hero-female.png",
+    "public/art/acting-v040/hero-male.png",
+    "public/art/acting-v040/sohwi.png",
+    "scripts/verify-dialogue-art.mjs",
+    "src/data/bossCinematics.ts",
+    "src/data/dialogueActing.ts",
+    "src/ui/bossCinematic.css",
+    "src/ui/bossCinematic.ts",
+    "src/ui/dialoguePortrait.css",
+    "src/ui/dialoguePortrait.ts",
+    "tests/dialogueActing.test.ts"
   ],
-  "releaseNotes": "docs/V039_STORY_LOBBY.md",
+  "releaseNotes": "docs/V040_ACTING_PILOT.md",
   "build": {
-    "files": 1268,
-    "bytes": 740003367
+    "files": 1272,
+    "bytes": 750083908
   }
 }

@@ -1,13 +1,13 @@
 {
-  "version": "0.33.0",
+  "version": "0.34.0",
   "narrativeRevision": "ashes-v1",
-  "builtAt": "2026-09-23T01:20:00.214Z",
+  "builtAt": "2026-09-23T01:46:25.730Z",
   "basedOnCommit": "628af87c7aa85268040c9621756387370facdfbb",
   "includesWorkingTreeChanges": true,
   "harness": {
-    "task": "v033-diorama",
+    "task": "v034-map-boss",
     "status": "pass",
-    "runId": "2026-09-23T01-17-05-464Z-26136",
+    "runId": "2026-09-23T01-44-00-451Z-13580",
     "checks": [
       {
         "id": "typecheck",
@@ -325,23 +325,25 @@
     "mapOrbitAndZoom": true,
     "perProfileMapStyle": true,
     "paintedMapFallback": true,
-    "reusedMapRenderer": true
+    "reusedMapRenderer": true,
+    "waitingChapterBosses": 20,
+    "groundedBossBreathing": true,
+    "rigidMachineBosses": true,
+    "elementalBossSeals": true,
+    "paintedMapBosses": true
   },
   "browserQA": {
-    "version": "0.33.0",
+    "version": "0.34.0",
     "checks": [
-      "actual WebGL terrain, intermediate camera movement, persistent canvas and admin infinite wallets",
-      "pointer drag orbit, zoom and reset controls work",
-      "route marker and dropdown selection preserve progress, economy, party and a single reused WebGL context",
-      "rapid navigation remains continuous; profile map style and stage survive reload",
-      "six regional scenes and repeated map detachment/reentry",
-      "real combat admission detaches map, retreat restores it",
-      "390px view has no overflow, navigation is tappable, reduced motion skips camera flight",
-      "lost WebGL context falls back to usable painted map and next navigation can recreate renderer",
-      "unsupported WebGL device retains painted map and controls",
-      "fresh ordinary profile keeps19 locked destinations and first-entry cost3; retreat grants no progress",
-      "ordinary daily dungeon still costs8 stamina and1 daily admission; upper tiers remain locked",
-      "ordinary summon still charges300 and grants one roll"
+      "actual visible human actor has changing breath scale with fixed world anchor",
+      "boss is visible before destination and clicking selects20 without spending or clearing; orbit keeps correct placement",
+      "all20 canonical actors load their atlas, machines remain rigid, chapter20 preserves evacuation, geometry count stays bounded",
+      "painted map uses the same canonical boss and breathing fallback",
+      "mobile boss target and labels are usable; reduced motion freezes breathing",
+      "real final-stage departure and retreat restore the waiting boss",
+      "delayed atlas keeps grounded placeholder until texture is ready",
+      "correct breathing boss loads, no crown, and remains selectable",
+      "mobile painted/WebGL switch and reduced motion work"
     ],
     "viewports": [
       1440,
@@ -350,7 +352,6 @@
     "isolatedStorage": true,
     "renderer": "Chromium software WebGL",
     "physicalMobilePerformanceMeasured": false,
-    "actualOrdinaryCharges": true,
     "errors": []
   },
   "balanceQA": {
@@ -361,9 +362,9 @@
     "rechecked": true,
     "modeBattleEquivalence": true
   },
-  "releaseNotes": "docs/V033_DIORAMA_MAP.md",
+  "releaseNotes": "docs/V034_WAITING_BOSSES.md",
   "build": {
     "files": 1262,
-    "bytes": 726045696
+    "bytes": 726066585
   }
 }

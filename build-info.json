@@ -1,13 +1,13 @@
 {
-  "version": "0.31.0",
+  "version": "0.32.0",
   "narrativeRevision": "ashes-v1",
-  "builtAt": "2026-09-23T00:01:12.908Z",
+  "builtAt": "2026-09-23T00:38:30.649Z",
   "basedOnCommit": "628af87c7aa85268040c9621756387370facdfbb",
   "includesWorkingTreeChanges": true,
   "harness": {
-    "task": "v031-visual-modes",
+    "task": "v032-admin-journey",
     "status": "pass",
-    "runId": "2026-09-22T23-56-39-063Z-27892",
+    "runId": "2026-09-23T00-36-26-988Z-22028",
     "checks": [
       {
         "id": "typecheck",
@@ -310,28 +310,39 @@
     "cuteRiggedArchivedCharacters": 59,
     "sharedNewerCharacters": 20,
     "sharedStoryBosses": true,
-    "cosmeticSwitchOnly": true
+    "cosmeticSwitchOnly": true,
+    "unlimitedAdminResources": true,
+    "unlimitedAdminAdmissions": true,
+    "unlimitedAdminInventory": true,
+    "ordinaryProfileEconomyPreserved": true,
+    "continuousJourneyCamera": true,
+    "sixRegionalJourneys": true,
+    "persistedMapViewpoint": true,
+    "reducedMotionJourney": true
   },
   "browserQA": {
-    "version": "0.31.0",
+    "version": "0.32.0",
     "checks": [
-      "opening has text-only mode picker;settings previews both looks;switch twice preserves all growth/currencies/gear/skills/records",
-      "codex uses original transparent fox and all5 distinct archived awakening atlases",
-      "fox ranged/shield guardian/jiangshi melee use archived12pose sheets;9skill1/2/ultimate replays stay visible with frame changes,2x and pause/close work",
-      "actual battle uses cute sprites;mode changes disabled during battle;retreat saves preference",
-      "actual5star fox draw keeps300cost and uses SD arrival story illustration",
-      "mode survives reload;390px settings fit;switching back restores modern portrait and persists",
-      "two fresh ordinary profiles independently retain cute/modern modes;switching accounts restores correct art and preserves progression;save export contains preference",
-      "actual export/import restores cute mode after switching modern;reload remembers selection;390px opening has no moving characters or horizontal overflow"
+      "continuous camera has intermediate positions, rapid navigation cancels old motion, boundaries work, selecting routes never changes progress or economy",
+      "selected map viewpoint and cute mode survive reload",
+      "four real Hell campaign admissions with exhausted weekly counter; no counter or stamina charge",
+      "four real tier5 daily entries despite3/3 consumed, retry remains available",
+      "regular and10x exclusive summons actually grant results at zero currency; cost and balance shown free/infinite",
+      "six regional map backgrounds and depths inspected through chapter selector",
+      "390px previous/next buttons are tappable above bottom nav; reduced-motion mode jumps directly",
+      "fresh ordinary profile keeps19 locked destinations and first-entry cost3; retreat grants no progress",
+      "ordinary daily dungeon still costs8 stamina and1 daily admission; upper tiers remain locked",
+      "ordinary summon still charges300 and grants one roll"
     ],
     "viewports": [
       1440,
       390
     ],
     "isolatedStorage": true,
-    "actualSummon": true,
-    "actualSaveExportImport": true,
-    "representativeSkillReplays": 9,
+    "actualAdminHellAdmissions": 4,
+    "actualAdminDailyAdmissions": 4,
+    "actualZeroBalanceSummons": true,
+    "actualOrdinaryCharges": true,
     "errors": []
   },
   "balanceQA": {
@@ -342,9 +353,9 @@
     "rechecked": true,
     "modeBattleEquivalence": true
   },
-  "artProvenance": "docs/V031_VISUAL_MODES.md",
+  "releaseNotes": "docs/V032_ADMIN_AND_JOURNEY.md",
   "build": {
     "files": 1261,
-    "bytes": 725484865
+    "bytes": 725499054
   }
 }

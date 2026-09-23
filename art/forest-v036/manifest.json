@@ -1,0 +1,16 @@
+{
+  "version": "v036",
+  "generator": "built-in image_gen",
+  "assets": [
+    {
+      "file": "materials.png",
+      "usage": "3D surface atlas, stone/moss/bark/roof, not background",
+      "prompt": "Use case: stylized-concept. Asset type: a production texture atlas for a real-time 3D Korean moonlit forest shrine game environment. Generate one square 2048x2048 atlas with FOUR equal perfectly square quadrants in a 2x2 grid, touching edges, absolutely no border, labels, text, lighting effects, objects, scenery, camera perspective or icons. Each quadrant is a flat overhead seamless PBR-style BASE COLOR material with soft hand-painted realistic fantasy detail, neutral diffuse illumination (not dark night exposure), muted natural colors, fine original-painting brushwork, no black outlines. TOP LEFT quadrant: irregular aged gray-blue granite paving slabs, varied polygonal sizes, thin damp dark joints with subtle tiny green moss, slabs dominate. TOP RIGHT: deep olive-green moss and damp brown earth, small pebbles, fine grasses, occasional dark fallen leaves, no large rocks. BOTTOM LEFT: a close view of vertically flowing rugged ancient tree bark, dark neutral brown/gray, irregular grooves, subtle moss only in a few crevices, no tree silhouette. BOTTOM RIGHT: traditional Korean charcoal-blue ceramic roof tiles viewed perpendicularly, close parallel overlapping tile channels with soft worn glazes, aged edges, no roof silhouette. Clear quadrant separation by material change only. Details must remain understated and believable when mapped repeatedly on geometric surfaces. Entire atlas filled with surface textures, no blank margins."
+    },
+    {
+      "file": "leaves.png",
+      "usage": "alpha foliage cards placed at 3D branch coordinates",
+      "prompt": "Use case: stylized-concept. Asset type: transparent cutout foliage texture for layered 3D tree canopy cards in a Korean fantasy moonlit shrine forest game. One roughly circular but irregular airy CLUSTER of many small natural oak/camphor leaves and a few tiny branching twigs, viewed from slightly above, with fine gaps between individual leaves. A single cluster takes about 88 percent of square canvas and has soft irregular botanical silhouette, no pot, no trunk, no ground, no landscape. Deep sage and muted emerald greens, some desaturated silvery green leaf tips. Detailed hand-painted natural fantasy realism with delicate brushwork, restrained highlights, diffuse neutral soft illumination, no thick outlines, no hard shadows, no dramatic rim light. Leaves varied sizes and angles, balanced dense center and very fine wispy edge. TRANSPARENT background and transparent gaps, genuine alpha, no white/black backdrop, no checkerboard drawing, no text. Intended as a surface/cutout card inside actual 3D trees, not a full flat tree image. Square 1024x1024."
+    }
+  ]
+}

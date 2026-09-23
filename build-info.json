@@ -1,13 +1,13 @@
 {
-  "version": "0.35.0",
+  "version": "0.36.0",
   "narrativeRevision": "ashes-v1",
-  "builtAt": "2026-09-23T02:26:27.114Z",
+  "builtAt": "2026-09-23T03:22:16.371Z",
   "basedOnCommit": "628af87c7aa85268040c9621756387370facdfbb",
   "includesWorkingTreeChanges": true,
   "harness": {
-    "task": "v035-original-scenery",
+    "task": "v036-forest-trial",
     "status": "pass",
-    "runId": "2026-09-23T02-24-25-154Z-17320",
+    "runId": "2026-09-23T03-20-45-061Z-33336",
     "checks": [
       {
         "id": "typecheck",
@@ -335,133 +335,46 @@
     "texturedArchitecture": true,
     "originalAtlasBackdrops": true,
     "worldSpaceRockMaterials": true,
-    "scaledCliffPlatformAlignment": true
+    "scaledCliffPlatformAlignment": true,
+    "forestTrialRegion": "적요림",
+    "forestTrialChapters": [
+      1,
+      2,
+      3
+    ],
+    "forestGeometryBackground": true,
+    "generatedForestMaterials": true,
+    "forestComparison": true,
+    "forestSceneryView": true,
+    "forestMobileCollapsibleControls": true
   },
   "browserQA": {
-    "version": "0.35.0",
+    "version": "0.36.0",
     "checks": [
-      "actual WebGL terrain, intermediate camera movement, persistent canvas and admin infinite wallets",
-      "pointer drag orbit, zoom and reset controls work",
-      "route marker and dropdown selection preserve progress, economy, party and a single reused WebGL context",
-      "rapid navigation remains continuous; profile map style and stage survive reload",
-      "six regional scenes and repeated map detachment/reentry",
-      "real combat admission detaches map, retreat restores it",
-      "390px view has no overflow, navigation is tappable, reduced motion skips camera flight",
-      "lost WebGL context falls back to usable painted map and next navigation can recreate renderer",
-      "unsupported WebGL device retains painted map and controls",
+      "preview opens forest without wiping progress; geometry-only background and scenery view work",
+      "stage1/5/10/15/20, orbit and zoom keep usable stage markers with a single renderer",
+      "three old/new comparisons restore actual geometry sky, release resources, and preserve the same canvas",
+      "only forest region chapters1-3 change; other regions and canonical bosses retain their existing presentation",
+      "390px view, boss tap, painted switch and reduced motion remain usable",
+      "real battle and retreat restore the forest",
+      "completed-stage return closes the existing world selector; context loss falls back and next navigation reconstructs the map",
       "fresh ordinary profile keeps19 locked destinations and first-entry cost3; retreat grants no progress",
       "ordinary daily dungeon still costs8 stamina and1 daily admission; upper tiers remain locked",
       "ordinary summon still charges300 and grants one roll",
-      "Final cliff platform alignment re-reviewed on canyon and boundary, desktop and390px"
+      "Deliberate forest texture404 switches to usable painted map; next navigation rebuilds real3D after asset recovery"
     ],
-    "regionStats": [
+    "forestMemory": [
       {
-        "mapSection": "3",
-        "camera": "20",
-        "chapter": "1",
-        "theme": "0",
-        "mapPresentation": "diorama",
-        "renderer": "webgl",
-        "scenery": "moonlit-shrine",
-        "backdropReady": "true",
-        "bossReady": "true",
-        "bossBreath": "1.03212",
-        "geometries": "17",
-        "textures": "11",
-        "drawCalls": "28",
-        "triangles": "174390",
-        "orbit": "0.000",
-        "zoom": "1.00"
+        "geometries": 22,
+        "textures": 7
       },
       {
-        "mapSection": "3",
-        "camera": "20",
-        "chapter": "4",
-        "theme": "1",
-        "mapPresentation": "diorama",
-        "renderer": "webgl",
-        "scenery": "sunset-cliffs",
-        "backdropReady": "true",
-        "bossReady": "true",
-        "bossBreath": "1.00610",
-        "geometries": "17",
-        "textures": "11",
-        "drawCalls": "27",
-        "triangles": "81642",
-        "orbit": "0.000",
-        "zoom": "1.00"
+        "geometries": 22,
+        "textures": 7
       },
       {
-        "mapSection": "3",
-        "camera": "20",
-        "chapter": "8",
-        "theme": "2",
-        "mapPresentation": "diorama",
-        "renderer": "webgl",
-        "scenery": "lantern-street",
-        "backdropReady": "true",
-        "bossReady": "true",
-        "bossBreath": "1.01520",
-        "geometries": "17",
-        "textures": "11",
-        "drawCalls": "28",
-        "triangles": "130666",
-        "orbit": "0.000",
-        "zoom": "1.00"
-      },
-      {
-        "mapSection": "3",
-        "camera": "20",
-        "chapter": "11",
-        "theme": "3",
-        "mapPresentation": "diorama",
-        "renderer": "webgl",
-        "scenery": "overgrown-temple",
-        "backdropReady": "true",
-        "bossReady": "true",
-        "bossBreath": "1.00000",
-        "geometries": "16",
-        "textures": "11",
-        "drawCalls": "26",
-        "triangles": "150598",
-        "orbit": "0.000",
-        "zoom": "1.00"
-      },
-      {
-        "mapSection": "3",
-        "camera": "20",
-        "chapter": "15",
-        "theme": "4",
-        "mapPresentation": "diorama",
-        "renderer": "webgl",
-        "scenery": "starry-steppe",
-        "backdropReady": "true",
-        "bossReady": "true",
-        "bossBreath": "1.01214",
-        "geometries": "18",
-        "textures": "11",
-        "drawCalls": "28",
-        "triangles": "88336",
-        "orbit": "0.000",
-        "zoom": "1.00"
-      },
-      {
-        "mapSection": "3",
-        "camera": "20",
-        "chapter": "20",
-        "theme": "5",
-        "mapPresentation": "diorama",
-        "renderer": "webgl",
-        "scenery": "fractured-boundary",
-        "backdropReady": "true",
-        "bossReady": "true",
-        "bossBreath": "1.00534",
-        "geometries": "14",
-        "textures": "9",
-        "drawCalls": "23",
-        "triangles": "58514",
-        "orbit": "0.000",
-        "zoom": "1.00"
+        "geometries": 22,
+        "textures": 7
       }
     ],
     "viewports": [
@@ -481,9 +394,9 @@
     "rechecked": true,
     "modeBattleEquivalence": true
   },
-  "releaseNotes": "docs/V035_ORIGINAL_SCENERY.md",
+  "releaseNotes": "docs/V036_FOREST_TRIAL.md",
   "build": {
-    "files": 1262,
-    "bytes": 726077923
+    "files": 1265,
+    "bytes": 732642272
   }
 }

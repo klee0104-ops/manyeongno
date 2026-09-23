@@ -1,13 +1,13 @@
 {
-  "version": "0.38.0",
+  "version": "0.39.0",
   "narrativeRevision": "ashes-v1",
-  "builtAt": "2026-09-23T05:05:14.839Z",
+  "builtAt": "2026-09-23T05:53:12.696Z",
   "basedOnCommit": "628af87c7aa85268040c9621756387370facdfbb",
   "includesWorkingTreeChanges": true,
   "harness": {
-    "task": "v038-boss-retinues",
+    "task": "v039-story-lobby",
     "status": "pass",
-    "runId": "2026-09-23T05-02-52-658Z-4104",
+    "runId": "2026-09-23T05-49-32-591Z-20156",
     "checks": [
       {
         "id": "typecheck",
@@ -94,7 +94,40 @@
         "status": "pass"
       }
     ],
-    "review": "recorded"
+    "tests": 465,
+    "testFiles": 62,
+    "review": {
+      "recordedSeparately": true,
+      "source": "tmp/harness/v039-review.json",
+      "runId": "2026-09-23T05-49-32-591Z-20156",
+      "checks": [
+        {
+          "id": "revenge-and-responsibility",
+          "status": "pass",
+          "evidence": "Read current canon and chapter novel, authored80 separate conversations. Yun remains willing purge perpetrator;18 after dialogue explicitly says alive,19 aftermath follows existing execution and jade recovery. Mechanical bosses have no human speaker lines. Source and tests assert cast/reveal boundaries. Real18/19 battles exercised canonical outro before new aftermath in tmp/qa-v039/outcomes.json."
+        },
+        {
+          "id": "theft-causality",
+          "status": "pass",
+          "evidence": "Conversations13/15/17 establish reversed pillars, three disabled and two remaining; alarm and guards explicitly prepared before recovery. Chapter19 after follows the cut-to-alarm of its existing outro;20 preboss protects three evacuation columns, and new20 after is explicitly post-epilogue with jade still held by Gwijang. Actual20 victory → unchanged canonical theft/convergence/outro → new epilogue dialogue → single settled result verified."
+        },
+        {
+          "id": "combat-contact",
+          "status": "pass",
+          "evidence": "Combat motion and damage code unchanged. Actual stage1-12 and18/19/20 bosses played,2x and paused/retreated without dialogue bleeding into active combat; outcomes.json confirms real boss completion. Inspected result and existing motion behavior; no claim of newly auditing all91 characters' 1x/2x moves. Full harness reran combat/contact assets, rules and both balance measurement scripts."
+        },
+        {
+          "id": "combat-controls",
+          "status": "pass",
+          "evidence": "UI QA covers1440px/390px lobby, current party leader art, desktop and mobile dialogue, previous/log/automatic/skip, Escape returning to archive, map entry and repeat suppression. Actual final-three-chapter flows end at result and return to map. Inspected lobby-desktop/mobile,dialogue-mobile,boss1/9/18/19/20 screenshots. Mobile action was too low and adjusted; name label moved above mission panel. Reduced-motion and responsive CSS kept. Physical mobile FPS not measured."
+        },
+        {
+          "id": "save-and-voice",
+          "status": "pass",
+          "evidence": "Unit checks validate legacy saves, optional bounded history, repair, no reward/progress changes, rewind reset and locked replay. Real legacy-profile browser test preserves inventory/ratings/currency, charges exactly3 only after skip and unlocks only reached dialogue; normal QA confirms daily8+entry and300-gem summon. Existing209 caption-verified audio clips unchanged. New lines use optional system Korean speech or text, never old recordings. Mock engine confirms auto waits for speech end and skip cancels pending speech/timers; actual Korean engine voice quality not measured. Evidence: migration.json,normal.json,ui.json,outcomes.json."
+        }
+      ]
+    }
   },
   "features": {
     "localAdminProfile": true,
@@ -386,45 +419,42 @@
     "bossRetinueMapActors": true,
     "bossRetinueDeparturePreview": true,
     "bossRearCenter": true,
-    "evacuationObjectivePreserved": true
+    "evacuationObjectivePreserved": true,
+    "journeyDialogueScenes": 80,
+    "dialogueEntryStages": [
+      4,
+      12,
+      20
+    ],
+    "bossAftermathAfterCanon": true,
+    "dialogueSkipAndReplay": true,
+    "gameLobby": true
   },
   "browserQA": {
-    "version": "0.38.0",
+    "version": "0.39.0",
     "checks": [
-      "All80 chapter/difficulty map formations match their preview; all20 mobile390px without overflow",
-      "Final spacing on village,foundry,water,grassland,palace,void scenes at desktop and390px:12 formations after lantern clearance and guard placement",
-      "Actual 쉬움 stage1-20 first wave to boss squad, matching preview, pause/resume, mobile and mid-motion retreat",
-      "Actual 지옥 stage1-20 first wave to boss squad, matching preview, pause/resume, mobile and mid-motion retreat",
-      "Difficulty cycling releases old escort textures with stable memory; cute mode persists, four dot escorts in painted fallback and return to WebGL",
+      "Admin and fresh dialogue history persist; mobile previous/log/auto/skip restore focus and never award currency or progress",
+      "Chapter1,9,18,19,20 boss dialogue and mechanical-enemy narration render; Escape skips each into archive",
+      "First stage12 entry shows conversation before combat; skip starts battle; reentry never repeats; pause and retreat work",
       "fresh ordinary profile keeps19 locked destinations and first-entry cost3; retreat grants no progress",
       "ordinary daily dungeon still costs8 stamina and1 daily admission; upper tiers remain locked",
       "ordinary summon still charges300 and grants one roll",
-      "Deliberate escort texture404 switches to usable painted map; next navigation rebuilds real3D after asset recovery",
-      "Unavailable WebGL falls back and previous-stage navigation remains usable"
-    ],
-    "chapterDifficultyFormations": 80,
-    "finalSpacingScenes": 6,
-    "rebuildMemory": [
-      {
-        "g": "23",
-        "t": "13"
-      },
-      {
-        "g": "23",
-        "t": "13"
-      },
-      {
-        "g": "23",
-        "t": "13"
-      }
+      "Chapter 18 actual battle: preboss dialogue → combat → canonical outro → aftermath → result; repeated skip gives no duplicate rewards",
+      "Chapter 19 actual battle: preboss dialogue → combat → canonical outro → aftermath → result; repeated skip gives no duplicate rewards",
+      "Chapter 20 actual battle: preboss dialogue → combat → canonical outro → aftermath → result; repeated skip gives no duplicate rewards",
+      "Legacy save without dialogueSeen preserves inventory, ratings and currency; only reached road4 can replay; locked scenes stay disabled",
+      "Story costs no stamina; skip charges stage entry exactly3 and marks history once",
+      "Mock Korean speech: automatic mode waits for speech end, then advances; skip cancels speech/timers and no delayed scene reappears"
     ],
     "viewports": [
       1440,
+      1280,
       390
     ],
     "isolatedStorage": true,
     "renderer": "Chromium software WebGL",
     "physicalMobilePerformanceMeasured": false,
+    "tts": "transport tested with mock; actual Korean voice quality unmeasured",
     "errors": []
   },
   "balanceQA": {
@@ -3318,9 +3348,30 @@
       }
     ]
   },
-  "releaseNotes": "docs/V038_BOSS_RETINUES.md",
+  "sourceChangesSincePrevious": [
+    "package-lock.json",
+    "package.json",
+    "scripts/verify-canon.mjs",
+    "src/data/worldCanon.ts",
+    "src/systems/adventure.ts",
+    "src/systems/autoExplore.ts",
+    "src/systems/campaign.ts",
+    "src/ui/components.ts",
+    "src/ui/game.ts",
+    "src/ui/openingScreen.ts",
+    "src/ui/storyPlayer.ts",
+    "src/data/dialogueHistory.ts",
+    "src/data/journeyDialogues.ts",
+    "src/systems/dialogues.ts",
+    "src/ui/dialoguePlayer.css",
+    "src/ui/dialoguePlayer.ts",
+    "src/ui/lobby.css",
+    "src/ui/lobby.ts",
+    "tests/journeyDialogues.test.ts"
+  ],
+  "releaseNotes": "docs/V039_STORY_LOBBY.md",
   "build": {
     "files": 1268,
-    "bytes": 739950882
+    "bytes": 740003367
   }
 }

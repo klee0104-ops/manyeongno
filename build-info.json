@@ -1,13 +1,13 @@
 {
-  "version": "0.37.0",
+  "version": "0.38.0",
   "narrativeRevision": "ashes-v1",
-  "builtAt": "2026-09-23T04:17:21.708Z",
+  "builtAt": "2026-09-23T05:05:14.839Z",
   "basedOnCommit": "628af87c7aa85268040c9621756387370facdfbb",
   "includesWorkingTreeChanges": true,
   "harness": {
-    "task": "v037-chapter-environments",
+    "task": "v038-boss-retinues",
     "status": "pass",
-    "runId": "2026-09-23T04-15-21-662Z-20156",
+    "runId": "2026-09-23T05-02-52-658Z-4104",
     "checks": [
       {
         "id": "typecheck",
@@ -23,6 +23,10 @@
       },
       {
         "id": "challenge-balance",
+        "status": "pass"
+      },
+      {
+        "id": "boss-retinue-balance",
         "status": "pass"
       },
       {
@@ -355,158 +359,63 @@
     "chapterSceneryView": true,
     "chapterMobileCollapsibleControls": true,
     "chapterWaterFlow": true,
-    "forestTrialSupersededBy": "v037"
+    "forestTrialSupersededBy": "v037",
+    "chapterBossRetinues": 80,
+    "bossEscortCounts": [
+      2,
+      2,
+      4,
+      4
+    ],
+    "bossEscortRarities": [
+      [
+        1
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        5
+      ]
+    ],
+    "bossRetinueMapActors": true,
+    "bossRetinueDeparturePreview": true,
+    "bossRearCenter": true,
+    "evacuationObjectivePreserved": true
   },
   "browserQA": {
-    "version": "0.37.0",
+    "version": "0.38.0",
     "checks": [
-      "All20 distinct geometry scenes: desktop stages1/10/20, all20 mobile390px boss endpoints, canonical boss IDs,3 actual landmarks each and one chapter19 jade; no horizontal overflow or header/footer overlap",
-      "Navigation retains inventory, party, currency, clear history, summon data, difficulty and cute appearance mode; administrator wallet remains unlimited",
-      "Orbit/zoom/reset, chapter-switch comparison reset and three world disposal/rebuild cycles reuse the canvas without geometry/texture growth",
-      "Mobile folded controls, painted-map return, boss click and reduced-motion breathing hold work",
-      "Foundry stage10 battle, pause and retreat restore the correct chapter scene",
-      "Context loss falls back to usable painted map; next navigation reconstructs the correct scene",
+      "All80 chapter/difficulty map formations match their preview; all20 mobile390px without overflow",
+      "Final spacing on village,foundry,water,grassland,palace,void scenes at desktop and390px:12 formations after lantern clearance and guard placement",
+      "Actual 쉬움 stage1-20 first wave to boss squad, matching preview, pause/resume, mobile and mid-motion retreat",
+      "Actual 지옥 stage1-20 first wave to boss squad, matching preview, pause/resume, mobile and mid-motion retreat",
+      "Difficulty cycling releases old escort textures with stable memory; cute mode persists, four dot escorts in painted fallback and return to WebGL",
       "fresh ordinary profile keeps19 locked destinations and first-entry cost3; retreat grants no progress",
       "ordinary daily dungeon still costs8 stamina and1 daily admission; upper tiers remain locked",
       "ordinary summon still charges300 and grants one roll",
-      "Deliberate chapter texture404 switches to usable painted map; next navigation rebuilds real3D after asset recovery",
-      "Unavailable WebGL falls back and previous-stage navigation remains usable",
-      "Raised dais floors clear underlying foundation; final boss placement and all six affected scenes render"
+      "Deliberate escort texture404 switches to usable painted map; next navigation rebuilds real3D after asset recovery",
+      "Unavailable WebGL falls back and previous-stage navigation remains usable"
     ],
-    "chapterScenes": [
-      {
-        "chapter": 1,
-        "id": "requisition-village",
-        "geometries": 18,
-        "textures": 9
-      },
-      {
-        "chapter": 2,
-        "id": "caged-convoy",
-        "geometries": 19,
-        "textures": 8
-      },
-      {
-        "chapter": 3,
-        "id": "shrine-vault",
-        "geometries": 15,
-        "textures": 8
-      },
-      {
-        "chapter": 4,
-        "id": "waterfall-convoy",
-        "geometries": 19,
-        "textures": 9
-      },
-      {
-        "chapter": 5,
-        "id": "sealed-dojo",
-        "geometries": 17,
-        "textures": 9
-      },
-      {
-        "chapter": 6,
-        "id": "abandoned-foundry",
-        "geometries": 16,
-        "textures": 8
-      },
-      {
-        "chapter": 7,
-        "id": "inspector-archive",
-        "geometries": 17,
-        "textures": 9
-      },
-      {
-        "chapter": 8,
-        "id": "permit-quarter",
-        "geometries": 17,
-        "textures": 9
-      },
-      {
-        "chapter": 9,
-        "id": "overloaded-festival",
-        "geometries": 20,
-        "textures": 9
-      },
-      {
-        "chapter": 10,
-        "id": "royal-banquet",
-        "geometries": 18,
-        "textures": 9
-      },
-      {
-        "chapter": 11,
-        "id": "drowned-records",
-        "geometries": 21,
-        "textures": 9
-      },
-      {
-        "chapter": 12,
-        "id": "numbered-cells",
-        "geometries": 15,
-        "textures": 8
-      },
-      {
-        "chapter": 13,
-        "id": "reversed-water",
-        "geometries": 24,
-        "textures": 9
-      },
-      {
-        "chapter": 14,
-        "id": "grassland-watch",
-        "geometries": 22,
-        "textures": 9
-      },
-      {
-        "chapter": 15,
-        "id": "besieged-obo",
-        "geometries": 24,
-        "textures": 9
-      },
-      {
-        "chapter": 16,
-        "id": "burned-relay",
-        "geometries": 20,
-        "textures": 8
-      },
-      {
-        "chapter": 17,
-        "id": "three-silent-gates",
-        "geometries": 15,
-        "textures": 8
-      },
-      {
-        "chapter": 18,
-        "id": "forced-power",
-        "geometries": 17,
-        "textures": 8
-      },
-      {
-        "chapter": 19,
-        "id": "unshielded-hall",
-        "geometries": 17,
-        "textures": 8
-      },
-      {
-        "chapter": 20,
-        "id": "fractured-evacuation",
-        "geometries": 15,
-        "textures": 8
-      }
-    ],
+    "chapterDifficultyFormations": 80,
+    "finalSpacingScenes": 6,
     "rebuildMemory": [
       {
-        "geometries": "16",
-        "textures": "8"
+        "g": "23",
+        "t": "13"
       },
       {
-        "geometries": "16",
-        "textures": "8"
+        "g": "23",
+        "t": "13"
       },
       {
-        "geometries": "16",
-        "textures": "8"
+        "g": "23",
+        "t": "13"
       }
     ],
     "viewports": [
@@ -522,13 +431,2896 @@
     "simulations": 828,
     "dailyRecommendedCombinations": 20,
     "seededEngine": true,
-    "scope": "Representative starter-equipment compositions; not all possible parties",
+    "scope": "Seeded real engine, five-role test party, default equipment, no admin/exclusive bonus. Baseline level is the old full-stage all-win 30-round threshold rounded up to 5. The 2500-action cap exceeds the engine 120-round limit at 11 actors (1320 actions); the no-stall assertion remains. This compares relative encounter pressure, not a player progression recommendation. Chapter20 retains the three-round rescue objective.",
     "rechecked": true,
-    "modeBattleEquivalence": true
+    "modeBattleEquivalence": true,
+    "bossRetinueSimulations": 3369,
+    "bossRetinueRows": [
+      {
+        "chapter": 1,
+        "difficulty": "쉬움",
+        "baselineLevel": 5,
+        "growthLevel": 10,
+        "before": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 3,
+          "stalls": 0
+        },
+        "after": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 5,
+          "stalls": 0
+        },
+        "growth": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 3,
+          "stalls": 0
+        },
+        "fullBefore": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 5,
+          "stalls": 0
+        },
+        "fullAfter": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 6,
+          "stalls": 0
+        }
+      },
+      {
+        "chapter": 1,
+        "difficulty": "보통",
+        "baselineLevel": 10,
+        "growthLevel": 15,
+        "before": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 5,
+          "stalls": 0
+        },
+        "after": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 6,
+          "stalls": 0
+        },
+        "growth": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 5,
+          "stalls": 0
+        },
+        "fullBefore": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 9,
+          "stalls": 0
+        },
+        "fullAfter": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 10,
+          "stalls": 0
+        }
+      },
+      {
+        "chapter": 1,
+        "difficulty": "어려움",
+        "baselineLevel": 20,
+        "growthLevel": 25,
+        "before": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 11,
+          "stalls": 0
+        },
+        "after": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 12,
+          "stalls": 0
+        },
+        "growth": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 8,
+          "stalls": 0
+        },
+        "fullBefore": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 16,
+          "stalls": 0
+        },
+        "fullAfter": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 17,
+          "stalls": 0
+        }
+      },
+      {
+        "chapter": 1,
+        "difficulty": "지옥",
+        "baselineLevel": 30,
+        "growthLevel": 35,
+        "before": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 17,
+          "stalls": 0
+        },
+        "after": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 19,
+          "stalls": 0
+        },
+        "growth": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 13,
+          "stalls": 0
+        },
+        "fullBefore": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 22,
+          "stalls": 0
+        },
+        "fullAfter": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 22,
+          "stalls": 0
+        }
+      },
+      {
+        "chapter": 2,
+        "difficulty": "쉬움",
+        "baselineLevel": 5,
+        "growthLevel": 10,
+        "before": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 5,
+          "stalls": 0
+        },
+        "after": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 5,
+          "stalls": 0
+        },
+        "growth": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 5,
+          "stalls": 0
+        },
+        "fullBefore": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 6,
+          "stalls": 0
+        },
+        "fullAfter": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 7,
+          "stalls": 0
+        }
+      },
+      {
+        "chapter": 2,
+        "difficulty": "보통",
+        "baselineLevel": 10,
+        "growthLevel": 15,
+        "before": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 6,
+          "stalls": 0
+        },
+        "after": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 7,
+          "stalls": 0
+        },
+        "growth": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 6,
+          "stalls": 0
+        },
+        "fullBefore": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 14,
+          "stalls": 0
+        },
+        "fullAfter": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 14,
+          "stalls": 0
+        }
+      },
+      {
+        "chapter": 2,
+        "difficulty": "어려움",
+        "baselineLevel": 25,
+        "growthLevel": 30,
+        "before": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 10,
+          "stalls": 0
+        },
+        "after": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 11,
+          "stalls": 0
+        },
+        "growth": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 7,
+          "stalls": 0
+        },
+        "fullBefore": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 15,
+          "stalls": 0
+        },
+        "fullAfter": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 18,
+          "stalls": 0
+        }
+      },
+      {
+        "chapter": 2,
+        "difficulty": "지옥",
+        "baselineLevel": 35,
+        "growthLevel": 40,
+        "before": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 14,
+          "stalls": 0
+        },
+        "after": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 17,
+          "stalls": 0
+        },
+        "growth": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 13,
+          "stalls": 0
+        },
+        "fullBefore": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 22,
+          "stalls": 0
+        },
+        "fullAfter": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 24,
+          "stalls": 0
+        }
+      },
+      {
+        "chapter": 3,
+        "difficulty": "쉬움",
+        "baselineLevel": 10,
+        "growthLevel": 15,
+        "before": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 5,
+          "stalls": 0
+        },
+        "after": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 6,
+          "stalls": 0
+        },
+        "growth": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 5,
+          "stalls": 0
+        },
+        "fullBefore": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 9,
+          "stalls": 0
+        },
+        "fullAfter": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 11,
+          "stalls": 0
+        }
+      },
+      {
+        "chapter": 3,
+        "difficulty": "보통",
+        "baselineLevel": 20,
+        "growthLevel": 25,
+        "before": {
+          "wins": 4,
+          "total": 5,
+          "medianRounds": 11,
+          "stalls": 0
+        },
+        "after": {
+          "wins": 2,
+          "total": 5,
+          "medianRounds": 13,
+          "stalls": 0
+        },
+        "growth": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 8,
+          "stalls": 0
+        },
+        "fullBefore": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 17,
+          "stalls": 0
+        },
+        "fullAfter": {
+          "wins": 2,
+          "total": 3,
+          "medianRounds": 17,
+          "stalls": 0
+        }
+      },
+      {
+        "chapter": 3,
+        "difficulty": "어려움",
+        "baselineLevel": 30,
+        "growthLevel": 35,
+        "before": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 14,
+          "stalls": 0
+        },
+        "after": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 15,
+          "stalls": 0
+        },
+        "growth": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 11,
+          "stalls": 0
+        },
+        "fullBefore": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 20,
+          "stalls": 0
+        },
+        "fullAfter": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 23,
+          "stalls": 0
+        }
+      },
+      {
+        "chapter": 3,
+        "difficulty": "지옥",
+        "baselineLevel": 45,
+        "growthLevel": 50,
+        "before": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 18,
+          "stalls": 0
+        },
+        "after": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 18,
+          "stalls": 0
+        },
+        "growth": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 12,
+          "stalls": 0
+        },
+        "fullBefore": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 23,
+          "stalls": 0
+        },
+        "fullAfter": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 23,
+          "stalls": 0
+        }
+      },
+      {
+        "chapter": 4,
+        "difficulty": "쉬움",
+        "baselineLevel": 25,
+        "growthLevel": 30,
+        "before": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 10,
+          "stalls": 0
+        },
+        "after": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 12,
+          "stalls": 0
+        },
+        "growth": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 8,
+          "stalls": 0
+        },
+        "fullBefore": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 15,
+          "stalls": 0
+        },
+        "fullAfter": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 15,
+          "stalls": 0
+        }
+      },
+      {
+        "chapter": 4,
+        "difficulty": "보통",
+        "baselineLevel": 30,
+        "growthLevel": 35,
+        "before": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 19,
+          "stalls": 0
+        },
+        "after": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 22,
+          "stalls": 0
+        },
+        "growth": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 15,
+          "stalls": 0
+        },
+        "fullBefore": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 28,
+          "stalls": 0
+        },
+        "fullAfter": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 29,
+          "stalls": 0
+        }
+      },
+      {
+        "chapter": 4,
+        "difficulty": "어려움",
+        "baselineLevel": 45,
+        "growthLevel": 50,
+        "before": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 20,
+          "stalls": 0
+        },
+        "after": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 23,
+          "stalls": 0
+        },
+        "growth": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 16,
+          "stalls": 0
+        },
+        "fullBefore": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 28,
+          "stalls": 0
+        },
+        "fullAfter": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 31,
+          "stalls": 0
+        }
+      },
+      {
+        "chapter": 4,
+        "difficulty": "지옥",
+        "baselineLevel": 65,
+        "growthLevel": 70,
+        "before": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 18,
+          "stalls": 0
+        },
+        "after": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 21,
+          "stalls": 0
+        },
+        "growth": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 15,
+          "stalls": 0
+        },
+        "fullBefore": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 23,
+          "stalls": 0
+        },
+        "fullAfter": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 25,
+          "stalls": 0
+        }
+      },
+      {
+        "chapter": 5,
+        "difficulty": "쉬움",
+        "baselineLevel": 30,
+        "growthLevel": 35,
+        "before": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 16,
+          "stalls": 0
+        },
+        "after": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 18,
+          "stalls": 0
+        },
+        "growth": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 13,
+          "stalls": 0
+        },
+        "fullBefore": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 22,
+          "stalls": 0
+        },
+        "fullAfter": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 23,
+          "stalls": 0
+        }
+      },
+      {
+        "chapter": 5,
+        "difficulty": "보통",
+        "baselineLevel": 40,
+        "growthLevel": 45,
+        "before": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 22,
+          "stalls": 0
+        },
+        "after": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 24,
+          "stalls": 0
+        },
+        "growth": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 17,
+          "stalls": 0
+        },
+        "fullBefore": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 28,
+          "stalls": 0
+        },
+        "fullAfter": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 30,
+          "stalls": 0
+        }
+      },
+      {
+        "chapter": 5,
+        "difficulty": "어려움",
+        "baselineLevel": 55,
+        "growthLevel": 60,
+        "before": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 22,
+          "stalls": 0
+        },
+        "after": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 24,
+          "stalls": 0
+        },
+        "growth": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 17,
+          "stalls": 0
+        },
+        "fullBefore": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 28,
+          "stalls": 0
+        },
+        "fullAfter": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 32,
+          "stalls": 0
+        }
+      },
+      {
+        "chapter": 5,
+        "difficulty": "지옥",
+        "baselineLevel": 70,
+        "growthLevel": 75,
+        "before": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 22,
+          "stalls": 0
+        },
+        "after": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 24,
+          "stalls": 0
+        },
+        "growth": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 17,
+          "stalls": 0
+        },
+        "fullBefore": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 29,
+          "stalls": 0
+        },
+        "fullAfter": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 32,
+          "stalls": 0
+        }
+      },
+      {
+        "chapter": 6,
+        "difficulty": "쉬움",
+        "baselineLevel": 35,
+        "growthLevel": 40,
+        "before": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 21,
+          "stalls": 0
+        },
+        "after": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 22,
+          "stalls": 0
+        },
+        "growth": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 14,
+          "stalls": 0
+        },
+        "fullBefore": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 26,
+          "stalls": 0
+        },
+        "fullAfter": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 29,
+          "stalls": 0
+        }
+      },
+      {
+        "chapter": 6,
+        "difficulty": "보통",
+        "baselineLevel": 50,
+        "growthLevel": 55,
+        "before": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 20,
+          "stalls": 0
+        },
+        "after": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 22,
+          "stalls": 0
+        },
+        "growth": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 16,
+          "stalls": 0
+        },
+        "fullBefore": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 25,
+          "stalls": 0
+        },
+        "fullAfter": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 28,
+          "stalls": 0
+        }
+      },
+      {
+        "chapter": 6,
+        "difficulty": "어려움",
+        "baselineLevel": 65,
+        "growthLevel": 70,
+        "before": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 17,
+          "stalls": 0
+        },
+        "after": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 20,
+          "stalls": 0
+        },
+        "growth": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 14,
+          "stalls": 0
+        },
+        "fullBefore": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 24,
+          "stalls": 0
+        },
+        "fullAfter": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 27,
+          "stalls": 0
+        }
+      },
+      {
+        "chapter": 6,
+        "difficulty": "지옥",
+        "baselineLevel": 80,
+        "growthLevel": 85,
+        "before": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 15,
+          "stalls": 0
+        },
+        "after": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 19,
+          "stalls": 0
+        },
+        "growth": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 13,
+          "stalls": 0
+        },
+        "fullBefore": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 22,
+          "stalls": 0
+        },
+        "fullAfter": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 27,
+          "stalls": 0
+        }
+      },
+      {
+        "chapter": 7,
+        "difficulty": "쉬움",
+        "baselineLevel": 40,
+        "growthLevel": 45,
+        "before": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 21,
+          "stalls": 0
+        },
+        "after": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 21,
+          "stalls": 0
+        },
+        "growth": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 14,
+          "stalls": 0
+        },
+        "fullBefore": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 28,
+          "stalls": 0
+        },
+        "fullAfter": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 29,
+          "stalls": 0
+        }
+      },
+      {
+        "chapter": 7,
+        "difficulty": "보통",
+        "baselineLevel": 55,
+        "growthLevel": 60,
+        "before": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 21,
+          "stalls": 0
+        },
+        "after": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 22,
+          "stalls": 0
+        },
+        "growth": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 16,
+          "stalls": 0
+        },
+        "fullBefore": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 28,
+          "stalls": 0
+        },
+        "fullAfter": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 29,
+          "stalls": 0
+        }
+      },
+      {
+        "chapter": 7,
+        "difficulty": "어려움",
+        "baselineLevel": 70,
+        "growthLevel": 75,
+        "before": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 19,
+          "stalls": 0
+        },
+        "after": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 19,
+          "stalls": 0
+        },
+        "growth": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 14,
+          "stalls": 0
+        },
+        "fullBefore": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 28,
+          "stalls": 0
+        },
+        "fullAfter": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 28,
+          "stalls": 0
+        }
+      },
+      {
+        "chapter": 7,
+        "difficulty": "지옥",
+        "baselineLevel": 85,
+        "growthLevel": 90,
+        "before": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 14,
+          "stalls": 0
+        },
+        "after": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 17,
+          "stalls": 0
+        },
+        "growth": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 13,
+          "stalls": 0
+        },
+        "fullBefore": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 23,
+          "stalls": 0
+        },
+        "fullAfter": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 25,
+          "stalls": 0
+        }
+      },
+      {
+        "chapter": 8,
+        "difficulty": "쉬움",
+        "baselineLevel": 45,
+        "growthLevel": 50,
+        "before": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 20,
+          "stalls": 0
+        },
+        "after": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 20,
+          "stalls": 0
+        },
+        "growth": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 14,
+          "stalls": 0
+        },
+        "fullBefore": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 26,
+          "stalls": 0
+        },
+        "fullAfter": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 27,
+          "stalls": 0
+        }
+      },
+      {
+        "chapter": 8,
+        "difficulty": "보통",
+        "baselineLevel": 60,
+        "growthLevel": 65,
+        "before": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 19,
+          "stalls": 0
+        },
+        "after": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 20,
+          "stalls": 0
+        },
+        "growth": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 15,
+          "stalls": 0
+        },
+        "fullBefore": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 24,
+          "stalls": 0
+        },
+        "fullAfter": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 27,
+          "stalls": 0
+        }
+      },
+      {
+        "chapter": 8,
+        "difficulty": "어려움",
+        "baselineLevel": 75,
+        "growthLevel": 80,
+        "before": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 14,
+          "stalls": 0
+        },
+        "after": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 17,
+          "stalls": 0
+        },
+        "growth": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 12,
+          "stalls": 0
+        },
+        "fullBefore": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 22,
+          "stalls": 0
+        },
+        "fullAfter": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 27,
+          "stalls": 0
+        }
+      },
+      {
+        "chapter": 8,
+        "difficulty": "지옥",
+        "baselineLevel": 85,
+        "growthLevel": 90,
+        "before": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 15,
+          "stalls": 0
+        },
+        "after": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 18,
+          "stalls": 0
+        },
+        "growth": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 13,
+          "stalls": 0
+        },
+        "fullBefore": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 29,
+          "stalls": 0
+        },
+        "fullAfter": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 34,
+          "stalls": 0
+        }
+      },
+      {
+        "chapter": 9,
+        "difficulty": "쉬움",
+        "baselineLevel": 55,
+        "growthLevel": 60,
+        "before": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 19,
+          "stalls": 0
+        },
+        "after": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 20,
+          "stalls": 0
+        },
+        "growth": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 14,
+          "stalls": 0
+        },
+        "fullBefore": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 23,
+          "stalls": 0
+        },
+        "fullAfter": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 27,
+          "stalls": 0
+        }
+      },
+      {
+        "chapter": 9,
+        "difficulty": "보통",
+        "baselineLevel": 65,
+        "growthLevel": 70,
+        "before": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 20,
+          "stalls": 0
+        },
+        "after": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 22,
+          "stalls": 0
+        },
+        "growth": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 15,
+          "stalls": 0
+        },
+        "fullBefore": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 30,
+          "stalls": 0
+        },
+        "fullAfter": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 34,
+          "stalls": 0
+        }
+      },
+      {
+        "chapter": 9,
+        "difficulty": "어려움",
+        "baselineLevel": 80,
+        "growthLevel": 85,
+        "before": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 14,
+          "stalls": 0
+        },
+        "after": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 15,
+          "stalls": 0
+        },
+        "growth": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 11,
+          "stalls": 0
+        },
+        "fullBefore": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 30,
+          "stalls": 0
+        },
+        "fullAfter": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 32,
+          "stalls": 0
+        }
+      },
+      {
+        "chapter": 9,
+        "difficulty": "지옥",
+        "baselineLevel": 95,
+        "growthLevel": 100,
+        "before": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 11,
+          "stalls": 0
+        },
+        "after": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 13,
+          "stalls": 0
+        },
+        "growth": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 10,
+          "stalls": 0
+        },
+        "fullBefore": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 21,
+          "stalls": 0
+        },
+        "fullAfter": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 23,
+          "stalls": 0
+        }
+      },
+      {
+        "chapter": 10,
+        "difficulty": "쉬움",
+        "baselineLevel": 70,
+        "growthLevel": 75,
+        "before": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 18,
+          "stalls": 0
+        },
+        "after": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 14,
+          "stalls": 0
+        },
+        "growth": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 10,
+          "stalls": 0
+        },
+        "fullBefore": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 21,
+          "stalls": 0
+        },
+        "fullAfter": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 18,
+          "stalls": 0
+        }
+      },
+      {
+        "chapter": 10,
+        "difficulty": "보통",
+        "baselineLevel": 80,
+        "growthLevel": 85,
+        "before": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 15,
+          "stalls": 0
+        },
+        "after": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 15,
+          "stalls": 0
+        },
+        "growth": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 10,
+          "stalls": 0
+        },
+        "fullBefore": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 23,
+          "stalls": 0
+        },
+        "fullAfter": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 21,
+          "stalls": 0
+        }
+      },
+      {
+        "chapter": 10,
+        "difficulty": "어려움",
+        "baselineLevel": 90,
+        "growthLevel": 95,
+        "before": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 14,
+          "stalls": 0
+        },
+        "after": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 14,
+          "stalls": 0
+        },
+        "growth": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 9,
+          "stalls": 0
+        },
+        "fullBefore": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 28,
+          "stalls": 0
+        },
+        "fullAfter": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 30,
+          "stalls": 0
+        }
+      },
+      {
+        "chapter": 10,
+        "difficulty": "지옥",
+        "baselineLevel": 100,
+        "growthLevel": 105,
+        "before": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 14,
+          "stalls": 0
+        },
+        "after": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 16,
+          "stalls": 0
+        },
+        "growth": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 9,
+          "stalls": 0
+        },
+        "fullBefore": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 27,
+          "stalls": 0
+        },
+        "fullAfter": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 28,
+          "stalls": 0
+        }
+      },
+      {
+        "chapter": 11,
+        "difficulty": "쉬움",
+        "baselineLevel": 75,
+        "growthLevel": 80,
+        "before": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 18,
+          "stalls": 0
+        },
+        "after": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 14,
+          "stalls": 0
+        },
+        "growth": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 11,
+          "stalls": 0
+        },
+        "fullBefore": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 23,
+          "stalls": 0
+        },
+        "fullAfter": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 20,
+          "stalls": 0
+        }
+      },
+      {
+        "chapter": 11,
+        "difficulty": "보통",
+        "baselineLevel": 85,
+        "growthLevel": 90,
+        "before": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 14,
+          "stalls": 0
+        },
+        "after": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 13,
+          "stalls": 0
+        },
+        "growth": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 9,
+          "stalls": 0
+        },
+        "fullBefore": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 21,
+          "stalls": 0
+        },
+        "fullAfter": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 23,
+          "stalls": 0
+        }
+      },
+      {
+        "chapter": 11,
+        "difficulty": "어려움",
+        "baselineLevel": 95,
+        "growthLevel": 100,
+        "before": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 12,
+          "stalls": 0
+        },
+        "after": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 13,
+          "stalls": 0
+        },
+        "growth": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 10,
+          "stalls": 0
+        },
+        "fullBefore": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 21,
+          "stalls": 0
+        },
+        "fullAfter": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 22,
+          "stalls": 0
+        }
+      },
+      {
+        "chapter": 11,
+        "difficulty": "지옥",
+        "baselineLevel": 105,
+        "growthLevel": 110,
+        "before": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 11,
+          "stalls": 0
+        },
+        "after": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 12,
+          "stalls": 0
+        },
+        "growth": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 9,
+          "stalls": 0
+        },
+        "fullBefore": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 16,
+          "stalls": 0
+        },
+        "fullAfter": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 20,
+          "stalls": 0
+        }
+      },
+      {
+        "chapter": 12,
+        "difficulty": "쉬움",
+        "baselineLevel": 75,
+        "growthLevel": 80,
+        "before": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 15,
+          "stalls": 0
+        },
+        "after": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 17,
+          "stalls": 0
+        },
+        "growth": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 13,
+          "stalls": 0
+        },
+        "fullBefore": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 26,
+          "stalls": 0
+        },
+        "fullAfter": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 27,
+          "stalls": 0
+        }
+      },
+      {
+        "chapter": 12,
+        "difficulty": "보통",
+        "baselineLevel": 85,
+        "growthLevel": 90,
+        "before": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 14,
+          "stalls": 0
+        },
+        "after": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 17,
+          "stalls": 0
+        },
+        "growth": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 12,
+          "stalls": 0
+        },
+        "fullBefore": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 29,
+          "stalls": 0
+        },
+        "fullAfter": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 34,
+          "stalls": 0
+        }
+      },
+      {
+        "chapter": 12,
+        "difficulty": "어려움",
+        "baselineLevel": 95,
+        "growthLevel": 100,
+        "before": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 13,
+          "stalls": 0
+        },
+        "after": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 15,
+          "stalls": 0
+        },
+        "growth": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 12,
+          "stalls": 0
+        },
+        "fullBefore": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 30,
+          "stalls": 0
+        },
+        "fullAfter": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 35,
+          "stalls": 0
+        }
+      },
+      {
+        "chapter": 12,
+        "difficulty": "지옥",
+        "baselineLevel": 105,
+        "growthLevel": 110,
+        "before": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 12,
+          "stalls": 0
+        },
+        "after": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 14,
+          "stalls": 0
+        },
+        "growth": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 10,
+          "stalls": 0
+        },
+        "fullBefore": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 21,
+          "stalls": 0
+        },
+        "fullAfter": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 26,
+          "stalls": 0
+        }
+      },
+      {
+        "chapter": 13,
+        "difficulty": "쉬움",
+        "baselineLevel": 85,
+        "growthLevel": 90,
+        "before": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 10,
+          "stalls": 0
+        },
+        "after": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 12,
+          "stalls": 0
+        },
+        "growth": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 9,
+          "stalls": 0
+        },
+        "fullBefore": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 19,
+          "stalls": 0
+        },
+        "fullAfter": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 20,
+          "stalls": 0
+        }
+      },
+      {
+        "chapter": 13,
+        "difficulty": "보통",
+        "baselineLevel": 95,
+        "growthLevel": 100,
+        "before": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 9,
+          "stalls": 0
+        },
+        "after": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 12,
+          "stalls": 0
+        },
+        "growth": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 9,
+          "stalls": 0
+        },
+        "fullBefore": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 19,
+          "stalls": 0
+        },
+        "fullAfter": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 21,
+          "stalls": 0
+        }
+      },
+      {
+        "chapter": 13,
+        "difficulty": "어려움",
+        "baselineLevel": 105,
+        "growthLevel": 110,
+        "before": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 7,
+          "stalls": 0
+        },
+        "after": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 9,
+          "stalls": 0
+        },
+        "growth": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 6,
+          "stalls": 0
+        },
+        "fullBefore": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 15,
+          "stalls": 0
+        },
+        "fullAfter": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 18,
+          "stalls": 0
+        }
+      },
+      {
+        "chapter": 13,
+        "difficulty": "지옥",
+        "baselineLevel": 110,
+        "growthLevel": 115,
+        "before": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 12,
+          "stalls": 0
+        },
+        "after": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 14,
+          "stalls": 0
+        },
+        "growth": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 10,
+          "stalls": 0
+        },
+        "fullBefore": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 23,
+          "stalls": 0
+        },
+        "fullAfter": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 27,
+          "stalls": 0
+        }
+      },
+      {
+        "chapter": 14,
+        "difficulty": "쉬움",
+        "baselineLevel": 85,
+        "growthLevel": 90,
+        "before": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 12,
+          "stalls": 0
+        },
+        "after": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 14,
+          "stalls": 0
+        },
+        "growth": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 11,
+          "stalls": 0
+        },
+        "fullBefore": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 26,
+          "stalls": 0
+        },
+        "fullAfter": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 29,
+          "stalls": 0
+        }
+      },
+      {
+        "chapter": 14,
+        "difficulty": "보통",
+        "baselineLevel": 95,
+        "growthLevel": 100,
+        "before": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 11,
+          "stalls": 0
+        },
+        "after": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 14,
+          "stalls": 0
+        },
+        "growth": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 11,
+          "stalls": 0
+        },
+        "fullBefore": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 23,
+          "stalls": 0
+        },
+        "fullAfter": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 27,
+          "stalls": 0
+        }
+      },
+      {
+        "chapter": 14,
+        "difficulty": "어려움",
+        "baselineLevel": 105,
+        "growthLevel": 110,
+        "before": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 8,
+          "stalls": 0
+        },
+        "after": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 11,
+          "stalls": 0
+        },
+        "growth": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 8,
+          "stalls": 0
+        },
+        "fullBefore": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 18,
+          "stalls": 0
+        },
+        "fullAfter": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 20,
+          "stalls": 0
+        }
+      },
+      {
+        "chapter": 14,
+        "difficulty": "지옥",
+        "baselineLevel": 110,
+        "growthLevel": 115,
+        "before": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 14,
+          "stalls": 0
+        },
+        "after": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 19,
+          "stalls": 0
+        },
+        "growth": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 13,
+          "stalls": 0
+        },
+        "fullBefore": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 27,
+          "stalls": 0
+        },
+        "fullAfter": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 31,
+          "stalls": 0
+        }
+      },
+      {
+        "chapter": 15,
+        "difficulty": "쉬움",
+        "baselineLevel": 95,
+        "growthLevel": 100,
+        "before": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 10,
+          "stalls": 0
+        },
+        "after": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 13,
+          "stalls": 0
+        },
+        "growth": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 8,
+          "stalls": 0
+        },
+        "fullBefore": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 20,
+          "stalls": 0
+        },
+        "fullAfter": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 22,
+          "stalls": 0
+        }
+      },
+      {
+        "chapter": 15,
+        "difficulty": "보통",
+        "baselineLevel": 105,
+        "growthLevel": 110,
+        "before": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 7,
+          "stalls": 0
+        },
+        "after": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 11,
+          "stalls": 0
+        },
+        "growth": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 6,
+          "stalls": 0
+        },
+        "fullBefore": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 14,
+          "stalls": 0
+        },
+        "fullAfter": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 16,
+          "stalls": 0
+        }
+      },
+      {
+        "chapter": 15,
+        "difficulty": "어려움",
+        "baselineLevel": 110,
+        "growthLevel": 115,
+        "before": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 11,
+          "stalls": 0
+        },
+        "after": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 12,
+          "stalls": 0
+        },
+        "growth": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 8,
+          "stalls": 0
+        },
+        "fullBefore": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 22,
+          "stalls": 0
+        },
+        "fullAfter": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 22,
+          "stalls": 0
+        }
+      },
+      {
+        "chapter": 15,
+        "difficulty": "지옥",
+        "baselineLevel": 120,
+        "growthLevel": 125,
+        "before": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 12,
+          "stalls": 0
+        },
+        "after": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 14,
+          "stalls": 0
+        },
+        "growth": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 8,
+          "stalls": 0
+        },
+        "fullBefore": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 19,
+          "stalls": 0
+        },
+        "fullAfter": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 22,
+          "stalls": 0
+        }
+      },
+      {
+        "chapter": 16,
+        "difficulty": "쉬움",
+        "baselineLevel": 95,
+        "growthLevel": 100,
+        "before": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 11,
+          "stalls": 0
+        },
+        "after": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 13,
+          "stalls": 0
+        },
+        "growth": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 10,
+          "stalls": 0
+        },
+        "fullBefore": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 24,
+          "stalls": 0
+        },
+        "fullAfter": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 27,
+          "stalls": 0
+        }
+      },
+      {
+        "chapter": 16,
+        "difficulty": "보통",
+        "baselineLevel": 105,
+        "growthLevel": 110,
+        "before": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 8,
+          "stalls": 0
+        },
+        "after": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 11,
+          "stalls": 0
+        },
+        "growth": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 9,
+          "stalls": 0
+        },
+        "fullBefore": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 19,
+          "stalls": 0
+        },
+        "fullAfter": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 21,
+          "stalls": 0
+        }
+      },
+      {
+        "chapter": 16,
+        "difficulty": "어려움",
+        "baselineLevel": 110,
+        "growthLevel": 115,
+        "before": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 11,
+          "stalls": 0
+        },
+        "after": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 13,
+          "stalls": 0
+        },
+        "growth": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 10,
+          "stalls": 0
+        },
+        "fullBefore": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 27,
+          "stalls": 0
+        },
+        "fullAfter": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 30,
+          "stalls": 0
+        }
+      },
+      {
+        "chapter": 16,
+        "difficulty": "지옥",
+        "baselineLevel": 120,
+        "growthLevel": 125,
+        "before": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 13,
+          "stalls": 0
+        },
+        "after": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 16,
+          "stalls": 0
+        },
+        "growth": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 11,
+          "stalls": 0
+        },
+        "fullBefore": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 23,
+          "stalls": 0
+        },
+        "fullAfter": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 28,
+          "stalls": 0
+        }
+      },
+      {
+        "chapter": 17,
+        "difficulty": "쉬움",
+        "baselineLevel": 105,
+        "growthLevel": 110,
+        "before": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 6,
+          "stalls": 0
+        },
+        "after": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 7,
+          "stalls": 0
+        },
+        "growth": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 6,
+          "stalls": 0
+        },
+        "fullBefore": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 13,
+          "stalls": 0
+        },
+        "fullAfter": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 15,
+          "stalls": 0
+        }
+      },
+      {
+        "chapter": 17,
+        "difficulty": "보통",
+        "baselineLevel": 110,
+        "growthLevel": 115,
+        "before": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 7,
+          "stalls": 0
+        },
+        "after": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 11,
+          "stalls": 0
+        },
+        "growth": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 7,
+          "stalls": 0
+        },
+        "fullBefore": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 21,
+          "stalls": 0
+        },
+        "fullAfter": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 24,
+          "stalls": 0
+        }
+      },
+      {
+        "chapter": 17,
+        "difficulty": "어려움",
+        "baselineLevel": 120,
+        "growthLevel": 125,
+        "before": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 7,
+          "stalls": 0
+        },
+        "after": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 9,
+          "stalls": 0
+        },
+        "growth": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 6,
+          "stalls": 0
+        },
+        "fullBefore": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 21,
+          "stalls": 0
+        },
+        "fullAfter": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 22,
+          "stalls": 0
+        }
+      },
+      {
+        "chapter": 17,
+        "difficulty": "지옥",
+        "baselineLevel": 125,
+        "growthLevel": 130,
+        "before": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 12,
+          "stalls": 0
+        },
+        "after": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 13,
+          "stalls": 0
+        },
+        "growth": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 10,
+          "stalls": 0
+        },
+        "fullBefore": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 24,
+          "stalls": 0
+        },
+        "fullAfter": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 26,
+          "stalls": 0
+        }
+      },
+      {
+        "chapter": 18,
+        "difficulty": "쉬움",
+        "baselineLevel": 105,
+        "growthLevel": 110,
+        "before": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 7,
+          "stalls": 0
+        },
+        "after": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 9,
+          "stalls": 0
+        },
+        "growth": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 7,
+          "stalls": 0
+        },
+        "fullBefore": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 22,
+          "stalls": 0
+        },
+        "fullAfter": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 25,
+          "stalls": 0
+        }
+      },
+      {
+        "chapter": 18,
+        "difficulty": "보통",
+        "baselineLevel": 115,
+        "growthLevel": 120,
+        "before": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 6,
+          "stalls": 0
+        },
+        "after": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 9,
+          "stalls": 0
+        },
+        "growth": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 6,
+          "stalls": 0
+        },
+        "fullBefore": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 18,
+          "stalls": 0
+        },
+        "fullAfter": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 20,
+          "stalls": 0
+        }
+      },
+      {
+        "chapter": 18,
+        "difficulty": "어려움",
+        "baselineLevel": 125,
+        "growthLevel": 130,
+        "before": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 6,
+          "stalls": 0
+        },
+        "after": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 8,
+          "stalls": 0
+        },
+        "growth": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 6,
+          "stalls": 0
+        },
+        "fullBefore": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 14,
+          "stalls": 0
+        },
+        "fullAfter": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 16,
+          "stalls": 0
+        }
+      },
+      {
+        "chapter": 18,
+        "difficulty": "지옥",
+        "baselineLevel": 130,
+        "growthLevel": 130,
+        "before": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 11,
+          "stalls": 0
+        },
+        "after": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 12,
+          "stalls": 0
+        },
+        "growth": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 12,
+          "stalls": 0
+        },
+        "fullBefore": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 21,
+          "stalls": 0
+        },
+        "fullAfter": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 22,
+          "stalls": 0
+        }
+      },
+      {
+        "chapter": 19,
+        "difficulty": "쉬움",
+        "baselineLevel": 110,
+        "growthLevel": 115,
+        "before": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 7,
+          "stalls": 0
+        },
+        "after": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 10,
+          "stalls": 0
+        },
+        "growth": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 6,
+          "stalls": 0
+        },
+        "fullBefore": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 24,
+          "stalls": 0
+        },
+        "fullAfter": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 26,
+          "stalls": 0
+        }
+      },
+      {
+        "chapter": 19,
+        "difficulty": "보통",
+        "baselineLevel": 115,
+        "growthLevel": 120,
+        "before": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 10,
+          "stalls": 0
+        },
+        "after": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 11,
+          "stalls": 0
+        },
+        "growth": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 9,
+          "stalls": 0
+        },
+        "fullBefore": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 29,
+          "stalls": 0
+        },
+        "fullAfter": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 32,
+          "stalls": 0
+        }
+      },
+      {
+        "chapter": 19,
+        "difficulty": "어려움",
+        "baselineLevel": 125,
+        "growthLevel": 130,
+        "before": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 8,
+          "stalls": 0
+        },
+        "after": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 11,
+          "stalls": 0
+        },
+        "growth": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 8,
+          "stalls": 0
+        },
+        "fullBefore": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 23,
+          "stalls": 0
+        },
+        "fullAfter": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 27,
+          "stalls": 0
+        }
+      },
+      {
+        "chapter": 19,
+        "difficulty": "지옥",
+        "baselineLevel": 130,
+        "growthLevel": 130,
+        "before": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 14,
+          "stalls": 0
+        },
+        "after": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 18,
+          "stalls": 0
+        },
+        "growth": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 18,
+          "stalls": 0
+        },
+        "fullBefore": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 35,
+          "stalls": 0
+        },
+        "fullAfter": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 39,
+          "stalls": 0
+        }
+      },
+      {
+        "chapter": 20,
+        "difficulty": "쉬움",
+        "baselineLevel": 115,
+        "growthLevel": 120,
+        "before": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 3,
+          "stalls": 0
+        },
+        "after": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 3,
+          "stalls": 0
+        },
+        "growth": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 3,
+          "stalls": 0
+        },
+        "fullBefore": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 21,
+          "stalls": 0
+        },
+        "fullAfter": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 16,
+          "stalls": 0
+        }
+      },
+      {
+        "chapter": 20,
+        "difficulty": "보통",
+        "baselineLevel": 125,
+        "growthLevel": 130,
+        "before": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 3,
+          "stalls": 0
+        },
+        "after": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 3,
+          "stalls": 0
+        },
+        "growth": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 3,
+          "stalls": 0
+        },
+        "fullBefore": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 14,
+          "stalls": 0
+        },
+        "fullAfter": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 10,
+          "stalls": 0
+        }
+      },
+      {
+        "chapter": 20,
+        "difficulty": "어려움",
+        "baselineLevel": 130,
+        "growthLevel": 130,
+        "before": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 3,
+          "stalls": 0
+        },
+        "after": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 3,
+          "stalls": 0
+        },
+        "growth": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 3,
+          "stalls": 0
+        },
+        "fullBefore": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 25,
+          "stalls": 0
+        },
+        "fullAfter": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 18,
+          "stalls": 0
+        }
+      },
+      {
+        "chapter": 20,
+        "difficulty": "지옥",
+        "baselineLevel": 130,
+        "growthLevel": 130,
+        "before": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 3,
+          "stalls": 0
+        },
+        "after": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 3,
+          "stalls": 0
+        },
+        "growth": {
+          "wins": 5,
+          "total": 5,
+          "medianRounds": 3,
+          "stalls": 0
+        },
+        "fullBefore": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 63,
+          "stalls": 0
+        },
+        "fullAfter": {
+          "wins": 3,
+          "total": 3,
+          "medianRounds": 46,
+          "stalls": 0
+        }
+      }
+    ]
   },
-  "releaseNotes": "docs/V037_CHAPTER_ENVIRONMENTS.md",
+  "releaseNotes": "docs/V038_BOSS_RETINUES.md",
   "build": {
     "files": 1268,
-    "bytes": 739938332
+    "bytes": 739950882
   }
 }

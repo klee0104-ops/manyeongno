@@ -1,13 +1,13 @@
 {
-  "version": "0.30.0",
+  "version": "0.31.0",
   "narrativeRevision": "ashes-v1",
-  "builtAt": "2026-09-22T10:14:56.587Z",
+  "builtAt": "2026-09-23T00:01:12.908Z",
   "basedOnCommit": "628af87c7aa85268040c9621756387370facdfbb",
   "includesWorkingTreeChanges": true,
   "harness": {
-    "task": "v030-expedition-hell",
+    "task": "v031-visual-modes",
     "status": "pass",
-    "runId": "2026-09-22T10-12-30-314Z-24536",
+    "runId": "2026-09-22T23-56-39-063Z-27892",
     "checks": [
       {
         "id": "typecheck",
@@ -297,35 +297,54 @@
     "enemyScalesToPlayer": false,
     "legacyMazeProgressPreserved": true,
     "challengeBalanceRevision": "v030",
-    "campaignAndPlayerBalancePreserved": true
+    "campaignAndPlayerBalancePreserved": true,
+    "visualModes": [
+      "modern",
+      "cute"
+    ],
+    "visualModeStoredPerProfile": true,
+    "visualModeLegacyDefault": "modern",
+    "cuteArchivedCharacters": 71,
+    "cuteArchivedForms": 426,
+    "cutePoseSheetCharacters": 12,
+    "cuteRiggedArchivedCharacters": 59,
+    "sharedNewerCharacters": 20,
+    "sharedStoryBosses": true,
+    "cosmeticSwitchOnly": true
   },
   "browserQA": {
-    "version": "0.30.0",
+    "version": "0.31.0",
     "checks": [
-      "20-stage route; departure preview/cancel spends nothing; repeated confirm charges once; campaign entry/pause/retreat",
-      "five daily tiers; tier5 essence complete, exact480 essence, single charge/entry, no campaign progression",
-      "legacy floor4 becomes B5; five actual5-star foes plus warden; win advances and grants100 gems once; B6 retreat preserves record",
-      "390px map and departure fit without overflow,44px route targets; new tier and old maze records persist after reload",
-      "fresh ordinary profile:20 nodes,only first unlocked,3-stamina departure preview,4 higher daily tiers locked;Lv1 party wins gold tier1,exact3000gold/8stamina/oneentry;2x and4x/pause work on390px",
-      "legacy single-save normal profile:growth,party,equipment,exclusive,pity,currency and chapter ratings retained on new map"
+      "opening has text-only mode picker;settings previews both looks;switch twice preserves all growth/currencies/gear/skills/records",
+      "codex uses original transparent fox and all5 distinct archived awakening atlases",
+      "fox ranged/shield guardian/jiangshi melee use archived12pose sheets;9skill1/2/ultimate replays stay visible with frame changes,2x and pause/close work",
+      "actual battle uses cute sprites;mode changes disabled during battle;retreat saves preference",
+      "actual5star fox draw keeps300cost and uses SD arrival story illustration",
+      "mode survives reload;390px settings fit;switching back restores modern portrait and persists",
+      "two fresh ordinary profiles independently retain cute/modern modes;switching accounts restores correct art and preserves progression;save export contains preference",
+      "actual export/import restores cute mode after switching modern;reload remembers selection;390px opening has no moving characters or horizontal overflow"
     ],
     "viewports": [
       1440,
       390
     ],
     "isolatedStorage": true,
+    "actualSummon": true,
+    "actualSaveExportImport": true,
+    "representativeSkillReplays": 9,
     "errors": []
   },
   "balanceQA": {
     "simulations": 828,
     "dailyRecommendedCombinations": 20,
     "seededEngine": true,
-    "scope": "Representative starter-equipment compositions; not all possible parties"
+    "scope": "Representative starter-equipment compositions; not all possible parties",
+    "rechecked": true,
+    "modeBattleEquivalence": true
   },
-  "artProvenance": "docs/art/v029-generation-briefs.json",
+  "artProvenance": "docs/V031_VISUAL_MODES.md",
   "build": {
     "files": 1261,
-    "bytes": 725479650,
-    "portraitsVerified": 486
+    "bytes": 725484865
   }
 }
